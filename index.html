@@ -1,55 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <!-- links to my style sheet -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Cory Quirk</title>
     
+    <!-- links to my reset and my style sheet -->
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
     <!-- links necessary for bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- social media links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Heebo:wght@100;300&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
 </head>
 
-<!-- navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class = "col-md-10" href="index.html">Cory Quirk</a>
-  
-    <div class="collapse navbar-collapse" class = "col-md-2" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
-    </div>
-</nav>
+<header>
+
+<ul>
+  <li><a id="coryquirk">Cory Quirk</a></li>
+  <li class="links"><a href="index.html" style="color: rgb(65, 65, 65);">About</a></li>
+  <li class="links"><a href="portfolio.html">Portfolio</a></li>
+  <li class="links"><a href="contact.html">Contact</a></li>
+</ul>
+
+</header>
 
 <body>
     
 <div class="container">
-    <div class="row">
-        <div class="col-sm">
-        One of three columns
-        </div>
-        <div class="col-sm">
-        One of three columns
-        </div>
-        <div class="col-sm">
-        One of three columns
+    <div class="row" class="col-sm">
+        <div class = "bio">
+          <h1 class="xxlarge">About Me</h1>
+          <hr style="text-align:center;margin:30px;background-color: grey;"> <!-- line -->
+          <img src="images/me.jpg" alt="me" id="self">
+          <p>
+            I've always lived in Minnesota — Brooklyn Park, then Rosemount, St. Paul for undergraduate education at Hamline University, and I now reside in Minneapolis. I've been shooting 35mm film photography on and off for about five years. So far mostly landscape and nature photography, but lately I'm finding that my favorite photos I've taken are of people. Some of the locations I've enjoyed most shooting include the Boundary Waters Canoe Area Wilderness in northeastern Minnesota, the Apostle Islands National Lakeshore off of Wisconsin's Lake Superior shoreline, and the city of Siem Reap, Cambodia, home to the spectacular Angkor temple complex.
+          </p>
+          <p>
+            Using rolls of film makes you consider each shot more carefully than with digital cameras for a few reasons. The number of photos you can take is finite, and it costs money to buy rolls of film and develop them after you shoot with them. I have always relied on mail-in services or local shops to develop my photos, but a goal of mine is to soon learn how to develop photos myself at home. From what I understand, the chemicals and equipment is easily attainable and can save you money in the long run. 
+          </p>
+          <p>  
+            I enjoy seeing the irregularities in color that happen with film photography. The delay between the time you click the shutter release to the day you're looking at your developed photos creates anticipation to see if they'll turn out as you expected. I hope you will see my photos and understand some of what I mean. If you would like to see more, I have included a link to my Flickr page in the footer.
+          </p>
+          <br>
         </div>
     </div>
-    </div>
+</div>
+
+<footer>
+  <div id="line">
+  </div>
+  <div class="footer">
+    <p>
+    <a href="https://twitter.com/coryjquirk" class="fa fa-twitter"></a>
+    <a href="https://www.linkedin.com/in/cory-quirk/" class="fa fa-linkedin"></a>
+    <a href="https://www.flickr.com/photos/152958688@N03/" class="fa fa-flickr"></a>
+    © Copyright 2020 Cory Quirk
+    </p>
+</div>
+  
+</footer>
 
 </body>
 
