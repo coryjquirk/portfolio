@@ -4,9 +4,9 @@ This is a website with a responsive design that will render correctly on a varie
 
 ## Links
 
-* Github Repository:
+* Github Repository: https://github.com/coryjquirk/portfolio
 
-* Deployed application:
+* Deployed application:https://coryjquirk.github.io/portfolio/
 
 ## Usage
 
