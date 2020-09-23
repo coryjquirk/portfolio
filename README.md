@@ -6,7 +6,7 @@ This is a website with a responsive design that will render correctly on a varie
 
 * Github Repository: https://github.com/coryjquirk/portfolio
 
-* Deployed application:https://coryjquirk.github.io/portfolio/
+* Deployed application: https://coryjquirk.github.io/portfolio/
 
 ## Usage
 
