@@ -18,7 +18,7 @@ This is a website with a responsive design that will render correctly on a varie
 
 * Social media link buttons are in the footer 
 
-* Screenshot for usage help: #
+* Screenshot for usage help: https://coryjquirk.github.io/portfolio/images/usage.png
 
 ## Features
 
