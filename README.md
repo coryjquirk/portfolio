@@ -4,9 +4,8 @@ This is a website with a responsive design that will render correctly on a varie
 
 ## Links
 
-* Github Repository: https://github.com/coryjquirk/portfolio
-
 * Deployed application: https://coryjquirk.github.io/portfolio/
+* Github Repository: https://github.com/coryjquirk/portfolio
 
 ## Usage
 
@@ -32,18 +31,11 @@ This is a website with a responsive design that will render correctly on a varie
 
 * N/A
 
-## Thank you to...
-
-* my classmates, TAs, and instructors
-
 ### Resources used
 
 * Bootstrap (including BootstrapCDN from StackPath)
-
 * FontAwesome
- 
 * Google Fonts
-
 * Cloudflare (social media icons)
 
 ## License Information
