@@ -1,0 +1,253 @@
+/* general styling */
+* {
+    background-color: #e1f4fa;
+}
+
+img {
+    height: 350px;
+    width: 350px;
+    margin: 20px 30px 20px 30px;
+}
+
+p, h3 {
+    margin: 20px 30px 50px 30px;
+    font-family: 'Heebo', sans-serif;
+}
+
+/* nav bar styling */
+#coryquirk {
+    background-color: #629466;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 1000;
+    font-size: x-large;
+    padding: 5px;
+    margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+li {
+  float: left;
+  background-color: #ffffff;
+}
+
+li a {
+  display: block;
+  color: rgb(172, 172, 172);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.links {
+    float:right;
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+
+/* body styling */
+.container {
+    background-color: #ffffff;
+    float: left;
+    margin: 50px 100px 30px 20px;
+    clear: right;
+}
+
+
+/* about me page specific */
+.bio {
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-bottom: 120px
+}
+
+.xxlarge {
+    font-family: 'Roboto Slab', serif;
+    font-size: xx-large;
+    margin: 20px 15px 5px 30px;
+    color: #629466
+}
+
+#self {
+    float: left;
+    margin: -5px 30px 0px 30px;
+    height: 250px;
+    width: 250px
+}
+
+/* contact page specific */
+#contact-page {
+    padding: 30px;
+}
+
+#contact-links {
+    color: black;
+    /* background-color: blue; */
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#contact-links:hover {
+    background-color: rgb(226, 202, 170);
+}
+
+.button {
+    clear: left;
+    padding: 10px 18px 10px 18px;
+    font-family: 'Heebo', sans-serif;
+    background-color: #629466;
+}
+
+#submit {
+    margin: 30px;
+    background-color: white;
+}
+
+p, h1, h3, button {
+    background-color: white;
+}
+
+#form {
+    margin-left: 30px;
+    background-color: white;
+}
+
+#form p {
+    margin: 10px 0px 10px 0px;
+}
+
+.contact {
+    background-color: #ffffff;
+    margin: 40px 0px 130px 50px;
+    width: 75%;
+}
+
+input, textarea {
+    background-color: white;
+    width: 80%;
+}
+
+/* footer */
+#line {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #629466
+  }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(61, 61, 61);
+    color: rgb(175, 175, 175);
+    text-align: center;
+  }
+
+  .footer p {
+    background-color: rgb(61, 61, 61);
+    margin-top: 15px;
+}
+
+/* social media link styling */
+.fa-twitter {
+    background: rgb(61, 61, 61);
+    color: white;
+    margin: 0px 3px 0px 3px;
+  }
+
+.fa-linkedin {
+    background: rgb(61, 61, 61);
+    color: white;
+    margin: 0px 3px 0px 3px;
+  }
+
+.fa-flickr {
+    background: rgb(61, 61, 61);
+    color: white;
+    margin: 0px 3px 0px 3px;
+}
+
+/* media queries */
+
+/* for screens with width 992px and under */
+
+@media screen and (max-width: 992px) {
+    img {
+        width: 275px;
+        height: 275px;
+        margin: 30px;
+    }
+    
+    
+  }
+
+/* for screens with width 768px and under */
+
+@media screen and (max-width: 768px) {
+    .bio {
+        margin: -10px 100px 75px 30px;
+        width: 65%;
+    }
+    
+    img {
+        height: 350px;
+        width: 350px;
+        margin: 30px;
+    }
+    
+    .contact {
+        width: 65%;
+        margin: 0px 0px 130px 30px;
+    }
+    
+  }
+
+/* for screens with width 400px and under */
+@media screen and (max-width: 400px) {
+    .bio {
+        margin: -10px 10px 75px 15px;
+        width: 92%;
+    }
+
+    p {
+        font-size: small;
+        margin: 10px 25px 40px 30px;
+    }
+
+    #self {
+        height: 200px;
+        width: 200px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+    }
+
+    img {
+        height: 300px;
+        width: 300px;
+        margin: 25px 0px 25px 25px;
+    }
+
+    .contact {
+        width: 92%;
+        margin: -10px 0px 80px 15px;
+    }
+
+    input, textarea {
+        width: 90%;
+
+    }
+
+}
+
