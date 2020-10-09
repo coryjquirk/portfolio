@@ -9,6 +9,12 @@ img {
     margin: 20px 30px 20px 30px;
 }
 
+.scrnsht {
+    width: auto;
+    height: auto;
+    max-width: 450px;
+}
+
 p, h3 {
     margin: 20px 30px 50px 30px;
     font-family: 'Heebo', sans-serif;
