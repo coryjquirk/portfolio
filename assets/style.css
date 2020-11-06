@@ -173,17 +173,11 @@ input, textarea {
     margin: 0px 3px 0px 3px;
   }
 
-.fa-linkedin {
+.fa-linkedin, .fa-flickr, .fa-instagram {
     background: rgb(61, 61, 61);
     color: white;
     margin: 0px 3px 0px 3px;
   }
-
-.fa-flickr {
-    background: rgb(61, 61, 61);
-    color: white;
-    margin: 0px 3px 0px 3px;
-}
 
 /* media queries */
 
