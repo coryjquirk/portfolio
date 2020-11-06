@@ -159,9 +159,9 @@ input, textarea {
     background-color: rgb(61, 61, 61);
     color: rgb(175, 175, 175);
     text-align: center;
-  }
+}
 
-  .footer p {
+.footer p {
     background-color: rgb(61, 61, 61);
     margin-top: 15px;
 }
