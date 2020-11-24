@@ -1,5 +1,5 @@
 {
-  "name": "mern",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "Portfolio",
   "main": "server.js",
@@ -24,5 +24,8 @@
     "if-env": "^1.0.4",
     "react": "^17.0.1",
     "react-modal-image": "^2.5.0"
+  },
+  "engines": {
+    "node": "12.18.3"
   }
 }
