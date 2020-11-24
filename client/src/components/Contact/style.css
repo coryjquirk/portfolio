@@ -1,0 +1,22 @@
+hr {
+    text-align:center;margin:20px;background-color: grey;
+}
+
+a {
+    color:black;
+}
+
+#contact-page {
+    background-color: white;
+}
+
+#contact-links {
+    color: black;
+    /* background-color: blue; */
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#contact-links:hover {
+    background-color: rgb(226, 202, 170);
+}

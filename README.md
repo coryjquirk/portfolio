@@ -1,32 +1,29 @@
-# Portfolio website
-This is a personal website with a responsive design that will render correctly on a variety of devices, window sizes, and screen sizes.
+# Create React Express App
 
-## Links
-* Deployed application: https://coryjquirk.github.io/portfolio/
-* Github Repository: https://github.com/coryjquirk/portfolio
+## About This Boilerplate
 
-## Usage
-* The nav bar will bring you to different pages in the site
-* On the Portfolio page, clicking any photo will bring you to a full size version of that photo
-* The "Submit" button in the contact form will open up a new email in your default application
-* Social media link buttons are in the footer 
-<img src="https://coryjquirk.github.io/portfolio/images/usage.png" alt="application screenshot">
+This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
 
-## Features
-* Navbar
-* Responsive layout
-* Responsive images
+The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
 
-# Future development
-* Mobile-responsive Nav Bar
-* Integrating modal images to display photos
+## Starting the app locally
 
-### Resources used
-* Bootstrap (including BootstrapCDN from StackPath)
-* FontAwesome
-* Google Fonts
-* Cloudflare (social media icons)
+Start by installing front and backend dependencies. While in this directory, run the following command:
 
-## License Information
-* N/A
+```
+npm install
+```
 
+This should install node modules within the server and the client folder.
+
+After both installations complete, run the following command in your terminal:
+
+```
+npm start
+```
+
+Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+
+## Deployment (Heroku)
+
+To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
