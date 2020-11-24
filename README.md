@@ -1,29 +1,22 @@
-# Create React Express App
+# Portfolio website
+Personal website for sharing my work and contact info.
 
-## About This Boilerplate
+## Links
+* Deployed application: https://coryjquirk.herokuapp.com
+* Github Repository: https://github.com/coryjquirk/portfolio
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+## Features
+* Mobile-first layout
+* Modal images
+* User experience designed with accessibility considerations
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+### Resources used
+* React.js
+    * [react-modal-image](https://github.com/aautio/react-modal-image) component
+* Bootstrap
+* Fontawesome (social media icons)
 
-## Starting the app locally
+## License Information
+* The Unlicense
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
 
-```
-npm install
-```
-
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
-
-```
-npm start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.

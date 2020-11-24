@@ -12,7 +12,7 @@ function Footer() {
             <a href="https://www.linkedin.com/in/cory-quirk/" class="fa fa-linkedin"></a>
             <a href="https://www.flickr.com/photos/152958688@N03/" class="fa fa-flickr"></a>
             <a href="https://www.github.com/coryjquirk" class="fa fa-github"></a>
-            ... .. -. --. ©2020 Cory Quirk
+            .- .-.. -- --- ... - / - .... . .-. .©2020
         </p>
     </div>
     );

@@ -1,0 +1,21 @@
+.scrnsht {
+    width: auto;
+    height: auto;
+    max-width: 450px;
+}
+#portfolioItem{
+    border: 5px;
+    border-style: solid dotted solid dotted;
+    border-color: #629466;
+    border-radius: 7px;
+    margin:10px;
+}
+#webdev{
+    max-width: 800px;
+}
+
+@media screen and (max-width: 991px) {
+    .scrnsht{
+        max-width: 80%;
+    }
+}

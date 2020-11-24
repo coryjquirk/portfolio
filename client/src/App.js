@@ -20,16 +20,18 @@ class App extends Component {
         <div className="App">
           <StoreProvider>
             <Nav />
-            <Switch>
-              <Route exact path="/" component={PortfolioPage} />
-              <Route exact path="/portfolio" component={PortfolioPage} />
-              <Route exact path="/portfolio/:id" component={DetailPage} />
-              <Route exact path="/sound" component={SoundPage} />
-              <Route exact path="/photography" component={PhotographyPage} />
-              <Route exact path="/contact" component={ContactPage} />
-              <Route exact path="/about" component={AboutPage} />
-              <Route component={NoMatchPage} />
-            </Switch>
+            <div id="main">
+              <Switch>
+                <Route exact path="/" component={PortfolioPage} />
+                <Route exact path="/portfolio" component={PortfolioPage} />
+                <Route exact path="/portfolio/:id" component={DetailPage} />
+                <Route exact path="/sound" component={SoundPage} />
+                <Route exact path="/photography" component={PhotographyPage} />
+                <Route exact path="/contact" component={ContactPage} />
+                <Route exact path="/about" component={AboutPage} />
+                <Route component={NoMatchPage} />
+              </Switch>
+            </div>
             <Footer/>
           </StoreProvider>
       </div>
