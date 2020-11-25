@@ -1,7 +1,9 @@
 p{
-}
-#bandcampcard {
+    clear: left;
 
+}
+#bcEmbed {
+    float: left;
 }
 iframe {
     padding: 10px;

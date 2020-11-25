@@ -3,7 +3,8 @@
 }
 
 #main {
-  margin: 0px 0px 60px 0px;
+  margin: 10px 0px 60px 0px;
+  max-width: 800px;
 }
 
 .App-intro {

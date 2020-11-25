@@ -10,11 +10,11 @@ function Contact(props){
         
         <div id="contact-page">
           <ul>
-            <li id="contact-links"><a href="https://www.linkedin.com/in/cory-quirk/">my LinkedIn</a></li>
+            <li id="linkedin" class="contact-links"><a href="https://www.linkedin.com/in/cory-quirk/">my LinkedIn</a></li>
             <br/>
-            <li id="contact-links"><a href="https://github.com/coryjquirk">my GitHub</a></li>
+            <li id="github" class="contact-links"><a href="https://github.com/coryjquirk">my GitHub</a></li>
             <br/>
-            <li id="contact-links"><a href="assets/cory-quirk-oct2020resume.pdf">my resume (pdf)</a></li>
+            <li id="resume" class="contact-links"><a href="assets/cory-quirk-oct2020resume.pdf">my resume (pdf)</a></li>
           </ul>
         </div>
         

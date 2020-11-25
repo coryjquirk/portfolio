@@ -3,8 +3,8 @@ import "./style.css";
 
 function Portfolio(props){
     return(
-        <div id="webdev">
-            <h1>web dev</h1>
+        <div>
+            <h1>web dev portfolio</h1>
             <hr/>
             <div id="portfolioItem">
                     <h3>Weather Dashboard</h3>
