@@ -10,6 +10,10 @@
     border-radius: 7px;
     margin:10px;
 }
+p{
+    display:inline-block; 
+       margin-left: 40px; 
+}
 
 @media screen and (max-width: 991px) {
     .scrnsht{

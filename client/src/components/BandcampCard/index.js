@@ -3,7 +3,7 @@ import "./style.css";
 
 function BandcampCard(props){
     return(
-        <div id="bandcampcard">
+        <div class="meat" id="bandcampcard">
             <iframe id="bcEmbed" src="https://bandcamp.com/EmbeddedPlayer/album=3091619907/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://watershedgroup.bandcamp.com/album/watershed-trek-pacific-nw-january-2018">watershed trek (pacific nw january 2018) by watershed group</a></iframe>
             <p>Group improvisation is done as Watershed Group (rotating members)</p>
             <p>We like to use samples and field recordings along with live instrumentation and analog electronics. Musically we take from noise, drone, ambient, and free jazz</p>

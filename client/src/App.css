@@ -1,10 +1,12 @@
 .App {
   text-align: center;
 }
-
+.meat{
+  max-width: 560px;
+}
 #main {
   margin: 10px 0px 60px 0px;
-  max-width: 800px;
+  max-width: 1150px;
 }
 
 .App-intro {

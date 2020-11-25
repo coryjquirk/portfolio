@@ -6,9 +6,10 @@ function Portfolio(props){
         <div>
             <h1>web dev portfolio</h1>
             <hr/>
+            <div class="meat">
             <div id="portfolioItem">
                     <h3>Weather Dashboard</h3>
-                <p>Uses the OpenWeatherMap API to display current weather conditions and a 5-day forecast.</p>
+                <p> Uses the OpenWeatherMap API to display current weather conditions and a 5-day forecast.</p>
                 <a href="https://coryjquirk.github.io/weather-dashboard/"><img class="scrnsht" src="https://camo.githubusercontent.com/e6da6d4a31f4be214047552358b79c9704fb113dd38d37f424e7fb9e76812d62/68747470733a2f2f636f72796a717569726b2e6769746875622e696f2f776561746865722d64617368626f6172642f73637265656e73686f742e504e47" alt="weather dashboard"/></a>
                 <p>Deployed app: <a href="https://coryjquirk.github.io/weather-dashboard/">https://coryjquirk.github.io/weather-dashboard/</a></p>
                 <p>GitHub repo: <a href="https://github.com/coryjquirk/weather-dashboard">https://github.com/coryjquirk/weather-dashboard</a></p>
@@ -59,6 +60,7 @@ function Portfolio(props){
                 <h3>This personal website</h3>
                 <p>The one you're looking at now was built and styled by me using React.js. &#9996;</p>
                 <p>GitHub repo: <a href="https://github.com/coryjquirk/portfolio">https://github.com/coryjquirk/portfolio</a></p>
+            </div>
             </div>
         </div>
     )

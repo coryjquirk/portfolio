@@ -2,3 +2,10 @@ p.a {
     font-size:500px;
     color: rgb(98, 98, 255);
 }
+
+.thumbnail{
+    float:left;
+    margin: 10px;
+    height: 350px;
+    width: 350px;
+}
