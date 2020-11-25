@@ -1,7 +1,7 @@
 .fa-linkedin, .fa-flickr, .fa-instagram, .fa-github {
     background: rgb(61, 61, 61);
     color: white;
-    margin: 0px 3px 0px 3px;
+    width: 30px;
 }
 .footer {
     position: fixed;
@@ -16,4 +16,8 @@
 .footer p {
     background-color: rgb(61, 61, 61);
     margin-top: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    
 }
