@@ -33,7 +33,7 @@ function Photography(props){
             </div>
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/dennplants.png`}
-                large={`https://coryjquirk.github.io/portfolio/images/large/dennplants.png`}
+                large={`https://coryjquirk.github.io/portfolio/images/large/dennplants.jpg`}
                 alt="denn plants"
                 />
             </div>
