@@ -14,7 +14,7 @@ function Contact(props){
             <br/>
             <li id="github" class="contact-links"><a href="https://github.com/coryjquirk">my GitHub</a></li>
             <br/>
-            <li id="resume" class="contact-links"><a href="assets/cory-quirk-oct2020resume.pdf">my resume (pdf)</a></li>
+            <li id="resume" class="contact-links"><a href="https://coryjquirk.github.io/portfolio/assets/cory-quirk-oct2020resume.pdf">my resume (pdf)</a></li>
           </ul>
         </div>
         

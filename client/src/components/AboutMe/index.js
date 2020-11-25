@@ -4,7 +4,7 @@ import "./style.css";
 function AboutMe(props){
     return(
         <div>
-          <h1>a little about me</h1>
+          <h1>about me</h1>
           <hr/> 
           <div class="meat">
             <img id="self" src="https://coryjquirk.github.io/portfolio/images/me.jpg" alt="me" id="self"/>
