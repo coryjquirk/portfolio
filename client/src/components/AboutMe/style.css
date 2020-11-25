@@ -1,0 +1,29 @@
+#self {
+    float: left;
+    margin: 10px;
+    padding: 5px
+}
+#break {
+    text-align: center;
+    letter-spacing: 13px;
+}
+
+.bio {
+    margin: 0px 15px 0px 15px;
+}
+
+p {
+    margin: 10px 10px 10px 10px;
+    width: 90%;
+}
+
+h1, p{
+    text-align: left;
+}
+
+@media screen and (max-width: 820px) {
+    #self{
+        width:45%;
+        margin: 5px;
+    }
+}
