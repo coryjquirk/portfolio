@@ -31,36 +31,36 @@ function Photography(props){
                 alt="minneapolis"
                 />
             </div>
-            <div class="thumbnail">
+            {/* <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/dennplants.png`}
                 large={`https://coryjquirk.github.io/portfolio/images/large/dennplants.jpg`}
                 alt="denn plants"
                 />
-            </div>
+            </div> */}
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/charlie.jpg`}
                 large={`https://coryjquirk.github.io/portfolio/images/large/charlielarge.jpg`}
                 alt="charlie frog"
                 />
             </div>
-            <div class="thumbnail">
+            {/* <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/tort.png`}
                 large={`https://coryjquirk.github.io/portfolio/images/large/tortlarge.png`}
                 alt="tortoises"
                 />
-            </div>
+            </div> */}
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/keanu.jpg`}
                 large={`https://coryjquirk.github.io/portfolio/images/large/keanularge.jpg`}
                 alt="pit stop"
                 />
             </div>
-            <div class="thumbnail">
+            {/* <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/black-birds.png`}
                 large={`https://coryjquirk.github.io/portfolio/images/large/black-birdslarge.png`}
                 alt="black birds"
                 />
-            </div>
+            </div> */}
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/caves.jpg`}
                 large={`https://coryjquirk.github.io/portfolio/images/large/caveslarge.jpg`}
@@ -79,18 +79,18 @@ function Photography(props){
                 alt="tuk tuk"
                 />
             </div>
-            <div class="thumbnail">
+            {/* <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/carkeek.png`}
                 large={`https://coryjquirk.github.io/portfolio/images/large/carkeeklarge.jpg`}
                 alt="carkeek park"
                 />
-            </div>
-            <div class="thumbnail">
+            </div> */}
+            {/* <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/charliebike.jpg`}
                 large={`https://coryjquirk.github.io/portfolio/images/large/charliebikelarge.jpg`}
                 alt="charlie bike"
                 />
-            </div>
+            </div> */}
         </div>
     )
 }

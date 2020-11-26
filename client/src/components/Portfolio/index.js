@@ -15,6 +15,13 @@ function Portfolio(props){
                 <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/weather-dashboard">~here~</a></p>
             </div>
             <div id="portfolioItem">
+                <h3>Password Generator</h3>
+                <p>Generates a random and secure password consisting of symbols, numbers, and letters.</p>
+                <a href="https://coryjquirk.github.io/password-generator/"><img class="scrnsht" src="https://coryjquirk.github.io/password-generator/images/demo.gif" alt="password generator"/></a>
+                <p>Deployed app: <a class="appLink" href="https://coryjquirk.github.io/password-generator/">~here~</a></p>
+                <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/password-generator">~here~</a></p>
+            </div>
+            <div id="portfolioItem">
                 <h3>Ice Cold README Generator</h3>
                 <p>Generates a README from the command line by asking you info about yourself and your coding project.</p>
                 <a href="images/readme-generator.png"><img class="scrnsht" src="https://coryjquirk.github.io/portfolio/images/readme-generator.png" alt="ice-cold-readme-generator"/></a>
@@ -50,16 +57,9 @@ function Portfolio(props){
                 <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/burger">~here~</a></p>
             </div>
             <div id="portfolioItem">
-                <h3>Password Generator</h3>
-                <p>Generates a random and secure password consisting of symbols, numbers, and letters.</p>
-                <a href="https://coryjquirk.github.io/password-generator/"><img class="scrnsht" src="https://coryjquirk.github.io/portfolio/images/password-generator.png" alt="password generator"/></a>
-                <p>Deployed app: <a class="appLink" href="https://coryjquirk.github.io/password-generator/">~here~</a></p>
-                <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/password-generator">~here~</a></p>
-            </div>
-            <div id="portfolioItem">
                 <h3>Daily Planner</h3>
                 <p>Calendar app for scheduling your work day.</p> 
-                <a href="https://coryjquirk.github.io/daily-planner/"><img class="scrnsht" src="https://coryjquirk.github.io/portfolio/images/daily-planner.png" alt="daily planner"/></a>
+                <a href="https://coryjquirk.github.io/daily-planner/"><img class="scrnsht" src="https://coryjquirk.github.io/daily-planner/images/screenshot.PNG" alt="daily planner"/></a>
                 <p>Deployed app: <a class="appLink" href="https://coryjquirk.github.io/daily-planner/">~here~</a></p>
                 <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/daily-planner">~here~</a></p>
             </div>
@@ -67,6 +67,14 @@ function Portfolio(props){
                 <h3>This personal website</h3>
                 <p>The one you're looking at now was built and styled by me using React.js. &#9996;</p>
                 <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/portfolio">~here~</a></p>
+            </div>
+            <div id="portfolioItem">
+                <h3>My tool kit &#128736;</h3>
+                <p>• MERN stack (MongoDB, Express.js, React.js, Node.js)</p>
+                <p>• Back end: MySQL, IndexedDB, and no-SQL databases</p>
+                <p>• Front end: Bootstrap, HTML, CSS, JavaScript</p>
+                <p>• GitHub and Heroku for deployment, group collaboration, and version control</p>
+                <p>• Agile and mobile-first web dev methodology</p>
             </div>
             </div>
         </div>
