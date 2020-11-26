@@ -18,10 +18,10 @@ function AboutMe(props){
 
             <p>With Hamline University, I had the opportunity to take a 2017 <a href="https://www.hamline.edu/hunewsdetail.aspx?id=4295030203">short course </a> 
               in Siem Reap, Cambodia to learn about the blossoming
-              tourist industry around the Angkor temple complex. Another one of my favorite experiences in this field was working with other archaeologists on burial recovery sites around Minnesota, where we recovered disturbed Native American grave sites under the leadership of descendent communities. <a href="https://www.startribune.com/after-3-years-minnetonka-burial-mound-restoration-reaches-completion/456894483/">Here</a> is a news story about one such site I worked on.
+              tourist industry around the Angkor temple complex. Another formative experience from this field was working with other archaeologists on burial recovery sites around Minnesota, where we restored disturbed Native American grave sites under the leadership of descendent communities. <a href="https://www.startribune.com/after-3-years-minnetonka-burial-mound-restoration-reaches-completion/456894483/">Here</a> is a news story about one such site I worked on. Since then I have gained eighteen months of experience in supply chain logistics, and right now I'm excited to get started in tech and see where it takes me.
             </p>
             <p>
-              Thank you for visiting and take care!
+             Thank you for visiting!
             </p>
           </div>
         </div>

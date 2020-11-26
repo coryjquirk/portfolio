@@ -9,6 +9,7 @@
     border-color: #629466;
     border-radius: 7px;
     margin:10px;
+width:600px
 }
 .appLink{
     font-style: italic;
@@ -17,5 +18,8 @@
 @media screen and (max-width: 991px) {
     .scrnsht{
         max-width: 80%;
+    }
+    #portfolioItem{
+        max-width: 95%;
     }
 }

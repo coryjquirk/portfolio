@@ -6,7 +6,7 @@ function Portfolio(props){
         <div>
             <h1>web dev portfolio</h1>
             <hr/>
-            <div class="meat">
+            <div>
             <div id="portfolioItem">
                     <h3>Weather Dashboard</h3>
                 <p> Uses the OpenWeatherMap API to display current weather conditions and a 5-day forecast.</p>
@@ -20,6 +20,13 @@ function Portfolio(props){
                 <a href="images/readme-generator.png"><img class="scrnsht" src="https://coryjquirk.github.io/portfolio/images/readme-generator.png" alt="ice-cold-readme-generator"/></a>
                 <p>Deployed app: <a class="appLink" href="https://coryjquirk.github.io/ice-cold-readme-generator/">~here~</a></p>
                 <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/ice-cold-readme-generator">~here~</a></p>
+            </div>
+            <div id="portfolioItem">
+                <h3>bud GEt</h3>
+                <p>Budget tracker with remote database (MongoDB Atlas) and cache API (IndexedDB).</p>
+                <a href="https://calm-anchorage-17785.herokuapp.com/"><img class="scrnsht" src="https://raw.githubusercontent.com/coryjquirk/bud-get/main/bud-get.gif" alt="budget tracker"/></a>
+                <p>Deployed app: <a class="appLink" href="https://calm-anchorage-17785.herokuapp.com/">~here~</a></p>
+                <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/bud-get">~here~</a></p>
             </div>
             <div id="portfolioItem">
                 <h3>Credit Croc</h3>
