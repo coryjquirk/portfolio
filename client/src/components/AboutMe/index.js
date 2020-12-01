@@ -12,7 +12,7 @@ function AboutMe(props){
             <p>I'm a full-stack web developer and a University of Minnesota coding bootcamp student looking for full time work. On this site you can find some of my web dev work, film photography, and sound art work.
               </p>
               <p id="break">-. --- .--</p>
-              <p>I reside in Minneapolis, MN and my ultimate goal is to work in Norway. I've studyied Norwegian since 2018
+              <p>I reside in Minneapolis, MN and my ultimate goal is to work in Norway. I've studied Norwegian since 2018
               and I also have professional experience using Spanish. During my undergrad education in anthropology, I took my audio engineering knowledge from music to make sensory ethnography work, or documentaries of human culture focused on the senses. My final project was to record the soundscape of Hidden Falls
               Regional Park in St. Paul, MN, juxtaposing urban noise with nature sound to learn about how people conceive of nature through sound.</p>
 
