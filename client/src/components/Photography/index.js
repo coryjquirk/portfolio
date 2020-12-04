@@ -1,7 +1,39 @@
 import React from "react";
 import ModalImage from "react-modal-image";
 import "./style.css";
-
+import phnomKulen from "./Images/kulen.jpg";
+import phnomKulenL from "./Images/large/kulenlarge.jpg";
+import dennPlants from "./Images/dennplants.png";
+import dennPlantsL from "./Images/large/dennplantslarge.jpg"
+import tort from "./Images/tort.png";
+import tortL from "./Images/large/tortlarge.png"
+import blackbirds from "./Images/black-birds.png";
+import blackbirdsL from "./Images/large/black-birdslarge.png"
+import carkeek from "./Images/carkeek.png";
+import carkeekL from "./Images/large/carkeeklarge.jpg";
+import stoneshop from "./Images/stoneshop.jpg"
+import stoneshopL from "./Images/large/stoneshoplarge.jpg"
+import charliebike from "./Images/charliebike.jpg"
+import charliebikeL from "./Images/large/charliebikelarge.jpg"
+import owenzeke from "./Images/owenzeke.png"
+import owenzekeL from "./Images/large/owenzekelarge.png"
+import keanu from "./Images/keanu.jpg"
+import keanuL from "./Images/large/keanularge.jpg"
+import caves from "./Images/caves.jpg"
+import cavesL from "./Images/large/caveslarge.jpg"
+import tuktuk from "./Images/tuktuk.jpg"
+import tuktukL from "./Images/large/tuktuklarge.jpg"
+import charlie from "./Images/charlie.jpg"
+import charlieL from "./Images/large/charlielarge.jpg"
+import mpls from "./Images/mpls.jpg"
+import mplsL from "./Images/large/mplslarge.jpg"
+import monastery from "./Images/monastery.jpg"
+import monasteryL from "./Images/large/monasterylarge.jpg"
+import palisade from "./Images/palisade.jpg"
+import palisadeL from "./Images/large/palisadelarge.jpg"
+import fishermen from "./Images/fishermen.png"
+import fishermenL from "./Images/large/fishermenlarge.png"
+//idea for later: "sort by place" checkbox
 function Photography(props){
     return(
         <div>
@@ -9,88 +41,100 @@ function Photography(props){
             <hr/>
             <p>Click an image to open a larger version. Visit me on <a href="https://www.flickr.com/photos/152958688@N03/">Flickr</a> and <a href="https://www.instagram.com/coryquirk/">Instagram</a>.</p>
             <div class="thumbnail">
-                <ModalImage small={`https://coryjquirk.github.io/portfolio/images/kulen.jpg`}
-                large={`https://coryjquirk.github.io/portfolio/images/large/kulenlarge.jpg`}
+                <ModalImage small={`${phnomKulen}`}
+                large={`${phnomKulenL}`}
                 alt="phnom kulen"/> 
             </div>
             <div class="thumbnail">
-                <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/palisade.jpg`}
-                large={`https://coryjquirk.github.io/portfolio/images/large/palisadelarge.jpg`}
+                <ModalImage id="thumbnail" small={`${palisade}`}
+                large={`${palisadeL}`}
                 alt="palisade head"
                 />
             </div>
             <div class="thumbnail">
-                <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/monastery.jpg`}
-                large={`https://coryjquirk.github.io/portfolio/images/large/monasterylarge.jpg`}
-                alt="stone shop"
+                <ModalImage id="thumbnail" small={`${monastery}`}
+                large={`${monasteryL}`}
+                alt="monastery"
                 />
             </div>
             <div class="thumbnail">
-                <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/mpls.jpg`}
-                large={`https://coryjquirk.github.io/portfolio/images/large/mplslarge.jpg`}
+                <ModalImage id="thumbnail" small={`${mpls}`}
+                large={`${mplsL}`}
                 alt="minneapolis"
                 />
             </div>
-            {/* <div class="thumbnail">
-                <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/dennplants.png`}
-                large={`https://coryjquirk.github.io/portfolio/images/large/dennplants.jpg`}
+            <div class="thumbnail">
+                <ModalImage id="thumbnail" small={`${dennPlants}`}
+                large={`${dennPlantsL}`}
                 alt="denn plants"
                 />
-            </div> */}
+            </div>
             <div class="thumbnail">
-                <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/charlie.jpg`}
-                large={`https://coryjquirk.github.io/portfolio/images/large/charlielarge.jpg`}
+                <ModalImage id="thumbnail" small={`${charlie}`}
+                large={`${charlieL}`}
                 alt="charlie frog"
                 />
             </div>
-            {/* <div class="thumbnail">
-                <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/tort.png`}
-                large={`https://coryjquirk.github.io/portfolio/images/large/tortlarge.png`}
+            <div class="thumbnail">
+                <ModalImage id="thumbnail" small={`${tort}`}
+                large={`${tortL}`}
                 alt="tortoises"
                 />
-            </div> */}
+            </div>
             <div class="thumbnail">
-                <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/keanu.jpg`}
-                large={`https://coryjquirk.github.io/portfolio/images/large/keanularge.jpg`}
+                <ModalImage id="thumbnail" small={`${keanu}`}
+                large={`${keanuL}`}
                 alt="pit stop"
                 />
             </div>
-            {/* <div class="thumbnail">
-                <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/black-birds.png`}
-                large={`https://coryjquirk.github.io/portfolio/images/large/black-birdslarge.png`}
+            <div class="thumbnail">
+                <ModalImage id="thumbnail" small={`${fishermen}`}
+                large={`${fishermenL}`}
+                alt="fishermen"
+                />
+            </div>
+            <div class="thumbnail">
+                <ModalImage id="thumbnail" small={`${blackbirds}`}
+                large={`${blackbirdsL}`}
                 alt="black birds"
                 />
-            </div> */}
+            </div>
             <div class="thumbnail">
-                <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/caves.jpg`}
-                large={`https://coryjquirk.github.io/portfolio/images/large/caveslarge.jpg`}
+                <ModalImage id="thumbnail" small={`${caves}`}
+                large={`${cavesL}`}
                 alt="apostle islands"
                 />
             </div>
             <div class="thumbnail">
-                <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/stoneshop.jpg`}
-                large={`https://coryjquirk.github.io/portfolio/images/large/stoneshoplarge.jpg`}
+                <ModalImage id="thumbnail" small={`${stoneshop}`}
+                large={`${stoneshopL}`}
                 alt="stone shop"
                 />
             </div>
             <div class="thumbnail">
-                <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/tuktuk.jpg`}
-                large={`https://coryjquirk.github.io/portfolio/images/large/tuktuklarge.jpg`}
+                <ModalImage id="thumbnail" small={`${owenzeke}`}
+                large={`${owenzekeL}`}
+                alt="owen zeke"
+                />
+            </div>
+            <div class="thumbnail">
+                <ModalImage id="thumbnail" small={`${tuktuk}`}
+                large={`${tuktukL}`}
                 alt="tuk tuk"
                 />
             </div>
-            {/* <div class="thumbnail">
-                <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/carkeek.png`}
-                large={`https://coryjquirk.github.io/portfolio/images/large/carkeeklarge.jpg`}
+            <div class="thumbnail">
+                <ModalImage id="thumbnail" small={`${carkeek}`}
+                large={`${carkeekL}`}
                 alt="carkeek park"
                 />
-            </div> */}
-            {/* <div class="thumbnail">
-                <ModalImage id="thumbnail" small={`https://coryjquirk.github.io/portfolio/images/charliebike.jpg`}
-                large={`https://coryjquirk.github.io/portfolio/images/large/charliebikelarge.jpg`}
+            </div>
+            <div class="thumbnail">
+                <ModalImage id="thumbnail" small={`${charliebike}`}
+                large={`${charliebikeL}`}
                 alt="charlie bike"
                 />
-            </div> */}
+            </div>
         </div>
     )
 }

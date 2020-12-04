@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import READMEgen from "./Images/readme-generator.png";
 
 function Portfolio(props){
     return(
@@ -24,7 +25,7 @@ function Portfolio(props){
             <div id="portfolioItem">
                 <h3>Ice Cold README Generator</h3>
                 <p>Generates a README from the command line by asking you info about yourself and your coding project.</p>
-                <a href="images/readme-generator.png"><img class="scrnsht" src="https://coryjquirk.github.io/portfolio/images/readme-generator.png" alt="ice-cold-readme-generator"/></a>
+                <a href="images/readme-generator.png"><img class="scrnsht" src={READMEgen} alt="ice-cold-readme-generator"/></a>
                 <p>Deployed app: <a class="appLink" href="https://coryjquirk.github.io/ice-cold-readme-generator/">~here~</a></p>
                 <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/ice-cold-readme-generator">~here~</a></p>
             </div>
