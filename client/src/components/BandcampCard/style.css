@@ -7,6 +7,8 @@
 }
 iframe {
     padding: 10px;
+    border: 0; 
+    width: 350px; height: 470px
 }
 @media screen and (max-width: 400px) {
     #bcEmbed{
