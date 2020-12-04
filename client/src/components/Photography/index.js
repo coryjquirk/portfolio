@@ -1,6 +1,14 @@
 import React from "react";
 import ModalImage from "react-modal-image";
 import "./style.css";
+import phnomKulen from "./Images/kulen.jpg";
+//use this scheme to reactify the rest of images. loads quicker on gallery page!
+
+const squareImg = {
+    height: '350px',
+    width: '350px',
+    margin: 'auto auto auto auto'
+  };
 
 function Photography(props){
     return(
@@ -9,7 +17,7 @@ function Photography(props){
             <hr/>
             <p>Click an image to open a larger version. Visit me on <a href="https://www.flickr.com/photos/152958688@N03/">Flickr</a> and <a href="https://www.instagram.com/coryquirk/">Instagram</a>.</p>
             <div class="thumbnail">
-                <ModalImage small={`https://coryjquirk.github.io/portfolio/images/kulen.jpg`}
+                <ModalImage small={`${phnomKulen}`}
                 large={`https://coryjquirk.github.io/portfolio/images/large/kulenlarge.jpg`}
                 alt="phnom kulen"/> 
             </div>
