@@ -9,9 +9,10 @@ function AboutMe(props){
           <div class="meat">
             <img id="self" src="https://coryjquirk.github.io/portfolio/images/me.jpg" alt="me" id="self"/>
             <br/>
-            <p>I'm a full-stack web developer and a University of Minnesota coding bootcamp student looking for full time work. I built this website to display my web development projects, film photography, and sound art work.
+            <p>I'm a full-stack web developer and a University of Minnesota coding bootcamp student looking for full time work. I built this website to display my web development projects, film photography, and sound art work. On the <a href="/contact">contact page</a> you can find my LinkedIn profile, resume, and my GitHub page to see projects I've coded.
               </p>
               <p id="break">-. --- .--</p>
+              <h3>work and academics</h3>
               <p>I reside in Minneapolis, Minnesota and my ultimate goal is to work in Norway. I've studied Norwegian since 2018
               and I also have professional experience using Spanish. During my undergrad education in anthropology, I transferred audio engineering knowledge from music to make sensory ethnography work, or documentaries of human culture focused on the senses.</p>
 

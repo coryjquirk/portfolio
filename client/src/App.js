@@ -11,6 +11,7 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import NoMatchPage from "./pages/NoMatchPage";
 import Nav from "./components/Nav";
+import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 
 class App extends Component {
