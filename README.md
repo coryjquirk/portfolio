@@ -4,7 +4,7 @@ Personal website for sharing my work and contact info.
 ## Links
 * Deployed application: https://coryjquirk.herokuapp.com
 * Github Repository: https://github.com/coryjquirk/portfolio
-<a href="coryjquirk.herokuapp.com"><img src="https://raw.githubusercontent.com/coryjquirk/portfolio/master/client/public/assets/images/app-screenshot.PNG" alt="portfolio screenshot"/></a>
+<a href="coryjquirk.herokuapp.com"><img src="https://raw.githubusercontent.com/coryjquirk/portfolio/master/client/public/assets/images/demo.gif" alt="portfolio screenshot"/></a>
 
 ## Features
 * Mobile-first layout
