@@ -1,3 +1,9 @@
 li{
     background-color: #f8f9fa;
 }
+.navbar{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
