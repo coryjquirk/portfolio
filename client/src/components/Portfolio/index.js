@@ -10,6 +10,7 @@ function Portfolio(props){
         <div>
             <h1>web dev portfolio</h1>
             <hr/>
+            <p>Visit me on <a href="https://github.com/coryjquirk">GitHub</a> to see some of the projects I've coded, both solo and collaboratively.</p>
             <div>
             <div id="portfolioItem">
                 <h3>Weather Dashboard</h3>
