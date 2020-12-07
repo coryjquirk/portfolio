@@ -1,6 +1,9 @@
 import React from "react";
 import "./style.css";
 import READMEgen from "./Images/readme-generator.png";
+import weatherdashboard from "./Images/weatherdashboard.gif";
+import creditcroc from "./Images/creditcroc.gif";
+import whatscooking from "./Images/whatscooking.gif";
 
 function Portfolio(props){
     return(
@@ -9,9 +12,9 @@ function Portfolio(props){
             <hr/>
             <div>
             <div id="portfolioItem">
-                    <h3>Weather Dashboard</h3>
+                <h3>Weather Dashboard</h3>
                 <p> Uses the OpenWeatherMap API to display current weather conditions and a 5-day forecast.</p>
-                <a href="https://coryjquirk.github.io/weather-dashboard/"><img class="scrnsht" src="https://camo.githubusercontent.com/e6da6d4a31f4be214047552358b79c9704fb113dd38d37f424e7fb9e76812d62/68747470733a2f2f636f72796a717569726b2e6769746875622e696f2f776561746865722d64617368626f6172642f73637265656e73686f742e504e47" alt="weather dashboard"/></a>
+                <a href="https://coryjquirk.github.io/weather-dashboard/"><img class="scrnsht" src={weatherdashboard} alt="weather dashboard"/></a>
                 <p>Deployed app: <a class="appLink" href="https://coryjquirk.github.io/weather-dashboard/">~here~</a></p>
                 <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/weather-dashboard">~here~</a></p>
             </div>
@@ -23,11 +26,18 @@ function Portfolio(props){
                 <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/password-generator">~here~</a></p>
             </div>
             <div id="portfolioItem">
-                <h3>Ice Cold README Generator</h3>
-                <p>Generates a README from the command line by asking you info about yourself and your coding project.</p>
-                <a href="images/readme-generator.png"><img class="scrnsht" src={READMEgen} alt="ice-cold-readme-generator"/></a>
-                <p>Deployed app: <a class="appLink" href="https://coryjquirk.github.io/ice-cold-readme-generator/">~here~</a></p>
-                <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/ice-cold-readme-generator">~here~</a></p>
+                <h3>Credit Croc</h3>
+                <p>Gives a visual overview of your credit cards, loans, bills, or repayments.</p>
+                <a href="https://hungry-croconaw.herokuapp.com/"><img class="scrnsht" src={creditcroc} alt="credit croc demo"/></a>
+                <p>Deployed app: <a class="appLink" href="https://hungry-croconaw.herokuapp.com/">~here~</a></p>
+                <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/croconaw-squad">~here~</a></p>
+            </div>
+            <div id="portfolioItem">
+                <h3>What's Cooking?</h3>
+                <p>Helps you find recipes based on the ingredients you have at home, and shows nearby grocery stores.</p>
+                <a href="https://coryjquirk.github.io/whats-cookin/"><img class="scrnsht" src={whatscooking} alt="whats cookin"/></a>
+                <p>Deployed app: <a class="appLink" href="https://coryjquirk.github.io/whats-cookin/">~here~</a></p>
+                <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/whats-cookin">~here~</a></p>
             </div>
             <div id="portfolioItem">
                 <h3>bud GEt</h3>
@@ -37,18 +47,11 @@ function Portfolio(props){
                 <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/bud-get">~here~</a></p>
             </div>
             <div id="portfolioItem">
-                <h3>Credit Croc</h3>
-                <p>Gives a visual overview of your credit cards, loans, bills, or repayments.</p>
-                <a href="https://hungry-croconaw.herokuapp.com/"><img class="scrnsht" src="https://coryjquirk.github.io/credit-croc/public/assets/img/creditcrocdemo.gif" alt="credit croc demo"/></a>
-                <p>Deployed app: <a class="appLink" href="https://hungry-croconaw.herokuapp.com/">~here~</a></p>
-                <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/croconaw-squad">~here~</a></p>
-            </div>
-            <div id="portfolioItem">
-                <h3>What's Cooking?</h3>
-                <p>Helps you find recipes based on the ingredients you have at home, and shows nearby grocery stores.</p>
-                <a href="https://coryjquirk.github.io/whats-cookin/"><img class="scrnsht" src="https://coryjquirk.github.io/whats-cookin/screenshot.PNG" alt="whats cookin"/></a>
-                <p>Deployed app: <a class="appLink" href="https://coryjquirk.github.io/whats-cookin/">~here~</a></p>
-                <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/whats-cookin">~here~</a></p>
+                <h3>Ice Cold README Generator</h3>
+                <p>Generates a README from the command line by asking you info about yourself and your coding project.</p>
+                <a href="images/readme-generator.png"><img class="scrnsht" src={READMEgen} alt="ice-cold-readme-generator"/></a>
+                <p>Deployed app: <a class="appLink" href="https://coryjquirk.github.io/ice-cold-readme-generator/">~here~</a></p>
+                <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/ice-cold-readme-generator">~here~</a></p>
             </div>
             <div id="portfolioItem">      
                 <h3>eat Borgus</h3>
@@ -76,6 +79,7 @@ function Portfolio(props){
                 <p>• Front end: Bootstrap, HTML, CSS, JavaScript</p>
                 <p>• GitHub and Heroku for deployment, group collaboration, and version control</p>
                 <p>• Agile and mobile-first web dev methodology</p>
+                <p> I'm looking for work. Get at me through the <a>Contact page!</a></p>
             </div>
             </div>
         </div>
