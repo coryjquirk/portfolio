@@ -14,6 +14,17 @@ function Portfolio(props){
             <p>Visit me on <a href="https://github.com/coryjquirk">GitHub</a> to see some of the projects I've coded, both solo and collaboratively.</p>
             <div>
             <div id="portfolioItem">
+                <h3>My developer toolkit &#128736;</h3>
+                <p id="toolkit" class="fa-ul">
+                <li><i class="fa fa-cog"></i> MERN stack (MongoDB, Express.js, React.js, Node.js</li>
+                <li><i class="fa fa-cog"></i> Back end: MySQL, IndexedDB, and no-SQL databases</li>
+                <li><i class="fa fa-cog"></i> Front end: Bootstrap, HTML, CSS, JavaScript</li>
+                <li><i class="fa fa-cog"></i> GitHub and Heroku for deployment, group collaboration, and version control</li>
+                <li><i class="fa fa-cog"></i> Agile and mobile-first web dev methodology</li>
+                <p>I'm looking for work. Get at me through the <a href="contact">Contact page!</a></p>
+                </p>
+            </div>
+            <div id="portfolioItem">
                 <h3>Cart Croc</h3>
                 <p>Straightforward storefront app designed with independent businesses in mind. Inventory data handled with MongoDB, and user authentication provided with Passport.</p>
                 <a href="https://cart-croc.herokuapp.com/"><img class="scrnsht" src={cartcroc} alt="cart croc"/></a>
@@ -103,18 +114,11 @@ function Portfolio(props){
                 </div>
             </div>
             <div id="portfolioItem">
-                <h3>This personal website</h3>
-                <p>The one you're looking at now was built and styled by me using React.js. &#9996;</p>
-                <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/portfolio">~here~</a></p>
-            </div>
-            <div id="portfolioItem">
-                <h3>My tool kit &#128736;</h3>
-                <p>• MERN stack (MongoDB, Express.js, React.js, Node.js)</p>
-                <p>• Back end: MySQL, IndexedDB, and no-SQL databases</p>
-                <p>• Front end: Bootstrap, HTML, CSS, JavaScript</p>
-                <p>• GitHub and Heroku for deployment, group collaboration, and version control</p>
-                <p>• Agile and mobile-first web dev methodology</p>
-                <p> I'm looking for work. Get at me through the <a>Contact page!</a></p>
+                <h3>Personal website</h3>
+                <p>I built and styled the site you're looking at now using React.js. &#9996;</p>
+                <div class="portfBtnDiv">
+                    <a href="https://github.com/coryjquirk/portfolio" class="portfBtn"><button>GitHub repo <i class="fa fa-link"></i></button></a>
+                </div>
             </div>
             </div>
         </div>
