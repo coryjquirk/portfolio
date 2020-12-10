@@ -116,6 +116,7 @@ function Portfolio(props){
             <div id="portfolioItem">
                 <h3>Personal website</h3>
                 <p>I built and styled the site you're looking at now using React.js. &#9996;</p>
+                <p>If you notice any hilarious typos or broken links before I do, please <a href="contact">shoot me an email</a>.</p>
                 <div class="portfBtnDiv">
                     <a href="https://github.com/coryjquirk/portfolio" class="portfBtn"><button>GitHub repo <i class="fa fa-link"></i></button></a>
                 </div>
