@@ -19,6 +19,14 @@ width:600px
 .appLink{
     font-style: italic;
 }
+.portfBtnDiv{
+height: 50px;
+margin: 5px 0px 10px 0px
+}
+.portfBtn{
+    display: inline-block;
+    margin: 0px 15px 10px 10px;
+}
 
 @media screen and (max-width: 991px) {
     .scrnsht{
