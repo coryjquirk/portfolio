@@ -2,6 +2,7 @@
     width: auto;
     height: auto;
     max-width: 450px;
+    margin-bottom: 15px;
 }
 #portfolioItem{
     border: 5px;
@@ -10,6 +11,10 @@
     border-radius: 7px;
     margin:10px;
 width:600px
+}
+#portfolioItem p{
+    margin: 0px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
 }
 .appLink{
     font-style: italic;

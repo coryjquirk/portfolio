@@ -3,6 +3,7 @@ import "./style.css";
 import READMEgen from "./Images/readme-generator.png";
 import weatherdashboard from "./Images/weatherdashboard.gif";
 import creditcroc from "./Images/creditcroc.gif";
+import cartcroc from "./Images/cartcroc.gif";
 import whatscooking from "./Images/whatscooking.gif";
 
 function Portfolio(props){
@@ -13,8 +14,15 @@ function Portfolio(props){
             <p>Visit me on <a href="https://github.com/coryjquirk">GitHub</a> to see some of the projects I've coded, both solo and collaboratively.</p>
             <div>
             <div id="portfolioItem">
+                <h3>Cart Croc</h3>
+                <p>Straightforward storefront app designed with independent businesses in mind. Inventory data handled with MongoDB, and user authentication provided with Passport.</p>
+                <a href="https://cart-croc.herokuapp.com/"><img class="scrnsht" src={cartcroc} alt="cart croc"/></a>
+                <p>Deployed app: <a class="appLink" href="https://cart-croc.herokuapp.com/">~here~</a></p>
+                <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/cart-croc">~here~</a></p>
+            </div>
+            <div id="portfolioItem">
                 <h3>Weather Dashboard</h3>
-                <p> Uses the OpenWeatherMap API to display current weather conditions and a 5-day forecast.</p>
+                <p>Uses the OpenWeatherMap API to display current weather conditions and a 5-day forecast.</p>
                 <a href="https://coryjquirk.github.io/weather-dashboard/"><img class="scrnsht" src={weatherdashboard} alt="weather dashboard"/></a>
                 <p>Deployed app: <a class="appLink" href="https://coryjquirk.github.io/weather-dashboard/">~here~</a></p>
                 <p>GitHub repo: <a class="appLink" href="https://github.com/coryjquirk/weather-dashboard">~here~</a></p>

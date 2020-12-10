@@ -2,5 +2,14 @@ body {
   margin: 0;
   margin-top:64px;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Quicksand'
+}
+@font-face {
+  font-family: 'Quicksand';
+  src: local('Quicksand'), url(./fonts/Quicksand/static/Quicksand-Medium.ttf) format('truetype');
+}
+h3 {
+  text-align: left;
+  margin-left: 5px;
+  margin-top: 5px;
 }
