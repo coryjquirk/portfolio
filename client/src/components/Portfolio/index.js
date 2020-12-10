@@ -13,7 +13,7 @@ function Portfolio(props){
             <hr/>
             <p>Visit me on <a href="https://github.com/coryjquirk">GitHub</a> to see some of the projects I've coded, both solo and collaboratively.</p>
             <div>
-            <div id="portfolioItem">
+            <div id="devToolkit">
                 <h3>My developer toolkit &#128736;</h3>
                 <p id="toolkit" class="fa-ul">
                 <li><i class="fa fa-cog"></i> MERN stack (MongoDB, Express.js, React.js, Node.js</li>
