@@ -2,6 +2,7 @@
     width: auto;
     height: auto;
     max-width: 450px;
+    margin-bottom: 15px;
 }
 #portfolioItem{
     border: 5px;
@@ -9,17 +10,43 @@
     border-color: #629466;
     border-radius: 7px;
     margin:10px;
-width:600px
+    width:600px
+}
+#devToolkit{
+    border: 1px;
+    border-style: dashed dotted dashed dotted;
+    border-color: #629466;
+    border-radius: 7px;
+    margin:10px;
+    width:600px
+}
+#portfolioItem p, #devToolkit p{
+    margin: 0px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+}
+#toolkit{
+    text-align: left;
+}
+#toolkit li{
+    padding: 0px 0px 0px 20px;
 }
 .appLink{
     font-style: italic;
+}
+.portfBtnDiv{
+height: 13%;
+margin: 5px 0px 10px 0px
+}
+.portfBtn{
+    display: inline-block;
+    margin: 0px 15px 10px 10px;
 }
 
 @media screen and (max-width: 991px) {
     .scrnsht{
         max-width: 80%;
     }
-    #portfolioItem{
+    #portfolioItem, #devToolkit{
         max-width: 95%;
     }
 }
