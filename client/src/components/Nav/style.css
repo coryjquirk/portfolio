@@ -1,4 +1,4 @@
-li{
+.navbar li{
     background-color: #f8f9fa;
 }
 .navbar{
@@ -6,4 +6,5 @@ li{
     position: fixed;
     left: 0;
     top: 0;
+    /* background-image: url("cartographer.png"); */
 }
