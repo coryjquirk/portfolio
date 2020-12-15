@@ -20,10 +20,10 @@ function Sound(){
         <div>
             <h1>sound </h1>
             <hr/>
-            <div id="soundOrganizer">
+            {/* <div id="soundOrganizer">
                 <button class="tabs" id="fiction" onclick={setFiction}><span>fiction</span></button> 
             
-            <button class="tabs" id="nonfiction" onclick={setNonfiction}><span>nonfiction</span></button></div>
+            <button class="tabs" id="nonfiction" onclick={setNonfiction}><span>nonfiction</span></button></div> */}
             <BandcampCard/>
             <img src={fieldrecording} id="fieldRecording" alt="field recording"></img>
         </div>
