@@ -36,7 +36,7 @@ import fishermenL from "./Images/large/fishermenlarge.png"
 //idea for later: "sort by place" checkbox
 function Photography(props){
     return(
-        <div>
+        <div id="gallery">
             <h1>photography</h1>
             <hr/>
             <p>Click an image to open a larger version. Visit me on <a href="https://www.flickr.com/photos/152958688@N03/">Flickr</a> and <a href="https://www.instagram.com/coryquirk/">Instagram</a>.</p>
