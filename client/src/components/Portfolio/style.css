@@ -29,6 +29,7 @@
 }
 #toolkit li{
     padding: 0px 0px 0px 20px;
+    z-index: -1;
 }
 .appLink{
     font-style: italic;
