@@ -2,3 +2,98 @@
     width: 100%;
     margin: 20px 0px 20px 0px;
 }
+
+#soundOrganizer {
+display: inline
+}
+
+/* still playing with these transitions */
+.tabs{
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+.tabs span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.tabs span:after {
+    /* content: '\00bb'; */
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.tabs:hover span {
+    opacity: .5;
+    border: 1px dotted white;
+}
+.tabs:hover span:after {
+    opacity: .5;
+    right: 0;
+}
+.tabs:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.tabs {
+    border-radius: 7px;
+    background-color: rgb(240, 239, 239);
+    margin: 5px 5px 5px 5px;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: .5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
