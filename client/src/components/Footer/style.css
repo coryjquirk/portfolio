@@ -4,8 +4,8 @@
     width: 30px;
 }
 #footerFavicon {
-max-width: 35px;
-padding: 7px 7px 7px 7px;
+    max-width: 35px;
+    padding: 0px 7px 0px 7px;
 }
 .footer {
     position: fixed;
