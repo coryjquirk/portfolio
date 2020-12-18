@@ -11,7 +11,6 @@ margin: 0px 0px 100px 0px;
     height: 350px;
     width: 350px;
 }
-
 @media screen and (max-width: 400px) {
     .thumbnail{
         width: 95%;
