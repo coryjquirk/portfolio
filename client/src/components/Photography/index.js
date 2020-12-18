@@ -33,6 +33,8 @@ import palisade from "./Images/palisade.jpg"
 import palisadeL from "./Images/large/palisadelarge.jpg"
 import fishermen from "./Images/fishermen.png"
 import fishermenL from "./Images/large/fishermenlarge.png"
+import aidan from "./Images/aidan.png"
+import aidanL from "./Images/large/aidanlarge.jpg"
 //idea for later: "sort by place" checkbox
 function Photography(props){
     return(
@@ -97,6 +99,12 @@ function Photography(props){
                 <ModalImage id="thumbnail" small={`${blackbirds}`}
                 large={`${blackbirdsL}`}
                 alt="black birds"
+                />
+            </div>
+            <div class="thumbnail">
+                <ModalImage id="thumbnail" small={`${aidan}`}
+                large={`${aidanL}`}
+                alt="aidan"
                 />
             </div>
             <div class="thumbnail">
