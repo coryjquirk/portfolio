@@ -2,11 +2,6 @@ import React from "react";
 import { useStoreContext } from "../../utils/GlobalState";
 import "./style.css";
 
-// import Texture from "./cartographer.png"
-// const navStyle = {
-//     backgroundImage: `url(${Texture})`,
-// };
-
 function Nav() {
   const [store] = useStoreContext();
 

@@ -1,99 +1,114 @@
-#fieldRecording{
-    width: 100%;
-    margin: 20px 0px 20px 0px;
+.soundBanner {
+  width: auto;
+  max-height: 350px;
+  margin: 15px 0px 0px 0px;
+  padding: 35px 0px 35px 0px;
+  float: left;
 }
-
-#soundOrganizer {
-display: inline
+#fieldRecBanner {
+  margin-bottom: 30px;
 }
-
-/* still playing with these transitions */
-.tabs{
-    -webkit-transition-duration: 0.4s; /* Safari */
+#bannerCredit {
+  font-size: 11px;
+  float: left;
+  margin-bottom: 70px;
+}
+.bcEmbedererer {
+  display: block;
+  margin-top: 70px;
+}
+.soundNav span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.soundNav span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.soundNav:hover span {
+  padding-right: 25px;
+}
+.soundNav:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.soundNav:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.soundNav {
+  margin: 15px 15px 15px 15px;
+  border: 1px solid;
+  display: block;
+  float: left;
+  -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
+  background-color: rgb(240, 239, 239);
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
 }
-.tabs span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-.tabs span:after {
-    /* content: '\00bb'; */
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-.tabs:hover span {
-    opacity: .5;
-    border: 1px dotted white;
-}
-.tabs:hover span:after {
-    opacity: .5;
-    right: 0;
-}
-.tabs:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+@keyframes fadeIn {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.tabs {
-    border-radius: 7px;
-    background-color: rgb(240, 239, 239);
-    margin: 5px 5px 5px 5px;
-    animation: fadeIn ease 2s;
-    -webkit-animation: fadeIn ease 2s;
-    -moz-animation: fadeIn ease 2s;
-    -o-animation: fadeIn ease 2s;
-    -ms-animation: fadeIn ease 2s;
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  @keyframes fadeIn {
-    0% {
-      opacity: .5;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
   }
-  
-  @-moz-keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  @-webkit-keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
   }
-  
-  @-o-keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  @-ms-keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
   }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .soundBanner {
+    width: 115%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
