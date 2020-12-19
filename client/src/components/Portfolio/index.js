@@ -34,15 +34,14 @@ function Portfolio(props){
                 </div>
             </div>
             <div id="portfolioItem">
-                <h3>Credit Croc</h3>
-                <p>Gives a visual overview of your credit cards, loans, bills, or repayments. From the team that brought you Cart Croc.</p>
-                <a href="https://hungry-croconaw.herokuapp.com/"><img class="scrnsht" src={creditcroc} alt="credit croc demo"/></a>
-                
-                <div class="portfBtnDiv">
-                    <a href="https://hungry-croconaw.herokuapp.com/" class="portfBtn"><button>Deployed app <i class="fa fa-link"></i></button></a>
-                    <a href="https://github.com/coryjquirk/credit-croc" class="portfBtn"><button>GitHub repo <i class="fa fa-link"></i></button></a>
-                </div>
+                <h3>What's Cooking?</h3>
+                <p>Helps you find recipes based on the ingredients you have at home. Searches with a recipe finder API, and shows nearby grocery stores with Google Maps.</p>
+                <a href="https://coryjquirk.github.io/whats-cookin/"><img class="scrnsht" src={whatscooking} alt="whats cookin"/></a>
 
+                <div class="portfBtnDiv">
+                    <a href="https://coryjquirk.github.io/whats-cookin/" class="portfBtn"><button>Deployed app <i class="fa fa-link"></i></button></a>
+                    <a href="https://github.com/coryjquirk/whats-cookin" class="portfBtn"><button>GitHub repo <i class="fa fa-link"></i></button></a>
+                </div>
             </div>
             <div id="portfolioItem">
                 <h3>Weather Dashboard</h3>
@@ -52,7 +51,6 @@ function Portfolio(props){
                     <a href="https://coryjquirk.github.io/weather-dashboard/" class="portfBtn"><button>Deployed app <i class="fa fa-link"></i></button></a>
                     <a href="https://github.com/coryjquirk/weather-dashboard" class="portfBtn"><button>GitHub repo <i class="fa fa-link"></i></button></a>
                 </div>
-
             </div>
             <div id="portfolioItem">
                 <h3>Password Generator</h3>
@@ -62,51 +60,37 @@ function Portfolio(props){
                     <a href="https://coryjquirk.github.io/password-generator/" class="portfBtn"><button>Deployed app <i class="fa fa-link"></i></button></a>
                     <a href="https://github.com/coryjquirk/password-generator" class="portfBtn"><button>GitHub repo <i class="fa fa-link"></i></button></a>
                 </div>
-
-            </div>
-            
-            <div id="portfolioItem">
-                <h3>What's Cooking?</h3>
-                <p>Helps you find recipes based on the ingredients you have at home, and shows nearby grocery stores.</p>
-                <a href="https://coryjquirk.github.io/whats-cookin/"><img class="scrnsht" src={whatscooking} alt="whats cookin"/></a>
-
-                <div class="portfBtnDiv">
-                    <a href="https://coryjquirk.github.io/whats-cookin/" class="portfBtn"><button>Deployed app <i class="fa fa-link"></i></button></a>
-                    <a href="https://github.com/coryjquirk/whats-cookin" class="portfBtn"><button>GitHub repo <i class="fa fa-link"></i></button></a>
-                </div>
             </div>
             <div id="portfolioItem">
                 <h3>bud GEt</h3>
-                <p>Budget tracker with remote database (MongoDB Atlas) and cache API (IndexedDB).</p>
+                <p>Budget tracker that uses a remotely hosted database (MongoDB Atlas) and cache storage (IndexedDB).</p>
                 <a href="https://calm-anchorage-17785.herokuapp.com/"><img class="scrnsht" src="https://raw.githubusercontent.com/coryjquirk/bud-get/main/bud-get.gif" alt="budget tracker"/></a>
-    
                 <div class="portfBtnDiv">
                     <a href="https://calm-anchorage-17785.herokuapp.com/" class="portfBtn"><button>Deployed app <i class="fa fa-link"></i></button></a>
                     <a href="https://github.com/coryjquirk/bud-get" class="portfBtn"><button>GitHub repo <i class="fa fa-link"></i></button></a>
                 </div>
-
+            </div>
+            <div id="portfolioItem">
+                <h3>Credit Croc</h3>
+                <p>Gives a visual overview of your credit cards, loans, bills, or repayments. From the team that brought you Cart Croc.</p>
+                <a href="https://hungry-croconaw.herokuapp.com/"><img class="scrnsht" src={creditcroc} alt="credit croc demo"/></a>
+                <div class="portfBtnDiv">
+                    <a href="https://hungry-croconaw.herokuapp.com/" class="portfBtn"><button>Deployed app <i class="fa fa-link"></i></button></a>
+                    <a href="https://github.com/coryjquirk/credit-croc" class="portfBtn"><button>GitHub repo <i class="fa fa-link"></i></button></a>
+                </div>
             </div>
             <div id="portfolioItem">
                 <h3>Ice Cold README Generator</h3>
-                <p>Generates a README from the command line by asking you info about yourself and your coding project.</p>
+                <p>Generates a custom README from the command line by asking about yourself and your coding project.</p>
                 <a href="https://github.com/coryjquirk/ice-cold-readme-generator"><img class="scrnsht" src={READMEgen} alt="ice-cold-readme-generator"/></a>
                
                 <div class="portfBtnDiv">
                     <a href="https://github.com/coryjquirk/ice-cold-readme-generator" class="portfBtn"><button>GitHub repo <i class="fa fa-link"></i></button></a>
                 </div>
             </div>
-            <div id="portfolioItem">      
-                <h3>eat Borgus</h3>
-                <p>Silly silly app that I made to practice ORM file structures and using remotely hosted MySQL database. Uses Handlebars.js to render HTML.</p>
-                <a href="https://cryptic-woodland-16959.herokuapp.com/"><img class="scrnsht" src="https://coryjquirk.github.io/burger/public/assets/img/screenshot.PNG" alt="burger"/></a>
-                <div class="portfBtnDiv">
-                    <a href="https://cryptic-woodland-16959.herokuapp.com/" class="portfBtn"><button>Deployed app <i class="fa fa-link"></i></button></a>
-                    <a href="https://github.com/coryjquirk/burger" class="portfBtn"><button>GitHub repo <i class="fa fa-link"></i></button></a>
-                </div>
-            </div>
             <div id="portfolioItem">
                 <h3>Daily Planner</h3>
-                <p>Calendar app for scheduling your work day.</p> 
+                <p>Calendar app for scheduling your work day. Utilizes local storage.</p> 
                 <a href="https://coryjquirk.github.io/daily-planner/"><img class="scrnsht" src="https://coryjquirk.github.io/daily-planner/images/screenshot.PNG" alt="daily planner"/></a>
                 <div class="portfBtnDiv">
                     <a href="https://coryjquirk.github.io/daily-planner/" class="portfBtn"><button>Deployed app <i class="fa fa-link"></i></button></a>
