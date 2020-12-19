@@ -1,6 +1,5 @@
 .soundBanner {
-  width: auto;
-  max-height: 350px;
+  width: 80%;
   margin: 15px 0px 0px 0px;
   padding: 35px 0px 35px 0px;
   float: left;
@@ -107,8 +106,6 @@
 
 @media screen and (max-width: 400px) {
   .soundBanner {
-    width: 115%;
-    margin-right: auto;
-    margin-left: auto;
+    width: 100%;
   }
 }
