@@ -16,7 +16,7 @@ function Portfolio(props){
             <div id="devToolkit">
                 <h3>My developer toolkit &#128736;</h3>
                 <p id="toolkit" class="fa-ul">
-                <li><i class="fa fa-cog"></i> MERN stack (MongoDB, Express.js, React.js, Node.js</li>
+                <li><i class="fa fa-cog"></i> MERN stack (MongoDB, Express.js, React.js, Node.js)</li>
                 <li><i class="fa fa-cog"></i> Back end: MySQL, IndexedDB, and no-SQL databases</li>
                 <li><i class="fa fa-cog"></i> Front end: Bootstrap, HTML, CSS, JavaScript</li>
                 <li><i class="fa fa-cog"></i> GitHub and Heroku for deployment, group collaboration, and version control</li>
