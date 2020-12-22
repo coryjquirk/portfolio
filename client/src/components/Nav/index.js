@@ -1,9 +1,7 @@
 import React from "react";
-import { useStoreContext } from "../../utils/GlobalState";
 import "./style.css";
 
 function Nav() {
-  const [store] = useStoreContext();
 
   return (
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -30,7 +28,6 @@ function Nav() {
                 </li>
                 </ul>
             </div>
-            {store.loading ? <a className="navbar-brand ml-auto">loading...</a> : <></>}
         </nav>
     );
 }

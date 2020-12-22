@@ -14,12 +14,13 @@ function AboutMe(props){
               <p id="break">-. --- .--</p>
               <h3>work and academics</h3>
               <p>I earned a full-stack web development certification in Fall 2020 from the University in Minnesota. With a background in anthropology and archaeology, I'm looking to bring experience in cross-cultural work to the tech world. I have professional experience using Spanish and I've also studied Norwegian since 2018.</p> 
-              <p>With Hamline University, a highlight of my undergrad education was a 2017 <a href="https://www.hamline.edu/hunewsdetail.aspx?id=4295030203">short course </a> 
+              <p>With Hamline University, a highlight of my undergrad education was a 2017 <a href="https://www.hamline.edu/hunewsdetail.aspx?id=4295030203" target="_blank">short course </a> 
               in Siem Reap, Cambodia about the blooming
               tourist industry around the Angkor temple complex. Another formative experience in anthro was working with other archaeologists on burial recovery sites around Minnesota, where we restored disturbed Native American grave sites under the leadership of descendent communities. <a href="https://www.startribune.com/after-3-years-minnetonka-burial-mound-restoration-reaches-completion/456894483/">Here</a> is a news story about one such site I worked on. In my independent research, I studied the phenomenon of noise pollution — the resulting sound works can be found on this site.</p>
               <p>Right now I'm excited to get started in tech, and I'm especially excited about technology's power to expand creativity and democratize information.</p> 
               <p>Thank you for visiting! I am open to work and taking on new projects.</p>
           </div>
+          <div class="ghostDiv"></div>
         </div>
     )
 }

@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { StoreProvider } from "./utils/GlobalState";
 import "./App.css";
 //my components
 import PortfolioPage from "./pages/PortfolioPage";
-import DetailPage from "./pages/DetailPage";
 import SoundPage from "./pages/SoundPage";
 import PhotographyPage from "./pages/PhotographyPage";
 import AboutPage from "./pages/AboutPage";
@@ -19,13 +17,11 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <StoreProvider>
             <Nav />
             <div id="main">
               <Switch>
                 <Route exact path="/" component={PortfolioPage} />
                 <Route exact path="/portfolio" component={PortfolioPage} />
-                <Route exact path="/portfolio/:id" component={DetailPage} />
                 <Route exact path="/sound" component={SoundPage} />
                 <Route exact path="/photography" component={PhotographyPage} />
                 <Route exact path="/contact" component={ContactPage} />
@@ -34,7 +30,6 @@ class App extends Component {
               </Switch>
             </div>
             <Footer/>
-          </StoreProvider>
       </div>
       </Router>
     );
