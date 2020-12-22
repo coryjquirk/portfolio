@@ -35,13 +35,16 @@ import fishermen from "./Images/fishermen.png"
 import fishermenL from "./Images/large/fishermenlarge.png"
 import aidan from "./Images/aidan.png"
 import aidanL from "./Images/large/aidanlarge.jpg"
+import snowfire from "./Images/snowfire.png";
+import snowfireL from "./Images/large/snowfire-large.png";
 //idea for later: "sort by place" checkbox
 function Photography(props){
     return(
         <div id="gallery">
             <h1>photography</h1>
             <hr/>
-            <p>Click an image to open a larger version. Visit me on <a href="https://www.flickr.com/photos/152958688@N03/">Flickr</a> and <a href="https://www.instagram.com/coryquirk/">Instagram</a>.</p>
+            <p>Click an image to open a larger version.</p>
+            <p><a href="https://www.flickr.com/photos/152958688@N03/" target="_blank"><button class="galleryBtn"><span>Flickr <i class="fa fa-flickr"></i></span></button></a> <a href="https://www.instagram.com/coryquirk/" target="_blank"><button class="galleryBtn"><span>Instagram <i class="fa fa-instagram"></i></span></button></a></p>
             <div class="thumbnail">
                 <ModalImage small={`${phnomKulen}`}
                 large={`${phnomKulenL}`}
@@ -69,6 +72,12 @@ function Photography(props){
                 <ModalImage id="thumbnail" small={`${dennPlants}`}
                 large={`${dennPlantsL}`}
                 alt="denn plants"
+                />
+            </div>
+            <div class="thumbnail">
+                <ModalImage id="thumbnail" small={`${snowfire}`}
+                large={`${snowfireL}`}
+                alt="snow fire"
                 />
             </div>
             <div class="thumbnail">

@@ -11,7 +11,7 @@ function Portfolio(props){
         <div>
             <h1>web dev portfolio</h1>
             <hr/>
-            <p>Visit me on <a href="https://github.com/coryjquirk" target="_blank">GitHub</a> to see some of the projects I've coded, both solo and collaboratively.</p>
+            <p id="pf">Visit me on <a href="https://github.com/coryjquirk" target="_blank">GitHub</a> to see projects I'm coding, both solo and collaboratively.</p>
             <div>
             <div id="devToolkit">
                 <h3>My developer toolkit &#128736;</h3>
@@ -21,7 +21,7 @@ function Portfolio(props){
                 <li><i class="fa fa-cog"></i> Front end: Bootstrap, HTML, CSS, JavaScript</li>
                 <li><i class="fa fa-cog"></i> GitHub and Heroku for deployment, group collaboration, and version control</li>
                 <li><i class="fa fa-cog"></i> Agile and mobile-first web dev methodology</li>
-                <p>I'm looking for work. Get at me through the <a href="contact">Contact page!</a></p>
+                <p><a href="contact">I'm looking for work!</a></p>
                 </p>
             </div>
             <div id="portfolioItem">
@@ -99,8 +99,8 @@ function Portfolio(props){
             </div>
             <div id="portfolioItem">
                 <h3>Personal website</h3>
-                <p>I built and styled the site you're looking at now using React.js. &#9996;</p>
-                <p>If you notice any hilarious typos or broken links before I do, please <a href="contact">shoot me an email</a>.</p>
+                <p>I built this site with React.js and I'm always looking to improve it.</p>
+                <p>If you notice any hilarious typos or broken links before I do, <a href="contact">shoot me an email</a>.</p>
                 <div class="portfBtnDiv">
                     <a href="https://github.com/coryjquirk/portfolio" target="_blank" class="portfBtn"><button>GitHub repo <i class="fa fa-link"></i></button></a>
                 </div>
