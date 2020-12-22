@@ -38,7 +38,7 @@ function Sound() {
       {fictionMode === true && <BandcampCard />}
       {nonfictionMode === true && <SoundEthCard />}
       {fictionMode === true && (
-        <a href="https://watershedgroup.bandcamp.com">
+        <a href="https://watershedgroup.bandcamp.com" target="_blank">
         <img
           src={wsBanner}
           class="soundBanner"
@@ -48,11 +48,11 @@ function Sound() {
       )}
       {fictionMode === true && (
         <p id="bannerCredit">
-          Photos: <a href="http://www.simkinsphotography.com/">Eric Simkins</a>
+          Photos: Seattle, WA by <a href="http://www.simkinsphotography.com/" target="_blank">Eric Simkins</a>
         </p>
       )}
       {nonfictionMode === true && (
-        <a href="https://coryjquirk.bandcamp.com">
+        <a href="https://coryjquirk.bandcamp.com" target="_blank">
         <img
           src={fieldrecording}
           id="fieldRecBanner"
