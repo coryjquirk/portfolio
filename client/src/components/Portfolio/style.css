@@ -4,6 +4,9 @@
     max-width: 450px;
     margin-bottom: 15px;
 }
+#pf{
+    margin-bottom: 35px;
+}
 #portfolioItem{
     border: 5px;
     border-style: solid dotted solid dotted;
@@ -17,7 +20,7 @@
     border-style: dashed dotted dashed dotted;
     border-color: #629466;
     border-radius: 7px;
-    margin:10px;
+    margin:10px 10px 35px 10px;
     width:600px
 }
 #portfolioItem p, #devToolkit p{
