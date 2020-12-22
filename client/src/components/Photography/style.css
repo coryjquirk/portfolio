@@ -2,7 +2,9 @@ p.a {
     font-size:500px;
     color: rgb(98, 98, 255);
 }
-
+#gallery{
+margin: 0px 0px 100px 0px;
+}
 .thumbnail{
     float:left;
     margin: 10px;

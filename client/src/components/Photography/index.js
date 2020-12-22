@@ -33,10 +33,12 @@ import palisade from "./Images/palisade.jpg"
 import palisadeL from "./Images/large/palisadelarge.jpg"
 import fishermen from "./Images/fishermen.png"
 import fishermenL from "./Images/large/fishermenlarge.png"
+import aidan from "./Images/aidan.png"
+import aidanL from "./Images/large/aidanlarge.jpg"
 //idea for later: "sort by place" checkbox
 function Photography(props){
     return(
-        <div>
+        <div id="gallery">
             <h1>photography</h1>
             <hr/>
             <p>Click an image to open a larger version. Visit me on <a href="https://www.flickr.com/photos/152958688@N03/">Flickr</a> and <a href="https://www.instagram.com/coryquirk/">Instagram</a>.</p>
@@ -97,6 +99,12 @@ function Photography(props){
                 <ModalImage id="thumbnail" small={`${blackbirds}`}
                 large={`${blackbirdsL}`}
                 alt="black birds"
+                />
+            </div>
+            <div class="thumbnail">
+                <ModalImage id="thumbnail" small={`${aidan}`}
+                large={`${aidanL}`}
+                alt="aidan"
                 />
             </div>
             <div class="thumbnail">

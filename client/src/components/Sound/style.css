@@ -1,4 +1,111 @@
-#fieldRecording{
+.soundBanner {
+  width: 80%;
+  margin: 15px 0px 0px 0px;
+  padding: 35px 0px 35px 0px;
+  float: left;
+}
+#fieldRecBanner {
+  margin-bottom: 30px;
+}
+#bannerCredit {
+  font-size: 11px;
+  float: left;
+  margin-bottom: 70px;
+}
+.bcEmbedererer {
+  display: block;
+  margin-top: 70px;
+}
+.soundNav span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.soundNav span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.soundNav:hover span {
+  padding-right: 25px;
+}
+.soundNav:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.soundNav:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.soundNav {
+  margin: 15px 15px 15px 15px;
+  border: 1px solid;
+  display: block;
+  float: left;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: rgb(240, 239, 239);
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .soundBanner {
     width: 100%;
-    margin: 20px 0px 20px 0px;
+  }
 }
