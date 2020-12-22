@@ -38,12 +38,13 @@ function Sound() {
       {fictionMode === true && <BandcampCard />}
       {nonfictionMode === true && <SoundEthCard />}
       {fictionMode === true && (
+        <a href="https://watershedgroup.bandcamp.com">
         <img
           src={wsBanner}
           class="soundBanner"
           alt="wsBanner"
           id="wsBanner"
-        ></img>
+        ></img> </a>
       )}
       {fictionMode === true && (
         <p id="bannerCredit">
@@ -51,12 +52,13 @@ function Sound() {
         </p>
       )}
       {nonfictionMode === true && (
+        <a href="https://coryjquirk.bandcamp.com">
         <img
           src={fieldrecording}
           id="fieldRecBanner"
           class="soundBanner"
           alt="field recording"
-        ></img>
+        ></img></a>
       )}
     </div>
   );
