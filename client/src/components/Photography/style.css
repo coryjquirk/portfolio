@@ -1,18 +1,119 @@
 p.a {
-    font-size:500px;
-    color: rgb(98, 98, 255);
+  font-size: 500px;
+  color: rgb(98, 98, 255);
 }
-#gallery{
-margin: 0px 0px 100px 0px;
+#gallery {
+  margin: 0px 0px 100px 0px;
 }
-.thumbnail{
-    float:left;
-    margin: 10px;
-    height: 350px;
-    width: 350px;
+#gallery img{
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
+}
+#gallery img:hover{
+    opacity: .5
+    
+}
+.galleryBtn {
+  background-color: white;
+}
+.galleryBtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.galleryBtn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.galleryBtn:hover span {
+  padding-right: 25px;
+}
+.galleryBtn:hover span:after {
+  opacity: .5;
+  right: 0;
+}
+.galleryBtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.galleryBtn {
+  margin: 5px 5px 5px 5px;
+  border: 1px solid;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: rgb(240, 239, 239);
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.thumbnail {
+  float: left;
+  margin: 10px;
+  height: 350px;
+  width: 350px;
 }
 @media screen and (max-width: 400px) {
-    .thumbnail{
-        width: 95%;
-    }
+  .thumbnail {
+    width: 95%;
+  }
 }

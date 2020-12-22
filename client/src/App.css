@@ -4,6 +4,10 @@
 .meat{
   max-width: 600px;
 }
+.ghostDiv{
+  height: 50px;
+  width: 30px;
+}
 #main {
   margin: 10px 0px 60px 0px;
   max-width: 1150px;

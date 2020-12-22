@@ -1,62 +1,135 @@
 hr {
-    text-align:center;background-color: grey;
+  text-align: center;
+  background-color: grey;
 }
-
+.contactDivs {
+  background-color: rgb(213, 255, 245);
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  width: 300px;
+}
+#contactsGhost{
+  display: none;
+  height: 400px;
+}
 button a {
-    color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
-
 #contact-page {
-    background-color: white;
-    max-width: 500px;
+  background-color: white;
+  max-width: 500px;
 }
-
-.contact-links {
-    color: black;
-    border-radius: 7px;
-    border-style: solid;
-    border-color: rgb(255, 235, 208);
-    border-width: 1px;
-    background-color: #ffffff;
-    margin: 10px;
+.contactBtns i{
+  color: #4b4b4bd0;
+  margin: 0px 0px 0px 2px;
 }
-
-#linkedin{
-    float: left;
-}
-#github{
-    margin: auto;
-    clear: both;
-    width: 100px;
-}
-#resume {
-    float: right;
-}
-
-.contact-links:hover {
-    background-color: rgb(255, 235, 208);
-}
-
-li a {
-    display: block;
-    color: rgb(172, 172, 172);
-    text-decoration: none;
-    padding: 7px 7px 7px 7px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
+#linkedIn{
+  color: white;
+  border: solid;
+  border-radius: 5px;
+  background-color: #4b4b4bd0;
+  padding: 2px 4px 2px 4px;
 }
 button {
-clear: left;
-float: left;
-padding: 10px 18px 10px 18px;
-font-family: 'Heebo', sans-serif;
-background-color: #629466;
-border: none;
+  padding: 10px 18px 10px 18px;
+  font-family: "Heebo", sans-serif;
+  background-color: #629466;
+  border: none;
 }
-  
+.contactBtns span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.contactBtns span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  right: -15px;
+  bottom: 15px;
+  transition: 0.5s;
+}
+.contactBtns:hover span {
+  padding-right: 25px;
+}
+.contactBtns:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.contactBtns:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.contactBtns {
+margin: 10px;
+  padding: 10px 18px 10px 18px;
+  width: 250px;
+  height: 75px;
+  border: 1px solid;
+  display: block;
+  float: left;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: rgb(240, 239, 239);
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  #contactsGhost{
+    display: inline-block;
+  }
+}
