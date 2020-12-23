@@ -18,8 +18,8 @@ function BandcampCard(props) {
         <p class="soundcaption">
           In group improvisation with{" "}
           <a href="https://watershedgroup.bandcamp.com/"  target="_blank">Watershed Group</a>, we
-          like to use samples and field recordings with noisy live
-          instrumentation and electronics. A highlight has been been playing at{" "}
+           use samples and field recordings with noisy live
+          instrumentation and analog electronics. A highlight has been been playing at{" "}
           <a href="http://dronenotdrones.com/" target="_blank">Drone Not Drones</a>.
         </p>
         <div class="bcBtnDiv">

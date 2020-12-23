@@ -38,7 +38,16 @@ import aidanL from "./Images/large/aidanlarge.jpg"
 import snowfire from "./Images/snowfire.png";
 import snowfireL from "./Images/large/snowfire-large.png";
 //idea for later: "sort by place" checkbox
+
+  //fadeOut{
+ //     style = {opacity: .5}
+ //delay 2 seconds, come back to opacity: 1 
+ //}
+//img onClick={fadeOut}
+
+
 function Photography(props){
+    
     return(
         <div id="gallery">
             <h1>photography</h1>
@@ -48,72 +57,85 @@ function Photography(props){
             <div class="thumbnail">
                 <ModalImage small={`${phnomKulen}`}
                 large={`${phnomKulenL}`}
-                alt="phnom kulen"/> 
+                alt="phnom kulen"
+                hideDownload = {true}
+                /> 
             </div>
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`${palisade}`}
                 large={`${palisadeL}`}
                 alt="palisade head"
+                hideDownload = {true}
                 />
             </div>
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`${monastery}`}
                 large={`${monasteryL}`}
                 alt="monastery"
+                hideDownload = {true}
                 />
             </div>
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`${mpls}`}
                 large={`${mplsL}`}
                 alt="minneapolis"
+                hideDownload = {true}
                 />
             </div>
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`${dennPlants}`}
                 large={`${dennPlantsL}`}
                 alt="denn plants"
+                hideDownload = {true}
                 />
             </div>
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`${snowfire}`}
                 large={`${snowfireL}`}
                 alt="snow fire"
+                hideDownload = {true}
                 />
             </div>
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`${charlie}`}
                 large={`${charlieL}`}
                 alt="charlie frog"
+                hideDownload = {true}
                 />
             </div>
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`${tort}`}
                 large={`${tortL}`}
                 alt="tortoises"
+                hideDownload = {true}
                 />
             </div>
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`${keanu}`}
                 large={`${keanuL}`}
                 alt="pit stop"
+                hideDownload = {true}
                 />
             </div>
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`${fishermen}`}
                 large={`${fishermenL}`}
                 alt="fishermen"
+                hideDownload = {true}
                 />
             </div>
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`${blackbirds}`}
                 large={`${blackbirdsL}`}
                 alt="black birds"
+                hideDownload = {true}
                 />
             </div>
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`${aidan}`}
                 large={`${aidanL}`}
                 alt="aidan"
+                hideDownload = {true}
                 />
             </div>
             <div class="thumbnail">
@@ -126,30 +148,35 @@ function Photography(props){
                 <ModalImage id="thumbnail" small={`${stoneshop}`}
                 large={`${stoneshopL}`}
                 alt="stone shop"
+                hideDownload = {true}
                 />
             </div>
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`${owenzeke}`}
                 large={`${owenzekeL}`}
                 alt="owen zeke"
+                hideDownload = {true}
                 />
             </div>
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`${tuktuk}`}
                 large={`${tuktukL}`}
                 alt="tuk tuk"
+                hideDownload = {true}
                 />
             </div>
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`${carkeek}`}
                 large={`${carkeekL}`}
                 alt="carkeek park"
+                hideDownload = {true}
                 />
             </div>
             <div class="thumbnail">
                 <ModalImage id="thumbnail" small={`${charliebike}`}
                 large={`${charliebikeL}`}
                 alt="charlie bike"
+                hideDownload = {true}
                 />
             </div>
         </div>

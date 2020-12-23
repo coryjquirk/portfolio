@@ -4,6 +4,13 @@
     background-color: #f3f9fc;
     border-radius: 5px;
     padding: 10px;
+    -webkit-transition-duration: 2s; /* Safari */
+  transition-duration: 2s;
+    animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
 }
 .bcBtn{
     display:block;
