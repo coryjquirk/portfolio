@@ -39,13 +39,6 @@ import snowfire from "./Images/snowfire.png";
 import snowfireL from "./Images/large/snowfire-large.png";
 //idea for later: "sort by place" checkbox
 
-  //fadeOut{
- //     style = {opacity: .5}
- //delay 2 seconds, come back to opacity: 1 
- //}
-//img onClick={fadeOut}
-
-
 function Photography(props){
     
     return(

@@ -1,0 +1,30 @@
+#scrollUp {
+    background: white;
+    border-radius: 70px;
+}
+.scrollTop {
+    position: fixed; 
+    bottom: 70px;
+    right: 30px;
+    align-items: center;
+    height: 20px;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.7;
+  }
+  
+  .scrollTop:hover{
+    opacity: 1;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
-import fieldrecording from "./fieldrecording.jpg";
+import fieldrecording from "./fieldrecording.png";
 import wsBanner from "./watershed-banner.png";
 import BandcampCard from "../BandcampCard";
 import SoundEthCard from "../SoundEthCard";

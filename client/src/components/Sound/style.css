@@ -107,7 +107,7 @@ button{
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 650px) {
   .soundBanner {
     width: 100%;
     margin: 0px 0px 0px 0px;
