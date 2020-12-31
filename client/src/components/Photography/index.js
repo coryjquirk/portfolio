@@ -46,7 +46,6 @@ function Photography(props){
             <h1>photography</h1>
             <hr/>
             <p>Click an image to open a larger version.</p>
-            <p><a href="https://www.flickr.com/photos/152958688@N03/" target="_blank"><button class="galleryBtn"><span>Flickr <i class="fa fa-flickr"></i></span></button></a> <a href="https://www.instagram.com/coryquirk/" target="_blank"><button class="galleryBtn"><span>Instagram <i class="fa fa-instagram"></i></span></button></a></p>
             <div class="thumbnail">
                 <ModalImage small={`${phnomKulen}`}
                 large={`${phnomKulenL}`}
@@ -165,13 +164,14 @@ function Photography(props){
                 hideDownload = {true}
                 />
             </div>
-            <div class="thumbnail">
+            <div id="lastPhoto" class="thumbnail">
                 <ModalImage id="thumbnail" small={`${charliebike}`}
                 large={`${charliebikeL}`}
                 alt="charlie bike"
                 hideDownload = {true}
                 />
             </div>
+            <div id="photoSocials"><p><a href="https://www.flickr.com/photos/152958688@N03/" target="_blank"><button class="galleryBtn"><span>Flickr <i class="fa fa-flickr"></i></span></button></a> <a href="https://www.instagram.com/coryquirk/" target="_blank"><button class="galleryBtn"><span>Instagram <i class="fa fa-instagram"></i></span></button></a></p></div>
         </div>
     )
 }

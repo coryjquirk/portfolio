@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import READMEgen from "./Images/readme-generator.png";
+import READMEgen from "./Images/readme-generator.gif";
 import weatherdashboard from "./Images/weatherdashboard.gif";
 import creditcroc from "./Images/creditcroc.gif";
 import cartcroc from "./Images/cartcroc.gif";

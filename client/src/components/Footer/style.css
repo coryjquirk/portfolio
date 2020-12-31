@@ -15,7 +15,6 @@
     height: 50px;
     background-color: rgb(61, 61, 61);
     color: rgb(175, 175, 175);
-    text-align: center;
 }
 .footer p {
     background-color: rgb(61, 61, 61);
@@ -26,4 +25,17 @@
     #cuteMorse{
         display: none;
     }
+    .footer .fa-instagram{
+        margin-left: 15px;
+    }
+    .footer p{
+        margin-left:8%;
+        margin-right: 8%;
+    }
 }
+@media screen and (max-width: 250px) {
+    .footer .fa-linkedin, .footer .fa-flickr, .footer .fa-instagram, .footer .fa-github {
+width: 20px}
+.footer .fa-instagram{
+    margin-left: 5px;
+}}

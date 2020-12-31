@@ -6,6 +6,7 @@
 }
 #pf{
     margin-bottom: 35px;
+    width: 530px;
 }
 #portfolioItem{
     border: 5px;
@@ -13,7 +14,7 @@
     border-color: #629466;
     border-radius: 7px;
     margin:10px;
-    width:600px
+    width:530px
 }
 #devToolkit{
     border: 1px;
@@ -21,7 +22,7 @@
     border-color: #629466;
     border-radius: 7px;
     margin:10px 10px 35px 10px;
-    width:600px
+    width:530px
 }
 #portfolioItem p, #devToolkit p{
     margin: 0px 10px 10px 10px;
@@ -50,7 +51,7 @@ margin: 5px 0px 10px 0px
     .scrnsht{
         max-width: 80%;
     }
-    #portfolioItem, #devToolkit{
+    #pf, #portfolioItem, #devToolkit{
         max-width: 95%;
     }
 }
