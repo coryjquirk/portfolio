@@ -5,7 +5,7 @@
   margin: 0px 1% 0px 1%;
 }
 button{
-  padding: 5px 5px 5px 5px;
+  font-size: 15px;
 }
 #fieldRecBanner {
   margin-bottom: 30px;
@@ -46,12 +46,13 @@ button{
   transform: translateY(4px);
 }
 .soundNav {
-  margin: 15px 15px 15px 15px;
+margin: 12px;
+padding: 8px 8px 8px 8px;
+float: left;
+  font-size: 14px;
   border: 1px solid;
-  display: block;
-  float: left;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-duration: 0.5s;
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
@@ -64,7 +65,7 @@ button{
 }
 @keyframes fadeIn {
   0% {
-    opacity: 0.5;
+    opacity: 0;
   }
   100% {
     opacity: 1;

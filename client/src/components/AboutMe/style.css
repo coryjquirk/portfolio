@@ -31,8 +31,11 @@ p {
     margin-bottom: 15px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
   #self {
-    margin: 10px 15px 10px 10px;
+    width: 50%;
+    height: 50%;
+    margin: 10px 10px 0px 5px;
+    margin-bottom: none;
   }
 }

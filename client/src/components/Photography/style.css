@@ -26,6 +26,8 @@ opacity: .5;
 }
 .galleryBtn {
   background-color: white;
+  padding: 8px;
+  font-size: 15px;
 }
 .galleryBtn span {
   cursor: pointer;
@@ -68,50 +70,7 @@ opacity: .5;
   -o-animation: fadeIn ease 0.5s;
   -ms-animation: fadeIn ease 0.5s;
 }
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .thumbnail {
   float: left;
   margin: 10px;

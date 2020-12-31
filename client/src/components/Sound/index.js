@@ -34,6 +34,7 @@ function Sound() {
             <span>fantasy world </span>
           </button>
         )}
+        
       </div>
       {fictionMode === true && <BandcampCard />}
       {nonfictionMode === true && <SoundEthCard />}
