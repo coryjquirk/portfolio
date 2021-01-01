@@ -1,6 +1,6 @@
 #self {
   float: left;
-  margin: 10px 30px 0px 10px;
+  margin: 10px 30px 15px 10px;
   padding: 10px 10px 10px 10px;
   width: 300px;
   height: 300px;
@@ -23,12 +23,22 @@ h1,
 p {
   text-align: left;
 }
+#wna{
+  clear: both;
+}
 
 @media screen and (max-width: 820px) {
   #self {
     width: 45%;
     height: 45%;
-    margin-bottom: 15px;
+  }
+  #wna{
+  }
+}
+
+@media screen and (max-width:635px) {
+  #wna{
+    clear: both;
   }
 }
 @media screen and (max-width: 375px) {

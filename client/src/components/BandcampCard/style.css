@@ -1,9 +1,12 @@
 .soundcaption{
     clear: left;
     margin: 10px 10px 10px 10px;
-    background-color: #f3f9fc;
     border-radius: 5px;
     padding: 10px;
+    background-color: #f3f9fc;
+
+}
+.soundcaption{
     -webkit-transition-duration: 2s; /* Safari */
   transition-duration: 2s;
     animation: fadeIn ease 2s;
@@ -11,6 +14,15 @@
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s;
+}
+.bcBtnDiv, .bcEmbedererer{
+    -webkit-transition-duration: 2.5s; /* Safari */
+  transition-duration: 2.5s;
+    animation: fadeIn ease 2.5s;
+  -webkit-animation: fadeIn ease 2.5s;
+  -moz-animation: fadeIn ease 2.5s;
+  -o-animation: fadeIn ease 2.5s;
+  -ms-animation: fadeIn ease 2.5s;
 }
 .bcBtn{
     display:block;

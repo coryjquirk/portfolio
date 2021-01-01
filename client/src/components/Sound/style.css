@@ -8,7 +8,7 @@ button{
   font-size: 15px;
 }
 #fieldRecBanner {
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 #bannerCredit {
   font-size: 11px;
@@ -46,11 +46,12 @@ button{
   transform: translateY(4px);
 }
 .soundNav {
-margin: 12px;
-padding: 8px 8px 8px 8px;
-float: left;
+  margin: 12px;
+  padding: 8px 8px 8px 8px;
+  float: left;
   font-size: 14px;
-  border: 1px solid;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 5px;
   -webkit-transition-duration: 0.5s; /* Safari */
   transition-duration: 0.5s;
   text-decoration: none;
