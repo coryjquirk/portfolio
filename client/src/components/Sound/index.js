@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
-import fieldrecording from "./fieldrecording.jpg";
+import fieldrecording from "./fieldrecording.png";
 import wsBanner from "./watershed-banner.png";
 import BandcampCard from "../BandcampCard";
 import SoundEthCard from "../SoundEthCard";
@@ -11,12 +11,10 @@ function Sound() {
   function setFiction() {
     setFictionMode(true);
     setNonfictionMode(false);
-    console.log("fictionMode is true");
   }
   function setNonfiction() {
     setNonfictionMode(true);
     setFictionMode(false);
-    console.log("nonfictionMode is true");
   }
 
   return (
@@ -26,14 +24,15 @@ function Sound() {
       <div id="soundOrganizer">
         {fictionMode === true && (
           <button class="soundNav" onClick={setNonfiction}>
-            <span>real world </span>
+            <span>&#187;&emsp;real world  </span>
           </button>
         )}
         {nonfictionMode === true && (
           <button class="soundNav" onClick={setFiction}>
-            <span>fantasy world </span>
+            <span>&#187;&emsp;fantasy world </span>
           </button>
         )}
+        
       </div>
       {fictionMode === true && <BandcampCard />}
       {nonfictionMode === true && <SoundEthCard />}

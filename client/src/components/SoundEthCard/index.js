@@ -5,7 +5,7 @@ function SoundEthCard(){
     return(
         <div class="meat">
             <div>
-                <p class="soundcaption">Work here is in the tradition of sound ethnography — anthropological approaches to soundscapes aiming to explore how humans express and understand culture through sound.</p>
+                <p class="soundcaption">This work is in the tradition of sound ethnography — anthropological approaches to soundscapes exploring how human culture is expressed and communicated through sound.</p>
                 <div class="bcBtnDiv">
                     <a href="https://coryjquirk.bandcamp.com/" target="_blank" class="bcBtn"><button>Bandcamp page <i class="fa fa-bandcamp"></i></button></a>
                 </div>

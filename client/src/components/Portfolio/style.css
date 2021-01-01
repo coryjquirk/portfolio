@@ -1,3 +1,6 @@
+#pfContainer{
+    width: 530px;
+}
 .scrnsht {
     width: auto;
     height: auto;
@@ -7,21 +10,46 @@
 #pf{
     margin-bottom: 35px;
 }
+#appsList{
+    background-color: rgb(251, 251, 251);
+    min-height: 50px;
+    border-radius: 10px;
+    padding: 10px 5px 10px 10px;
+}
+#appsHeader{
+    background-color: none;
+    text-align: center;
+    font-size: 38px;
+    width: 100px;
+    border-radius: 8px;
+    padding: 3px 5px 3px 5px;
+    margin: 0px 10px 10px 10px;
+}
+.appsListCtrl{
+    color: none;
+    border: none;
+    float: right;
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    margin: 20px 10px 0px 0px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+}
 #portfolioItem{
     border: 5px;
     border-style: solid dotted solid dotted;
-    border-color: #629466;
+    border-color: hsl(125, 20%,45%);
     border-radius: 7px;
     margin:10px;
-    width:600px
 }
 #devToolkit{
     border: 1px;
     border-style: dashed dotted dashed dotted;
-    border-color: #629466;
+    border-color: hsl(125, 20%,40%);
     border-radius: 7px;
-    margin:10px 10px 35px 10px;
-    width:600px
+    margin:10px;
 }
 #portfolioItem p, #devToolkit p{
     margin: 0px 10px 10px 10px;
@@ -50,7 +78,7 @@ margin: 5px 0px 10px 0px
     .scrnsht{
         max-width: 80%;
     }
-    #portfolioItem, #devToolkit{
+    #pf, #portfolioItem, #devToolkit{
         max-width: 95%;
     }
 }

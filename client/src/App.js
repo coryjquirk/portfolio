@@ -9,8 +9,8 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import NoMatchPage from "./pages/NoMatchPage";
 import Nav from "./components/Nav";
-import Hero from "./components/Hero";
 import Footer from "./components/Footer";
+import ScrollArrow from "./components/ScrollArrow";
 
 class App extends Component {
   render() {
@@ -29,6 +29,7 @@ class App extends Component {
                 <Route component={NoMatchPage} />
               </Switch>
             </div>
+            <ScrollArrow/>
             <Footer/>
       </div>
       </Router>

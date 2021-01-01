@@ -27,7 +27,7 @@ function Contact(props) {
         </button>
       </a>
       <a href="mailto:coryjquirk@gmail.com" target="_blank">
-      <button class="contactBtns ">
+      <button class="contactBtns">
         <span>
           <h3>
             Email <i class="fa fa-envelope"></i>
