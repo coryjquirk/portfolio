@@ -6,8 +6,8 @@ import BandcampCard from "../BandcampCard";
 import SoundEthCard from "../SoundEthCard";
 
 function Sound() {
-  const [fictionMode, setFictionMode] = React.useState();
-  const [nonfictionMode, setNonfictionMode] = React.useState(true);
+  const [fictionMode, setFictionMode] = useState();
+  const [nonfictionMode, setNonfictionMode] = useState(true);
   function setFiction() {
     setFictionMode(true);
     setNonfictionMode(false);
@@ -16,11 +16,17 @@ function Sound() {
     setNonfictionMode(true);
     setFictionMode(false);
   }
-
+  const openedStyle = {
+    display: 'flex'
+  };
+  const closedStyle = {
+    display: 'none'
+  };
   return (
-    <div>
-      <h1>sound </h1>
+    <div id="soundCountainer">
+      <h1>sound</h1>
       <hr />
+
       <div id="soundOrganizer">
         {fictionMode === true && (
           <button class="soundNav" onClick={setNonfiction}>
@@ -45,6 +51,7 @@ function Sound() {
           id="wsBanner"
         ></img> </a>
       )}
+
       {fictionMode === true && (
         <p id="bannerCredit">
           Photos: Seattle, WA by <a href="http://www.simkinsphotography.com/" target="_blank">Eric Simkins</a>
@@ -59,6 +66,13 @@ function Sound() {
           alt="field recording"
         ></img></a>
       )}
+      {fictionMode === true && (
+        <div id="theatre" style={fictionMode ? openedStyle : closedStyle}>
+        <iframe id="ytEmbed" src="https://www.youtube.com/embed/bMVVMJbBPrs?start=1242">
+        </iframe>
+        </div>
+      )}
+  
     </div>
   );
 }

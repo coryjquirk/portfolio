@@ -30,15 +30,12 @@
     float: left;
 }
 #bcEmbed {
-    float: left;
-}
-iframe {
-    padding: 10px;
+    float: left;padding: 10px;
     border: 0; 
     width: 350px; height: 470px
 }
+
 @media screen and (max-width: 400px) {
     #bcEmbed{
-        width: 350px;
-    }
+     }
 }
