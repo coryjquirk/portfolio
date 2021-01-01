@@ -2,6 +2,7 @@
 Personal website for sharing my work and contact info.
 
 Deployed application: https://coryjquirk.herokuapp.com
+
 <br>
 <a href="https://coryjquirk.herokuapp.com"><img src="https://raw.githubusercontent.com/coryjquirk/portfolio/master/client/public/assets/images/demo.gif" alt="portfolio screenshot"/></a>
 
