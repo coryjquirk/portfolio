@@ -23,7 +23,7 @@ function Sound() {
     display: 'none'
   };
   return (
-    <div id="soundCountainer">
+    <div>
       <h1>sound</h1>
       <hr />
 

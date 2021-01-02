@@ -26,7 +26,7 @@ const closedStyle = {
 };
 
   return (
-    <div id="pfContainer">
+    <div>
       <h1>web dev portfolio</h1>
       <hr />
       <p id="pf">
