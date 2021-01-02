@@ -15,15 +15,15 @@ function Portfolio() {
     openApps(false);
   }
   /* This CSS style is applied when the drawer is opened */
-const openedStyle = {
-    height: '100%', 
-  transition: 'height 0.5s'
-};
+  const openedStyle = {
+    height: "100%",
+    transition: "height 0.5s",
+  };
 
-/* This CSS style is applied when the drawer is closed */
-const closedStyle = {
-  transition: 'height 0.5s'
-};
+  /* This CSS style is applied when the drawer is closed */
+  const closedStyle = {
+    transition: "height 0.5s",
+  };
 
   return (
     <div>
@@ -41,25 +41,27 @@ const closedStyle = {
           <h3>my developer toolkit &#128736;</h3>
           <p id="toolkit" class="fa-ul">
             <li>
-              <i class="fa fa-cog"></i> MERN stack (MongoDB, Express.js,
-              React.js, Node.js)
+              <i class="fa fa-cog"></i> MERN stack:
+              <li>MongoDB, Express.js, React.js, Node.js</li>
             </li>
             <li>
-              <i class="fa fa-cog"></i> Back end: MySQL, IndexedDB, and no-SQL
-              databases
+              <i class="fa fa-cog"></i> Front end: <li>JavaScript, HTML, CSS</li>
             </li>
             <li>
-              <i class="fa fa-cog"></i> Front end: JavaScript, HTML, CSS, Bootstrap
+              <i class="fa fa-cog"></i> Back end: <li>MySQL and no-SQL</li>
             </li>
             <li>
-              <i class="fa fa-cog"></i> GitHub collaboration version control
+              <i class="fa fa-cog"></i> Collaboration, version
+              control:
+              <li>GitHub and GitLab</li>
             </li>
             <li>
-            <i class="fa fa-cog"></i> Heroku deployment
+              <i class="fa fa-cog"></i> Heroku deployment
             </li>
             <li>
-              <i class="fa fa-cog"></i> Mobile-first and Agile
-              methodology
+              <i class="fa fa-cog"></i> Dev methodologies:
+              <li>Mobile-first and Agile
+              </li>
             </li>
             <p>
               <a href="contact">I'm looking for work!</a>
@@ -362,9 +364,9 @@ const closedStyle = {
         <div id="portfolioItem">
           <h3>Personal website</h3>
           <p>
-            I built this site with React.js and I'm always improving
-            it.
-            If you notice any hilarious typos or broken links before I do, <a href="contact">send me an email</a>.
+            I built this site with React.js and I'm always improving it. If you
+            notice any hilarious typos or broken links before I do,{" "}
+            <a href="contact">send me an email</a>.
           </p>
           <div class="portfBtnDiv">
             <a

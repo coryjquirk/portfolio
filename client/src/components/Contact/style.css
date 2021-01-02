@@ -36,6 +36,9 @@ button {
   background-color: rgb(97, 182, 104);
   border: none;
 }
+.contactBtns p{
+  font-size: 24px;
+}
 .contactBtns span {
   cursor: pointer;
   display: inline-block;
@@ -53,6 +56,7 @@ button {
 .contactBtns:hover span {
   padding-right: 25px;
 }
+
 .contactBtns:hover span:after {
   opacity: 1;
   right: 0;
@@ -88,4 +92,16 @@ button {
   #contactsGhost{
     display: inline-block;
   }
+}
+@media screen and (max-width: 570px) {
+  .contactBtns{
+margin-left: 13%;  
+margin-right: 13%;  
+
+}
+}
+@media screen and (max-width: 300px) {
+  .contactBtns{
+width: 200px;
+}
 }

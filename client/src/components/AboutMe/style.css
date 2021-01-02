@@ -1,51 +1,57 @@
+figure{
+  float: left;
+  margin: 0px 15px 5px 0px;
+}
+figcaption{
+  float: bottom;
+  margin: 0px 0px 0px 10px;
+  text-align: left;
+  font-style: italic;
+  color: rgb(141, 141, 141);
+  font-size: 12px;
+}
 #self {
   float: left;
-  margin: 10px 30px 15px 10px;
-  padding: 10px 10px 10px 10px;
   width: 300px;
   height: 300px;
+  margin: 10px 10px 5px 10px;
 }
 #break {
   text-align: center;
   letter-spacing: 13px;
 }
-
 .bio {
   margin: 0px 15px 0px 15px;
 }
-
 p {
   margin: 10px 10px 10px 10px;
   width: 95%;
 }
-
-h1,
-p {
+h1, p {
   text-align: left;
 }
 #wna{
   clear: both;
 }
-
 @media screen and (max-width: 820px) {
-  #self {
-    width: 45%;
-    height: 45%;
+  figure {
+    width: 50%;
+    height: 50%;
   }
-  #wna{
+  #self{
+    width: 90%;
+    height: 90%;
   }
 }
-
 @media screen and (max-width:635px) {
   #wna{
     clear: both;
   }
-}
-@media screen and (max-width: 375px) {
-  #self {
-    width: 50%;
-    height: 50%;
-    margin: 10px 10px 0px 5px;
-    margin-bottom: none;
+  figure{
+    float: left;
+    margin: 0px 15px 0px 0px;
+  }
+  figcaption{
+    font-size: 10px;
   }
 }

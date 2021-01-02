@@ -31,13 +31,14 @@ button{
   top: 30px;
   left: 80px;
 }
-#fieldRecBanner {
+#fieldRec {
   margin-bottom: 100px;
 }
-#bannerCredit {
-  font-size: 11px;
+.bannerCredit {
+  font-size: 10px;
   float: left;
   margin-bottom: 30px;
+  color: rgb(141, 141, 141);
 }
 .bcEmbedererer {
   display: block;
