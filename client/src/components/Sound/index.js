@@ -53,7 +53,7 @@ function Sound() {
       )}
 
       {fictionMode === true && (
-        <p id="bannerCredit">
+        <p class="bannerCredit">
           Photos: Seattle, WA by <a href="http://www.simkinsphotography.com/" target="_blank">Eric Simkins</a>
         </p>
       )}
@@ -65,6 +65,11 @@ function Sound() {
           class="soundBanner"
           alt="field recording"
         ></img></a>
+      )}
+      {nonfictionMode === true && (
+        <p class="bannerCredit"id="fieldRec">
+          Photos: <a href="https://en.wikipedia.org/wiki/Hidden_Falls_(Saint_Paul,_Minnesota)" target="_blank">Hidden Falls Regional Park</a> (St. Paul, MN)
+        </p>
       )}
       {fictionMode === true && (
         <div id="theatre" style={fictionMode ? openedStyle : closedStyle}>
