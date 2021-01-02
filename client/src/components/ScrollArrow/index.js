@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import './style.css';
-
-
+// https://medium.com/better-programming/create-a-scroll-to-top-arrow-using-react-hooks-18586890fedc
 const ScrollArrow = () =>{
 
   const [showScroll, setShowScroll] = useState(false)
@@ -13,7 +12,7 @@ const ScrollArrow = () =>{
       setShowScroll(false)
     }
   };
-
+//if route is Sound setShowScroll false
   const scrollTop = () =>{
     window.scrollTo({top: 0, behavior: 'smooth'});
   };

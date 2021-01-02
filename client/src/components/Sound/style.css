@@ -1,3 +1,4 @@
+
 .soundBanner {
   width: 80%;
   padding: 35px 0px 35px 0px;
@@ -7,13 +8,36 @@
 button{
   font-size: 15px;
 }
+#ytEmbed{
+  width: 100%;
+  height: auto;
+  margin: 180px 10% 0px 10%;
+}
+#theatre{
+  height: 700px;
+  width: 100%;
+  padding:0px 0px 100px 0px; 
+  margin: 0px 0px -10px -30px;
+  background-color: black;
+  position: relative;
+}
+#theatre p{
+  /* there is no #theatre p right now, but there once was */
+  /* it said "eye stuff" then "live footage" */
+  color: rgb(94, 93, 93);
+  font-weight: 300;
+  font-size: 36px;
+  position: absolute;
+  top: 30px;
+  left: 80px;
+}
 #fieldRecBanner {
   margin-bottom: 100px;
 }
 #bannerCredit {
   font-size: 11px;
   float: left;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 .bcEmbedererer {
   display: block;
@@ -109,9 +133,50 @@ button{
   }
 }
 
+@media screen and (max-width: 950px) {
+  #ytEmbed{
+    width: 80%
+
+  }
+  #theatre{
+    height: 550px;
+  }
+  #theatre p{
+    top: 10px;
+    left: 30px;
+    font-size: 18px;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .soundBanner {
     width: 100%;
     margin: 0px 0px 0px 0px;
+  }
+  #theatre{
+    height: 700px;
+    width: 600px;
+    background-color: black;
+    position: relative;
+  }
+  #ytEmbed{
+    width: 70%;
+    margin: 180px 10% 0px 10%;
+  }
+}
+@media screen and (max-width: 550px) {
+  #ytEmbed{
+    margin: 180px 5% 0px 5%;
+  }
+}
+@media screen and (max-width: 450px) {
+  #theatre{
+    height: 500px;
+    width: 450px;
+  }
+  #ytEmbed{
+    width: 75%;
+    height: auto;
+    margin: 150px 5% 0px 5%;
   }
 }

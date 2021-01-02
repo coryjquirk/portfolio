@@ -1,5 +1,5 @@
-#pfContainer{
-    width: 530px;
+#appsList, #pf, #devToolKit, #portfolioItem{
+    max-width: 530px;
 }
 .scrnsht {
     width: auto;
@@ -50,6 +50,7 @@
     border-color: hsl(125, 20%,40%);
     border-radius: 7px;
     margin:10px;
+    max-width: 530px;
 }
 #portfolioItem p, #devToolkit p{
     margin: 0px 10px 10px 10px;
