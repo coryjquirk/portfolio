@@ -50,17 +50,16 @@
     border-radius: 10px;
     margin:10px;
     max-width: 530px;
+    padding: 3px;
 }
-
 #mobileToolbox{
     display: none;
 }
 #desktopToolbox{
     display: inline;
 }
-
 #portfolioItem p, #devToolkit p{
-    margin: 0px 10px 10px 10px;
+    margin: 0px 10px 5px 10px;
     padding: 5px 5px 5px 5px;
 }
 #toolkit{
@@ -82,7 +81,6 @@ margin: 5px 0px 10px 0px
     display: inline-block;
     margin: 0px 15px 10px 10px;
 }
-
 @media screen and (max-width: 991px) {
     .scrnsht{
         max-width: 80%;
