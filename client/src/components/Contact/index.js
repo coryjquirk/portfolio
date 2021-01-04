@@ -5,8 +5,9 @@ import Resume from "./cory-quirk-dec2020resume.pdf";
 function Contact() {
   return (
     <div id="contact">
-      <h1 class="xxlarge">contact me</h1>
-      <hr />
+      <button class="headerNavCollapse" data-toggle="collapse" data-target="#navbarNav"><h1>contact me</h1></button>
+      <h1 class="desktopHeader">contact me</h1>
+      <hr class="headHr" />
       <div class="meat">
       <a href="https://www.linkedin.com/in/cory-quirk/" target="_blank">
         <button class="contactBtns">

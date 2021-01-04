@@ -24,9 +24,10 @@ function Sound() {
   };
   return (
     <div>
-      <h1>sound</h1>
-      <hr />
+      <button class="headerNavCollapse" data-toggle="collapse" data-target="#navbarNav"><h1>sound</h1></button>
+      <h1 class="desktopHeader">sound</h1>
 
+      <hr class="headHr" />
       <div id="soundOrganizer">
         {fictionMode === true && (
           <button class="soundNav" onClick={setNonfiction}>

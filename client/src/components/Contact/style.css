@@ -31,11 +31,6 @@ button a {
   background-color: #4b4b4bd0;
   padding: 2px 4px 2px 4px;
 }
-button {
-  padding: 10px 18px 10px 18px;
-  background-color: rgb(97, 182, 104);
-  border: none;
-}
 .contactBtns p{
   font-size: 24px;
 }

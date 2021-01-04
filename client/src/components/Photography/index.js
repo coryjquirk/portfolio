@@ -42,8 +42,15 @@ import snowfireL from "./Images/large/snowfire-large.png";
 function Photography(props) {
   return (
     <div id="gallery">
-      <h1>photography</h1>
-      <hr />
+      <button
+        class="headerNavCollapse"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+      >
+        <h1>photography</h1>
+      </button>
+      <h1 class="desktopHeader">photography</h1>
+      <hr class="headHr" />
       <p>Click an image to open a larger version.</p>
       <div class="thumbnail">
         <ModalImage

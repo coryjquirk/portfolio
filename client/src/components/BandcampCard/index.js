@@ -14,7 +14,7 @@ function BandcampCard(props) {
         </p>
         <div class="bcBtnDiv">
           <a href="https://watershedgroup.bandcamp.com/" target="_blank" class="bcBtn">
-            <button>
+            <button class="standardButton">
               Bandcamp page&ensp;<i class="fa fa-bandcamp"></i>
             </button>
           </a>
