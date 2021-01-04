@@ -4,7 +4,7 @@
     border-radius: 5px;
     padding: 10px;
     background-color: #f3f9fc;
-
+    width: 380px;
 }
 .soundcaption{
     -webkit-transition-duration: 2s; /* Safari */

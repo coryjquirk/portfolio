@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import Resume from "./cory-quirk-dec2020resume.pdf";
 
-function Contact(props) {
+function Contact() {
   return (
     <div id="contact">
       <h1 class="xxlarge">contact me</h1>
