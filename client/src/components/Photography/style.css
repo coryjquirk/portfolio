@@ -2,24 +2,32 @@ p.a {
   font-size: 500px;
   color: rgb(98, 98, 255);
 }
-#gallery {
-  margin: 0px 0px 100px 0px;
+#gallery{
+  position: relative;
 }
+#photoSocials{
+  margin-bottom: 80px;
+  opacity: .7;
+  clear: left;
+  float: bottom;
+}
+
 #gallery img{
-    -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  animation: fadeIn ease 0.5s;
-  -webkit-animation: fadeIn ease 0.5s;
-  -moz-animation: fadeIn ease 0.5s;
-  -o-animation: fadeIn ease 0.5s;
-  -ms-animation: fadeIn ease 0.5s;
+  -webkit-transition-duration: 1s; /* Safari */
+  transition-duration: 1s;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
 }
-#gallery img:hover{
-    opacity: .5
-    
+#gallery span:active{
+opacity: .5;
 }
 .galleryBtn {
   background-color: white;
+  padding: 8px;
+  font-size: 15px;
 }
 .galleryBtn span {
   cursor: pointer;
@@ -62,50 +70,7 @@ p.a {
   -o-animation: fadeIn ease 0.5s;
   -ms-animation: fadeIn ease 0.5s;
 }
-@keyframes fadeIn {
-  0% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .thumbnail {
   float: left;
   margin: 10px;

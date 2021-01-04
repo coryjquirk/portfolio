@@ -1,3 +1,4 @@
+
 .soundBanner {
   width: 80%;
   padding: 35px 0px 35px 0px;
@@ -5,15 +6,39 @@
   margin: 0px 1% 0px 1%;
 }
 button{
-  padding: 5px 5px 5px 5px;
+  font-size: 15px;
 }
-#fieldRecBanner {
-  margin-bottom: 30px;
+#ytEmbed{
+  width: 100%;
+  height: auto;
+  margin: 180px 10% 0px 10%;
 }
-#bannerCredit {
-  font-size: 11px;
+#theatre{
+  height: 700px;
+  width: 100%;
+  padding:0px 0px 100px 0px; 
+  margin: 0px 0px -10px -30px;
+  background-color: black;
+  position: relative;
+}
+#theatre p{
+  /* there is no #theatre p right now, but there once was */
+  /* it said "eye stuff" then "live footage" */
+  color: rgb(94, 93, 93);
+  font-weight: 300;
+  font-size: 36px;
+  position: absolute;
+  top: 30px;
+  left: 80px;
+}
+#fieldRec {
+  margin-bottom: 100px;
+}
+.bannerCredit {
+  font-size: 10px;
   float: left;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
+  color: rgb(141, 141, 141);
 }
 .bcEmbedererer {
   display: block;
@@ -46,13 +71,21 @@ button{
   transform: translateY(4px);
 }
 .soundNav {
+<<<<<<< HEAD
   margin: 15px 15px 15px 15px;
   padding: 10px 10px 10px 10px;
   border: 1px solid;
   display: block;
+=======
+  margin: 12px;
+  padding: 8px 8px 8px 8px;
+>>>>>>> 53e49ce1fdd68a1efc13c8185efc70191c058136
   float: left;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  font-size: 14px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 5px;
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-duration: 0.5s;
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
@@ -65,7 +98,7 @@ button{
 }
 @keyframes fadeIn {
   0% {
-    opacity: 0.5;
+    opacity: 0;
   }
   100% {
     opacity: 1;
@@ -108,9 +141,50 @@ button{
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 950px) {
+  #ytEmbed{
+    width: 80%
+
+  }
+  #theatre{
+    height: 550px;
+  }
+  #theatre p{
+    top: 10px;
+    left: 30px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 650px) {
   .soundBanner {
     width: 100%;
     margin: 0px 0px 0px 0px;
+  }
+  #theatre{
+    height: 700px;
+    width: 600px;
+    background-color: black;
+    position: relative;
+  }
+  #ytEmbed{
+    width: 70%;
+    margin: 180px 10% 0px 10%;
+  }
+}
+@media screen and (max-width: 550px) {
+  #ytEmbed{
+    margin: 180px 5% 0px 5%;
+  }
+}
+@media screen and (max-width: 450px) {
+  #theatre{
+    height: 500px;
+    width: 450px;
+  }
+  #ytEmbed{
+    width: 75%;
+    height: auto;
+    margin: 150px 5% 0px 5%;
   }
 }

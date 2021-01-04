@@ -1,3 +1,6 @@
+#appsList, #pf, #devToolKit, #portfolioItem{
+    max-width: 530px;
+}
 .scrnsht {
     width: auto;
     height: auto;
@@ -7,22 +10,55 @@
 #pf{
     margin-bottom: 35px;
 }
+#appsList{
+    background-color: rgb(251, 251, 251);
+    min-height: 50px;
+    border-radius: 10px;
+    padding: 10px 5px 10px 10px;
+}
+#appsHeader{
+    background-color: none;
+    font-weight: 500;
+    text-align: center;
+    font-size: 34px;
+    width: 100px;
+    border-radius: 8px;
+    padding: 3px 5px 3px 5px;
+    margin: 0px 10px 10px 10px;
+}
+.appsListCtrl{
+    color: none;
+    border: none;
+    float: right;
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    margin: 20px 10px 0px 0px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+}
 #portfolioItem{
     border: 5px;
     border-style: solid dotted solid dotted;
-    border-color: #629466;
+    border-color: hsl(125, 20%,45%);
     border-radius: 7px;
     margin:10px;
-    width:600px
 }
 #devToolkit{
-    border: 1px;
-    border-style: dashed dotted dashed dotted;
-    border-color: #629466;
-    border-radius: 7px;
-    margin:10px 10px 35px 10px;
-    width:600px
+    background-color: rgb(251, 251, 251);
+    border-radius: 10px;
+    margin:10px;
+    max-width: 530px;
 }
+
+#mobileToolbox{
+    display: none;
+}
+#desktopToolbox{
+    display: inline;
+}
+
 #portfolioItem p, #devToolkit p{
     margin: 0px 10px 10px 10px;
     padding: 5px 5px 5px 5px;
@@ -32,7 +68,8 @@
 }
 #toolkit li{
     padding: 0px 0px 0px 20px;
-    z-index: -1;
+    z-index: 0;
+    margin: 0px 0px 5px 0px;
 }
 .appLink{
     font-style: italic;
@@ -50,7 +87,12 @@ margin: 5px 0px 10px 0px
     .scrnsht{
         max-width: 80%;
     }
-    #portfolioItem, #devToolkit{
-        max-width: 95%;
+}
+@media screen and (max-width: 600px) {
+    #mobileToolbox{
+        display: block;
+    }
+    #desktopToolbox{
+        display:none;
     }
 }

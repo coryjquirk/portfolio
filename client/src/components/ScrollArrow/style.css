@@ -1,0 +1,33 @@
+#scrollUp {
+    background: white;
+    border-radius: 5px;
+    height: 10px;
+    width: 12px;
+}
+.scrollTop {
+    position: fixed; 
+    bottom: 70px;
+    right: 100px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.7;
+}
+  
+  .scrollTop:hover{
+    opacity: 1;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .scrollTop {
+      right: 30px;
+  }
+  }
+  @media screen and (max-width: 450px) {
+    .scrollTop {
+      right: 10px;
+  }
+  }

@@ -9,11 +9,13 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import NoMatchPage from "./pages/NoMatchPage";
 import Nav from "./components/Nav";
-import Hero from "./components/Hero";
 import Footer from "./components/Footer";
+import ScrollArrow from "./components/ScrollArrow";
 
 class App extends Component {
+
   render() {
+
     return (
       <Router>
         <div className="App">
@@ -22,13 +24,14 @@ class App extends Component {
               <Switch>
                 <Route exact path="/" component={PortfolioPage} />
                 <Route exact path="/portfolio" component={PortfolioPage} />
-                <Route exact path="/sound" component={SoundPage} />
+                <Route exact path="/sound" component={SoundPage}/>
                 <Route exact path="/photography" component={PhotographyPage} />
                 <Route exact path="/contact" component={ContactPage} />
                 <Route exact path="/about" component={AboutPage} />
                 <Route component={NoMatchPage} />
               </Switch>
             </div>
+            <ScrollArrow/>
             <Footer/>
       </div>
       </Router>

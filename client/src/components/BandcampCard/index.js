@@ -2,30 +2,20 @@ import React, { useState, useEffect } from "react";
 import "./style.css";
 
 function BandcampCard(props) {
-  const [fictionMode, setFictionMode] = React.useState(true);
-  const [nonfictionMode, setNonfictionMode] = React.useState(false);
-  function setFiction() {
-    setFictionMode(true);
-    setNonfictionMode(false);
-  }
-  function setNonfiction() {
-    setNonfictionMode(true);
-    setFictionMode(false);
-  }
   return (
     <div class="meat">
-      <div id="noiseMusic">
+      <div>
         <p class="soundcaption">
           In group improvisation with{" "}
           <a href="https://watershedgroup.bandcamp.com/"  target="_blank">Watershed Group</a>, we
-          like to use samples and field recordings with noisy live
-          instrumentation and electronics. A highlight has been been playing at{" "}
+           use samples and field recordings with noisy live
+          instrumentation and analog electronics. A highlight has been been playing at{" "}
           <a href="http://dronenotdrones.com/" target="_blank">Drone Not Drones</a>.
         </p>
         <div class="bcBtnDiv">
           <a href="https://watershedgroup.bandcamp.com/" target="_blank" class="bcBtn">
             <button>
-              Bandcamp page <i class="fa fa-bandcamp"></i>
+              Bandcamp page&ensp;<i class="fa fa-bandcamp"></i>
             </button>
           </a>
         </div>
