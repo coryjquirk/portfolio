@@ -7,7 +7,7 @@ import cartcroc from "./Images/cartcroc.gif";
 import whatscooking from "./Images/whatscooking.gif";
 
 function Portfolio() {
-  const [opened, openApps] = React.useState(true);
+  const [opened, openApps] = React.useState(false);
   function revealApps() {
     openApps(true);
   }
@@ -42,26 +42,34 @@ function Portfolio() {
           <p id="toolkit" class="fa-ul">
             <li>
               <i class="fa fa-cog"></i> MERN stack:
-              <li>MongoDB, Express.js, React.js, Node.js</li>
+              <span id="desktopToolbox">
+                {" "}
+                MongoDB, Express.js, React.js, Node.js
+              </span>
+              <li id="mobileToolbox">MongoDB, Express.js, React.js, Node.js</li>
             </li>
             <li>
-              <i class="fa fa-cog"></i> Front end: <li>JavaScript, HTML, CSS</li>
+              <i class="fa fa-cog"></i> Front end:{" "}
+              <span id="desktopToolbox"> JavaScript, HTML, CSS</span>
+              <li id="mobileToolbox">JavaScript, HTML, CSS</li>
             </li>
             <li>
-              <i class="fa fa-cog"></i> Back end: <li>MySQL and no-SQL</li>
+              <i class="fa fa-cog"></i> Back end:{" "}
+              <span id="desktopToolbox"> MySQL and no-SQL</span>
+              <li id="mobileToolbox">MySQL and no-SQL</li>
             </li>
             <li>
-              <i class="fa fa-cog"></i> Collaboration, version
-              control:
-              <li>GitHub and GitLab</li>
+              <i class="fa fa-cog"></i> Collaboration, version control:
+              <span id="desktopToolbox"> GitHub and GitLab</span>
+              <li id="mobileToolbox">GitHub and GitLab</li>
             </li>
             <li>
               <i class="fa fa-cog"></i> Heroku deployment
             </li>
             <li>
               <i class="fa fa-cog"></i> Dev methodologies:
-              <li>Mobile-first and Agile
-              </li>
+              <span id="desktopToolbox"> Mobile-first and Agile</span>
+              <li id="mobileToolbox">Mobile-first and Agile</li>
             </li>
             <p>
               <a href="contact">I'm looking for work!</a>
@@ -361,7 +369,7 @@ function Portfolio() {
             </div>
           )}
         </div>
-        <div id="portfolioItem">
+        <div id="devToolkit">
           <h3>Personal website</h3>
           <p>
             I built this site with React.js and I'm always improving it. If you
