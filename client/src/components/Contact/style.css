@@ -32,7 +32,17 @@ button a {
   padding: 2px 4px 2px 4px;
 }
 .contactBtns p{
-  font-size: 24px;
+  font-size: 20px;
+}
+#docx{
+  font-size: 12px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+#resume{
+  padding: 0px 0px 0px 0px;
+  margin: 5px 5px 5px 5px;
 }
 .contactBtns span {
   cursor: pointer;
@@ -63,7 +73,6 @@ button a {
 }
 .contactBtns {
   margin: 10px;
-  padding: 10px 18px 10px 18px;
   width: 250px;
   height: 75px;
   border: 1px solid rgb(197, 197, 197);
