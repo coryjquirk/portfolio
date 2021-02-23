@@ -18,17 +18,6 @@ button {
   padding: 0px 0px 100px 0px;
   margin: 0px 0px -10px -30px;
   background-color: black;
-  position: relative;
-}
-#theatre p {
-  /* there is no #theatre p right now, but there once was */
-  /* it said "eye stuff" then "live footage" */
-  color: rgb(94, 93, 93);
-  font-weight: 300;
-  font-size: 36px;
-  position: absolute;
-  top: 30px;
-  left: 80px;
 }
 #fieldRec {
   margin-bottom: 100px;

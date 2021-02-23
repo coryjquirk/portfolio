@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Resume from "./cory-quirk-dec2020resume.pdf";
+import Resume from "./coryquirk-resume-feb2021.docx";
 
 function Contact() {
   return (
@@ -21,9 +21,10 @@ function Contact() {
       <a href={Resume} target="_blank">
         <button class="contactBtns">
           <span>
-            <p>
+            <p id="resume">
               Resumé <i class="fa fa-file"></i>
             </p>
+            <p id="docx">(docx)</p>
           </span>
         </button>
       </a>
