@@ -4,7 +4,7 @@ import "./style.css";
 function Nav() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="about">
+      <a class="navbar-brand" href="/">
         cory j. quirk
       </a>
       <button

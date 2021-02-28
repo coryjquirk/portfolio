@@ -24,7 +24,7 @@ function Contact() {
             <p id="resume">
               Resumé <i class="fa fa-file"></i>
             </p>
-            <p id="docx">(docx)</p>
+            <p id="docx">(downloads docx)</p>
           </span>
         </button>
       </a>
