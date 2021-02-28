@@ -46,8 +46,8 @@ function Contact() {
           </span>
         </button>
       </a>
-      <div id="contactsGhost"></div>
       </div>
+      <div id="contactsGhost"></div>
     </div>
   );
 }
