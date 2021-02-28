@@ -4,7 +4,9 @@
 .meat{
   max-width: 600px;
 }
-
+.muted{
+  color: #666
+}
 p{
   font-size: 15px;
 }
