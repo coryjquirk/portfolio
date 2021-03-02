@@ -40,6 +40,15 @@ button a {
   margin: 0px;
   padding: 0px;
 }
+#mobileIcon{
+  font-size: 100%;
+}
+#phoneNum{
+  font-size: 12px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
 #resume{
   padding: 0px 0px 0px 0px;
   margin: 5px 5px 5px 5px;
