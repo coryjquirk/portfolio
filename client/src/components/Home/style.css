@@ -1,0 +1,119 @@
+hr {
+  text-align: center;
+  background-color: grey;
+}
+.contactDivs {
+  background-color: rgb(213, 255, 245);
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  width: 300px;
+}
+button a {
+  color: rgb(255, 255, 255);
+}
+#contact-page {
+  background-color: white;
+  max-width: 500px;
+}
+.contactBtns i {
+  color: #4b4b4bd0;
+  margin: 0px 0px 0px 2px;
+}
+#linkedIn {
+  color: rgb(240, 239, 239);
+  border: solid;
+  border-radius: 5px;
+  background-color: #4b4b4bd0;
+  padding: 2px 4px 2px 4px;
+}
+.homeBtns p {
+  font-size: 20px;
+  text-align: center;
+}
+#docx {
+  font-size: 12px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+#resume {
+  padding: 0px 0px 0px 0px;
+  margin: 5px 5px 5px 5px;
+}
+.homeBtns span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.homeBtns span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  right: -15px;
+  bottom: 15px;
+  transition: 0.5s;
+}
+.homeBtns:hover span {
+  padding-right: 25px;
+}
+
+.homeBtns:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.homeBtns:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.homeBtns {
+  margin: 15px;
+  width: 250px;
+  height: 200px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 25px;
+  display: block;
+  float: left;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: rgb(240, 239, 239);
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
+}
+
+@media screen and (max-width: 568px) {
+  #contactsGhost {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 570px) {
+  .homeBtns {
+    margin-left: 13%;
+    margin-right: 13%;
+
+    width: 250px;
+    height: 75px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .homeBtns p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .homeBtns {
+    width: 200px;
+    height: 75px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+}

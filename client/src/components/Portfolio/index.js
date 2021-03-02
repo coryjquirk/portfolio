@@ -14,21 +14,22 @@ function Portfolio() {
   function hideApps() {
     openApps(false);
   }
-  /* This CSS style is applied when the drawer is opened */
-  const openedStyle = {
-    height: "100%",
-    transition: "height 0.5s",
-  };
+  // /* This CSS style is applied when the drawer is opened */
+  // const openedStyle = {
+  //   height: "0%",
+  //   transition: "height 0.5s",
+  // };
 
-  /* This CSS style is applied when the drawer is closed */
-  const closedStyle = {
-    transition: "height 0.5s",
-  };
+  // /* This CSS style is applied when the drawer is closed */
+  // const closedStyle = {
+  //   transition: "height 0.5s",
+  // };
 
   return (
     <div>
-      <h1>web dev portfolio</h1>
-      <hr />
+      <button class="headerNavCollapse" data-toggle="collapse" data-target="#navbarNav"><h1>web dev portfolio</h1></button>
+      <h1 class="desktopHeader">web dev portfolio</h1>
+      <hr class="headHr" />
       <p id="pf">
         Visit me on{" "}
         <a href="https://github.com/coryjquirk" target="_blank">
@@ -76,14 +77,14 @@ function Portfolio() {
             </p>
           </p>
         </div>
-        <div id="appsList" style={opened ? openedStyle : closedStyle}>
+        <div id="appsList" >
           {opened === false && (
-            <button class="appsListCtrl" onClick={revealApps}>
+            <button class="appsListCtrl standardButton" onClick={revealApps}>
               <i class="fa fa-plus"></i>
             </button>
           )}
           {opened === true && (
-            <button class="appsListCtrl" onClick={hideApps}>
+            <button class="appsListCtrl standardButton" onClick={hideApps}>
               <i class="fa fa-minus"></i>
             </button>
           )}
@@ -106,7 +107,7 @@ function Portfolio() {
                     target="_blank"
                     class="portfBtn"
                   >
-                    <button>
+                    <button class="standardButton">
                       Deployed app <i class="fa fa-link"></i>
                     </button>
                   </a>
@@ -115,7 +116,7 @@ function Portfolio() {
                     target="_blank"
                     class="portfBtn"
                   >
-                    <button>
+                    <button class="standardButton">
                       GitHub repo <i class="fa fa-link"></i>
                     </button>
                   </a>
@@ -141,7 +142,7 @@ function Portfolio() {
                     target="_blank"
                     class="portfBtn"
                   >
-                    <button>
+                    <button class="standardButton">
                       Deployed app <i class="fa fa-link"></i>
                     </button>
                   </a>
@@ -150,7 +151,7 @@ function Portfolio() {
                     target="_blank"
                     class="portfBtn"
                   >
-                    <button>
+                    <button class="standardButton">
                       GitHub repo <i class="fa fa-link"></i>
                     </button>
                   </a>
@@ -174,7 +175,7 @@ function Portfolio() {
                     target="_blank"
                     class="portfBtn"
                   >
-                    <button>
+                    <button class="standardButton">
                       Deployed app <i class="fa fa-link"></i>
                     </button>
                   </a>
@@ -183,7 +184,7 @@ function Portfolio() {
                     target="_blank"
                     class="portfBtn"
                   >
-                    <button>
+                    <button class="standardButton">
                       GitHub repo <i class="fa fa-link"></i>
                     </button>
                   </a>
@@ -211,7 +212,7 @@ function Portfolio() {
                     target="_blank"
                     class="portfBtn"
                   >
-                    <button>
+                    <button class="standardButton">
                       Deployed app <i class="fa fa-link"></i>
                     </button>
                   </a>
@@ -220,7 +221,7 @@ function Portfolio() {
                     target="_blank"
                     class="portfBtn"
                   >
-                    <button>
+                    <button class="standardButton">
                       GitHub repo <i class="fa fa-link"></i>
                     </button>
                   </a>
@@ -249,7 +250,7 @@ function Portfolio() {
                     target="_blank"
                     class="portfBtn"
                   >
-                    <button>
+                    <button class="standardButton">
                       Deployed app <i class="fa fa-link"></i>
                     </button>
                   </a>
@@ -258,7 +259,7 @@ function Portfolio() {
                     target="_blank"
                     class="portfBtn"
                   >
-                    <button>
+                    <button class="standardButton">
                       GitHub repo <i class="fa fa-link"></i>
                     </button>
                   </a>
@@ -285,7 +286,7 @@ function Portfolio() {
                     href="https://hungry-croconaw.herokuapp.com/"
                     class="portfBtn"
                   >
-                    <button>
+                    <button class="standardButton">
                       Deployed app <i class="fa fa-link"></i>
                     </button>
                   </a>
@@ -294,7 +295,7 @@ function Portfolio() {
                     target="_blank"
                     class="portfBtn"
                   >
-                    <button>
+                    <button class="standardButton">
                       GitHub repo <i class="fa fa-link"></i>
                     </button>
                   </a>
@@ -323,7 +324,7 @@ function Portfolio() {
                     target="_blank"
                     class="portfBtn"
                   >
-                    <button>
+                    <button class="standardButton">
                       GitHub repo <i class="fa fa-link"></i>
                     </button>
                   </a>
@@ -351,7 +352,7 @@ function Portfolio() {
                     target="_blank"
                     class="portfBtn"
                   >
-                    <button>
+                    <button class="standardButton">
                       Deployed app <i class="fa fa-link"></i>
                     </button>
                   </a>
@@ -360,7 +361,7 @@ function Portfolio() {
                     target="_blank"
                     class="portfBtn"
                   >
-                    <button>
+                    <button class="standardButton">
                       GitHub repo <i class="fa fa-link"></i>
                     </button>
                   </a>
@@ -382,7 +383,7 @@ function Portfolio() {
               target="_blank"
               class="portfBtn"
             >
-              <button>
+              <button class="standardButton">
                 GitHub repo <i class="fa fa-link"></i>
               </button>
             </a>

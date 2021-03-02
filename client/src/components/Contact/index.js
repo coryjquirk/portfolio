@@ -1,12 +1,13 @@
 import React from "react";
 import "./style.css";
-import Resume from "./cory-quirk-dec2020resume.pdf";
+import Resume from "./coryquirk-resume-feb2021.docx";
 
 function Contact() {
   return (
     <div id="contact">
-      <h1 class="xxlarge">contact me</h1>
-      <hr />
+      <button class="headerNavCollapse" data-toggle="collapse" data-target="#navbarNav"><h1>contact me</h1></button>
+      <h1 class="desktopHeader">contact me</h1>
+      <hr class="headHr" />
       <div class="meat">
       <a href="https://www.linkedin.com/in/cory-quirk/" target="_blank">
         <button class="contactBtns">
@@ -20,9 +21,10 @@ function Contact() {
       <a href={Resume} target="_blank">
         <button class="contactBtns">
           <span>
-            <p>
+            <p id="resume">
               Resumé <i class="fa fa-file"></i>
             </p>
+            <p id="docx">(downloads docx)</p>
           </span>
         </button>
       </a>
@@ -44,8 +46,8 @@ function Contact() {
           </span>
         </button>
       </a>
-      <div id="contactsGhost"></div>
       </div>
+      <div id="contactsGhost"></div>
     </div>
   );
 }

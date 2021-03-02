@@ -17,54 +17,65 @@ function Sound() {
     setFictionMode(false);
   }
   const openedStyle = {
-    display: 'flex'
+    display: "flex",
   };
   const closedStyle = {
-    display: 'none'
+    display: "none",
   };
   return (
     <div>
-      <h1>sound</h1>
-      <hr />
+      <button
+        class="headerNavCollapse"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+      >
+        <h1>sound</h1>
+      </button>
+      <h1 class="desktopHeader">sound</h1>
 
+      <hr class="headHr" />
       <div id="soundOrganizer">
         {fictionMode === true && (
           <button class="soundNav" onClick={setNonfiction}>
-            <span>&#187;&emsp;real world  </span>
+            <span>&#187;&emsp;take me to sound ethnography </span>
           </button>
         )}
         {nonfictionMode === true && (
           <button class="soundNav" onClick={setFiction}>
-            <span>&#187;&emsp;fantasy world </span>
+            <span>&#187;&emsp;take me to experimental music </span>
           </button>
         )}
-        
       </div>
       {fictionMode === true && <BandcampCard />}
       {nonfictionMode === true && <SoundEthCard />}
       {fictionMode === true && (
         <a href="https://watershedgroup.bandcamp.com" target="_blank">
-        <img
-          src={wsBanner}
-          class="soundBanner"
-          alt="wsBanner"
-          id="wsBanner"
-        ></img> </a>
+          <img
+            src={wsBanner}
+            class="soundBanner"
+            alt="wsBanner"
+            id="wsBanner"
+          ></img>{" "}
+        </a>
       )}
 
       {fictionMode === true && (
         <p class="bannerCredit">
-          Photos: Seattle, WA by <a href="http://www.simkinsphotography.com/" target="_blank">Eric Simkins</a>
+          Photos: Seattle, WA by{" "}
+          <a href="http://www.simkinsphotography.com/" target="_blank">
+            Eric Simkins
+          </a>
         </p>
       )}
       {nonfictionMode === true && (
         <a href="https://coryjquirk.bandcamp.com" target="_blank">
-        <img
-          src={fieldrecording}
-          id="fieldRecBanner"
-          class="soundBanner"
-          alt="field recording"
-        ></img></a>
+          <img
+            src={fieldrecording}
+            id="fieldRecBanner"
+            class="soundBanner"
+            alt="field recording"
+          ></img>
+        </a>
       )}
       {nonfictionMode === true && (
         <p class="bannerCredit"id="fieldRec">
@@ -73,12 +84,20 @@ function Sound() {
       )}
       {fictionMode === true && (
         <div id="theatre" style={fictionMode ? openedStyle : closedStyle}>
-        <iframe id="ytEmbed" src="https://www.youtube.com/embed/bMVVMJbBPrs?start=1242">
-        </iframe>
-        <p>lorem ipsum</p>
+            <iframe
+              id="ytEmbed"
+              src="https://www.youtube.com/embed/bMVVMJbBPrs?start=1242"
+            ></iframe>
         </div>
       )}
-  
+      {fictionMode === true && (
+        <div id="theatre" style={fictionMode ? openedStyle : closedStyle}>
+            <iframe
+              id="ytEmbed"
+              src="https://www.youtube.com/embed/aXBY8A8nBLY?t=18820"
+            ></iframe>
+        </div>
+      )}
     </div>
   );
 }

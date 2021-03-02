@@ -7,7 +7,6 @@ const NoMatch = () => {
     <Container fluid>
       <Row>
         <Col size="md-12">
-          <Jumbotron>
             <h1>ope!</h1>
             <h1>404 page not found</h1>
             <h1>
@@ -15,7 +14,6 @@ const NoMatch = () => {
               🤔
               </span>
             </h1>
-          </Jumbotron>
         </Col>
       </Row>
     </Container>

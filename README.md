@@ -1,5 +1,5 @@
 # Portfolio website
-Personal website for sharing my work and contact info.
+Personal website to share my contact info and work.
 
 Deployed application: https://coryjquirk.herokuapp.com
 

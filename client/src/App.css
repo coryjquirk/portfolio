@@ -4,6 +4,9 @@
 .meat{
   max-width: 600px;
 }
+.muted{
+  color: #666
+}
 p{
   font-size: 15px;
 }
@@ -14,4 +17,32 @@ p{
 #main {
   margin: 10px 0px 60px 0px;
   max-width: 1150px;
+}
+.standardButton {
+  padding: 10px 18px 10px 18px;
+  background-color: rgb(97, 182, 104);
+  border: none;
+}
+.headerNavCollapse{
+  background: none;
+  border: none;
+  float:left; 
+  display: none;
+}
+.headerNavCollapse:active {
+  background-color: rgb(49, 49, 49);
+  box-shadow: 1 5px #666;
+  transform: translateY(4px);
+}
+.headHr{
+  clear: both;
+}
+
+@media screen and (max-width:992px) {
+  .desktopHeader{
+    display: none;
+  }
+  .headerNavCollapse{
+    display: inline-block;
+  }
 }

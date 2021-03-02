@@ -10,11 +10,11 @@ function BandcampCard(props) {
           <a href="https://watershedgroup.bandcamp.com/"  target="_blank">Watershed Group</a>, we
            use samples and field recordings with noisy live
           instrumentation and analog electronics. A highlight has been been playing at{" "}
-          <a href="http://dronenotdrones.com/" target="_blank">Drone Not Drones</a>.
+          <a href="https://youtu.be/aXBY8A8nBLY?t=18820" target="_blank">Drone Not Drones</a>.
         </p>
         <div class="bcBtnDiv">
           <a href="https://watershedgroup.bandcamp.com/" target="_blank" class="bcBtn">
-            <button>
+            <button class="standardButton">
               Bandcamp page&ensp;<i class="fa fa-bandcamp"></i>
             </button>
           </a>

@@ -1,35 +1,23 @@
-
 .soundBanner {
   width: 80%;
   padding: 35px 0px 35px 0px;
   float: left;
   margin: 0px 1% 0px 1%;
 }
-button{
+button {
   font-size: 15px;
 }
-#ytEmbed{
+#ytEmbed {
   width: 100%;
   height: auto;
   margin: 180px 10% 0px 10%;
 }
-#theatre{
+#theatre {
   height: 700px;
   width: 100%;
-  padding:0px 0px 100px 0px; 
+  padding: 0px 0px 100px 0px;
   margin: 0px 0px -10px -30px;
   background-color: black;
-  position: relative;
-}
-#theatre p{
-  /* there is no #theatre p right now, but there once was */
-  /* it said "eye stuff" then "live footage" */
-  color: rgb(94, 93, 93);
-  font-weight: 300;
-  font-size: 36px;
-  position: absolute;
-  top: 30px;
-  left: 80px;
 }
 #fieldRec {
   margin-bottom: 100px;
@@ -43,6 +31,52 @@ button{
 .bcEmbedererer {
   display: block;
   margin-top: 70px;
+}
+.bcEmbedererer iframe {
+  box-shadow: inset -2px -2px 10px 0px #000000, 4px 4px 0px 0px #8cd1ff,
+    8px 8px 0px 0px #a1d8fd, 12px 12px 0px 0px rgb(212, 238, 253),
+    16px 16px 0px 0px #f5fff5, 20px 20px 0px 0px #b8eebc,
+    24px 24px 0px 0px #8adf91;
+    margin-bottom: 30px;
+}
+.soundcaption {
+  clear: left;
+  margin: 10px 10px 10px 10px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f4f8fd;
+  width: 380px;
+}
+.soundcaption {
+  -webkit-transition-duration: 2s; /* Safari */
+  transition-duration: 2s;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+.bcBtnDiv,
+.bcEmbedererer {
+  -webkit-transition-duration: 2.5s; /* Safari */
+  transition-duration: 2.5s;
+  animation: fadeIn ease 2.5s;
+  -webkit-animation: fadeIn ease 2.5s;
+  -moz-animation: fadeIn ease 2.5s;
+  -o-animation: fadeIn ease 2.5s;
+  -ms-animation: fadeIn ease 2.5s;
+}
+.bcBtn {
+  display: block;
+  margin: 0px 15px 10px 10px;
+  float: left;
+}
+#bcEmbed {
+  float: left;
+  padding: 10px;
+  border: 0;
+  width: 350px;
+  height: 470px;
 }
 .soundNav span {
   cursor: pointer;
@@ -66,7 +100,7 @@ button{
   right: 0;
 }
 .soundNav:active {
-  background-color: #3e8e41;
+  background-color: #000000;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -83,11 +117,11 @@ button{
   overflow: hidden;
   cursor: pointer;
   background-color: rgb(240, 239, 239);
-  animation: fadeIn ease .5s;
-  -webkit-animation: fadeIn ease .5s;
-  -moz-animation: fadeIn ease .5s;
-  -o-animation: fadeIn ease .5s;
-  -ms-animation: fadeIn ease .5s;
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
 }
 @keyframes fadeIn {
   0% {
@@ -97,7 +131,6 @@ button{
     opacity: 1;
   }
 }
-
 @-moz-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -106,7 +139,6 @@ button{
     opacity: 1;
   }
 }
-
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -115,7 +147,6 @@ button{
     opacity: 1;
   }
 }
-
 @-o-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -124,7 +155,6 @@ button{
     opacity: 1;
   }
 }
-
 @-ms-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -133,49 +163,46 @@ button{
     opacity: 1;
   }
 }
-
 @media screen and (max-width: 950px) {
-  #ytEmbed{
-    width: 80%
-
+  #ytEmbed {
+    width: 80%;
   }
-  #theatre{
+  #theatre {
     height: 550px;
   }
-  #theatre p{
+  #theatre p {
     top: 10px;
     left: 30px;
     font-size: 18px;
   }
 }
-
 @media screen and (max-width: 650px) {
   .soundBanner {
     width: 100%;
     margin: 0px 0px 0px 0px;
   }
-  #theatre{
+  #theatre {
     height: 700px;
     width: 600px;
     background-color: black;
     position: relative;
   }
-  #ytEmbed{
+  #ytEmbed {
     width: 70%;
     margin: 180px 10% 0px 10%;
   }
 }
 @media screen and (max-width: 550px) {
-  #ytEmbed{
+  #ytEmbed {
     margin: 180px 5% 0px 5%;
   }
 }
 @media screen and (max-width: 450px) {
-  #theatre{
+  #theatre {
     height: 500px;
     width: 450px;
   }
-  #ytEmbed{
+  #ytEmbed {
     width: 75%;
     height: auto;
     margin: 150px 5% 0px 5%;
