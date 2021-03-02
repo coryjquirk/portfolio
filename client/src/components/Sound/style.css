@@ -71,15 +71,8 @@ button{
   transform: translateY(4px);
 }
 .soundNav {
-<<<<<<< HEAD
-  margin: 15px 15px 15px 15px;
-  padding: 10px 10px 10px 10px;
-  border: 1px solid;
-  display: block;
-=======
   margin: 12px;
   padding: 8px 8px 8px 8px;
->>>>>>> 53e49ce1fdd68a1efc13c8185efc70191c058136
   float: left;
   font-size: 14px;
   border: 1px solid rgb(197, 197, 197);

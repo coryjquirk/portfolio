@@ -6,8 +6,8 @@ function SoundEthCard() {
     <div class="meat">
       <div>
         <p class="soundcaption">
-          This work is in the tradition of sound ethnography — anthropological
-          approaches to soundscapes exploring how human culture is expressed and
+          This work is in the tradition of sound ethnography — an anthropological
+          approach to soundscapes to explore how human culture is expressed and
           communicated through sound.
         </p>
         <div class="bcBtnDiv">
