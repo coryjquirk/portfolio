@@ -63,7 +63,6 @@ function Contact() {
             </span>
           </button>
         </a>
-        <a href="mailto:coryjquirk@gmail.com" target="_blank">
           <button class="contactBtns">
             <span>
               <p id="phoneNum">six one two, 716,</p>
@@ -71,7 +70,6 @@ function Contact() {
               </p>
             </span>
           </button>
-        </a>
       </div>
       <div id="contactsGhost"></div>
     </div>

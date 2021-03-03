@@ -37,6 +37,20 @@ import aidan from "./Images/aidan.png";
 import aidanL from "./Images/large/aidanlarge.jpg";
 import snowfire from "./Images/snowfire.png";
 import snowfireL from "./Images/large/snowfire-large.png";
+
+import hoodPines from "./Images/hoodpines.png";
+import hoodPinesL from "./Images/large/hoodpineslarge.png";
+
+import idaho from "./Images/idaho.png";
+import idahoL from "./Images/large/idaholarge.png";
+
+import krouchLy from "./Images/krouchly.png";
+import krouchLyL from "./Images/large/krouchlylarge.png";
+
+import lutstars from "./Images/lutstars.png";
+import lutstarsL from "./Images/large/lutstarslarge.png";
+
+import sedonaSammy from "./Images/sedonasammy.png";
 //idea for later: "sort by place" checkbox
 
 //try this out --->
@@ -57,9 +71,45 @@ function Photography(props) {
       <p>Click an image to open a larger version.</p>
       <div class="thumbnail">
         <ModalImage
+          small={`${lutstars}`}
+          large={`${lutstarsL}`}
+          alt="Lutsen, MN - long exposure facing N"
+          hideDownload={true}
+        />
+      </div><div class="thumbnail">
+        <ModalImage
+          small={`${krouchLy}`}
+          large={`${krouchLyL}`}
+          alt="Krouch Ly (Prek Toal Bird Sanctuary, Cambodia)"
+          hideDownload={true}
+        />
+      </div><div class="thumbnail">
+        <ModalImage
+          small={`${idaho}`}
+          large={`${idahoL}`}
+          alt="Idaho-Montana border"
+          hideDownload={true}
+        />
+      </div><div class="thumbnail">
+        <ModalImage
+          small={`${sedonaSammy}`}
+          large={`${sedonaSammy}`}
+          alt="Keanu (Sedona, AZ)"
+          hideDownload={true}
+        />
+      </div><div class="thumbnail">
+        <ModalImage
+          small={`${hoodPines}`}
+          large={`${hoodPinesL}`}
+          alt="Minneapolis, MN"
+          hideDownload={true}
+        />
+      </div>
+      <div class="thumbnail">
+        <ModalImage
           small={`${phnomKulen}`}
           large={`${phnomKulenL}`}
-          alt="phnom kulen"
+          alt="Phnom Kulen"
           hideDownload={true}
         />
       </div>
@@ -68,7 +118,7 @@ function Photography(props) {
           id="thumbnail"
           small={`${palisade}`}
           large={`${palisadeL}`}
-          alt="palisade head"
+          alt="Palisade Head (Lake County, MN)"
           hideDownload={true}
         />
       </div>
@@ -95,7 +145,7 @@ function Photography(props) {
           id="thumbnail"
           small={`${dennPlants}`}
           large={`${dennPlantsL}`}
-          alt="denn plants"
+          alt="plants"
           hideDownload={true}
         />
       </div>
@@ -104,7 +154,7 @@ function Photography(props) {
           id="thumbnail"
           small={`${snowfire}`}
           large={`${snowfireL}`}
-          alt="snow fire"
+          alt="snow / fire"
           hideDownload={true}
         />
       </div>
@@ -113,7 +163,7 @@ function Photography(props) {
           id="thumbnail"
           small={`${charlie}`}
           large={`${charlieL}`}
-          alt="charlie frog"
+          alt="Charlie frog"
           hideDownload={true}
         />
       </div>
@@ -140,7 +190,7 @@ function Photography(props) {
           id="thumbnail"
           small={`${fishermen}`}
           large={`${fishermenL}`}
-          alt="fishermen"
+          alt="Cambodian fishermen"
           hideDownload={true}
         />
       </div>
@@ -158,7 +208,7 @@ function Photography(props) {
           id="thumbnail"
           small={`${aidan}`}
           large={`${aidanL}`}
-          alt="aidan"
+          alt="Aidan (St. Paul, MN)"
           hideDownload={true}
         />
       </div>
@@ -167,7 +217,7 @@ function Photography(props) {
           id="thumbnail"
           small={`${caves}`}
           large={`${cavesL}`}
-          alt="apostle islands"
+          alt="Stockton Island (Apostle Islands National Lakeshore, Bayfield, WI)"
         />
       </div>
       <div class="thumbnail">
@@ -175,7 +225,7 @@ function Photography(props) {
           id="thumbnail"
           small={`${stoneshop}`}
           large={`${stoneshopL}`}
-          alt="stone shop"
+          alt="stone shop (Siem Reap, Cambodia)"
           hideDownload={true}
         />
       </div>
@@ -184,7 +234,7 @@ function Photography(props) {
           id="thumbnail"
           small={`${owenzeke}`}
           large={`${owenzekeL}`}
-          alt="owen zeke"
+          alt="Owen and Zeke"
           hideDownload={true}
         />
       </div>
@@ -193,7 +243,7 @@ function Photography(props) {
           id="thumbnail"
           small={`${tuktuk}`}
           large={`${tuktukL}`}
-          alt="tuk tuk"
+          alt="tuk tuk (Siem Reap, Cambodia)"
           hideDownload={true}
         />
       </div>
@@ -211,7 +261,7 @@ function Photography(props) {
           id="thumbnail"
           small={`${charliebike}`}
           large={`${charliebikeL}`}
-          alt="charlie bike"
+          alt="Charlie bike"
           hideDownload={true}
         />
       </div>
