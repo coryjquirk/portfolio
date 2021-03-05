@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import Resume from "./coryquirk-resume-mar2021.docx";
 import CoverLetter from "./coryquirk-coverletter-mar2021.docx";
+import Juniper from "./juniper.jpg"
 
 function Contact() {
   return (
@@ -71,7 +72,12 @@ function Contact() {
             </span>
           </button>
       </div>
-      <div id="contactsGhost"></div>
+      <img
+            src={Juniper}
+            id="juniperBanner"
+            class="soundBanner"
+            alt="Juniper trees"
+          ></img>
     </div>
   );
 }

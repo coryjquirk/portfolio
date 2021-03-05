@@ -27,7 +27,13 @@ function Portfolio() {
 
   return (
     <div>
-      <button class="headerNavCollapse" data-toggle="collapse" data-target="#navbarNav"><h1>web dev portfolio</h1></button>
+      <button
+        class="headerNavCollapse"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+      >
+        <h1>web dev portfolio</h1>
+      </button>
       <h1 class="desktopHeader">web dev portfolio</h1>
       <hr class="headHr" />
       <p id="pf">
@@ -35,7 +41,14 @@ function Portfolio() {
         <a href="https://github.com/coryjquirk" target="_blank">
           GitHub
         </a>{" "}
-        to see projects I'm coding, both solo and collaboratively.
+        to see sites I'm coding, both solo and collaboratively.
+      </p>
+      <p>
+        I'm a full-stack web developer looking for full time remote work and
+        freelance work. I built this site with React.js to share my projects.
+      </p>
+      <p>
+        <a href="/contact">Contact</a>
       </p>
       <div>
         <div id="devToolkit">
@@ -77,7 +90,7 @@ function Portfolio() {
             </p>
           </p>
         </div>
-        <div id="appsList" >
+        <div id="appsList">
           {opened === false && (
             <button class="appsListCtrl standardButton" onClick={revealApps}>
               <i class="fa fa-plus"></i>
@@ -373,9 +386,13 @@ function Portfolio() {
         <div id="devToolkit">
           <h3>Personal website</h3>
           <p>
-            I built this site with React.js and I'm always improving it. If you
-            notice any hilarious typos or broken links before I do,{" "}
-            <a href="contact">send me an email</a>.
+            This site was built with React.js with a focus on mobile usability,
+            and with the idea that such a site could be adapted to show off any
+            professional portfolio.
+          </p>
+          <p>
+            I continue to improve my site as my skillset widens,
+            and I particularily enjoy experimenting with CSS designs in my code.
           </p>
           <div class="portfBtnDiv">
             <a

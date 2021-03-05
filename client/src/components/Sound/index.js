@@ -78,24 +78,31 @@ function Sound() {
         </a>
       )}
       {nonfictionMode === true && (
-        <p class="bannerCredit"id="fieldRec">
-          Photo: <a href="https://en.wikipedia.org/wiki/Hidden_Falls_(Saint_Paul,_Minnesota)" target="_blank">Hidden Falls Regional Park</a> (St. Paul, MN)
+        <p class="bannerCredit" id="fieldRec">
+          Photo:{" "}
+          <a
+            href="https://en.wikipedia.org/wiki/Hidden_Falls_(Saint_Paul,_Minnesota)"
+            target="_blank"
+          >
+            Hidden Falls Regional Park
+          </a>{" "}
+          (St. Paul, MN)
         </p>
       )}
       {fictionMode === true && (
         <div id="theatre" style={fictionMode ? openedStyle : closedStyle}>
-            <iframe
-              id="ytEmbed"
-              src="https://www.youtube.com/embed/bMVVMJbBPrs?start=1242"
-            ></iframe>
+          <iframe
+            id="ytEmbed"
+            src="https://www.youtube.com/embed/bMVVMJbBPrs?start=1242"
+          ></iframe>
         </div>
       )}
       {fictionMode === true && (
         <div id="theatre" style={fictionMode ? openedStyle : closedStyle}>
-            <iframe
-              id="ytEmbed"
-              src="https://www.youtube.com/embed/aXBY8A8nBLY?t=18820"
-            ></iframe>
+          <iframe
+            id="ytEmbed"
+            src="https://www.youtube.com/embed/aXBY8A8nBLY?t=18820"
+          ></iframe>
         </div>
       )}
     </div>
