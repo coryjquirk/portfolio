@@ -35,6 +35,9 @@ function Sound() {
 
       <hr class="headHr" />
       <div id="soundOrganizer">
+      <p>
+        I coded this page to expreriment with React hooks such as <code>useState()</code>.
+      </p>
         {fictionMode === true && (
           <button class="soundNav" onClick={setNonfiction}>
             <span>&#187;&emsp;take me to sound ethnography </span>
