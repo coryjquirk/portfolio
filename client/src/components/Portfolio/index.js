@@ -36,19 +36,19 @@ function Portfolio() {
       </button>
       <h1 class="desktopHeader">web dev portfolio</h1>
       <hr class="headHr" />
-      <p>
+      <p id="pf">
         Visit me on{" "}
         <a href="https://github.com/coryjquirk" target="_blank">
           GitHub
         </a>{" "}
         to see sites I'm coding, both solo and collaboratively.
       </p>
-      <p>
+      <p id="pf">
         I'm a full-stack web developer looking for full time remote work and
         freelance work. I aim to make elegant sites with JavaScript, CSS, and React.js.
       </p>
-      <p>
-        <a href="/contact">Contact</a>
+      <p id="pf">
+        <a href="/contact">connect <i class="fa fa-arrow-right"></i></a>
       </p>
       <div>
         <div id="devToolkit">
@@ -57,10 +57,10 @@ function Portfolio() {
             <li>
               <i class="fa fa-cog"></i> Front end:{" "}
               <li><span id="desktopToolbox">
-                <strong>Design</strong> - HTML, CSS, Bootstrap
+                <strong>Design</strong> - HTML, CSS, Bootstrap, Fontawesome
               </span></li>
               <li id="mobileToolbox">
-                <strong>Design</strong> - HTML, CSS, Bootstrap
+                <strong>Design</strong> - HTML, CSS, Bootstrap, Fontawesome
               </li>
               <li><span id="desktopToolbox">
                 <strong>Function</strong> - vanilla JavaScript, jQuery
