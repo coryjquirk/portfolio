@@ -5,7 +5,7 @@ function Nav() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="/">
-        cory j. quirk
+        cory j. quirk <i class="fa fa-home" aria-hidden="true"></i>
       </a>
       <button
         class="navbar-toggler"
