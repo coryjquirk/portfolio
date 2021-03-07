@@ -12,9 +12,9 @@ function Contact() {
         data-toggle="collapse"
         data-target="#navbarNav"
       >
-        <h1>contact me</h1>
+        <h1>connect</h1>
       </button>
-      <h1 class="desktopHeader">contact me</h1>
+      <h1 class="desktopHeader">connect</h1>
       <hr class="headHr" />
       <div class="meat">
         <a href="https://www.linkedin.com/in/cory-quirk/" target="_blank">
