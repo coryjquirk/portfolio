@@ -5,10 +5,10 @@ import self from "./me.jpg";
 function AboutMe(props) {
   return (
     <div>
-      <button class="headerNavCollapse" data-toggle="collapse" data-target="#navbarNav"><h1>about me</h1></button>
-      <h1 class="desktopHeader">about me</h1>
-      <hr class="headHr" />
-      <div class="meat">
+      <button className="headerNavCollapse" data-toggle="collapse" data-target="#navbarNav"><h1>about me</h1></button>
+      <h1 className="desktopHeader">about me</h1>
+      <hr className="headHr" />
+      <div className="meat">
         <div id="selfDiv"><figure>
         <a href="/contact"><img ig="self" src={self} alt="me" id="self" 
           /></a>

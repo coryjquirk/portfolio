@@ -8,63 +8,63 @@ function Contact() {
   return (
     <div id="contact">
       <button
-        class="headerNavCollapse"
+        className="headerNavCollapse"
         data-toggle="collapse"
         data-target="#navbarNav"
       >
         <h1>connect</h1>
       </button>
-      <h1 class="desktopHeader">connect</h1>
-      <hr class="headHr" />
-      <div class="meat">
+      <h1 className="desktopHeader">connect</h1>
+      <hr className="headHr" />
+      <div className="meat">
         <a href="https://www.linkedin.com/in/cory-quirk/" target="_blank">
-          <button class="contactBtns">
+          <button className="contactBtns">
             <span>
               <p>
-                LinkedIn <i id="linkedIn" class="fa fa-linkedin"></i>
+                LinkedIn <i id="linkedIn" className="fa fa-linkedin"></i>
               </p>
             </span>
           </button>
         </a>
         <a href="https://github.com/coryjquirk" target="_blank">
-          <button class="contactBtns">
+          <button className="contactBtns">
             <span>
               <p>
-                GitHub <i class="fa fa-github"></i>
+                GitHub <i className="fa fa-github"></i>
               </p>
             </span>
           </button>
         </a>
         <a href={Resume} target="_blank">
-          <button class="contactBtns">
+          <button className="contactBtns">
             <span>
               <p id="resume">
-                Resumé <i class="fa fa-file"></i>
+                Resumé <i className="fa fa-file"></i>
               </p>
               <p id="docx">(downloads docx)</p>
             </span>
           </button>
         </a>
         <a href={CoverLetter} target="_blank">
-          <button class="contactBtns">
+          <button className="contactBtns">
             <span>
               <p id="resume">
-                Cover Letter <i class="fa fa-file"></i>
+                Cover Letter <i className="fa fa-file"></i>
               </p>
               <p id="docx">(downloads docx)</p>
             </span>
           </button>
         </a>
         <a href="mailto:coryjquirk@gmail.com" target="_blank">
-          <button class="contactBtns">
+          <button className="contactBtns">
             <span>
               <p>
-                Email <i class="fa fa-envelope"></i>
+                Email <i className="fa fa-envelope"></i>
               </p>
             </span>
           </button>
         </a>
-          <button class="contactBtns">
+          <button className="contactBtns">
             <span>
               <p id="phoneNum">six one two, 716,</p>
               <p id="phoneNum"> two four 85
@@ -75,7 +75,7 @@ function Contact() {
       <img
             src={Juniper}
             id="juniperBanner"
-            class="soundBanner"
+            className="soundBanner"
             alt="Juniper trees"
           ></img>
     </div>
