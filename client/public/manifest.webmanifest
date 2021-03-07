@@ -4,7 +4,7 @@
   "description": "Web development portfolio",
   "icons": [
     {
-      "src": "favicon.ico.png",
+      "src": "favicon.png",
       "sizes": "192x192",
       "type": "image/png"
     }
