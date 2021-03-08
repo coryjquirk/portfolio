@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Container } from "../Grid";
+import Orange from "./orange.jpg"
 
 function Home() {
   return (
@@ -45,6 +46,12 @@ function Home() {
             </button>
           </a>
         </div>
+        <img
+            src={Orange}
+            id="juniperBanner"
+            class="soundBanner"
+            alt="Montana"
+          ></img>
       </div>
     </Container>
   );

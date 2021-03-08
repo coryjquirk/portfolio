@@ -9,10 +9,6 @@ hr {
   padding: 5px 5px 5px 5px;
   width: 300px;
 }
-#contactsGhost{
-  display: none;
-  height: 400px;
-}
 button a {
   color: rgb(255, 255, 255);
 }
@@ -20,36 +16,36 @@ button a {
   background-color: white;
   max-width: 500px;
 }
-.contactBtns i{
+.contactBtns i {
   color: #4b4b4bd0;
   margin: 0px 0px 0px 2px;
 }
-#linkedIn{
+#linkedIn {
   color: rgb(240, 239, 239);
   border: solid;
   border-radius: 5px;
   background-color: #4b4b4bd0;
   padding: 2px 4px 2px 4px;
 }
-.contactBtns p{
+.contactBtns p {
   font-size: 20px;
 }
-#docx{
+#docx {
   font-size: 12px;
   text-align: center;
   margin: 0px;
   padding: 0px;
 }
-#mobileIcon{
+#mobileIcon {
   font-size: 100%;
 }
-#phoneNum{
+#phoneNum {
   font-size: 12px;
   text-align: center;
   margin: 0px;
   padding: 0px;
 }
-#resume{
+#resume {
   padding: 0px 0px 0px 0px;
   margin: 5px 5px 5px 5px;
 }
@@ -81,7 +77,7 @@ button a {
   transform: translateY(4px);
 }
 .contactBtns {
-  margin: 10px;
+  margin: 15px;
   width: 250px;
   height: 75px;
   border: 1px solid rgb(197, 197, 197);
@@ -100,21 +96,19 @@ button a {
   -o-animation: fadeIn ease 0.5s;
   -ms-animation: fadeIn ease 0.5s;
 }
-
-@media screen and (max-width: 568px) {
-  #contactsGhost{
-    display: inline-block;
+@media screen and (min-width: 570px){
+  
+  #juniperBanner{
+    margin-top:30px;
   }
 }
 @media screen and (max-width: 570px) {
-  .contactBtns{
-margin-left: 13%;  
-margin-right: 13%;  
-
-}
+  .contactBtns {
+    margin: 15px 15px 15px 0px;
+  }
 }
 @media screen and (max-width: 300px) {
-  .contactBtns{
-width: 200px;
-}
+  .contactBtns {
+    width: 200px;
+  }
 }

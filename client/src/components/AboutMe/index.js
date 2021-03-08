@@ -5,15 +5,14 @@ import self from "./me.jpg";
 function AboutMe(props) {
   return (
     <div>
-      <button class="headerNavCollapse" data-toggle="collapse" data-target="#navbarNav"><h1>about me</h1></button>
-      <h1 class="desktopHeader">about me</h1>
-      <hr class="headHr" />
-      <div class="meat">
+      <button className="headerNavCollapse" data-toggle="collapse" data-target="#navbarNav"><h1>about me</h1></button>
+      <h1 className="desktopHeader">about me</h1>
+      <hr className="headHr" />
+      <div className="meat">
         <div id="selfDiv"><figure>
         <a href="/contact"><img ig="self" src={self} alt="me" id="self" 
           /></a>
 
-          <figcaption>Ice fishing in Finland, MN</figcaption>
         </figure>
         </div>
         
@@ -21,7 +20,7 @@ function AboutMe(props) {
           I'm a full-stack web developer looking for full time remote work and
           small project work. I built this site with React to share my projects.{" "}
           <a href="/contact">Over here</a> you can find my LinkedIn profile,
-          resumé, and my GitHub page to see projects I'm coding.
+          resumé, and a catch-all cover letter. I stay actively coding and you can visit my GitHub to see what I'm working on.
         </p>
         <p id="break">-. --- .--</p>
         <h3 id="wna">work and academics</h3>
