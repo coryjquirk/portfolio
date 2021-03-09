@@ -3,23 +3,23 @@ import "./style.css";
 
 function BandcampCard(props) {
   return (
-    <div class="meat">
+    <div className="meat">
       <div>
-        <p class="soundcaption">
+        <p className="soundcaption">
           In group improvisation with{" "}
           <a href="https://watershedgroup.bandcamp.com/"  target="_blank">Watershed Group</a>, we
            use samples and field recordings with noisy live
           instrumentation and analog electronics. A highlight has been been playing at{" "}
           <a href="https://youtu.be/aXBY8A8nBLY?t=18820" target="_blank">Drone Not Drones</a>.
         </p>
-        <div class="bcBtnDiv">
+        <div className="bcBtnDiv">
           <a href="https://watershedgroup.bandcamp.com/" target="_blank" class="bcBtn">
-            <button class="standardButton">
-              Bandcamp page&ensp;<i class="fa fa-bandcamp"></i>
+            <button className="standardButton">
+              Bandcamp page&ensp;<i className="fa fa-bandcamp"></i>
             </button>
           </a>
         </div>
-        <div class="bcEmbedererer">
+        <div className="bcEmbedererer">
           <iframe
             id="bcEmbed"
             src="https://bandcamp.com/EmbeddedPlayer/album=1907407206/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/track=889048691/transparent=true/"

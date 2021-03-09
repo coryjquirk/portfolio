@@ -3,12 +3,12 @@ import "./style.css";
 
 function Nav() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/">
-        cory j. quirk <i class="fa fa-home" aria-hidden="true"></i>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <a className="navbar-brand" href="/">
+        cory j. quirk <i className="fa fa-home" aria-hidden="true"></i>
       </a>
       <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNav"
@@ -16,32 +16,32 @@ function Nav() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="portfolio">
-              web dev <span class="sr-only">(current)</span>
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav">
+          <li className="nav-item active">
+            <a className="nav-link" href="portfolio">
+              web dev <span className="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="photography">
-              photography <span class="sr-only">(current)</span>
+          <li className="nav-item active">
+            <a className="nav-link" href="photography">
+              photography <span className="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="sound">
-              sound <span class="sr-only">(current)</span>
+          {/* <li className="nav-item active">
+            <a className="nav-link" href="sound">
+              sound <span className="sr-only">(current)</span>
+            </a>
+          </li> */}
+          <li className="nav-item">
+            <a className="nav-link" href="blog">
+              blog
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about">
-              about
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact">
+          <li className="nav-item">
+            <a className="nav-link" href="contact">
               contact
             </a>
           </li>

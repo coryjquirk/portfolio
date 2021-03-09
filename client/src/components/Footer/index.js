@@ -9,7 +9,7 @@ function Footer() {
         <a href="https://coryjquirk.herokuapp.com/">
           <img id="footerFavicon" src={Favicon} alt="favicon" />
         </a>
-        ©2020<span id="cuteMorse">.- .-.. -- --- ... - - .... . .-. . </span>
+        ©2021<span id="cuteMorse">.- .-.. -- --- ... - - .... . .-. . </span>
         <a
           href="https://www.instagram.com/coryquirk/"
           class="fa fa-instagram"

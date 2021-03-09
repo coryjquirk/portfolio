@@ -15,36 +15,37 @@ function Home() {
           <h1>welcome</h1>
         </button>
         <h1 class="desktopHeader">welcome</h1>
-        <hr class="headHr" />
+        <hr className="headHr" />
         <div class="meat">
           <a href="/portfolio">
             <button class="homeBtns">
               <span>
-                <p>web development portfolio</p>
+                <p>web dev portfolio</p>
+              </span>
+            </button>
+          </a><a href="/photography">
+            <button class="homeBtns">
+              <span>
+                <p>photography</p>
+              </span>
+            </button>
+          </a>
+          
+          <a href="/blog">
+            <button class="homeBtns">
+              <span>
+                <p class="muted">blog</p>
               </span>
             </button>
           </a>
           <a href="/contact">
             <button class="homeBtns">
               <span>
-                <p>contact me</p>
+                <p class="muted">contact me</p>
               </span>
             </button>
           </a>
-          <a href="/photography">
-            <button class="homeBtns">
-              <span>
-                <p class="muted">photography</p>
-              </span>
-            </button>
-          </a>
-          <a href="/sound">
-            <button class="homeBtns">
-              <span>
-                <p class="muted">sound work</p>
-              </span>
-            </button>
-          </a>
+          
         </div>
         <img
             src={Orange}
