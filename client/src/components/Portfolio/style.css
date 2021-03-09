@@ -7,6 +7,10 @@
     max-width: 450px;
     margin-bottom: 15px;
 }
+#connectLink{
+    margin: 15px 0px 25px 280px;
+    text-align: right;
+}
 #appsList{
     background-color: rgb(251, 251, 251);
     min-height: 50px;
@@ -36,7 +40,7 @@
     top: 80px;
 }
 #portfolioItem{
-    border: 5px;
+    border: 1px;
     border-style: solid dotted solid dotted;
     border-color: hsl(125, 20%,45%);
     border-radius: 7px;

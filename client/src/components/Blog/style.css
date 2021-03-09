@@ -1,0 +1,77 @@
+h1,
+p {
+  text-align: left;
+}
+p {
+  margin: 10px 10px 10px 10px;
+  width: 95%;
+}
+#blogList,
+#about {
+  max-width: 530px;
+}
+#blogPost {
+  border: solid rgb(230, 230, 230) 1px;
+  border-radius: 7px;
+  margin: 10px;
+  background-color: none;
+  padding: 5px 5px 5px 5px;
+  position: relative;
+}
+#previewText {
+  font-style: italic;
+  color: rgb(116, 116, 116);
+  font-size: small;
+}
+#bottomLink {
+  float: right;
+  color: rgb(212, 238, 253);
+  margin: 5px 0px 5px 0px;
+}
+#blogDate {
+  font-size: 12px;
+}
+#closePost {
+  top: 0px;
+  right: 0px;
+  border-radius: 5px;
+}
+#self {
+  width: 100%;
+  margin: 150px 0px 120px 0px;
+}
+.blogImg {
+  width: 35%;
+  float: right;
+  margin: -40px 15px 10px 15px;
+}
+#openPost {
+  border: 1px rgb(196, 196, 196) solid;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 8px;
+}
+#openPost,
+#closePost {
+  padding: 2px 2px 2px 2px;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+}
+#openPost:hover,
+#closePost:hover {
+  background-color: rgb(233, 233, 233);
+  opacity: 0.5;
+  border: none;
+}
+#about {
+  background-color: rgb(251, 251, 251);
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  margin: 10px;
+}
+
+#blogPost:hover span:after {
+  opacity: 1;
+  right: 0;
+}

@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import PortfolioPage from "./pages/PortfolioPage";
 import SoundPage from "./pages/SoundPage";
 import PhotographyPage from "./pages/PhotographyPage";
-import AboutPage from "./pages/AboutPage";
+import Blog from "./components/Blog";
 import ContactPage from "./pages/ContactPage";
 import NoMatchPage from "./pages/NoMatchPage";
 import Nav from "./components/Nav";
@@ -26,7 +26,7 @@ function App(){
                 <Route exact path="/sound" component={SoundPage}/>
                 <Route exact path="/photography" component={PhotographyPage} />
                 <Route exact path="/contact" component={ContactPage} />
-                <Route exact path="/about" component={AboutPage} />
+                <Route exact path="/blog" component={Blog} />
                 <Route component={NoMatchPage} />
               </Switch>
             </div>

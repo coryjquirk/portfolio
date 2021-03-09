@@ -30,14 +30,14 @@ function Nav() {
               photography <span className="sr-only">(current)</span>
             </a>
           </li>
-          <li className="nav-item active">
+          {/* <li className="nav-item active">
             <a className="nav-link" href="sound">
               sound <span className="sr-only">(current)</span>
             </a>
-          </li>
+          </li> */}
           <li className="nav-item">
-            <a className="nav-link" href="about">
-              about
+            <a className="nav-link" href="blog">
+              blog
             </a>
           </li>
           <li className="nav-item">
