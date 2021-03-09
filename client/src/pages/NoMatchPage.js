@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import Jumbotron from "../components/Jumbotron";
-
 const NoMatch = () => {
   return (
     <Container fluid>
@@ -14,6 +13,9 @@ const NoMatch = () => {
               🤔
               </span>
             </h1>
+            <a id="returnHome" style={{textAlign: "left"}} href="/"><p>Return home</p></a>
+            <p>expecting something different on this page?</p>
+            <p>please <a href="/contact">email me</a> to report an issue</p>
         </Col>
       </Row>
     </Container>

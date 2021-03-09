@@ -20,7 +20,6 @@ function App(){
             <Nav />
             <div id="main">
               <Switch>
-              <Route exact path="/index.html" component={Home} />
                 <Route exact path="/" component={Home} />
                 <Route exact path="/portfolio" component={PortfolioPage} />
                 <Route exact path="/sound" component={SoundPage}/>
