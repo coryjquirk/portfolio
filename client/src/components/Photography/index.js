@@ -18,7 +18,7 @@ import charliebikeL from "./Images/large/charliebikelarge.jpg";
 import owenzeke from "./Images/owenzeke.png";
 import owenzekeL from "./Images/large/owenzekelarge.png";
 import keanu from "./Images/keanu.png";
-import keanuL from "./Images/large/keanularge.jpg";
+import keanuL from "./Images/large/keanularge.png";
 import caves from "./Images/caves.jpg";
 import cavesL from "./Images/large/caveslarge.jpg";
 import tuktuk from "./Images/tuktuk.jpg";
@@ -37,20 +37,16 @@ import aidan from "./Images/aidan.png";
 import aidanL from "./Images/large/aidanlarge.jpg";
 import snowfire from "./Images/snowfire.png";
 import snowfireL from "./Images/large/snowfire-large.png";
-
 import hoodPines from "./Images/hoodpines.png";
 import hoodPinesL from "./Images/large/hoodpineslarge.png";
-
 import idaho from "./Images/idaho.png";
 import idahoL from "./Images/large/idaholarge.png";
-
 import krouchLy from "./Images/krouchly.png";
 import krouchLyL from "./Images/large/krouchlylarge.png";
-
 import lutstars from "./Images/lutstars.png";
 import lutstarsL from "./Images/large/lutstarslarge.png";
-
 import sedonaSammy from "./Images/sedonasammy.png";
+import sedonaSammyL from "./Images/large/sedonasammylarge.png";
 //idea for later: "sort by place" checkbox
 
 //try this out --->
@@ -71,33 +67,46 @@ function Photography(props) {
       <p>Click an image to open a larger version.</p>
       <div class="thumbnail">
         <ModalImage
+          id="thumbnail"
+          small={`${palisade}`}
+          large={`${palisadeL}`}
+          alt="Palisade Head (Lake County, MN)"
+          hideDownload={true}
+        />
+      </div>
+      <div class="thumbnail">
+        <ModalImage
           small={`${lutstars}`}
           large={`${lutstarsL}`}
           alt="Lutsen, MN - long exposure facing N"
           hideDownload={true}
         />
-      </div><div class="thumbnail">
+      </div>
+      <div class="thumbnail">
         <ModalImage
           small={`${krouchLy}`}
           large={`${krouchLyL}`}
           alt="Krouch Ly (Prek Toal Bird Sanctuary, Cambodia)"
           hideDownload={true}
         />
-      </div><div class="thumbnail">
+      </div>
+      <div class="thumbnail">
         <ModalImage
           small={`${idaho}`}
           large={`${idahoL}`}
           alt="Idaho-Montana border"
           hideDownload={true}
         />
-      </div><div class="thumbnail">
+      </div>
+      <div class="thumbnail">
         <ModalImage
           small={`${sedonaSammy}`}
-          large={`${sedonaSammy}`}
+          large={`${sedonaSammyL}`}
           alt="Keanu (Sedona, AZ)"
           hideDownload={true}
         />
-      </div><div class="thumbnail">
+      </div>
+      <div class="thumbnail">
         <ModalImage
           small={`${hoodPines}`}
           large={`${hoodPinesL}`}
@@ -113,30 +122,22 @@ function Photography(props) {
           hideDownload={true}
         />
       </div>
-      <div class="thumbnail">
-        <ModalImage
-          id="thumbnail"
-          small={`${palisade}`}
-          large={`${palisadeL}`}
-          alt="Palisade Head (Lake County, MN)"
-          hideDownload={true}
-        />
-      </div>
-      <div class="thumbnail">
-        <ModalImage
-          id="thumbnail"
-          small={`${monastery}`}
-          large={`${monasteryL}`}
-          alt="monastery"
-          hideDownload={true}
-        />
-      </div>
+
       <div class="thumbnail">
         <ModalImage
           id="thumbnail"
           small={`${mpls}`}
           large={`${mplsL}`}
           alt="minneapolis"
+          hideDownload={true}
+        />
+      </div>
+      <div class="thumbnail">
+        <ModalImage
+          id="thumbnail"
+          small={`${carkeek}`}
+          large={`${carkeekL}`}
+          alt="carkeek park"
           hideDownload={true}
         />
       </div>
@@ -185,6 +186,25 @@ function Photography(props) {
           hideDownload={true}
         />
       </div>
+
+      <div class="thumbnail">
+        <ModalImage
+          id="thumbnail"
+          small={`${owenzeke}`}
+          large={`${owenzekeL}`}
+          alt="Owen and Zeke"
+          hideDownload={true}
+        />
+      </div>
+      <div class="thumbnail">
+        <ModalImage
+          id="thumbnail"
+          small={`${monastery}`}
+          large={`${monasteryL}`}
+          alt="monastery"
+          hideDownload={true}
+        />
+      </div>
       <div class="thumbnail">
         <ModalImage
           id="thumbnail"
@@ -203,6 +223,16 @@ function Photography(props) {
           hideDownload={true}
         />
       </div>
+      <div id="lastPhoto" class="thumbnail">
+        <ModalImage
+          id="thumbnail"
+          small={`${charliebike}`}
+          large={`${charliebikeL}`}
+          alt="Charlie bike"
+          hideDownload={true}
+        />
+      </div>
+
       <div class="thumbnail">
         <ModalImage
           id="thumbnail"
@@ -229,15 +259,7 @@ function Photography(props) {
           hideDownload={true}
         />
       </div>
-      <div class="thumbnail">
-        <ModalImage
-          id="thumbnail"
-          small={`${owenzeke}`}
-          large={`${owenzekeL}`}
-          alt="Owen and Zeke"
-          hideDownload={true}
-        />
-      </div>
+
       <div class="thumbnail">
         <ModalImage
           id="thumbnail"
@@ -247,24 +269,7 @@ function Photography(props) {
           hideDownload={true}
         />
       </div>
-      <div class="thumbnail">
-        <ModalImage
-          id="thumbnail"
-          small={`${carkeek}`}
-          large={`${carkeekL}`}
-          alt="carkeek park"
-          hideDownload={true}
-        />
-      </div>
-      <div id="lastPhoto" class="thumbnail">
-        <ModalImage
-          id="thumbnail"
-          small={`${charliebike}`}
-          large={`${charliebikeL}`}
-          alt="Charlie bike"
-          hideDownload={true}
-        />
-      </div>
+
       <div id="photoSocials">
         <p>
           <a

@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001/",
+  "proxy": "http://localhost:3000/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "axios": "^0.21.0",
