@@ -4,7 +4,7 @@ import "./style.css";
 function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="/">
+      <a className="navbar-brand" href="/home">
         cory j. quirk <i className="fa fa-home" aria-hidden="true"></i>
       </a>
       <button

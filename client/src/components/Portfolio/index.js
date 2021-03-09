@@ -107,10 +107,13 @@ function Portfolio() {
               </li>
             </li>
             <li>
-              <i className="fa fa-cog"></i> Git collaboration, version control
+              <i className="fa fa-cog"></i> Git Bash for collaboration and version control
             </li>
             <li>
-              <i className="fa fa-cog"></i> Heroku deployment
+              <i className="fa fa-cog"></i> Deployment: Heroku cloud application platform
+            </li>
+            <li>
+              <i className="fa fa-cog"></i> NPM (Node Package Manager) to import JavaScript features
             </li>
             <li>
               <i className="fa fa-cog"></i> Dev methodologies:
@@ -141,7 +144,8 @@ function Portfolio() {
           <h3 id="appsHeader">portfolio</h3>
           {appsOpened === true && (
             <div>
-              <p>A few of my website projects so far.</p>
+              <p>A few completed projects so far.</p>
+              <p>Please visit me on <a href="https://github.com/coryjquirk" target="_blank">GitHub</a> to view code repositories.</p>
               <div id="portfolioItem">
                 <h3>What's Cooking?</h3>
                 <p>

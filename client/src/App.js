@@ -13,27 +13,32 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import ScrollArrow from "./components/ScrollArrow";
 
-function App(){
-    return (
-      <Router>
-        <div className="App">
-            <Nav />
-            <div id="main">
-              <Switch>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/portfolio" component={PortfolioPage} />
-                <Route exact path="/sound" component={SoundPage}/>
-                <Route exact path="/photography" component={PhotographyPage} />
-                <Route exact path="/contact" component={ContactPage} />
-                <Route exact path="/blog" component={Blog} />
-                <Route component={NoMatchPage} />
-              </Switch>
-            </div>
-            <ScrollArrow/>
-            <Footer/>
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Nav />
+        <div id="main">
+          <Switch>
+          <Route path="/">
+              <Home></Home>
+            </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+            <Route exact path="/portfolio" component={PortfolioPage} />
+            <Route exact path="/sound" component={SoundPage} />
+            <Route exact path="/photography" component={PhotographyPage} />
+            <Route exact path="/contact" component={ContactPage} />
+            <Route exact path="/blog" component={Blog} />
+            <Route component={NoMatchPage} />
+          </Switch>
+        </div>
+        <ScrollArrow />
+        <Footer />
       </div>
-      </Router>
-    );
-  }
+    </Router>
+  );
+}
 
 export default App;

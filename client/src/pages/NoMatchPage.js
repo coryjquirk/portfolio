@@ -13,7 +13,7 @@ const NoMatch = () => {
               🤔
               </span>
             </h1>
-            <a id="returnHome" style={{textAlign: "left"}} href="/"><p>Return home</p></a>
+            <a id="returnHome" style={{textAlign: "left"}} href="/home"><p>Return home</p></a>
             <p>expecting something different on this page?</p>
             <p>please <a href="/contact">email me</a> to report an issue</p>
         </Col>
