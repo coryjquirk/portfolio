@@ -45,7 +45,7 @@ function Blog() {
             <p id="blogDate">8 March, 2021 </p>
             {opened === true && (
               <div>
-                  <img class="blogImg" src={juniper}></img>
+                <img class="blogImg" src={juniper}></img>
                 <p>
                   As we reach the one year mark of COVID-19 becoming a reality
                   for Americans, I want to share some Monday morning reflections
@@ -71,24 +71,24 @@ function Blog() {
                 </p>
                 <p>Pros:</p>
                 <p>
-                  Food. Although I miss cooking for work potlucks and going out
+                  <strong>Food.</strong> Although I miss cooking for work potlucks and going out
                   for lunches together, I'm grateful when everyone on the team
                   I'm working with can nourish themselves at home without
                   worrying about any dietary restrictions or food allergies. For
                   those who don't feel comfortable in the kitchen, this might be
-                  more of a con. No commute! It’s better for the earth, and it’s
+                  more of a con. </p><p><strong>No commute!</strong> It’s better for the earth, and it’s
                   better for us. Many folks used to spend an hour in the car
                   every day on American interstates during rush hour, a part of
                   a daily routine nothing else if not stress-inducing. The
                   average American works 260 days a year. Sure, maybe there have
                   been times in quarantine where you struggled finding ways to
                   spend your time at home, but did you ever sit wishing you were
-                  bumper to bumper on a freeway ramp? Pets. I don't have any, so
+                  bumper to bumper on a freeway ramp? </p><p><strong>Pets.</strong> I don't have any, so
                   I love seeing yours.
                 </p>
                 <p>Cons:</p>
                 <p>
-                  Cabin fever. I’m seeing so many memes lately about how
+                  <strong>Cabin fever.</strong> I’m seeing so many memes lately about how
                   unusually wonderful the sun in spring 2021 feels for our
                   bodies. Extra vitamin D is especially important to those of us
                   farther north of the equator. As an aside, I hope our
@@ -99,7 +99,7 @@ function Blog() {
                   incarceration.
                 </p>
                 <p>
-                  Video latency. We don't face this problem with the usual
+                  <strong>Video latency.</strong> We don't face this problem with the usual
                   in-person communication. Latency is defined by Oxford as "the
                   delay before a transfer of data begins following an
                   instruction” - and this delay can cause participants to
@@ -129,10 +129,9 @@ function Blog() {
                   freelance/commission proposals.
                 </p>
                 <p>
-                  Thank you to Owen Hoglund for workshopping this writing with
+                  Thank you to  <a href="https://github.com/Othedough">Owen Höglund</a> for workshopping this writing with
                   me, and for giving me the idea to break a much longer piece
-                  into continuing posts (
-                  <a href="https://github.com/Othedough">his GitHub</a>). In
+                  into continuing posts. In
                   future posts I’ll write more about projects I’m working on, my
                   coding bootcamp experience, as well as coding myths that I
                   would like to dispel.
