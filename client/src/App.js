@@ -20,12 +20,8 @@ function App() {
         <Nav />
         <div id="main">
           <Switch>
-          <Route path="/">
-              <Home></Home>
-            </Route>
-            <Route path="/home">
-              <Home></Home>
-            </Route>
+          <Route exact path="/" component={Home} />
+            <Route exact path="/home" component={Home} />
             <Route exact path="/portfolio" component={PortfolioPage} />
             <Route exact path="/sound" component={SoundPage} />
             <Route exact path="/photography" component={PhotographyPage} />
