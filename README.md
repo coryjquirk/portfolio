@@ -18,6 +18,11 @@ Deployed application: https://coryjquirk.herokuapp.com
 * Bootstrap
 * Fontawesome icons
 
+### Future development
+* Dark mode switch
+* Language selection
+* Expanded photo sorting options
+
 ## License Information
 * The Unlicense
 
