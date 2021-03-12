@@ -1,97 +1,102 @@
-#appsList, #pf, #devToolKit, #portfolioItem{
-    max-width: 530px;
+@media screen and (max-width: 600px) {
+  #appsList,
+  #pf,
+  #devToolKit,
+  #portfolioItem,
+  #devToolkit {
+    width: 95%;
+  }
 }
 .scrnsht {
-    width: auto;
-    height: auto;
-    max-width: 450px;
-    margin-bottom: 15px;
+  width: auto;
+  height: auto;
+  max-width: 450px;
+  margin-bottom: 15px;
 }
-#connectLink{
-    margin: 15px 0px 25px 280px;
-    text-align: right;
+#connectLink {
+  text-align: center;
 }
-#appsList{
-    background-color: rgb(251, 251, 251);
-    min-height: 50px;
-    border-radius: 10px;
-    padding: 10px 5px 10px 10px;
+#appsList {
+  background-color: rgb(251, 251, 251);
+  min-height: 50px;
+  border-radius: 10px;
+  padding: 10px 5px 10px 10px;
 }
-#appsHeader{
-    background-color: none;
-    font-weight: 500;
-    text-align: center;
-    font-size: 34px;
-    width: 100px;
-    border-radius: 8px;
-    padding: 3px 5px 3px 5px;
-    margin: 0px 10px 10px 10px;
+#appsHeader {
+  background-color: none;
+  font-weight: 500;
+  text-align: center;
+  font-size: 34px;
+  width: 100px;
+  border-radius: 8px;
+  padding: 3px 5px 3px 5px;
+  margin: 0px 10px 10px 10px;
 }
-.appsListCtrl{
-    color: none;
-    border: none;
-    float: right;
-    height: 30px;
-    width: 30px;
-    padding: 0px;
-    margin: 20px 10px 0px 0px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 80px;
+.appsListCtrl {
+  color: none;
+  border: none;
+  float: right;
+  height: 30px;
+  width: 30px;
+  padding: 0px;
+  margin: 20px 10px 0px 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
 }
-#portfolioItem{
-    border: 1px;
-    border-style: solid dotted solid dotted;
-    border-color: hsl(125, 20%,45%);
-    border-radius: 7px;
-    margin:10px;
+#portfolioItem {
+  border: 1px;
+  border-style: solid dotted solid dotted;
+  border-color: hsl(125, 20%, 45%);
+  border-radius: 7px;
+  margin: 10px;
 }
-#devToolkit{
-    background-color: rgb(251, 251, 251);
-    border-radius: 10px;
-    margin:10px;
-    max-width: 530px;
-    padding: 3px;
+#devToolkit {
+  background-color: rgb(251, 251, 251);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 3px;
 }
-#mobileToolbox{
-    display: none;
+#mobileToolbox {
+  display: none;
 }
-#desktopToolbox{
-    display: inline;
+#desktopToolbox {
+  display: inline;
 }
-#portfolioItem p, #devToolkit p{
-    margin: 0px 10px 5px 10px;
-    padding: 5px 5px 5px 5px;
+#portfolioItem p,
+#devToolkit p {
+  margin: 0px 10px 5px 10px;
+  padding: 5px 5px 5px 5px;
 }
-#toolkit{
-    text-align: left;
+#toolkit {
+  text-align: left;
 }
-#toolkit li{
-    padding: 0px 0px 0px 20px;
-    z-index: 0;
-    margin: 0px 0px 5px 0px;
+#toolkit li {
+  padding: 0px 0px 0px 20px;
+  z-index: 0;
+  margin: 0px 0px 5px 0px;
 }
-.appLink{
-    font-style: italic;
+.appLink {
+  font-style: italic;
 }
-.portfBtnDiv{
-height: 13%;
-margin: 5px 0px 10px 0px
+.portfBtnDiv {
+  height: 13%;
+  margin: 5px 0px 10px 0px;
 }
-.portfBtn{
-    display: inline-block;
-    margin: 0px 15px 10px 10px;
+.portfBtn {
+  display: inline-block;
+  margin: 0px 15px 10px 10px;
 }
 @media screen and (max-width: 991px) {
-    .scrnsht{
-        max-width: 80%;
-    }
+  .scrnsht {
+    max-width: 80%;
+  }
 }
 @media screen and (max-width: 600px) {
-    #mobileToolbox{
-        display: block;
-    }
-    #desktopToolbox{
-        display:none;
-    }
+  #mobileToolbox {
+    display: block;
+  }
+  #desktopToolbox {
+    display: none;
+  }
 }

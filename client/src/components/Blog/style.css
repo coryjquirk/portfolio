@@ -1,27 +1,60 @@
+@media screen and (min-width: 1400px) {
+}
+@media screen and (min-width: 1250px) {
+  .container-fluid {
+    margin-left: 100px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .container-fluid {
+    margin-left: 50px;
+  }
+  p {
+    font-size: medium;
+  }
+  .blogImg {
+    width: 35%;
+    float: right;
+    margin: 0px 15px 10px 15px;
+  }
+}
+#blog {
+  margin-left: 3%;
+  margin-right: 3%;
+}
 h1,
 p {
   text-align: left;
 }
 p {
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 20px 20px;
   width: 95%;
+  padding-right: 35px;
 }
-#blogList,
-#about {
-  max-width: 530px;
+#break {
+  text-align: center;
+  letter-spacing: 0.3rem;
 }
 #blogPost {
-  border: solid rgb(230, 230, 230) 1px;
-  border-radius: 7px;
+  border-bottom: black 1px solid;
   margin: 10px;
   background-color: none;
-  padding: 5px 5px 5px 5px;
+  padding: 10px 13px 10px 13px;
   position: relative;
+}
+#blogPost text {
+  color: rgb(116, 116, 116);
 }
 #previewText {
   font-style: italic;
   color: rgb(116, 116, 116);
   font-size: small;
+}
+.mutedBlog {
+  font-style: italic;
+  color: rgb(116, 116, 116);
+  font-size: small;
+  padding-right: 250px;
 }
 #bottomLink {
   float: right;
@@ -38,12 +71,18 @@ p {
 }
 #self {
   width: 100%;
-  margin: 150px 0px 120px 0px;
+  margin: 30px 0px 120px 0px;
+}
+.blogHeadImg {
+  max-height: 450px;
+  max-width: 450px;
+  float: right;
+  margin: 15px 15px 15px 15px;
 }
 .blogImg {
-  width: 45%;
-  float: right;
-  margin: -40px 15px 10px 15px;
+  margin: 15px 18px 15px 18px;
+  width: 40%;
+  float: left;
 }
 #openPost {
   border: 1px rgb(196, 196, 196) solid;
@@ -53,8 +92,8 @@ p {
 }
 #openPost,
 #closePost {
-  padding: 2px 2px 2px 2px;
-  height: 30px;
+  /* padding: 2px 2px 2px 2px; */
+  height: 33px;
   width: 30px;
   position: absolute;
 }
@@ -64,14 +103,70 @@ p {
   opacity: 0.5;
   border: none;
 }
+#closeSymbol,
+#arrowSymbol {
+  padding-left: 7px;
+  padding: 7px 0px 0px 7px;
+}
 #about {
   background-color: rgb(251, 251, 251);
   border-radius: 10px;
   padding: 5px 5px 5px 5px;
   margin: 10px;
+  width: 600px;
+}
+#about p {
+  font-size: smaller;
 }
 
 #blogPost:hover span:after {
   opacity: 1;
   right: 0;
+}
+@media screen and (max-width: 1400px) {
+  #blog,
+  #blogPost {
+    width: 90%;
+  }
+  #about {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 950px) {
+  #sedona{
+    width: 50%
+  }
+}
+@media screen and (max-width: 750px) {
+  #previewText {
+    padding-right: 15px;
+    margin: 10px 10px 10px 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mutedBlog {
+    padding-right: 70px;
+  }
+  #blogPost {
+    border: solid rgb(230, 230, 230) 1px;
+    border-radius: 7px;
+  }
+  .blogHeadImg{
+    width: 35%;
+  }
+  #sedona {
+    max-height: none;
+    max-width: none;
+    width: 100%;
+    float: none;
+    margin: 15px 15px 15px 15px;
+    padding-right: 15px;
+  }
+  p,
+  #about,
+  #blog,
+  #blogPost {
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+  }
 }

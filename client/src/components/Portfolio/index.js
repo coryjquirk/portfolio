@@ -51,8 +51,8 @@ function Portfolio() {
         </a>{" "}
         to see sites I'm coding, both solo and collaboratively.
       </p>
-      <p id="pf">
-        <a id="connectLink" href="/contact">
+      <p  id="connectLink">
+        <a href="/contact">
           connect <i className="fa fa-arrow-right"></i>
         </a>
       </p>

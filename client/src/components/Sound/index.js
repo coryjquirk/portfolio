@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./style.css";
 import fieldrecording from "./fieldrecording.png";
 import wsBanner from "./watershed-banner.png";
-import BandcampCard from "../BandcampCard";
-import SoundEthCard from "../SoundEthCard";
+import BandcampCard from "../x-drawer/BandcampCard";
+import SoundEthCard from "../x-drawer/SoundEthCard";
 
 function Sound() {
   const [fictionMode, setFictionMode] = useState();
