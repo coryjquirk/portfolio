@@ -12,11 +12,16 @@ Deployed application: https://coryjquirk.herokuapp.com
 * User experience designed with accessibility considerations
 
 ### Resources used
-* React.js Effect Hooks
+* React.js hooks (useStatate)
     * [react-modal-image](https://github.com/aautio/react-modal-image) component
     * [Custom scroll arrow](https://medium.com/better-programming/create-a-scroll-to-top-arrow-using-react-hooks-18586890fedc) component
 * Bootstrap
 * Fontawesome icons
+
+### Future development
+* Dark mode switch
+* Language selection
+* Expanded photo sorting options
 
 ## License Information
 * The Unlicense
