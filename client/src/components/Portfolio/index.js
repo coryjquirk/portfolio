@@ -111,12 +111,20 @@ function Portfolio() {
               Manager) to import JavaScript features
             </li>
             <li>
-            <i className="fa fa-cog"></i> <strong>Methodologies: </strong>
-              <li><span id="desktopToolbox">Agile</span></li>
+              <i className="fa fa-cog"></i> <strong>Methodologies: </strong>
+              <li>
+                <span id="desktopToolbox">Agile</span>
+              </li>
               <li id="mobileToolbox">Agile</li>
-              <li><span id="desktopToolbox">daily scrum</span></li>
+              <li>
+                <span id="desktopToolbox">daily scrum</span>
+              </li>
               <li id="mobileToolbox">daily scrum</li>
-              <li><span id="desktopToolbox">kanban project management boards</span></li>
+              <li>
+                <span id="desktopToolbox">
+                  kanban project management boards
+                </span>
+              </li>
               <li id="mobileToolbox">kanban project management boards</li>
             </li>
             <li>
@@ -137,14 +145,20 @@ function Portfolio() {
             </li>
             <li>
               <i className="fa fa-cog"></i> Hardware experience:{" "}
-              <li><span id="desktopToolbox">Built my PC</span></li>
+              <li>
+                <span id="desktopToolbox">Built my PC</span>
+              </li>
               <li id="mobileToolbox">Built my PC</li>
-              <li><span id="desktopToolbox">Raspberry Pi 4</span></li>
+              <li>
+                <span id="desktopToolbox">Raspberry Pi 4</span>
+              </li>
               <li id="mobileToolbox">Raspberry Pi 4</li>
             </li>
             <li>
               <i className="fa fa-cog"></i> <strong>Python</strong>
-              <li><span id="desktopToolbox">beginner exposure</span></li>
+              <li>
+                <span id="desktopToolbox">beginner exposure</span>
+              </li>
               <li id="mobileToolbox">beginner exposure</li>
             </li>
             <p>
@@ -476,42 +490,60 @@ function Portfolio() {
           )}
         </div>
         <div id="portfolioSiteDiv">
-            <h3>Personal website</h3>
-            <p>
-              I built this site with the idea that such a site could be adapted
-              to a client's portfolio.
-            </p>
-            <p>
-              I'm actively imporoving this site in spring 2021 and if something
-              isn't working right, please <a href="/contact">email me</a>.
-            </p>
-            <hr></hr>
-            <p>
-              I enjoy coding custom <strong>CSS</strong> features supplemented
-              with tools like Bootstrap and Fontawesome that provide great
-              features ready to use right away. <strong>React.js</strong> allows
-              me to create custom UI/UX components like the portfolio's "drawer"
-              button above. You can also easily bring code for third party React
-              components, such as the scroll-up arrow on the bottom right.
-            </p>
-            <p>
-              This site meets accessibility standards for screen readers, and is
-              a PWA (Progressive Web Application) that you can install on your
-              phone's home screen. It utilizes a service worker to cache
-              important files and uses a webmanifest to carry important metadata
-              for the site to work best on a variety of browsers.
-            </p>
-            <div className="portfBtnDiv">
-              <a
-                href="https://github.com/coryjquirk/portfolio"
-                target="_blank"
-                className="portfBtn"
-              >
-                <button className="standardButton">
-                  GitHub repo <i className="fa fa-link"></i>
-                </button>
-              </a>
-            </div>
+          <h3>Personal website</h3>
+          <p>
+            I built this site with the idea that such a site could be adapted to
+            a client's portfolio.
+          </p>
+          <p>
+            I'm actively imporoving this site in spring 2021 and if something
+            isn't working right, please <a href="/contact">email me</a>.
+          </p>
+
+          <hr></hr>
+          <p>
+            {" "}
+            I run a secondary server from a different <strong>Git</strong>{" "}
+            branch{" "}
+            <a href="https://portfolio-tester.herokuapp.com/" target="_blank">
+              here
+            </a>{" "}
+            with <strong>Heroku</strong>, so I can make sure my site won't break
+            upon deployment.
+          </p>
+          <p>
+            My process with Git is to host my code in a GitHub repository, pull
+            down the main branch to my secondary branch to code new features.
+            Then I commit meaningful changes early and often but only upon
+            completion of features, never adding 'half-working' code (if there is such a thing), since
+            repositories of broken code only confuse other developers. In comments, I like to add links to documentation and sources for open-source code that I'm utilizing.
+          </p>
+          <p>
+            I enjoy coding custom <strong>CSS</strong> features supplemented
+            with tools like Bootstrap and Fontawesome that provide great
+            features ready to use right away. <strong>React.js</strong> allows
+            me to create custom UI/UX components like the portfolio's 'drawer'
+            button above. You can also easily bring code for third party React
+            components, such as the scroll-up arrow on the bottom right.
+          </p>
+          <p>
+            This site meets accessibility standards for screen readers, and is a
+            PWA (Progressive Web Application) that you can install on your
+            phone's home screen. It utilizes a service worker to cache important
+            files and uses a webmanifest to carry important metadata for the
+            site to work best on a variety of browsers.
+          </p>
+          <div className="portfBtnDiv">
+            <a
+              href="https://github.com/coryjquirk/portfolio"
+              target="_blank"
+              className="portfBtn"
+            >
+              <button className="standardButton">
+                GitHub repo <i className="fa fa-link"></i>
+              </button>
+            </a>
+          </div>
         </div>
         {/*
         <div id="appsList">
