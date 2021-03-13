@@ -1,32 +1,49 @@
 .App {
   text-align: left;
 }
-.meat{
-  max-width: 600px;
+.standardButton{
+  background-image: url("btnBkgd.png");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border: none;
+  font-weight: bold;
+  letter-spacing: .03rem;
+  padding: 7px 7px 7px 7px;
 }
-.muted{
-  color: #666
+.meat {
+  width: 60%;
+  margin: 0px 0px 0px 50px;
 }
-p{
-  font-size: 15px;
+@media screen and (min-width: 1250px) {
+  .container-fluid {
+    margin-left: 100px;
+  }
 }
-.ghostDiv{
-  height: 50px;
-  width: 30px;
+@media screen and (min-width: 1000px) {
+  .container-fluid {
+    margin-left: 50px;
+  }
 }
 #main {
   margin: 10px 0px 60px 0px;
   max-width: 1150px;
 }
-.standardButton {
-  padding: 10px 18px 10px 18px;
-  background-color: rgb(97, 182, 104);
-  border: none;
+.muted {
+  color: #666;
 }
-.headerNavCollapse{
+p {
+  font-size: 15px;
+}
+.ghostDiv {
+  height: 50px;
+  width: 30px;
+}
+.headerNavCollapse {
   background: none;
   border: none;
-  float:left; 
+  float: left;
   display: none;
 }
 .headerNavCollapse:active {
@@ -34,15 +51,24 @@ p{
   box-shadow: 1 5px #666;
   transform: translateY(4px);
 }
-.headHr{
+.headHr {
   clear: both;
 }
 
-@media screen and (max-width:992px) {
-  .desktopHeader{
+@media screen and (max-width: 992px) {
+  .desktopHeader {
     display: none;
   }
-  .headerNavCollapse{
+  .headerNavCollapse {
     display: inline-block;
+  }
+  .meat {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .meat {
+    width: 100%;
+    margin: 0px 10px 0px 10px;
   }
 }

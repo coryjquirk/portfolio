@@ -8,7 +8,7 @@ function Home() {
     <Container fluid>
       <div id="contact">
         <button
-          class="headerNavCollapse"
+          className="headerNavCollapse"
           data-toggle="collapse"
           data-target="#navbarNav"
         >
@@ -16,15 +16,15 @@ function Home() {
         </button>
         <h1 class="desktopHeader">welcome</h1>
         <hr className="headHr" />
-        <div class="meat">
+        <div className="meat">
           <a href="/portfolio">
-            <button class="homeBtns">
+            <button className="homeBtns">
               <span>
                 <p>web dev portfolio</p>
               </span>
             </button>
           </a><a href="/photography">
-            <button class="homeBtns">
+            <button className="homeBtns">
               <span>
                 <p>photography</p>
               </span>
@@ -32,16 +32,16 @@ function Home() {
           </a>
           
           <a href="/blog">
-            <button class="homeBtns">
+            <button className="homeBtns">
               <span>
-                <p class="muted">blog</p>
+                <p className="muted">blog</p>
               </span>
             </button>
           </a>
           <a href="/contact">
-            <button class="homeBtns">
+            <button className="homeBtns">
               <span>
-                <p class="muted">contact me</p>
+                <p className="muted">contact me</p>
               </span>
             </button>
           </a>
@@ -50,7 +50,7 @@ function Home() {
         <img
             src={Orange}
             id="juniperBanner"
-            class="soundBanner"
+            className="soundBanner"
             alt="Montana"
           ></img>
       </div>

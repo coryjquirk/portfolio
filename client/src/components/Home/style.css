@@ -2,6 +2,7 @@ hr {
   text-align: center;
   background-color: grey;
 }
+
 .contactDivs {
   background-color: rgb(213, 255, 245);
   border-radius: 10px;
@@ -11,10 +12,6 @@ hr {
 }
 button a {
   color: rgb(255, 255, 255);
-}
-#contact-page {
-  background-color: white;
-  max-width: 500px;
 }
 .contactBtns i {
   color: #4b4b4bd0;

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Container } from "../Grid";
 import "./style.css";
 import READMEgen from "./Images/readme-generator.gif";
 import weatherdashboard from "./Images/weatherdashboard.gif";
@@ -22,19 +23,9 @@ function Portfolio() {
   function hideArt() {
     openArt(false);
   }
-  // /* This CSS style is applied when the drawer is opened */
-  // const openedStyle = {
-  //   height: "0%",
-  //   transition: "height 0.5s",
-  // };
-
-  // /* This CSS style is applied when the drawer is closed */
-  // const closedStyle = {
-  //   transition: "height 0.5s",
-  // };
 
   return (
-    <div>
+    <Container fluid>
       <button
         className="headerNavCollapse"
         data-toggle="collapse"
@@ -44,56 +35,56 @@ function Portfolio() {
       </button>
       <h1 className="desktopHeader">web development</h1>
       <hr className="headHr" />
-      <p id="pf">
-        Visit me on{" "}
-        <a href="https://github.com/coryjquirk" target="_blank">
-          GitHub
-        </a>{" "}
-        to see sites I'm coding, both solo and collaboratively.
-      </p>
-      <p  id="connectLink">
-        <a href="/contact">
-          connect <i className="fa fa-arrow-right"></i>
-        </a>
-      </p>
-      <p id="pf">
-        I'm a full-stack web developer looking for full time remote work and
-        freelance work. I aim to make elegant and intuitive sites with
-        JavaScript, CSS, and React.js.
-      </p>
-      <div>
+      <div className="meat">
+        <p id="pf">
+          Visit me on{" "}
+          <a href="https://github.com/coryjquirk" target="_blank">
+            GitHub
+          </a>{" "}
+          to see sites I'm coding, both solo and collaboratively.
+        </p>
+        <p id="connectLink">
+          <a href="/contact">
+            connect <i className="fa fa-arrow-right"></i>
+          </a>
+        </p>
+        <p id="pf">
+          I'm a full-stack web developer looking for full time remote work and
+          freelance work. I aim to make elegant and intuitive sites with
+          JavaScript, CSS, and React.js.
+        </p>
         <div id="devToolkit">
-          <h3>my developer toolkit &#128736;</h3>
+          <h3>developer toolkit</h3>
           <p id="toolkit" className="fa-ul">
             <li>
-              <i className="fa fa-cog"></i> Front end:{" "}
+              <i className="fa fa-cog"></i> <strong>Front end:</strong>{" "}
               <li>
                 <span id="desktopToolbox">
-                  <strong>Design</strong> - HTML, CSS, Bootstrap, Fontawesome
+                  Design - HTML, CSS, Bootstrap, Fontawesome
                 </span>
               </li>
               <li id="mobileToolbox">
-                <strong>Design</strong> - HTML, CSS, Bootstrap, Fontawesome
+                Design - HTML, CSS, Bootstrap, Fontawesome
               </li>
               <li>
                 <span id="desktopToolbox">
-                  <strong>Function</strong> - vanilla JavaScript, jQuery
+                 Function - vanilla JavaScript, jQuery
                 </span>
               </li>
               <li id="mobileToolbox">
-                <strong>Function</strong> - vanilla JavaScript, jQuery
+                Function - vanilla JavaScript, jQuery
               </li>
             </li>
             <li>
-              <i className="fa fa-cog"></i> Back end:{" "}
+              <i className="fa fa-cog"></i> <strong>Back end:</strong>{" "}
               <span id="desktopToolbox"> MySQL and no-SQL</span>
               <li id="mobileToolbox">MySQL and no-SQL</li>
             </li>
             <li>
-              <i className="fa fa-cog"></i> Full stack development:
+              <i className="fa fa-cog"></i> <strong>Full stack engineering:</strong>
               <span id="desktopToolbox">
                 {" "}
-                <strong>MERN stack</strong>{" "}
+                MERN stack{" "}
               </span>
               <li id="mobileToolbox">
                 <strong>MERN stack</strong>
@@ -107,23 +98,42 @@ function Portfolio() {
               </li>
             </li>
             <li>
-              <i className="fa fa-cog"></i> Git Bash for collaboration and version control
+              <i className="fa fa-cog"></i> <strong>Git BASH</strong> for collaboration and
+              version control
             </li>
             <li>
-              <i className="fa fa-cog"></i> Deployment: Heroku cloud application platform
+              <i className="fa fa-cog"></i> <strong>Deployment:</strong> Heroku cloud application
+              platform
             </li>
             <li>
-              <i className="fa fa-cog"></i> NPM (Node Package Manager) to import JavaScript features
+              <i className="fa fa-cog"></i> <strong>npm</strong> (Node Package Manager) to import
+              JavaScript features
             </li>
             <li>
-              <i className="fa fa-cog"></i> Dev methodologies:
-              <span id="desktopToolbox"> Mobile-first and Agile</span>
-              <li id="mobileToolbox">Mobile-first and Agile</li>
+              <i className="fa fa-cog"></i> <strong>Methodologies:</strong>
+              <span id="desktopToolbox"> Mobile-first</span>
+              <li id="mobileToolbox">Mobile-first</li>
+              <span id="desktopToolbox"> Progressive web applications (PWAs)</span>
+              <li id="mobileToolbox">Progressive web applications (PWAs</li>
+            </li>
+            <li>
+              <i className="fa fa-cog"></i> <strong>Methodologies:</strong>
+              <span id="desktopToolbox"> Mobile-first</span>
+              <li id="mobileToolbox">Mobile-first</li>
+              <span id="desktopToolbox"> Progressive web applications (PWAs)</span>
+              <li id="mobileToolbox">Progressive web applications (PWAs</li>
             </li>
             <li>
               <i className="fa fa-cog"></i> Frameworks on my horizon:{" "}
               <span id="desktopToolbox">Angular.js, Vue.js, Django.py</span>
               <li id="mobileToolbox">Angular.js, Vue.js, Django.py</li>
+            </li>
+            <li>
+              <i className="fa fa-cog"></i> Hardware experience{" "}
+              <span id="desktopToolbox">Built my PC</span>
+              <li id="mobileToolbox">Built my PC</li>
+              <span id="desktopToolbox">Raspberry Pi 4</span>
+              <li id="mobileToolbox">Raspberry Pi 4</li>
             </li>
             <p>
               <a href="contact">I'm looking for work!</a> (March 2021)
@@ -132,7 +142,10 @@ function Portfolio() {
         </div>
         <div id="appsList">
           {appsOpened === false && (
-            <button className="appsListCtrl standardButton" onClick={revealApps}>
+            <button
+              className="appsListCtrl standardButton"
+              onClick={revealApps}
+            >
               <i className="fa fa-plus"></i>
             </button>
           )}
@@ -144,8 +157,52 @@ function Portfolio() {
           <h3 id="appsHeader">portfolio</h3>
           {appsOpened === true && (
             <div>
-              <p>A few completed projects so far.</p>
-              <p>Please visit me on <a href="https://github.com/coryjquirk" target="_blank">GitHub</a> to view code repositories.</p>
+              <p>A few completed projects so far. Deployed applications are hosted on free servers so they may need a minute to start up.</p>
+              <p>
+                Please visit me on{" "}
+                <a href="https://github.com/coryjquirk" target="_blank">
+                  GitHub
+                </a>{" "}
+                to view code repositories.
+              </p>
+              <div id="portfolioItem">
+                <h3>Weather Dashboard</h3>
+                <p>
+                  Displays current weather conditions and a 5-day forecast with
+                  the OpenWeatherMap API. Users' recent cities are saved with
+                  client-side local storage.
+                </p>
+                <a
+                  href="https://coryjquirk.github.io/weather-dashboard/"
+                  target="_blank"
+                >
+                  <img
+                    className="scrnsht"
+                    src={weatherdashboard}
+                    alt="cart croc"
+                  />
+                </a>
+                <div className="portfBtnDiv">
+                  <a
+                    href="https://coryjquirk.github.io/weather-dashboard/"
+                    target="_blank"
+                    className="portfBtn"
+                  >
+                    <button className="standardButton">
+                      Deployed app <i className="fa fa-link"></i>
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/coryjquirk/weather-dashboard"
+                    target="_blank"
+                    className="portfBtn"
+                  >
+                    <button className="standardButton">
+                      GitHub repo <i className="fa fa-link"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
               <div id="portfolioItem">
                 <h3>What's Cooking?</h3>
                 <p>
@@ -157,7 +214,11 @@ function Portfolio() {
                   href="https://coryjquirk.github.io/whats-cookin/"
                   target="_blank"
                 >
-                  <img className="scrnsht" src={whatscooking} alt="whats cookin" />
+                  <img
+                    className="scrnsht"
+                    src={whatscooking}
+                    alt="whats cookin"
+                  />
                 </a>
 
                 <div className="portfBtnDiv">
@@ -181,42 +242,6 @@ function Portfolio() {
                   </a>
                 </div>
               </div>
-
-              <div id="portfolioItem">
-                <h3>Weather Dashboard</h3>
-                <p>
-                  Displays current weather conditions and a 5-day forecast with
-                  the OpenWeatherMap API. Users' recent cities are saved with
-                  client-side local storage.
-                </p>
-                <a
-                  href="https://coryjquirk.github.io/weather-dashboard/"
-                  target="_blank"
-                >
-                  <img className="scrnsht" src={weatherdashboard} alt="cart croc" />
-                </a>
-                <div className="portfBtnDiv">
-                  <a
-                    href="https://coryjquirk.github.io/weather-dashboard/"
-                    target="_blank"
-                    className="portfBtn"
-                  >
-                    <button className="standardButton">
-                      Deployed app <i className="fa fa-link"></i>
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/coryjquirk/weather-dashboard"
-                    target="_blank"
-                    className="portfBtn"
-                  >
-                    <button className="standardButton">
-                      GitHub repo <i className="fa fa-link"></i>
-                    </button>
-                  </a>
-                </div>
-              </div>
-
               <div id="portfolioItem">
                 <h3>Password Generator</h3>
                 <p>
@@ -442,7 +467,8 @@ function Portfolio() {
             be adapted to a client's portfolio.
           </p>
           <p>
-            I'm actively imporoving this site in spring 2021 and if something isn't working right, please email me.
+            I'm actively imporoving this site in spring 2021 and if something
+            isn't working right, please email me.
           </p>
           <div className="portfBtnDiv">
             <a
@@ -547,14 +573,10 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-
-
-
-
-        </div>          )}   */}
+             </div>          )}   */}
       </div>
       <div className="ghostDiv"></div>
-    </div>
+    </Container>
   );
 }
 

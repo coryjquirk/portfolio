@@ -91,7 +91,7 @@ function Blog() {
         <div className="ghostDiv"></div>
       </div>
       <img id="self" src={self}></img>
-      <p className="mutedBlog">all photos are mine unless otherwise stated or readily apparent.</p>
+      <p className="mutedBlog" id="theseMine">all photos are mine unless otherwise stated or readily apparent.</p>
       </div>
     </Container>
   );

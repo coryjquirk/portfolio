@@ -1,14 +1,5 @@
-@media screen and (min-width: 1400px) {
-}
-@media screen and (min-width: 1250px) {
-  .container-fluid {
-    margin-left: 100px;
-  }
-}
 @media screen and (min-width: 1000px) {
-  .container-fluid {
-    margin-left: 50px;
-  }
+
   p {
     font-size: medium;
   }
@@ -168,5 +159,8 @@ p {
   #blogPost {
     width: 100%;
     margin: 10px 0px 10px 0px;
+  }
+  #about p{
+    margin: 10px 0px 10px 10px;
   }
 }

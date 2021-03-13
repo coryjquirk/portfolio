@@ -8,10 +8,8 @@
   }
 }
 .scrnsht {
-  width: auto;
-  height: auto;
-  max-width: 450px;
-  margin-bottom: 15px;
+  margin: 0px 10px 15px 10px;
+  width: 95%;
 }
 #connectLink {
   text-align: center;
@@ -47,7 +45,7 @@
 #portfolioItem {
   border: 1px;
   border-style: solid dotted solid dotted;
-  border-color: hsl(125, 20%, 45%);
+  border-color: hsl(0, 0%, 53%);
   border-radius: 7px;
   margin: 10px;
 }
@@ -80,17 +78,12 @@
   font-style: italic;
 }
 .portfBtnDiv {
-  height: 13%;
-  margin: 5px 0px 10px 0px;
+  margin: auto;
+  text-align: center;
 }
 .portfBtn {
   display: inline-block;
   margin: 0px 15px 10px 10px;
-}
-@media screen and (max-width: 991px) {
-  .scrnsht {
-    max-width: 80%;
-  }
 }
 @media screen and (max-width: 600px) {
   #mobileToolbox {

@@ -3,9 +3,11 @@ import "./style.css";
 import Resume from "./coryquirk-resume-mar2021.docx";
 import CoverLetter from "./coryquirk-coverletter-mar2021.docx";
 import Juniper from "./juniper.jpg"
+import { Container } from "../Grid";
 
 function Contact() {
   return (
+    <Container fluid>
     <div id="contact">
       <button
         className="headerNavCollapse"
@@ -79,6 +81,7 @@ function Contact() {
             alt="Juniper trees"
           ></img>
     </div>
+    </Container>
   );
 }
 
