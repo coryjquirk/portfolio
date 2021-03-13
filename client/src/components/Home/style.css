@@ -71,7 +71,7 @@ button a {
   right: 0;
 }
 .homeBtns:active {
-  background-color: #3e8e41;
+  background-color: #aea2db;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
