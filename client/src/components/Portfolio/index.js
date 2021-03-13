@@ -44,7 +44,6 @@ function Portfolio() {
           </a>{" "}
           to see sites I'm coding, both solo and collaboratively.
         </p>
-        
         <p id="pf">
           I'm a full-stack web developer looking for full time remote work and
           freelance work. I aim to make elegant and intuitive sites with
@@ -142,6 +141,11 @@ function Portfolio() {
               <li id="mobileToolbox">Built my PC</li>
               <li><span id="desktopToolbox">Raspberry Pi 4</span></li>
               <li id="mobileToolbox">Raspberry Pi 4</li>
+            </li>
+            <li>
+              <i className="fa fa-cog"></i> <strong>Python</strong>
+              <li><span id="desktopToolbox">beginner exposure</span></li>
+              <li id="mobileToolbox">beginner exposure</li>
             </li>
             <p>
               <a href="contact">I'm looking for work!</a> (March 2021)
@@ -471,8 +475,7 @@ function Portfolio() {
             </div>
           )}
         </div>
-        <div id="appsList">
-          <div id="portfolioItem">
+        <div id="portfolioSiteDiv">
             <h3>Personal website</h3>
             <p>
               I built this site with the idea that such a site could be adapted
@@ -509,7 +512,6 @@ function Portfolio() {
                 </button>
               </a>
             </div>
-          </div>
         </div>
         {/*
         <div id="appsList">
