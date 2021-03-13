@@ -7,6 +7,7 @@ import creditcroc from "./Images/creditcroc.gif";
 import cartcroc from "./Images/cartcroc.gif";
 import whatscooking from "./Images/whatscooking.gif";
 import ArtGallery from "./ArtGallery";
+import CodeSymbol from "./code.png";
 
 function Portfolio() {
   const [appsOpened, openApps] = React.useState(false);
@@ -43,17 +44,21 @@ function Portfolio() {
           </a>{" "}
           to see sites I'm coding, both solo and collaboratively.
         </p>
-        <p id="connectLink">
-          <a href="/contact">
-            connect <i className="fa fa-arrow-right"></i>
-          </a>
-        </p>
         <p id="pf">
           I'm a full-stack web developer looking for full time remote work and
           freelance work. I aim to make elegant and intuitive sites with
-          JavaScript, CSS, and React.js.
+          JavaScript, CSS, and React.js, taking a user perspective in designing
+          UI/UX.
         </p>
-        <div id="devToolkit">
+        <div id="connectLink">
+          <button className="standardButton">
+            <a href="/contact">
+              connect <i className="fa fa-arrow-right"></i>
+            </a>
+          </button>
+        </div>
+        <div id="appsList">
+          <img id="codeSymbol" src={CodeSymbol} alt="code symbol </>"></img>
           <h3>developer toolkit</h3>
           <p id="toolkit" className="fa-ul">
             <li>
@@ -106,9 +111,13 @@ function Portfolio() {
               Manager) to import JavaScript features
             </li>
             <li>
-              <i className="fa fa-cog"></i> <strong>Methodologies: </strong>
-              <span id="desktopToolbox">Agile with scrum and kanban</span>
-              <li id="mobileToolbox">Agile with scrum and kanban</li>
+            <i className="fa fa-cog"></i> <strong>Methodologies: </strong>
+              <li><span id="desktopToolbox">Agile</span></li>
+              <li id="mobileToolbox">Agile</li>
+              <li><span id="desktopToolbox">daily scrum</span></li>
+              <li id="mobileToolbox">daily scrum</li>
+              <li><span id="desktopToolbox">kanban project management boards</span></li>
+              <li id="mobileToolbox">kanban project management boards</li>
             </li>
             <li>
               <i className="fa fa-cog"></i> <strong>Sites:</strong>
@@ -120,18 +129,23 @@ function Portfolio() {
               </span>
               <li id="mobileToolbox">Progressive web applications (PWAs</li>
             </li>
-            
+
             <li>
               <i className="fa fa-cog"></i> Frameworks on my horizon:{" "}
               <span id="desktopToolbox">Angular.js, Vue.js, Django.py</span>
               <li id="mobileToolbox">Angular.js, Vue.js, Django.py</li>
             </li>
             <li>
-              <i className="fa fa-cog"></i> Hardware experience{" "}
-              <span id="desktopToolbox">Built my PC</span>
+              <i className="fa fa-cog"></i> Hardware experience:{" "}
+              <li><span id="desktopToolbox">Built my PC</span></li>
               <li id="mobileToolbox">Built my PC</li>
-              <span id="desktopToolbox">Raspberry Pi 4</span>
+              <li><span id="desktopToolbox">Raspberry Pi 4</span></li>
               <li id="mobileToolbox">Raspberry Pi 4</li>
+            </li>
+            <li>
+              <i className="fa fa-cog"></i> <strong>Python</strong>
+              <li><span id="desktopToolbox">beginner exposure</span></li>
+              <li id="mobileToolbox">beginner exposure</li>
             </li>
             <p>
               <a href="contact">I'm looking for work!</a> (March 2021)
@@ -461,8 +475,7 @@ function Portfolio() {
             </div>
           )}
         </div>
-        <div id="appsList">
-          <div id="portfolioItem">
+        <div id="portfolioSiteDiv">
             <h3>Personal website</h3>
             <p>
               I built this site with the idea that such a site could be adapted
@@ -499,7 +512,6 @@ function Portfolio() {
                 </button>
               </a>
             </div>
-          </div>
         </div>
         {/*
         <div id="appsList">

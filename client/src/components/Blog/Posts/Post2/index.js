@@ -145,7 +145,7 @@ function Post2() {
             (initial release 2013). If you would like a demonstration of a
             simple React feature I configured, click/tap the ZPD picture{" "}
             <i className="fa fa-arrow-up" aria-label="up"></i> or the Okta
-            picture <i className="fa fa-arrow-down" aria-label="down"></i> .
+            picture <i className="fa fa-arrow-down" aria-label="down"></i> to open image lightbox components.
             When independent developers can create front ends that match
             industry leaders like Facebook, what could this mean for the future
             of digital art and e-commerce? I can't claim to know more at this time about

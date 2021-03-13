@@ -1,18 +1,10 @@
-@media screen and (max-width: 600px) {
-  #appsList,
-  #pf,
-  #devToolKit,
-  #portfolioItem,
-  #devToolkit {
-    width: 95%;
-  }
-}
 .scrnsht {
   margin: 0px 10px 15px 10px;
   width: 95%;
 }
 #connectLink {
   text-align: center;
+margin: 20px 0px 20px 0px;
 }
 #appsList {
   background-color: rgb(251, 251, 251);
@@ -20,6 +12,20 @@
   border-radius: 10px;
   padding: 10px 5px 10px 10px;
   margin-bottom: 15px;
+}
+#portfolioSiteDiv{
+  width: 95%;
+  background-color: rgb(251, 251, 251);
+  border-radius: 10px;
+margin: 0px 0px 15px 0px;
+  padding: 10px 5px 10px 10px;
+  border: 1px;
+  border-style: solid dotted solid dotted;
+  border-color: hsl(0, 0%, 53%);
+
+}
+#portfolioSiteDiv p{
+  margin: 15px 15px 15px 15px;
 }
 #appsHeader {
   background-color: none;
@@ -30,6 +36,13 @@
   border-radius: 8px;
   padding: 3px 5px 3px 5px;
   margin: 0px 10px 10px 10px;
+}
+#codeSymbol{
+  float: right;
+  height: 30px;
+  width: 30px;
+  padding: 0px;
+  margin: 20px 10px 0px 0px;
 }
 .appsListCtrl {
   color: none;
@@ -93,4 +106,61 @@
   #desktopToolbox {
     display: none;
   }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+@media screen and (max-width: 600px) {
+  #appsList,
+  #pf,
+  #devToolKit,
+  #portfolioItem,
+  #devToolkit {
+    width: 95%;
+  }
+  #toolkit li {
+    padding: 0px 0px 0px 5px;
+  }
+
+  #portfolioItem p,
+  #devToolkit p {
+    margin: 0px 15px 5px 15px;
+  }
+
 }
