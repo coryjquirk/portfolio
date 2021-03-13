@@ -68,12 +68,10 @@ function Portfolio() {
               </li>
               <li>
                 <span id="desktopToolbox">
-                 Function - vanilla JavaScript, jQuery
+                  Function - vanilla JavaScript, jQuery
                 </span>
               </li>
-              <li id="mobileToolbox">
-                Function - vanilla JavaScript, jQuery
-              </li>
+              <li id="mobileToolbox">Function - vanilla JavaScript, jQuery</li>
             </li>
             <li>
               <i className="fa fa-cog"></i> <strong>Back end:</strong>{" "}
@@ -81,11 +79,9 @@ function Portfolio() {
               <li id="mobileToolbox">MySQL and no-SQL</li>
             </li>
             <li>
-              <i className="fa fa-cog"></i> <strong>Full stack engineering:</strong>
-              <span id="desktopToolbox">
-                {" "}
-                MERN stack{" "}
-              </span>
+              <i className="fa fa-cog"></i>{" "}
+              <strong>Full stack engineering:</strong>
+              <span id="desktopToolbox"> MERN stack </span>
               <li id="mobileToolbox">
                 <strong>MERN stack</strong>
               </li>
@@ -98,31 +94,33 @@ function Portfolio() {
               </li>
             </li>
             <li>
-              <i className="fa fa-cog"></i> <strong>Git BASH</strong> for collaboration and
-              version control
+              <i className="fa fa-cog"></i> <strong>Git BASH</strong> for
+              collaboration and version control
             </li>
             <li>
-              <i className="fa fa-cog"></i> <strong>Deployment:</strong> Heroku cloud application
-              platform
+              <i className="fa fa-cog"></i> <strong>Deployment:</strong> Heroku
+              cloud application platform
             </li>
             <li>
-              <i className="fa fa-cog"></i> <strong>npm</strong> (Node Package Manager) to import
-              JavaScript features
+              <i className="fa fa-cog"></i> <strong>npm</strong> (Node Package
+              Manager) to import JavaScript features
             </li>
             <li>
-              <i className="fa fa-cog"></i> <strong>Methodologies:</strong>
+              <i className="fa fa-cog"></i> <strong>Methodologies: </strong>
+              <span id="desktopToolbox">Agile with scrum and kanban</span>
+              <li id="mobileToolbox">Agile with scrum and kanban</li>
+            </li>
+            <li>
+              <i className="fa fa-cog"></i> <strong>Sites:</strong>
               <span id="desktopToolbox"> Mobile-first</span>
               <li id="mobileToolbox">Mobile-first</li>
-              <span id="desktopToolbox"> Progressive web applications (PWAs)</span>
+              <span id="desktopToolbox">
+                {" "}
+                Progressive web applications (PWAs)
+              </span>
               <li id="mobileToolbox">Progressive web applications (PWAs</li>
             </li>
-            <li>
-              <i className="fa fa-cog"></i> <strong>Methodologies:</strong>
-              <span id="desktopToolbox"> Mobile-first</span>
-              <li id="mobileToolbox">Mobile-first</li>
-              <span id="desktopToolbox"> Progressive web applications (PWAs)</span>
-              <li id="mobileToolbox">Progressive web applications (PWAs</li>
-            </li>
+            
             <li>
               <i className="fa fa-cog"></i> Frameworks on my horizon:{" "}
               <span id="desktopToolbox">Angular.js, Vue.js, Django.py</span>
@@ -157,7 +155,10 @@ function Portfolio() {
           <h3 id="appsHeader">portfolio</h3>
           {appsOpened === true && (
             <div>
-              <p>A few completed projects so far. Deployed applications are hosted on free servers so they may need a minute to start up.</p>
+              <p>
+                A few completed projects so far. Deployed applications are
+                hosted on free servers so they may need a minute to start up.
+              </p>
               <p>
                 Please visit me on{" "}
                 <a href="https://github.com/coryjquirk" target="_blank">
@@ -460,29 +461,46 @@ function Portfolio() {
             </div>
           )}
         </div>
-        <div id="devToolkit">
-          <h3>Personal website</h3>
-          <p>
-            I built this site with React.js with the idea that such a site could
-            be adapted to a client's portfolio.
-          </p>
-          <p>
-            I'm actively imporoving this site in spring 2021 and if something
-            isn't working right, please email me.
-          </p>
-          <div className="portfBtnDiv">
-            <a
-              href="https://github.com/coryjquirk/portfolio"
-              target="_blank"
-              className="portfBtn"
-            >
-              <button className="standardButton">
-                GitHub repo <i className="fa fa-link"></i>
-              </button>
-            </a>
+        <div id="appsList">
+          <div id="portfolioItem">
+            <h3>Personal website</h3>
+            <p>
+              I built this site with the idea that such a site could be adapted
+              to a client's portfolio.
+            </p>
+            <p>
+              I'm actively imporoving this site in spring 2021 and if something
+              isn't working right, please <a href="/contact">email me</a>.
+            </p>
+            <hr></hr>
+            <p>
+              I enjoy coding custom <strong>CSS</strong> features supplemented
+              with tools like Bootstrap and Fontawesome that provide great
+              features ready to use right away. <strong>React.js</strong> allows
+              me to create custom UI/UX components like the portfolio's "drawer"
+              button above. You can also easily bring code for third party React
+              components, such as the scroll-up arrow on the bottom right.
+            </p>
+            <p>
+              This site meets accessibility standards for screen readers, and is
+              a PWA (Progressive Web Application) that you can install on your
+              phone's home screen. It utilizes a service worker to cache
+              important files and uses a webmanifest to carry important metadata
+              for the site to work best on a variety of browsers.
+            </p>
+            <div className="portfBtnDiv">
+              <a
+                href="https://github.com/coryjquirk/portfolio"
+                target="_blank"
+                className="portfBtn"
+              >
+                <button className="standardButton">
+                  GitHub repo <i className="fa fa-link"></i>
+                </button>
+              </a>
+            </div>
           </div>
         </div>
-
         {/*
         <div id="appsList">
           {artOpened === false && (
