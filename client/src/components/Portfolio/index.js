@@ -59,7 +59,7 @@ function Portfolio() {
         </div>
         <div id="appsList">
           <img id="codeSymbol" src={CodeSymbol} alt="code symbol </>"></img>
-          <h3>developer toolkit</h3>
+          <h2>developer toolkit</h2>
           <p id="toolkit" className="fa-ul">
             <li>
               <i className="fa fa-cog"></i> <strong>Front end:</strong>{" "}
@@ -180,7 +180,7 @@ function Portfolio() {
               <i className="fa fa-minus"></i>
             </button>
           )}
-          <h3 id="appsHeader">portfolio</h3>
+          <h2 id="appsHeader">portfolio</h2>
           {appsOpened === true && (
             <div>
               <p>
@@ -195,7 +195,7 @@ function Portfolio() {
                 to view code repositories.
               </p>
               <div id="portfolioItem">
-                <h3>Weather Dashboard</h3>
+                <h2>Weather Dashboard</h2>
                 <p>
                   Displays current weather conditions and a 5-day forecast with
                   the OpenWeatherMap API. Users' recent cities are saved with
@@ -233,7 +233,7 @@ function Portfolio() {
                 </div>
               </div>
               <div id="portfolioItem">
-                <h3>What's Cooking?</h3>
+                <h2>What's Cooking?</h2>
                 <p>
                   Helps you find recipes based on the ingredients you have at
                   home. Searches a recipe database with a third-party API, and
@@ -272,7 +272,7 @@ function Portfolio() {
                 </div>
               </div>
               <div id="portfolioItem">
-                <h3>Password Generator</h3>
+                <h2>Password Generator</h2>
                 <p>
                   Generates a secure/unique password consisting of symbols,
                   numbers, and letters, offering the user an option of length
@@ -310,7 +310,7 @@ function Portfolio() {
                 </div>
               </div>
               <div id="portfolioItem">
-                <h3>bud GEt</h3>
+                <h2>bud GEt</h2>
                 <p>
                   Budget tracker that CRUDs data with a remotely hosted database
                   (MongoDB Atlas) and the support of cache storage (IndexedDB).
@@ -348,7 +348,7 @@ function Portfolio() {
                 </div>
               </div>
               <div id="portfolioItem">
-                <h3>Credit Croc</h3>
+                <h2>Credit Croc</h2>
                 <p>
                   Create a visual overview of your credit cards, loans, bills,
                   or repayments. Data dynamically visiualized with Highcharts
@@ -385,7 +385,7 @@ function Portfolio() {
                 </div>
               </div>
               <div id="portfolioItem">
-                <h3>Ice Cold README Generator</h3>
+                <h2>Ice Cold README Generator</h2>
                 <p>
                   Command line application which asks you about your coding
                   project to generate a formatted README.md file
@@ -414,7 +414,7 @@ function Portfolio() {
                 </div>
               </div>
               <div id="portfolioItem">
-                <h3>Cart Croc</h3>
+                <h2>Cart Croc</h2>
                 <p>
                   Straightforward storefront app designed with independent
                   businesses in mind. Shop inventory data is handled with
@@ -450,7 +450,7 @@ function Portfolio() {
                 </div>
               </div>
               <div id="portfolioItem">
-                <h3>Daily Planner</h3>
+                <h2>Daily Planner</h2>
                 <p>
                   Lightweight daily scheduler that stores user data in
                   client-side local storage.
@@ -490,17 +490,19 @@ function Portfolio() {
           )}
         </div>
         <div id="portfolioSiteDiv">
-          <h3>Personal website</h3>
+          <h2>personal website</h2>
           <p>
             I built this site with the idea that such a site could be adapted to
             a client's portfolio.
           </p>
           <p>
             I'm actively imporoving this site in spring 2021 and if something
-            isn't working right, please <a href="/contact">email me</a>.
+            isn't working right, please <a href="/contact">email me</a> with any
+            revelant screenshots or error messages.
           </p>
 
           <hr></hr>
+          <h2>technical details</h2>
           <p>
             {" "}
             I run a secondary server from a different <strong>Git</strong>{" "}
@@ -511,13 +513,7 @@ function Portfolio() {
             with <strong>Heroku</strong>, so I can make sure my site won't break
             upon deployment.
           </p>
-          <p>
-            My process with Git is to host my code in a GitHub repository, pull
-            down the main branch to my secondary branch to code new features.
-            Then I commit meaningful changes early and often but only upon
-            completion of features, never adding 'half-working' code (if there is such a thing), since
-            repositories of broken code only confuse other developers. In comments, I like to add links to documentation and sources for open-source code that I'm utilizing.
-          </p>
+
           <p>
             I enjoy coding custom <strong>CSS</strong> features supplemented
             with tools like Bootstrap and Fontawesome that provide great
@@ -527,11 +523,48 @@ function Portfolio() {
             components, such as the scroll-up arrow on the bottom right.
           </p>
           <p>
+            My process with this site is to run an `npm start` localhost:3000
+            server for a JavaScript runtime environment that will compile my
+            React.js code on my local machine. I host my code in a{" "}
+            <a
+              href="https://github.com/coryjquirk/portfolio"
+              target="_blank"
+            ></a>
+            GitHub repository, pull down the main branch to my secondary branch
+            with the command line to code new features. Then I commit meaningful
+            changes early and often but only upon completion of features, never
+            adding 'half-working' code (if there is such a thing), since
+            repositories of broken code only confuse other developers. I follow appropriate naming conventions like <code class="pCode">#camelCase</code> for CSS in my code. I use short and neat file names and I often spend time refactoring my code to eliminate redundancies. In
+            comments, I like to add links to documentation and sources for
+            open-source code that I'm utilizing if it's not already immediately apparent in the code. 
+          </p>
+          <p>
+            <p>e.g., from the code for my site's photography page:</p>
+            <code>
+              //implement lazy loading so the page just loads as you scroll, and
+            </code>
+            <code>
+              //isn't slowed down having to render all the photos at once
+            </code>
+            <code>//https://reactjs.org/docs/code-splitting.html</code>
+            <code>//try this out https://stackoverflow.com/questions/18483241/random-div-order-on-page-load</code>
+          </p>
+          <p>
+            Developing for the front-end, I can't imagine not have a browser
+            window open alongside <strong>Visual Studio Code</strong>. To test
+            screen width responsiveness at every stage of designing an app, I
+            utilize <strong>Google Chrome developer tools</strong>. It's that
+            side bar that pops up when you hit F12, 'Inspect', or ctrl-shift-I
+            on desktop. It's much easier to design sites first for mobile and
+            then expand the CSS media queries to adapt to larger screen sizes.
+          </p>
+          <p>
             This site meets accessibility standards for screen readers, and is a
-            PWA (Progressive Web Application) that you can install on your
-            phone's home screen. It utilizes a service worker to cache important
-            files and uses a webmanifest to carry important metadata for the
-            site to work best on a variety of browsers.
+            <strong>PWA</strong> (Progressive Web Application) that you can
+            install on your phone's home screen. It utilizes a service worker to
+            cache important files for fastest performance, and it uses a
+            webmanifest to carry important metadata that allows it to work on a
+            variety of browsers other than just Chrome.
           </p>
           <div className="portfBtnDiv">
             <a
@@ -600,7 +633,7 @@ function Portfolio() {
                 </div>
               </div>
               <div id="portfolioItem">
-                <h3>What's Cooking?</h3>
+                <h2>What's Cooking?</h2>
                 <p>
                   Helps you find recipes based on the ingredients you have at
                   home. Searches a recipe database with a third-party API, and

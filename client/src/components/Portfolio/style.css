@@ -4,7 +4,7 @@
 }
 #connectLink {
   text-align: center;
-margin: 20px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
 }
 #appsList {
   background-color: rgb(251, 251, 251);
@@ -13,18 +13,17 @@ margin: 20px 0px 20px 0px;
   padding: 10px 5px 10px 10px;
   margin-bottom: 15px;
 }
-#portfolioSiteDiv{
-  width: 95%;
+#portfolioSiteDiv {
+  width: 100%;
   background-color: rgb(251, 251, 251);
   border-radius: 10px;
-margin: 0px 0px 15px 0px;
+  margin: 0px 0px 15px 0px;
   padding: 10px 5px 10px 10px;
   border: 1px;
   border-style: solid dotted solid dotted;
   border-color: hsl(0, 0%, 53%);
-
 }
-#portfolioSiteDiv p{
+#portfolioSiteDiv p {
   margin: 15px 15px 15px 15px;
 }
 #appsHeader {
@@ -37,7 +36,7 @@ margin: 0px 0px 15px 0px;
   padding: 3px 5px 3px 5px;
   margin: 0px 10px 10px 10px;
 }
-#codeSymbol{
+#codeSymbol {
   float: right;
   height: 30px;
   width: 30px;
@@ -99,6 +98,15 @@ margin: 0px 0px 15px 0px;
   display: inline-block;
   margin: 0px 15px 10px 10px;
 }
+
+code {
+  display: inline-block;
+  margin: 0px 15px 0px 15px;
+}
+.pCode{
+  display: inline-flex;
+  margin: 0px 0px 0px 0px;
+}
 @media screen and (max-width: 600px) {
   #mobileToolbox {
     display: block;
@@ -108,15 +116,14 @@ margin: 0px 0px 15px 0px;
   }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Lato:100&display=swap");
 
 .btn {
   width: 180px;
   height: 60px;
   cursor: pointer;
   background: transparent;
-  border: 1px solid #91C9FF;
+  border: 1px solid #91c9ff;
   outline: none;
   transition: 1s ease-in-out;
 }
@@ -134,7 +141,7 @@ svg {
 
 .btn:hover {
   transition: 1s ease-in-out;
-  background: #4F95DA;
+  background: #4f95da;
 }
 
 .btn:hover svg {
@@ -162,5 +169,4 @@ svg {
   #devToolkit p {
     margin: 0px 15px 5px 15px;
   }
-
 }
