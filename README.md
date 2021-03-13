@@ -1,7 +1,7 @@
 # Portfolio website
 Personal website to share my contact info and work.
 
-Deployed application: https://coryjquirk.herokuapp.com
+Deployed application: https://coryjquirk.herokuapp.com/home
 
 <br>
 <a href="https://coryjquirk.herokuapp.com"><img src="https://raw.githubusercontent.com/coryjquirk/portfolio/master/client/public/assets/images/demo.gif" alt="portfolio screenshot"/></a>
