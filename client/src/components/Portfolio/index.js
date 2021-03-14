@@ -6,9 +6,19 @@ import weatherdashboard from "./Images/weatherdashboard.gif";
 import creditcroc from "./Images/creditcroc.gif";
 import cartcroc from "./Images/cartcroc.gif";
 import whatscooking from "./Images/whatscooking.gif";
-import ArtGallery from "./ArtGallery";
-import CodeSymbol from "./code.png";
-
+//
+import dnd from "./Images/art/dnd.gif";
+import eug from "./Images/art/eug.gif";
+import fab from "./Images/art/fab.png";
+import ham from "./Images/art/ham.png";
+import kL from "./Images/art/kl.png";
+import lfskp from "./Images/art/lfskp.png";
+import lint from "./Images/art/lint.png";
+import mac from "./Images/art/mac.png";
+import siem from "./Images/art/siem.jpg";
+import tape from "./Images/art/tape.jpeg";
+//
+//this component is getting huge and I'd like to break it up
 function Portfolio() {
   const [appsOpened, openApps] = React.useState(false);
   const [artOpened, openArt] = React.useState(false);
@@ -50,6 +60,17 @@ function Portfolio() {
           JavaScript, CSS, and React.js, taking a user perspective in designing
           UI/UX.
         </p>
+        <li className="t0c">
+          <a href="#appsList" onClick={revealApps}>
+            #projects
+          </a>
+        </li>
+        <li className="t0c">
+          <a href="#portfolioSiteDiv">#more about this site</a>
+        </li>
+        <li className="t0c">
+          <a href="#artList">#visual design</a>
+        </li>
         <div id="connectLink">
           <button className="standardButton">
             <a href="/contact">
@@ -57,32 +78,12 @@ function Portfolio() {
             </a>
           </button>
         </div>
-        <div id="appsList">
-          <img id="codeSymbol" src={CodeSymbol} alt="code symbol </>"></img>
+        <div id="toolkitList">
+          <div id="codeBtn">
+            <i className="fa fa-code"></i>
+          </div>{" "}
           <h2>developer toolkit</h2>
           <p id="toolkit" className="fa-ul">
-            <li>
-              <i className="fa fa-cog"></i> <strong>Front end:</strong>{" "}
-              <li>
-                <span id="desktopToolbox">
-                  Design - HTML, CSS, Bootstrap, Fontawesome
-                </span>
-              </li>
-              <li id="mobileToolbox">
-                Design - HTML, CSS, Bootstrap, Fontawesome
-              </li>
-              <li>
-                <span id="desktopToolbox">
-                  Function - vanilla JavaScript, jQuery
-                </span>
-              </li>
-              <li id="mobileToolbox">Function - vanilla JavaScript, jQuery</li>
-            </li>
-            <li>
-              <i className="fa fa-cog"></i> <strong>Back end:</strong>{" "}
-              <span id="desktopToolbox"> MySQL and no-SQL</span>
-              <li id="mobileToolbox">MySQL and no-SQL</li>
-            </li>
             <li>
               <i className="fa fa-cog"></i>{" "}
               <strong>Full stack engineering:</strong>
@@ -99,8 +100,30 @@ function Portfolio() {
               </li>
             </li>
             <li>
-              <i className="fa fa-cog"></i> <strong>Git BASH</strong> for
-              collaboration and version control
+              <i className="fa fa-cog"></i> <strong>Front end:</strong>{" "}
+              <li>
+                <span id="desktopToolbox">
+                  {" "}
+                  Design - HTML, CSS, Bootstrap, Fontawesome
+                </span>
+              </li>
+              <li id="mobileToolbox">
+                Design - HTML, CSS, Bootstrap, Fontawesome
+              </li>
+              <li id="desktopToolbox">
+                <span>Function - vanilla JavaScript, jQuery</span>
+              </li>
+              <li id="mobileToolbox">Function - vanilla JavaScript, jQuery</li>
+            </li>
+            <li>
+              <i className="fa fa-cog"></i> <strong>Back end:</strong>{" "}
+              <span id="desktopToolbox"> MySQL and no-SQL</span>
+              <li id="mobileToolbox">MySQL and no-SQL</li>
+            </li>
+
+            <li>
+              <i className="fa fa-cog"></i> <strong>Git BASH</strong> command
+              line tools for collaboration and version control
             </li>
             <li>
               <i className="fa fa-cog"></i> <strong>Deployment:</strong> Heroku
@@ -137,14 +160,25 @@ function Portfolio() {
               </span>
               <li id="mobileToolbox">Progressive web applications (PWAs</li>
             </li>
+            <li>
+              <i className="fa fa-cog"></i> <strong>Visual tools:</strong>
+              <span id="desktopToolbox"> Mobile-first</span>
+              <li id="mobileToolbox">Mobile-first</li>
+              <span id="desktopToolbox">
+                {" "}
+                Progressive web applications (PWAs)
+              </span>
+              <li id="mobileToolbox">Progressive web applications (PWAs</li>
+            </li>
 
             <li>
-              <i className="fa fa-cog"></i> Frameworks on my horizon:{" "}
+              <i className="fa fa-cog"></i> <strong>On my horizon</strong>:{" "}
               <span id="desktopToolbox">Angular.js, Vue.js, Django.py</span>
               <li id="mobileToolbox">Angular.js, Vue.js, Django.py</li>
             </li>
             <li>
-              <i className="fa fa-cog"></i> Hardware experience:{" "}
+              <i className="fa fa-cog"></i> <strong>Hardware experience</strong>
+              :{" "}
               <li>
                 <span id="desktopToolbox">Built my PC</span>
               </li>
@@ -385,6 +419,44 @@ function Portfolio() {
                 </div>
               </div>
               <div id="portfolioItem">
+                <h2>Daily Planner</h2>
+                <p>
+                  Lightweight daily scheduler that stores user data in
+                  client-side local storage.
+                </p>
+                <a
+                  href="https://coryjquirk.github.io/daily-planner/"
+                  target="_blank"
+                >
+                  <img
+                    className="scrnsht"
+                    src="https://coryjquirk.github.io/daily-planner/images/screenshot.PNG"
+                    alt="daily planner"
+                  />
+                </a>
+                <div className="portfBtnDiv">
+                  <a
+                    href="https://coryjquirk.github.io/daily-planner/"
+                    target="_blank"
+                    className="portfBtn"
+                  >
+                    <button className="standardButton">
+                      Deployed app <i className="fa fa-link"></i>
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/coryjquirk/daily-planner"
+                    target="_blank"
+                    className="portfBtn"
+                  >
+                    <button className="standardButton">
+                      GitHub repo <i className="fa fa-link"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div id="portfolioItem">
                 <h2>Ice Cold README Generator</h2>
                 <p>
                   Command line application which asks you about your coding
@@ -449,43 +521,6 @@ function Portfolio() {
                   </a>
                 </div>
               </div>
-              <div id="portfolioItem">
-                <h2>Daily Planner</h2>
-                <p>
-                  Lightweight daily scheduler that stores user data in
-                  client-side local storage.
-                </p>
-                <a
-                  href="https://coryjquirk.github.io/daily-planner/"
-                  target="_blank"
-                >
-                  <img
-                    className="scrnsht"
-                    src="https://coryjquirk.github.io/daily-planner/images/screenshot.PNG"
-                    alt="daily planner"
-                  />
-                </a>
-                <div className="portfBtnDiv">
-                  <a
-                    href="https://coryjquirk.github.io/daily-planner/"
-                    target="_blank"
-                    className="portfBtn"
-                  >
-                    <button className="standardButton">
-                      Deployed app <i className="fa fa-link"></i>
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/coryjquirk/daily-planner"
-                    target="_blank"
-                    className="portfBtn"
-                  >
-                    <button className="standardButton">
-                      GitHub repo <i className="fa fa-link"></i>
-                    </button>
-                  </a>
-                </div>
-              </div>
             </div>
           )}
         </div>
@@ -502,18 +537,7 @@ function Portfolio() {
           </p>
 
           <hr></hr>
-          <h2>technical details</h2>
-          <p>
-            {" "}
-            I run a secondary server from a different <strong>Git</strong>{" "}
-            branch{" "}
-            <a href="https://portfolio-tester.herokuapp.com/" target="_blank">
-              here
-            </a>{" "}
-            with <strong>Heroku</strong>, so I can make sure my site won't break
-            upon deployment.
-          </p>
-
+          <h3>technical details</h3>
           <p>
             I enjoy coding custom <strong>CSS</strong> features supplemented
             with tools like Bootstrap and Fontawesome that provide great
@@ -523,43 +547,56 @@ function Portfolio() {
             components, such as the scroll-up arrow on the bottom right.
           </p>
           <p>
-            My process with this site is to run an `npm start` localhost:3000
-            server for a JavaScript runtime environment that will compile my
-            React.js code on my local machine. I host my code in a{" "}
+            My process with this site is to host my code in a{" "}
             <a
               href="https://github.com/coryjquirk/portfolio"
               target="_blank"
             ></a>
             GitHub repository, pull down the main branch to my secondary branch
-            with the command line to code new features. Then I commit meaningful
-            changes early and often but only upon completion of features, never
-            adding 'half-working' code (if there is such a thing), since
-            repositories of broken code only confuse other developers. I follow appropriate naming conventions like <code class="pCode">#camelCase</code> for CSS in my code. I use short and neat file names and I often spend time refactoring my code to eliminate redundancies. In
-            comments, I like to add links to documentation and sources for
-            open-source code that I'm utilizing if it's not already immediately apparent in the code. 
+            with the <strong>command line</strong> to code new features. Then I
+            commit meaningful changes early and often but only upon completion
+            of features, never adding 'half-working' code (if there were such a
+            thing), since repositories of broken code only confuse other
+            developers. Hosting my code there also allows me to pull it down and
+            make changes anywhere from my laptop or another machine that I set
+            up my SSH keys on.
           </p>
           <p>
-            <p>e.g., from the code for my site's photography page:</p>
-            <code>
-              //implement lazy loading so the page just loads as you scroll, and
-            </code>
-            <code>
-              //isn't slowed down having to render all the photos at once
-            </code>
-            <code>//https://reactjs.org/docs/code-splitting.html</code>
-            <code>//try this out https://stackoverflow.com/questions/18483241/random-div-order-on-page-load</code>
+            {" "}
+            I have a pipeline setup with a secondary server from a different{" "}
+            <strong>Git</strong> branch{" "}
+            <a href="https://portfolio-tester.herokuapp.com/" target="_blank">
+              here
+            </a>{" "}
+            with Heroku so I can make sure my site won't break upon deployment.
+            My apps on <strong>Heroku</strong> are linked directly to the main
+            and secondary branches so the site is re-deployed each time new code
+            is pushed up to the repository.
           </p>
           <p>
-            Developing for the front-end, I can't imagine not have a browser
-            window open alongside <strong>Visual Studio Code</strong>. To test
-            screen width responsiveness at every stage of designing an app, I
-            utilize <strong>Google Chrome developer tools</strong>. It's that
-            side bar that pops up when you hit F12, 'Inspect', or ctrl-shift-I
-            on desktop. It's much easier to design sites first for mobile and
-            then expand the CSS media queries to adapt to larger screen sizes.
+            I follow appropriate naming conventions like{" "}
+            <code class="pCode">#camelCase</code> for CSS in my code. I use
+            short and neat file names and I often spend time refactoring my code
+            to eliminate redundancies. In comments, I like to add links to
+            documentation and sources for open-source code that I'm utilizing if
+            it's not already immediately apparent in the code.
           </p>
           <p>
-            This site meets accessibility standards for screen readers, and is a
+            I run an <code className="pCode">npm start</code> localhost:3000
+            server for a JavaScript runtime environment that will compile
+            React.js code on my local machine. Developing for the front-end, I
+            can't imagine not have a browser window open alongside{" "}
+            <strong>Visual Studio Code</strong>. Additionally, it's much easier
+            to design sites first for mobile and then expand the CSS media
+            queries to adapt to larger screen sizes. To test screen width
+            responsiveness at every stage of designing an app, I utilize{" "}
+            <strong>Google Chrome developer tools</strong>. It's that side bar
+            that pops up when you hit F12, 'Inspect', or ctrl-shift-I on desktop
+            (if you've never tried it but you've read this far, I encourage you
+            to use it to see the code for this page!).
+          </p>
+          <p>
+            This site meets accessibility standards for screen readers, and is a{" "}
             <strong>PWA</strong> (Progressive Web Application) that you can
             install on your phone's home screen. It utilizes a service worker to
             cache important files for fastest performance, and it uses a
@@ -578,8 +615,7 @@ function Portfolio() {
             </a>
           </div>
         </div>
-        {/*
-        <div id="appsList">
+        <div id="artList">
           {artOpened === false && (
             <button class="appsListCtrl standardButton" onClick={revealArt}>
               <i class="fa fa-plus"></i>
@@ -590,85 +626,32 @@ function Portfolio() {
               <i class="fa fa-minus"></i>
             </button>
           )}
-          <h3 id="appsHeader">assorted visuals</h3>
+          <h2 id="appsHeader">assorted visuals</h2>
           {artOpened === true && (
             <div>
-              <p>
-                Made in Adobe Photoshop, GIMP graphics software, or VSDC video
+              <p id="artP">
+                Made in Adobe Photoshop, GIMP, or VSDC video
                 editor.
               </p>
-
-              <div id="portfolioItem">
-                <h3>Weather Dashboard</h3>
-                <p>
-                  Displays current weather conditions and a 5-day forecast with
-                  the OpenWeatherMap API. Users' recent cities are saved with
-                  client-side local storage.
-                </p>
-                <a
-                  href="https://coryjquirk.github.io/weather-dashboard/"
-                  target="_blank"
-                >
-                  <img class="scrnsht" src={weatherdashboard} alt="cart croc" />
-                </a>
-                <div class="portfBtnDiv">
-                  <a
-                    href="https://coryjquirk.github.io/weather-dashboard/"
-                    target="_blank"
-                    class="portfBtn"
-                  >
-                    <button class="standardButton">
-                      Deployed app <i class="fa fa-link"></i>
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/coryjquirk/weather-dashboard"
-                    target="_blank"
-                    class="portfBtn"
-                  >
-                    <button class="standardButton">
-                      GitHub repo <i class="fa fa-link"></i>
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <div id="portfolioItem">
-                <h2>What's Cooking?</h2>
-                <p>
-                  Helps you find recipes based on the ingredients you have at
-                  home. Searches a recipe database with a third-party API, and
-                  shows nearby grocery stores with Google Maps.
-                </p>
-                <a
-                  href="https://coryjquirk.github.io/whats-cookin/"
-                  target="_blank"
-                >
-                  <img class="scrnsht" src={whatscooking} alt="whats cookin" />
-                </a>
-
-                <div class="portfBtnDiv">
-                  <a
-                    href="https://coryjquirk.github.io/whats-cookin/"
-                    target="_blank"
-                    class="portfBtn"
-                  >
-                    <button class="standardButton">
-                      Deployed app <i class="fa fa-link"></i>
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/coryjquirk/whats-cookin"
-                    target="_blank"
-                    class="portfBtn"
-                  >
-                    <button class="standardButton">
-                      GitHub repo <i class="fa fa-link"></i>
-                    </button>
-                  </a>
-                </div>
-              </div>
+              <p id="artSub" className="subText">descriptors: collage art, sample culture, glitch art</p>
+              <img className="portfolioArt" src={eug} alt="speaker grill hue shift"></img>
+              <img className="portfolioArt" src={fab} alt="phone wallpaper gradient from Cambodian tablecloth photo"></img>
+              <img className="portfolioArt" src={ham} alt="hamm's brewery"></img>
+              <img className="portfolioArt" src={kL} alt="glitch art"></img>
+              <img className="portfolioArt" src={lfskp} alt="leaf under a microscope"></img>
+              <img className="portfolioArt" src={lint} alt="35mm film plus eslint collage"></img>
+              <img className="portfolioArt" src={mac} alt="macbook pro glitch"></img>
+              <img className="portfolioArt" src={siem} alt="temple, Siem Reap Cambodia"></img>
+              <img className="portfolioArt" src={tape} alt="cassette artwork"></img>
+              <img className="portfolioArt" src={dnd} alt="drone not drones 2020"></img>
+              <hr></hr>
+              <h3>video work</h3>
+              <iframe className="pfVideo" src="https://www.youtube.com/embed/3BEVQ1qXPD4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe className="pfVideo" src="https://www.youtube.com/embed/1SjmHeI0hM0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe className="pfVideo" src="https://www.youtube.com/embed/5PqtdPhRzgY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-             </div>          )}   */}
+          )}
+        </div>
       </div>
       <div className="ghostDiv"></div>
     </Container>

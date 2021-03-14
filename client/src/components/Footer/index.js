@@ -5,7 +5,6 @@ import Favicon from "./favicon.png";
 function Footer() {
   return (
     <div class="footer">
-      <p>
         <a href="https://coryjquirk.herokuapp.com/">
           <img id="footerFavicon" src={Favicon} alt="favicon" />
         </a>
@@ -23,7 +22,6 @@ function Footer() {
           class="fa fa-flickr"
         ></a>
         <a href="https://www.github.com/coryjquirk" class="fa fa-github"></a>
-      </p>
     </div>
   );
 }

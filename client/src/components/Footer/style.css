@@ -18,38 +18,26 @@ padding: 0px 8px 0px 0px;
   height: 60px;
   background-color: rgb(61, 61, 61);
   color: rgb(175, 175, 175);
+  padding: 15px 0px 0px 15px;
 }
 .footer p {
   background-color: rgb(61, 61, 61);
   margin-top: 15px;
 }
+@media screen and (min-width: 600px) {
+  .footer{
+    letter-spacing: 0.1rem;
+  }
+}
 @media screen and (min-width: 400px) {
-  .footer p {
+  .footer{
     letter-spacing: 0.05rem;
   }
 }
-@media screen and (max-width: 400px) {
-  #cuteMorse {
-    display: none;
-  }
-  .footer .fa-instagram {
-    margin-left: 15px;
-  }
+
+@media screen and (max-width: 600px) {
   .footer p {
     margin-left: 8%;
     margin-right: 8%;
   }
 }
-@media screen and (max-width: 250px) {
-  .footer .fa-linkedin,
-  .footer .fa-flickr,
-  .footer .fa-github {
-    width: 20px;
-  }
-  .footer .fa-instagram {
-    margin-left: 5px;
-  }
-}
-
-
-
