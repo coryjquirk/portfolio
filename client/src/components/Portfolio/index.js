@@ -575,7 +575,7 @@ function Portfolio() {
           </p>
           <p>
             I follow appropriate naming conventions like{" "}
-            <code class="pCode">#camelCase</code> for CSS in my code. I use
+            <code className="pCode">#camelCase</code> for CSS in my code. I use
             short and neat file names and I often spend time refactoring my code
             to eliminate redundancies. In comments, I like to add links to
             documentation and sources for open-source code that I'm utilizing if
@@ -617,13 +617,13 @@ function Portfolio() {
         </div>
         <div id="artList">
           {artOpened === false && (
-            <button class="appsListCtrl standardButton" onClick={revealArt}>
-              <i class="fa fa-plus"></i>
+            <button className="appsListCtrl standardButton" onClick={revealArt}>
+              <i className="fa fa-plus"></i>
             </button>
           )}
           {artOpened === true && (
-            <button class="appsListCtrl standardButton" onClick={hideArt}>
-              <i class="fa fa-minus"></i>
+            <button className="appsListCtrl standardButton" onClick={hideArt}>
+              <i className="fa fa-minus"></i>
             </button>
           )}
           <h2 id="appsHeader">assorted visuals</h2>
@@ -640,17 +640,17 @@ function Portfolio() {
               <img className="portfolioArt" src={eug} alt="speaker grill hue shift"></img>
               <img className="portfolioArt" src={fab} alt="phone wallpaper gradient from Cambodian tablecloth photo"></img>
               <img className="portfolioArt" src={ham} alt="hamm's brewery"></img>
-              <img className="portfolioArt" src={kL} alt="glitch art"></img>
               <img className="portfolioArt" src={lfskp} alt="leaf under a microscope"></img>
               <img className="portfolioArt" src={lint} alt="35mm film plus eslint collage"></img>
               <img className="portfolioArt" src={mac} alt="macbook pro glitch"></img>
+              <img className="portfolioArt" src={kL} alt="glitch art"></img>
               <img className="portfolioArt" src={siem} alt="temple, Siem Reap Cambodia"></img>
               <img className="portfolioArt" src={tape} alt="cassette artwork"></img>
               <img className="portfolioArt" src={dnd} alt="drone not drones 2020"></img>
               <hr></hr>
               <h3>video work</h3>
-              <iframe className="pfVideo" src="https://www.youtube.com/embed/3BEVQ1qXPD4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <iframe className="pfVideo" src="https://www.youtube.com/embed/1SjmHeI0hM0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe className="pfVideo" src="https://www.youtube.com/embed/3BEVQ1qXPD4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe className="pfVideo" src="https://www.youtube.com/embed/1SjmHeI0hM0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           )}
         </div>
