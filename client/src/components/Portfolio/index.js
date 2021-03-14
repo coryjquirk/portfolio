@@ -634,6 +634,7 @@ function Portfolio() {
                 editor.
               </p>
               <p id="artSub" className="subText">descriptors: collage art, sample culture, glitch art</p>
+              <p id="artSub" className="subText">big fan of gradients, white space, iridescence</p>
               <img className="portfolioArt" src={eug} alt="speaker grill hue shift"></img>
               <img className="portfolioArt" src={fab} alt="phone wallpaper gradient from Cambodian tablecloth photo"></img>
               <img className="portfolioArt" src={ham} alt="hamm's brewery"></img>
@@ -648,7 +649,6 @@ function Portfolio() {
               <h3>video work</h3>
               <iframe className="pfVideo" src="https://www.youtube.com/embed/3BEVQ1qXPD4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <iframe className="pfVideo" src="https://www.youtube.com/embed/1SjmHeI0hM0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <iframe className="pfVideo" src="https://www.youtube.com/embed/5PqtdPhRzgY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           )}
         </div>
