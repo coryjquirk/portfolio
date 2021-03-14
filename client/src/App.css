@@ -30,8 +30,9 @@
   margin: 10px 0px 60px 0px;
   max-width: 1150px;
 }
-.muted {
-  color: #666;
+#theseMine{
+  color: rgb(198, 198, 198);
+  display: inline-flex;
 }
 p {
   font-size: 15px;
@@ -53,6 +54,20 @@ p {
 }
 .headHr {
   clear: both;
+}
+.footBanner {
+  width: 70%;
+  padding: 35px 0px 35px 0px;
+  float: left;
+  clear: both;
+  display: block;
+  margin: 0px 1% 0px 5%;
+}
+@media screen and (max-width: 650px) {
+  .footBanner {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+  }
 }
 @media screen and (max-width: 992px) {
   .desktopHeader {

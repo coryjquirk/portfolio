@@ -76,10 +76,11 @@ function Contact() {
       </div>
       <img
             src={Juniper}
-            id="juniperBanner"
-            className="soundBanner"
-            alt="Juniper trees"
+            className="footBanner"
+            alt="Seagull Lake BWCA"
           ></img>
+                <p className="mutedBlog" id="theseMine">all photos are mine unless otherwise stated or readily apparent.</p>
+
     </div>
     </Container>
   );

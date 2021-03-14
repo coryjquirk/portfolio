@@ -6,7 +6,7 @@ import Orange from "./orange.jpg"
 function Home() {
   return (
     <Container fluid>
-      <div id="contact">
+      <div>
         <button
           className="headerNavCollapse"
           data-toggle="collapse"
@@ -16,7 +16,8 @@ function Home() {
         </button>
         <h1 class="desktopHeader">welcome</h1>
         <hr className="headHr" />
-        <div className="meat">
+        <div id="homeMain">
+        <div>
           <a href="/portfolio">
             <button className="homeBtns">
               <span>
@@ -47,13 +48,16 @@ function Home() {
           </a>
           
         </div>
-        <img
+        </div>
+        
+      <img
             src={Orange}
-            id="juniperBanner"
-            className="soundBanner"
+            className="footBanner"
             alt="Montana"
           ></img>
       </div>
+      <p className="mutedBlog" id="theseMine">all photos are mine unless otherwise stated or readily apparent.</p>
+
     </Container>
   );
 }

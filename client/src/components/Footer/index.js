@@ -8,7 +8,9 @@ function Footer() {
       <a href="https://coryjquirk.herokuapp.com/">
         <img id="footerFavicon" src={Favicon} alt="favicon" />
       </a>
-      2021<span id="cuteMorse">.- .-.. -- --- ... - - .... . .-. . </span>
+      <span id="publishDate">2021</span>
+      <span id="mobileMorse">-... .-.. --</span>
+      <span id="cuteMorse">.- .-.. -- --- ... - - .... . .-. . </span>
       <a
         href="https://www.instagram.com/coryquirk/"
         className="fa fa-instagram"

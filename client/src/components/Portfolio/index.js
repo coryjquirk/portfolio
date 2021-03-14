@@ -62,15 +62,21 @@ function Portfolio() {
         </p>
         <li className="t0c">
           <a href="#appsList" onClick={revealApps}>
-            #projects
+            #site projects
           </a>
         </li>
         <li className="t0c">
           <a href="#portfolioSiteDiv">#more about this site</a>
         </li>
-        <li className="t0c">
+        <li className="t0c" onClick={revealArt}>
           <a href="#artList">#visual design</a>
+          <li className="t0c">
+          <a href="#videoWork" onClick={revealArt}>
+            #video production
+          </a>
         </li>
+        </li>
+        
         <div id="connectLink">
           <button className="standardButton">
             <a href="/contact">
@@ -140,9 +146,13 @@ function Portfolio() {
               </li>
               <li id="mobileToolbox">Agile</li>
               <li>
-                <span id="desktopToolbox">daily scrum</span>
+                <span id="desktopToolbox">daily scrum ceremonies</span>
               </li>
-              <li id="mobileToolbox">daily scrum</li>
+              <li id="mobileToolbox">daily scrum ceremonies</li>
+              <li>
+                <span id="desktopToolbox">MVP (minimum viable product) production for CI/CD</span>
+              </li>
+              <li id="mobileToolbox">MVP (minimum viable product) production for CI/CD</li>
               <li>
                 <span id="desktopToolbox">
                   kanban project management boards
@@ -187,6 +197,10 @@ function Portfolio() {
                 <span id="desktopToolbox">Raspberry Pi 4</span>
               </li>
               <li id="mobileToolbox">Raspberry Pi 4</li>
+              <li>
+                <span id="desktopToolbox">Arduino (Bluetooth, GPS)</span>
+              </li>
+              <li id="mobileToolbox">Arduino (Bluetooth, GPS)</li>
             </li>
             <li>
               <i className="fa fa-cog"></i> <strong>Python</strong>
@@ -563,7 +577,7 @@ function Portfolio() {
           </p>
           <p>
             {" "}
-            I have a pipeline setup with a secondary server from a different{" "}
+            I have a simple CI/CD pipeline setup with a secondary server from a different{" "}
             <strong>Git</strong> branch{" "}
             <a href="https://portfolio-tester.herokuapp.com/" target="_blank">
               here
@@ -648,7 +662,7 @@ function Portfolio() {
               <img className="portfolioArt" src={tape} alt="cassette artwork"></img>
               <img className="portfolioArt" src={dnd} alt="drone not drones 2020"></img>
               <hr></hr>
-              <h3>video work</h3>
+              <h3 id="videoWork">video work</h3>
               <iframe className="pfVideo" src="https://www.youtube.com/embed/3BEVQ1qXPD4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <iframe className="pfVideo" src="https://www.youtube.com/embed/1SjmHeI0hM0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
