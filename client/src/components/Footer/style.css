@@ -40,4 +40,28 @@ padding: 0px 8px 0px 0px;
     margin-left: 8%;
     margin-right: 8%;
   }
+  .footer{
+    letter-spacing: none;
+
+  }
+}
+@media screen and (max-width: 262px) {
+  #mobileMorse {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #cuteMorse {
+    display: none;
+  }
+  #mobileMorse {
+    display: inline-flex;
+  }
+  #publishDate {
+    margin-right: 3px;
+  }
+  .footer {
+    text-align: center;
+  }
 }

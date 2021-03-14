@@ -1,7 +1,7 @@
 .App {
   text-align: left;
 }
-.standardButton{
+.standardButton {
   background-image: url("btnBkgd.png");
   background-color: #cccccc; /* Used if the image is unavailable */
   background-position: center;
@@ -9,7 +9,7 @@
   background-size: cover; /* Resize the background image to cover the entire container */
   border: none;
   font-weight: bold;
-  letter-spacing: .03rem;
+  letter-spacing: 0.03rem;
   padding: 7px 7px 7px 7px;
 }
 .meat {
@@ -30,8 +30,10 @@
   margin: 10px 0px 60px 0px;
   max-width: 1150px;
 }
-.muted {
-  color: #666;
+#theseMine {
+  color: rgb(198, 198, 198);
+  display: inline-flex;
+  margin-left: 15px;
 }
 p {
   font-size: 15px;
@@ -54,6 +56,20 @@ p {
 .headHr {
   clear: both;
 }
+.footBanner {
+  width: 70%;
+  padding: 35px 0px 35px 0px;
+  float: left;
+  clear: both;
+  display: block;
+  margin: 0px 1% 0px 5%;
+}
+@media screen and (max-width: 650px) {
+  .footBanner {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+  }
+}
 @media screen and (max-width: 992px) {
   .desktopHeader {
     display: none;
@@ -69,5 +85,8 @@ p {
   .meat {
     width: 100%;
     margin: 0px 10px 0px 10px;
+  }
+  #theseMine {
+    font-size: x-small;
   }
 }

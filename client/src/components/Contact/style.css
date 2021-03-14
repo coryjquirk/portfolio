@@ -96,32 +96,22 @@ button a {
   -o-animation: fadeIn ease 0.5s;
   -ms-animation: fadeIn ease 0.5s;
 }
-@media screen and (min-width: 570px){
-  
-  #juniperBanner{
-    margin-top:30px;
+@media screen and (max-width: 775px) {
+  .contactBtns {
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
-@media screen and (max-width: 775px) {
-  .contactBtns{
-  margin-left: 20%;
-  margin-right: 20%;
+@media screen and (max-width: 570px) {
+  .contactBtns {
+    width: 250px;
+    margin: 10px 15px 15px 0px;
   }
+}
+@media screen and (max-width: 300px) {
+  .contactBtns {
+    width: 200px;
+    height: 75px;
+    margin: 10px;
   }
-  @media screen and (max-width: 570px) {
-    .contacttns {
-  
-      width: 250px;
-      height: 75px;
-      border-radius: 5px;
-      margin: 10px 15px 15px 0px;
-    }
-  }
-  @media screen and (max-width: 300px) {
-    .contactBtns {
-      width: 200px;
-      height: 75px;
-      border-radius: 5px;
-      margin: 10px;
-    }
-  }
+}

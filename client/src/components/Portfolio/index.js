@@ -17,7 +17,6 @@ import lint from "./Images/art/lint.png";
 import mac from "./Images/art/mac.png";
 import siem from "./Images/art/siem.jpg";
 import tape from "./Images/art/tape.jpeg";
-//
 //this component is getting huge and I'd like to break it up
 function Portfolio() {
   const [appsOpened, openApps] = React.useState(false);
@@ -62,13 +61,13 @@ function Portfolio() {
         </p>
         <li className="t0c">
           <a href="#appsList" onClick={revealApps}>
-            #projects
+            #site projects
           </a>
         </li>
         <li className="t0c">
           <a href="#portfolioSiteDiv">#more about this site</a>
         </li>
-        <li className="t0c">
+        <li className="t0c" onClick={revealArt}>
           <a href="#artList">#visual design</a>
         </li>
         <div id="connectLink">
@@ -140,9 +139,17 @@ function Portfolio() {
               </li>
               <li id="mobileToolbox">Agile</li>
               <li>
-                <span id="desktopToolbox">daily scrum</span>
+                <span id="desktopToolbox">daily scrum ceremonies</span>
               </li>
-              <li id="mobileToolbox">daily scrum</li>
+              <li id="mobileToolbox">daily scrum ceremonies</li>
+              <li>
+                <span id="desktopToolbox">
+                  MVP (minimum viable product) production for CI/CD
+                </span>
+              </li>
+              <li id="mobileToolbox">
+                MVP (minimum viable product) production for CI/CD
+              </li>
               <li>
                 <span id="desktopToolbox">
                   kanban project management boards
@@ -187,9 +194,13 @@ function Portfolio() {
                 <span id="desktopToolbox">Raspberry Pi 4</span>
               </li>
               <li id="mobileToolbox">Raspberry Pi 4</li>
+              <li>
+                <span id="desktopToolbox">Arduino (Bluetooth, GPS)</span>
+              </li>
+              <li id="mobileToolbox">Arduino (Bluetooth, GPS)</li>
             </li>
             <li>
-              <i className="fa fa-cog"></i> <strong>Python</strong>
+              <i className="fa fa-cog"></i> <strong>Python, C++</strong>
               <li>
                 <span id="desktopToolbox">beginner exposure</span>
               </li>
@@ -563,8 +574,8 @@ function Portfolio() {
           </p>
           <p>
             {" "}
-            I have a pipeline setup with a secondary server from a different{" "}
-            <strong>Git</strong> branch{" "}
+            I have a simple CI/CD pipeline setup with a secondary server from a
+            different <strong>Git</strong> branch{" "}
             <a href="https://portfolio-tester.herokuapp.com/" target="_blank">
               here
             </a>{" "}
@@ -635,22 +646,74 @@ function Portfolio() {
               <p id="artP">
                 In sound design, I use Audacity, Reaper, and analog equipment.
               </p>
-              <p id="artSub" className="subText">descriptors: collage art, sample culture, glitch art</p>
-              <p id="artSub" className="subText">big fan of gradients, white space, iridescence</p>
-              <img className="portfolioArt" src={eug} alt="speaker grill hue shift"></img>
-              <img className="portfolioArt" src={fab} alt="phone wallpaper gradient from Cambodian tablecloth photo"></img>
-              <img className="portfolioArt" src={ham} alt="hamm's brewery"></img>
-              <img className="portfolioArt" src={lfskp} alt="leaf under a microscope"></img>
-              <img className="portfolioArt" src={lint} alt="35mm film plus eslint collage"></img>
-              <img className="portfolioArt" src={mac} alt="macbook pro glitch"></img>
+              <p id="artSub" className="subText">
+                descriptors: collage art, sample culture, glitch art
+              </p>
+              <p id="artSub" className="subText">
+                big fan of gradients, white space, iridescence
+              </p>
+              <img
+                className="portfolioArt"
+                src={eug}
+                alt="speaker grill hue shift"
+              ></img>
+              <img
+                className="portfolioArt"
+                src={fab}
+                alt="phone wallpaper gradient from Cambodian tablecloth photo"
+              ></img>
+              <img
+                className="portfolioArt"
+                src={ham}
+                alt="hamm's brewery"
+              ></img>
+              <img
+                className="portfolioArt"
+                src={lfskp}
+                alt="leaf under a microscope"
+              ></img>
+              <img
+                className="portfolioArt"
+                src={lint}
+                alt="35mm film plus eslint collage"
+              ></img>
+              <img
+                className="portfolioArt"
+                src={mac}
+                alt="macbook pro glitch"
+              ></img>
               <img className="portfolioArt" src={kL} alt="glitch art"></img>
-              <img className="portfolioArt" src={siem} alt="temple, Siem Reap Cambodia"></img>
-              <img className="portfolioArt" src={tape} alt="cassette artwork"></img>
-              <img className="portfolioArt" src={dnd} alt="drone not drones 2020"></img>
+              <img
+                className="portfolioArt"
+                src={siem}
+                alt="temple, Siem Reap Cambodia"
+              ></img>
+              <img
+                className="portfolioArt"
+                src={tape}
+                alt="cassette artwork"
+              ></img>
+              <img
+                className="portfolioArt"
+                src={dnd}
+                alt="drone not drones 2020"
+              ></img>
               <hr></hr>
-              <h3>video work</h3>
-              <iframe className="pfVideo" src="https://www.youtube.com/embed/3BEVQ1qXPD4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <iframe className="pfVideo" src="https://www.youtube.com/embed/1SjmHeI0hM0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h3 id="videoWork">video work</h3>
+              <iframe
+                className="pfVideo"
+                src="https://www.youtube.com/embed/3BEVQ1qXPD4"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <iframe
+                className="pfVideo"
+                src="https://www.youtube.com/embed/1SjmHeI0hM0"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
           )}
         </div>

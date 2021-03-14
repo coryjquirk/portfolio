@@ -2,20 +2,12 @@ hr {
   text-align: center;
   background-color: grey;
 }
-
-.contactDivs {
-  background-color: rgb(213, 255, 245);
-  border-radius: 10px;
-  margin: 5px 5px 5px 5px;
-  padding: 5px 5px 5px 5px;
-  width: 300px;
+#homeMain {
+  width: 60%;
+  margin: 0px 0px 0px 50px;
 }
 button a {
   color: rgb(255, 255, 255);
-}
-.contactBtns i {
-  color: #4b4b4bd0;
-  margin: 0px 0px 0px 2px;
 }
 #linkedIn {
   color: rgb(240, 239, 239);
@@ -65,7 +57,9 @@ button a {
       14px 14px 0px 0px #8adf91;
   }
 }
-
+#mobileMorse {
+  display: none;
+}
 .homeBtns:hover span:after {
   opacity: 1;
   right: 0;
@@ -80,7 +74,7 @@ button a {
   width: 275px;
   height: 150px;
   border: 1px solid rgb(197, 197, 197);
-  border-radius: 16px;
+  border-radius: 5px;
   display: block;
   float: left;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -105,14 +99,13 @@ button a {
 }
 
 @media screen and (max-width: 775px) {
-.homeBtns{
-margin-left: 20%;
-margin-right: 20%;
-}
+  .homeBtns {
+    margin-left: 20%;
+  }
 }
 @media screen and (max-width: 570px) {
   .homeBtns {
-    width: 250px;
+    width: 95%;
     height: 75px;
     border-radius: 5px;
     margin: 10px 15px 15px 0px;
@@ -120,12 +113,16 @@ margin-right: 20%;
   .homeBtns p {
     font-size: 16px;
   }
+  
+  /* .container-fluid{
+    padding: 0px 0px 0px 0px;  
+  } */
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 360px) {
   .homeBtns {
-    width: 200px;
+    margin-left: none;
     height: 75px;
     border-radius: 5px;
-    margin: 10px;
+    margin: 10px 0px 10px 0px;
   }
 }
