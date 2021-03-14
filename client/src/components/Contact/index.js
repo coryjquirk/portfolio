@@ -2,11 +2,12 @@ import React from "react";
 import "./style.css";
 import Resume from "./coryquirk-resume-mar2021.docx";
 import CoverLetter from "./coryquirk-coverletter-mar2021.docx";
-import Juniper from "./juniper.jpg"
+import Seagull from "./seagull.jpg"
 import { Container } from "../Grid";
 
 function Contact() {
   return (
+    <div>
     <Container fluid>
     <div id="contact">
       <button
@@ -74,15 +75,17 @@ function Contact() {
             </span>
           </button>
       </div>
-      <img
-            src={Juniper}
+      
+    </div>
+    </Container>
+    <img
+            src={Seagull}
             className="footBanner"
             alt="Seagull Lake BWCA"
           ></img>
                 <p className="mutedBlog" id="theseMine">all photos are mine unless otherwise stated or readily apparent.</p>
 
     </div>
-    </Container>
   );
 }
 

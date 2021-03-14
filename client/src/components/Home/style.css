@@ -2,9 +2,9 @@ hr {
   text-align: center;
   background-color: grey;
 }
-#homeMain{
+#homeMain {
   width: 60%;
-  margin: 0px 0px 0px 50px; 
+  margin: 0px 0px 0px 50px;
 }
 button a {
   color: rgb(255, 255, 255);
@@ -105,20 +105,24 @@ button a {
 }
 @media screen and (max-width: 570px) {
   .homeBtns {
-    width: 250px;
+    width: 95%;
     height: 75px;
     border-radius: 5px;
-    margin: 10px 15px 15px 13%;
+    margin: 10px 15px 15px 0px;
   }
   .homeBtns p {
     font-size: 16px;
   }
+  
+  /* .container-fluid{
+    padding: 0px 0px 0px 0px;  
+  } */
 }
 @media screen and (max-width: 360px) {
   .homeBtns {
-    width: 80%;
+    margin-left: none;
     height: 75px;
     border-radius: 5px;
-    margin: 10px 10px 10px 10%;
+    margin: 10px 0px 10px 0px;
   }
 }
