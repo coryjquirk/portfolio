@@ -630,8 +630,10 @@ function Portfolio() {
           {artOpened === true && (
             <div>
               <p id="artP">
-                Made in Adobe Photoshop, GIMP, or VSDC video
-                editor.
+                I use Adobe Photoshop, GIMP, and VSDC video editor.
+              </p>
+              <p id="artP">
+                In sound design, I use Audacity, Reaper, and analog equipment.
               </p>
               <p id="artSub" className="subText">descriptors: collage art, sample culture, glitch art</p>
               <p id="artSub" className="subText">big fan of gradients, white space, iridescence</p>
