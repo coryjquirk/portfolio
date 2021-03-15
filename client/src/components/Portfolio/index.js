@@ -640,18 +640,33 @@ function Portfolio() {
           <h2 id="appsHeader">assorted visuals</h2>
           {artOpened === true && (
             <div>
-              <p id="artP">
-                I use Adobe Photoshop, GIMP, and VSDC video editor.
-              </p>
-              <p id="artP">
-                In sound design, I use Audacity, Reaper, and analog equipment.
-              </p>
-              <p id="artSub" className="subText">
-                descriptors: collage art, sample culture, glitch art
-              </p>
-              <p id="artSub" className="subText">
-                big fan of gradients, white space, iridescence
-              </p>
+              <div id="artTools">
+                <p id="artP">
+                  I use Adobe Photoshop, GIMP, and VSDC video editor.
+                  <p id="artSub" className="subText">
+                  descriptors: collage art, sample culture, glitch art
+                </p>
+                <p id="artSub" className="subText">
+                  big fan of gradients, white space, iridescence
+                </p>
+                </p>
+
+                <p id="artP">
+                  <strong>35mm cameras</strong>: Olympus OM-10 SLR, Kodak S500AF point and shoot
+                </p>
+                <p id="artP">
+                  <strong>film</strong>: Kodak Portra 400, Fujifilm Superia Xtra 400, Kodak Gold
+                  200
+                </p>
+               
+                <p id="artP">
+                  In sound design, I use Audacity, Reaper, and analog equipment.
+                  <p id="artSub" className="subText">
+                    Roland SP-404SX, Elektron Oktratrack MKI. microphones: Zoom
+                    H4N field recorder, Shure SM57 cardioid
+                  </p>
+                </p>
+              </div>
               <img
                 className="portfolioArt"
                 src={eug}
