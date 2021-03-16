@@ -99,7 +99,7 @@ function Post2() {
             for artwork that will not outlast the work itself. In the future,
             when we look at pieces whose creative process was influenced by the
             way the creator was using Instagram, we’ll still have the pieces and
-            we won’t be missing the Instagram app itself Think about how
+            we won’t be missing the Instagram app itself. Think about how
             influential Vine was on the sub-ten second video format before
             people started creating the same exact style videos on other social
             media platforms. Or, if Bandcamp were to tragically vanish: altough the platform and community aspects would be missed, its visible mark on music in the 2010s would remain evident in the music itself.
