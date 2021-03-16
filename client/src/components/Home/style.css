@@ -113,10 +113,6 @@ button a {
   .homeBtns p {
     font-size: 16px;
   }
-  
-  /* .container-fluid{
-    padding: 0px 0px 0px 0px;  
-  } */
 }
 @media screen and (max-width: 360px) {
   .homeBtns {
