@@ -3,6 +3,7 @@ import okta from "./okta.PNG";
 import seed from "./seed.png";
 import zpd from "./zpd.png";
 import ModalImage from "react-modal-image";
+import "./style.css"
 
 function Post2() {
   const [opened2, openArticle2] = useState(false);
@@ -26,6 +27,7 @@ function Post2() {
         and my current challenges this week.
       </p>
       <p id="blogDate">12 March, 2021 </p>
+      {opened2 === false && ( <div id="seedDiv"><img id="seedPic" src={seed}></img></div>)}
       {opened2 === true && (
         <div>
           <img className="blogHeadImg" src={seed} alt="spider plant"></img>
@@ -98,8 +100,13 @@ function Post2() {
             like Instagram, which I would argue are just temporary repositories
             for artwork that will not outlast the work itself. In the future,
             when we look at pieces whose creative process was influenced by the
+<<<<<<< HEAD
             way the creator was using Instagram, we’ll still have the artwork and
             we won’t be missing the Instagram app. Think about how
+=======
+            way the creator was using Instagram, we’ll still have the pieces and
+            we won’t be missing the Instagram app itself. Think about how
+>>>>>>> d4442641b5ee30cdb6429fef00d672cfa86bc741
             influential Vine was on the sub-ten second video format before
             people started creating the same exact style videos on other social
             media platforms. Or, if Bandcamp were to tragically vanish: altough the platform and community aspects would be missed, its visible mark on music in the 2010s would remain evident in the music itself.

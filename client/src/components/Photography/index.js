@@ -47,13 +47,20 @@ import lutstars from "./Images/lutstars.png";
 import lutstarsL from "./Images/large/lutstarslarge.png";
 import sedonaSammy from "./Images/sedonasammy.png";
 import sedonaSammyL from "./Images/large/sedonasammylarge.png";
+<<<<<<< HEAD
 //idea for later: "sort by place" checkbox
 //implement lazy loading so the page just loads as you scroll and isn't slowed down having to render all the photos at once
+=======
+
+//idea for later: "sort by place" checkbox
+//implement lazy loading so the page just loads as you scroll, and
+//isn't slowed down having to render all the photos at once
+>>>>>>> d4442641b5ee30cdb6429fef00d672cfa86bc741
 //https://reactjs.org/docs/code-splitting.html
 //try this out --->
 //https://stackoverflow.com/questions/18483241/random-div-order-on-page-load
 
-function Photography(props) {
+function Photography() {
   return (
     <div id="gallery">
       <button

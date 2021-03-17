@@ -4,27 +4,34 @@
 }
 #connectLink {
   text-align: center;
-margin: 20px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
 }
-#appsList {
+#connectLink a{
+  color: black;
+}
+#appsList, #toolkitList, #artList {
   background-color: rgb(251, 251, 251);
   min-height: 50px;
   border-radius: 10px;
   padding: 10px 5px 10px 10px;
   margin-bottom: 15px;
 }
-#portfolioSiteDiv{
-  width: 95%;
+#portfolioSiteDiv {
+  width: 100%;
   background-color: rgb(251, 251, 251);
   border-radius: 10px;
-margin: 0px 0px 15px 0px;
+  margin: 0px 0px 15px 0px;
   padding: 10px 5px 10px 10px;
   border: 1px;
   border-style: solid dotted solid dotted;
   border-color: hsl(0, 0%, 53%);
-
 }
-#portfolioSiteDiv p{
+.t0c{
+  margin-left: 30px;
+  font-size: smaller;
+  padding: 3px 0px 3px 0px;
+}
+#portfolioSiteDiv p {
   margin: 15px 15px 15px 15px;
 }
 #appsHeader {
@@ -37,12 +44,31 @@ margin: 0px 0px 15px 0px;
   padding: 3px 5px 3px 5px;
   margin: 0px 10px 10px 10px;
 }
-#codeSymbol{
+#codeBtn {
   float: right;
   height: 30px;
   width: 30px;
-  padding: 0px;
+  padding: 3px 0px 0px 7px;
+  margin: 0px 10px 0px 0px;
+  background-image: url("../../btnBkgd.png");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border: none;
+  font-weight: bold;
+}
+.fa-code{
+  font-weight: bold;
+padding: 0px 5px -5px 5px;}
+#codeBtn{
+  color: none;
+  border: none;
+  float: right;
+  height: 30px;
+  width: 30px;
   margin: 20px 10px 0px 0px;
+  top: 80px;
 }
 .appsListCtrl {
   color: none;
@@ -78,7 +104,7 @@ margin: 0px 0px 15px 0px;
 #portfolioItem p,
 #devToolkit p {
   margin: 0px 10px 5px 10px;
-  padding: 5px 5px 5px 5px;
+  padding: 5px 10px 5px 5px;
 }
 #toolkit {
   text-align: left;
@@ -99,6 +125,32 @@ margin: 0px 0px 15px 0px;
   display: inline-block;
   margin: 0px 15px 10px 10px;
 }
+.subText{
+  font-style: italic;
+  color: rgb(116, 116, 116);
+  font-size: small;
+  margin: 0px 10px 0px 20px
+}
+code {
+  display: inline-block;
+  margin: 0px 15px 0px 15px;
+}
+.pCode {
+  display: inline-flex;
+  margin: 0px 0px 0px 0px;
+}
+.portfolioArt{
+  width: 45%;
+  margin: 10px 10px 5px 10px;
+  padding: 15px 15px 15px 15px;
+  border: solid 1px #e3e3e3;
+;}
+.pfVideo{
+  width: 95%;
+}
+#artP, #artSub{
+  margin: 0px 0px 5px 15px;
+}
 @media screen and (max-width: 600px) {
   #mobileToolbox {
     display: block;
@@ -108,15 +160,14 @@ margin: 0px 0px 15px 0px;
   }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Lato:100&display=swap");
 
 .btn {
   width: 180px;
   height: 60px;
   cursor: pointer;
   background: transparent;
-  border: 1px solid #91C9FF;
+  border: 1px solid #91c9ff;
   outline: none;
   transition: 1s ease-in-out;
 }
@@ -134,7 +185,7 @@ svg {
 
 .btn:hover {
   transition: 1s ease-in-out;
-  background: #4F95DA;
+  background: #4f95da;
 }
 
 .btn:hover svg {
@@ -147,7 +198,7 @@ svg {
   font-weight: 100;
 }
 @media screen and (max-width: 600px) {
-  #appsList,
+  #appsList, #toolkitList, #artList
   #pf,
   #devToolKit,
   #portfolioItem,
@@ -158,9 +209,19 @@ svg {
     padding: 0px 0px 0px 5px;
   }
 
-  #portfolioItem p,
-  #devToolkit p {
-    margin: 0px 15px 5px 15px;
+  #portfolioItem p, .pfDescrip,
+  #devToolkit p, .portfolioArt, h3, p{
+    margin: 0px 15px 5px 5px;
+    padding: 5px 29px 5px 15px;
   }
-
+  .headHr {
+    margin-left: none;
+    margin-right: none;
+    width: 100%  }
+  .portfolioArt{
+    width: 95%;
+    margin: 10px 10px 5px 10px;
+    padding: 15px 15px 15px 15px;
+    border: none;
+  ;}
 }

@@ -8,8 +8,18 @@ body {
   font-family: 'Quicksand';
   src: local('Quicksand'), url(./fonts/Quicksand/static/Quicksand-Medium.ttf) format('truetype');
 }
+h2 {
+  text-align: left;
+  padding-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
 h3 {
   text-align: left;
   padding-left: 10px;
   margin-top: 10px;
+  font-size: 20px;
+}
+html {
+  scroll-behavior: smooth;
 }
