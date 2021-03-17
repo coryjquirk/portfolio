@@ -3,6 +3,7 @@ import okta from "./okta.PNG";
 import seed from "./seed.png";
 import zpd from "./zpd.png";
 import ModalImage from "react-modal-image";
+import "./style.css"
 
 function Post2() {
   const [opened2, openArticle2] = useState(false);
@@ -26,6 +27,7 @@ function Post2() {
         and my current challenges this week.
       </p>
       <p id="blogDate">12 March, 2021 </p>
+      {opened2 === false && ( <div id="seedDiv"><img id="seedPic" src={seed}></img></div>)}
       {opened2 === true && (
         <div>
           <img className="blogHeadImg" src={seed} alt="spider plant"></img>

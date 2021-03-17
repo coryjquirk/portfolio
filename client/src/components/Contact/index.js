@@ -70,7 +70,7 @@ function Contact() {
           <button className="contactBtns">
             <span>
               <p id="phoneNum">six one two, 716,</p>
-              <p id="phoneNum"> two four 85
+              <p id="phoneNum"> twentyfour eighty five
               </p>
             </span>
           </button>

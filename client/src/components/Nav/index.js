@@ -25,7 +25,13 @@ function Nav() {
               web dev <span className="sr-only">(current)</span>
             </a>
           </li>
+          
           <li className="nav-item active">
+            <a className="nav-link" href="blog">
+              blog
+            </a>
+          </li>
+          <li className="nav-item">
             <a className="nav-link" href="photography">
               photography <span className="sr-only">(current)</span>
             </a>
@@ -35,11 +41,6 @@ function Nav() {
               sound <span className="sr-only">(current)</span>
             </a>
           </li> */}
-          <li className="nav-item">
-            <a className="nav-link" href="blog">
-              blog
-            </a>
-          </li>
           <li className="nav-item">
             <a className="nav-link" href="contact">
               contact
