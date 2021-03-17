@@ -16,7 +16,9 @@ function SoundEthCard() {
             installation events where visitors were presented with recordings
             from Hidden Falls Regional Park in St. Paul, MN, a place I took
             interest in for its soundscape's mixture of <i>natural</i> sounds
-            and aircraft noise. In the second of these I was joined for an improvisational take on the soundscape by percussionists Matt Sumera and Josh Gumiela.
+            and aircraft noise. In the second of these I was joined for an
+            improvisational take on the soundscape by percussionists Matt Sumera
+            and Josh Gumiela.
           </p>
         </p>
         <div class="bcBtnDiv">

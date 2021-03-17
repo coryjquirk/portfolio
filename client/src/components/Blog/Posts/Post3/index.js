@@ -28,7 +28,7 @@ function Post3() {
         My first impressions of the Raspberry Pi 4 and Arduino Uno as learning
         tools, plus other cute hardware.
       </p>
-      <p id="blogDate">8 March, 2021 </p>
+      <p id="blogDate">17 March, 2021 </p>
       {opened === false && <img className="blogPreviewImg" src={chips}></img>}
       {opened === true && (
         <div>
