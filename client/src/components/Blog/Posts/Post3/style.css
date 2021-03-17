@@ -5,8 +5,20 @@
     margin: 0px 15px 10px 15px;
   }
 }
+#chipsPreview {
+  width: 95%;
+  float: none;
+  max-height: 450px;
+  max-width: 450px;
+  margin: 15px 15px 60px 15px;
+}
+#chipsBread {
+  max-width: 450px;
+  float: right;
+  margin: 10px 10px 20px 25px;
+}
 #odas,
 #ardIDE {
-    margin: 10px 10px 20px 20px;
-    width: 95%;
+  margin: 10px 10px 20px 20px;
+  width: 95%;
 }
