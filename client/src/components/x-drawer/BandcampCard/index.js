@@ -12,6 +12,8 @@ function BandcampCard(props) {
           instrumentation and analog electronics. A highlight has been been playing at{" "}
           <a href="https://youtu.be/aXBY8A8nBLY?t=18820" target="_blank">Drone Not Drones</a>.
         </p>
+        <ul>        <li><a href="#theatre" id="theatreLink">#theatre</a></li>
+</ul>
         <div className="bcBtnDiv">
           <a href="https://watershedgroup.bandcamp.com/" target="_blank" class="bcBtn">
             <button className="standardButton">
