@@ -156,7 +156,7 @@ p {
     width: 95%;
     float: none;
   }
-  #sedona {
+  #sedona, #chips {
     max-height: none;
     max-width: none;
     width: 100%;

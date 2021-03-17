@@ -29,24 +29,25 @@ function Post3() {
         tools, plus other cute hardware.
       </p>
       <p id="blogDate">17 March, 2021 </p>
-      {opened === false && <img className="blogPreviewImg" src={chips}></img>}
+      {opened === false && <img id="chipsPreview" src={chips}></img>}
       {opened === true && (
         <div>
-          <ModalImage
-            small={chips}
-            large={chips}
-            className="blogHeadImg"
-            id="sedona"
-            alt=""
-            hideDownload={true}
-          />
+          <div id="chipsBread">
+            {" "}
+            <ModalImage
+              small={chips}
+              large={chips}
+              alt="Sparkfun GPS and Bluetooth modules, plus a Raspberry Pi Pico on a breadboard."
+              hideDownload={true}
+            />
+          </div>
           <p>
-            At a time, I wondered why people so often write guides or reviews on
-            a product after using it for only a few days, but I later realized
-            the value of putting fresh eyes on the product to learn more about
-            the user experience. To use these most effectively as educational
-            tools, we must consider what the untrained user will see and do upon
-            their first interaction with these devices.
+            There was a time when I wondered why people so often write guides or
+            reviews on a product after using it for only a few days, but I later
+            realized the value of putting fresh eyes on the product to learn
+            more about the user experience. To use educational tools like the
+            ones pictured here, we must consider what the untrained user will
+            see and do upon their first interaction with these devices.
           </p>
           <p>
             I picked up two boards from Micro Center, a{" "}
@@ -85,7 +86,7 @@ function Post3() {
             contain any of your personal information removes many of the
             inhibitions you may feel performing similar work with your personal
             computer. I feel less pressure about bricking my machine or breaking
-            phyiscal components since they're so cheap, although nothing like
+            physical components since they're so cheap, although nothing like
             that has happened yet. I built a gaming PC last year (the perfect
             quarantine gift to myself) and the setup of the Pi was very simple
             in comparison. It would give the unexperienced builder a hands-on
@@ -186,8 +187,8 @@ function Post3() {
             location with GPS to learn more about the hardware, radio
             frequencies, and Bluetooth protocols. Such a device when interfaced
             with a native iOS/Android app could see usage in archaeology,
-            agriculture, and supply chain logistics. To build this I've first spent
-            some time with a{" "}
+            agriculture, and supply chain logistics. To build this I've first
+            spent some time with a{" "}
             <a
               href="https://learn.sparkfun.com/tutorials/sparkfun-pro-nrf52840-mini-hookup-guide?_ga=2.84936081.922453400.1615777478-1636573948.1614811084"
               target="_blank"
@@ -208,7 +209,11 @@ function Post3() {
             >
               Raspberry Pi Pico
             </a>{" "}
-            as well which could serve as a controller for the Arduino modules. The GPS module I'm going to use is a SparkFun <a>XA1110</a>. As a side note I love the miniature QR code [pictured at the head of this post]. It scans to reveal a two letter and twelve digit code that might be the serial number if I had to guess.
+            as well which could serve as a controller for the Arduino modules.
+            The GPS module I'm going to use is a SparkFun <a>XA1110</a>. As a
+            side note I love the miniature QR code [pictured at the head of this
+            post]. It scans to reveal a two letter and twelve digit code that
+            might be the serial number if I had to guess.
           </p>
           <p>
             The portability of these devices is their biggest asset. I recall
@@ -217,7 +222,10 @@ function Post3() {
             is on teachers for their students to be able to carry one of these
             units in their backpack with a container of circuitry building
             tools. Similarily, the Raspberry Pi can be connected to a large HDMI
-            display, house with a small touch screen, or you could have none of this and just use it to make colorful LED displays. I want to continue seeing artists find more uses for these, if nothing else but for my own enjoyment.
+            display, house with a small touch screen, or you could have none of
+            this and just use it to make colorful LED displays. I want to
+            continue seeing artists find more uses for these, if nothing else
+            but for my own enjoyment.
           </p>
           <p>
             I got a positive first impression of these devices and I'm excited

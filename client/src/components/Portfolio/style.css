@@ -16,7 +16,7 @@
   padding: 10px 5px 10px 10px;
   margin-bottom: 15px;
 }
-#portfolioSiteDiv {
+#portfolioSite {
   width: 100%;
   background-color: rgb(251, 251, 251);
   border-radius: 10px;
@@ -31,7 +31,7 @@
   font-size: smaller;
   padding: 3px 0px 3px 0px;
 }
-#portfolioSiteDiv p {
+#portfolioSite p {
   margin: 15px 15px 15px 15px;
 }
 #appsHeader {

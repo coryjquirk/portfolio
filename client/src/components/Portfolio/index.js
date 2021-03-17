@@ -65,7 +65,7 @@ function Portfolio() {
           </a>
         </li>
         <li className="t0c">
-          <a href="#portfolioSiteDiv">#more about this site</a>
+          <a href="#portfolioSite">#more about this site</a>
         </li>
         <li className="t0c" onClick={revealArt}>
           <a href="#artList">#visual design</a>
@@ -536,7 +536,7 @@ function Portfolio() {
             </div>
           )}
         </div>
-        <div id="portfolioSiteDiv">
+        <div id="portfolioSite">
           <h2>personal website</h2>
           <p>
             I built this site with the idea that such a site could be adapted to
