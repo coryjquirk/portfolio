@@ -226,13 +226,14 @@ function Portfolio() {
             </button>
           )}
           <h2 id="appsHeader">portfolio</h2>
+          <p>A few completed projects so far.</p>
           {appsOpened === true && (
             <div>
-              <p>
-                A few completed projects so far. Deployed applications are
+              <p class="subText">
+                Deployed applications are
                 hosted on free servers so they may need a minute to start up.
               </p>
-              <p>
+              <p class="subText">
                 Please visit me on{" "}
                 <a href="https://github.com/coryjquirk" target="_blank">
                   GitHub

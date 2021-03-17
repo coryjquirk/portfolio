@@ -1,0 +1,12 @@
+@media screen and (min-width: 1000px) {
+  .blogImg {
+    width: 35%;
+    float: right;
+    margin: 0px 15px 10px 15px;
+  }
+}
+#odas,
+#ardIDE {
+    margin: 10px 10px 20px 20px;
+    width: 95%;
+}
