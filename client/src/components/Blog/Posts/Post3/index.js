@@ -111,7 +111,7 @@ function Post3() {
             with the Pi, which could be integrated into a generative musical
             gallery piece or sound installation. Pictured below is software
             called{" "}
-            <a href="https://github.com/introlab/odas_web" targer="_blank">
+            <a href="https://github.com/introlab/odas_web" target="_blank">
               ODAS
             </a>{" "}
             that allows you to visualize the microphone inputs.
