@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import okta from "./okta.PNG";
+import plants from "./plants.jpg";
 import seed from "./seed.png";
 import zpd from "./zpd.png";
 import ModalImage from "react-modal-image";
@@ -27,9 +28,10 @@ function Post2() {
         and my current challenges this week.
       </p>
       <p id="blogDate">12 March, 2021 </p>
-      {opened2 === false && ( <div id="seedDiv"><img id="seedPic" src={seed}></img></div>)}
+      {opened2 === false && ( <img class="blogPreviewImg" src={plants}></img>)}
       {opened2 === true && (
         <div>
+                    <img className="blogPreviewImg" src={plants} alt="spider plant"></img>
           <img className="blogHeadImg" src={seed} alt="spider plant"></img>
           <p>
             <strong>Monday</strong>: What is MySQL?
