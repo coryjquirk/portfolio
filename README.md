@@ -27,7 +27,7 @@ Personal website to share my contact info and work. It also hosts a blog and a p
 * Language selection
 * Expanded photo sorting options
 
-## License Information
+### License Information
 * The Unlicense
 
 
