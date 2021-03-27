@@ -22,6 +22,19 @@ p {
   width: 95%;
   padding-right: 35px;
 }
+#aboutmeIcons{
+  text-align: center;
+}
+#aboutmeIcons{
+
+}
+#aboutmeIcons .fa-linkedin,
+#aboutmeIcons .fa-flickr,
+#aboutmeIcons .fa-instagram,
+#aboutmeIcons .fa-github {
+  color: rgb(61, 61, 61);
+  width: 30px;
+}
 #break {
   text-align: center;
   letter-spacing: 0.3rem;
