@@ -56,7 +56,7 @@ function Post3() {
             securely connect GPIO (general purpose input/output) pins so
             electricity can flow in and out. The first few pins were not
             promising and I applied way too much solder. The board also came out
-            with a few burn marks where
+            with a few burn marks to give it some character.
           </p>
           <p>
             I live with a chronic autoimmune neuromuscular condition called
