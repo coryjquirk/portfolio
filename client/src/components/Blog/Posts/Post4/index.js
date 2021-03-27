@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import main from "./main.jpg";
+import mainPico from "./main.jpg";
 import before from "./before.jpg";
 import button from "./button.gif";
 import after from "./after.jpg";
@@ -26,18 +26,11 @@ function Post3() {
       <h3>Soldering with the Raspberry Pi Pico microcontroller</h3>
       <p id="previewText">Expecting, making, and fixing mistakes</p>
       <p id="blogDate">26 March, 2021 </p>
-      {opened === false && <img id="chipsPreview" src={main}></img>}
+      {opened === false && <img id="chipsPreview" src={mainPico}></img>}
       {opened === true && (
         <div>
-          <div id="chipsBread">
-            {" "}
-            <ModalImage
-              small={main}
-              large={main}
-              alt="Raspberry Pi Pico"
-              hideDownload={true}
-            />
-          </div>
+            <img class="blogHeadImg" id="sedona" src={mainPico}></img>
+
           <p>
             The{" "}
             <a
@@ -67,7 +60,7 @@ function Post3() {
           </p>
           <p>
             I live with a chronic autoimmune neuromuscular condition called
-            <a
+            {" "}<a
               href="https://www.mayoclinic.org/diseases-conditions/transverse-myelitis/symptoms-causes/syc-20354726#:~:text=Transverse%20myelitis%20is%20an%20inflammation,nerves%20send%20throughout%20the%20body."
               target="_blank"
             >
@@ -99,11 +92,11 @@ function Post3() {
           <p>
             Here's a demo of a simple "LED button press" circuit, with
             MicroPython code written with the Thonny Python IDE on Raspberry Pi.
-            You can choose to program the Pico with either C or MicroPython.
+            You can choose to program the Pico with a low-level language like C, or else{" "}
             <a href="https://micropython.org/" target="_blank">
               MicroPython
-            </a>{" "}
-            is a Python interpreter written in specifically for application in
+            </a>
+            , a Python interpreter written in C specifically for application in
             microcontrollers.{" "}
           </p>
           <ModalImage
@@ -116,10 +109,8 @@ function Post3() {
           <p>
             Part of me was expecting some kind of fiery explosion or lightning
             strike when I gave electricity to my first soldering job, but so far
-            so good. For $4 a board there's not a ton at risk. For a production
-            scale product, you would of course want to buy many microcontrollers
-            (one for each device you build), so in an industrial context I'm
-            sure there are much cheaper boards with just the bare minimum amount
+            so good. For $4 a board there's not a ton at risk. In an industrial context where a microcontroller is needed for each device in production, I'm
+            sure there are much cheaper boards than the Pico that have just the bare minimum amount
             of features.
           </p>
           <p>
