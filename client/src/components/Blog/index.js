@@ -5,6 +5,7 @@ import self from "./self.jpg";
 import Post1 from "./Posts/Post1"
 import Post2 from "./Posts/Post2"
 import Post3 from "./Posts/Post3"
+import Post4 from "./Posts/Post4"
 
 function Blog() {
   const [opened, openApps] = useState(false);
@@ -33,6 +34,7 @@ function Blog() {
 
       <div>
         <div id="blogList">
+          <Post4></Post4>
           <Post3></Post3>
           <Post2></Post2>
           <Post1></Post1>
