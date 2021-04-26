@@ -75,7 +75,7 @@ function Blog() {
               &emsp;Right now I'm actively searching for a developer position
               and open to taking on new projects. Thank you for visiting!{" "}
             </p>
-            <p id="blogDate">-March 2021</p>
+            <p id="blogDate">-April 2021</p>
           </div>
           <div className="ghostDiv"></div>
         </div>
