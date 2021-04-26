@@ -6,7 +6,6 @@ const NoMatch = () => {
     <Container fluid>
       <Row>
         <Col size="md-12">
-            <h1>ope!</h1>
             <h1>404 page not found</h1>
             <h1>
               <span role="img" aria-label="Thinking Face Emoji">

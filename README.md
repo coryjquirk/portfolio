@@ -1,5 +1,6 @@
 # Portfolio website
 Personal website to share my contact info and work. It also hosts a blog and a photography page.
+
 [Deployed application](https://coryjquirk.herokuapp.com/home)
 
 <br>
@@ -11,7 +12,7 @@ Personal website to share my contact info and work. It also hosts a blog and a p
 * User experience designed with accessibility considerations
 
 ### Resources used
-* React.js hooks (useStatate)
+* React.js hooks (useState)
     * [react-modal-image](https://github.com/aautio/react-modal-image) component
     * [Custom scroll arrow](https://medium.com/better-programming/create-a-scroll-to-top-arrow-using-react-hooks-18586890fedc) component
 * Bootstrap
