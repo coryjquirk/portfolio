@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-import Resume from "./coryquirk-resume-mar2021.docx";
-import CoverLetter from "./coryquirk-coverletter-mar2021.docx";
+import Resume from "./coryquirk-resume-apr2021.docx";
+import CoverLetter from "./coryquirk-coverletter-apr2021.docx";
 import Seagull from "./seagull.jpg"
 import { Container } from "../Grid";
 
