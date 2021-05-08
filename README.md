@@ -1,5 +1,5 @@
 # developer portfolio, blog, photo gallery
-Personal website to share my contact info and work. It also hosts a blog and a photography page.
+Personal website built entirely custom with React to share my contact info and work. It also hosts a blog and a photography page.
 
 [Deployed application](https://coryjquirk.herokuapp.com/home)
 
