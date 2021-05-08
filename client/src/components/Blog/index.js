@@ -27,7 +27,7 @@ function Blog() {
       </button>
       <h1 className="desktopHeader">blog</h1>
       <div id="bottomLink">
-        {/* save for when we need it <a href="#aboutme">about</a> */}
+        <a href="#about">about</a>
       </div>
       <hr className="headHr" />
       <div id="blog">
@@ -42,16 +42,17 @@ function Blog() {
           <div id="about">
             <h3>about me</h3>
             <p>
-              I'm a full stack web developer looking for full time remote work
-              and small project work. I built this site with React to share my
+              I'm a full stack web developer looking for local or remote full time work,
+              or contract/project work. I built this site with React to share my
               projects.{" "}
             </p>
             <p>
               {" "}
               If you're an employer, <a href="/contact">over here</a> you can
-              find my LinkedIn profile, resumé, and a catch-all cover letter. I
-              stay actively coding and you can visit my GitHub to see what I'm
-              working on.
+              find my LinkedIn profile, resumé, and a catch-all cover letter. Visit my <a
+                href="https://www.github.com/coryjquirk"
+              >GitHub</a> to see what I'm
+              coding lately.
             </p>
             <div id="aboutmeIcons">
               <a
@@ -75,7 +76,7 @@ function Blog() {
               &emsp;Right now I'm actively searching for a developer position
               and open to taking on new projects. Thank you for visiting!{" "}
             </p>
-            <p id="blogDate">-April 2021</p>
+            <p id="blogDate">-May 2021</p>
           </div>
           <div className="ghostDiv"></div>
         </div>
