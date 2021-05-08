@@ -1,4 +1,4 @@
-# Portfolio website
+# developer portfolio, blog, photo gallery
 Personal website to share my contact info and work. It also hosts a blog and a photography page.
 
 [Deployed application](https://coryjquirk.herokuapp.com/home)
