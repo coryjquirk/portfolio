@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Resume from "./coryquirk-resume-apr2021.docx";
+import Resume from "./coryquirk-resume.pdf";
 import CoverLetter from "./coryquirk-coverletter-apr2021.docx";
 import Seagull from "./seagull.jpg"
 import { Container } from "../Grid";
@@ -44,7 +44,7 @@ function Contact() {
               <p id="resume">
                 Resumé <i className="fa fa-file"></i>
               </p>
-              <p id="docx">(downloads docx)</p>
+              <p id="docx">(downloads pdf)</p>
             </span>
           </button>
         </a>
