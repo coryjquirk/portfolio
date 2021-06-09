@@ -207,7 +207,7 @@ function Portfolio() {
               <li id="mobileToolbox">beginner exposure</li>
             </li>
             <p>
-              <a href="contact">I'm looking for work!</a> (May 2021)
+              <a href="contact">I'm looking for work!</a> (June 2021)
             </p>
           </p>
         </div>
