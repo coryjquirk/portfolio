@@ -15,6 +15,9 @@
   border-radius: 10px;
   padding: 10px 5px 10px 10px;
   margin-bottom: 15px;
+  border: 1px;
+  border-style: solid dotted solid dotted;
+  border-color: hsl(0, 0%, 53%);
 }
 #portfolioSite {
   width: 100%;
