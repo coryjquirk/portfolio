@@ -179,7 +179,7 @@ function Portfolio() {
             </li>
 
             <li>
-              <i className="fa fa-cog"></i> <strong>On my horizon</strong>:{" "}
+              <i className="fa fa-cog"></i> <strong>Currently learning</strong>:{" "}
               <span id="desktopToolbox">Angular.js, Vue.js, Django.py</span>
               <li id="mobileToolbox">Angular.js, Vue.js, Django.py</li>
             </li>
@@ -187,27 +187,27 @@ function Portfolio() {
               <i className="fa fa-cog"></i> <strong>Hardware experience</strong>
               :{" "}
               <li>
-                <span id="desktopToolbox">Built my PC</span>
+                <span id="desktopToolbox">Assembled gaming PC with motherboard, CPU, GPU, heatsink, case, fans, and peripherals</span>
               </li>
-              <li id="mobileToolbox">Built my PC</li>
+              <li id="mobileToolbox">Assembled gaming PC with motherboard, CPU, GPU, heatsink, case, fans, and peripherals</li>
               <li>
-                <span id="desktopToolbox">Raspberry Pi 4</span>
+                <span id="desktopToolbox">Raspberry Pi 4, RP2040 (Pico) microcontroller</span>
               </li>
-              <li id="mobileToolbox">Raspberry Pi 4</li>
+              <li id="mobileToolbox">Raspberry Pi 4, RP2040 (Pico) microcontroller</li>
               <li>
                 <span id="desktopToolbox">Arduino (Bluetooth, GPS)</span>
               </li>
               <li id="mobileToolbox">Arduino (Bluetooth, GPS)</li>
             </li>
             <li>
-              <i className="fa fa-cog"></i> <strong>Python, C++</strong>
+              <i className="fa fa-cog"></i> <strong>Python, Java, C++</strong>
               <li>
                 <span id="desktopToolbox">beginner exposure</span>
               </li>
               <li id="mobileToolbox">beginner exposure</li>
             </li>
             <p>
-              <a href="contact">I'm looking for work!</a> (March 2021)
+              <a href="contact">I'm looking for work!</a> (June 2021)
             </p>
           </p>
         </div>
@@ -225,8 +225,9 @@ function Portfolio() {
               <i className="fa fa-minus"></i>
             </button>
           )}
-          <h2 id="appsHeader">portfolio</h2>
+          <h2>portfolio</h2>
           <p>A few completed projects so far.</p>
+            <p>Click right to expand or collapse.</p>
           {appsOpened === true && (
             <div>
               <p class="subText">
@@ -638,17 +639,18 @@ function Portfolio() {
               <i className="fa fa-minus"></i>
             </button>
           )}
-          <h2 id="appsHeader">assorted visuals</h2>
+          <h2>assorted visuals</h2>
+          <p>Click right to expand or collapse</p>
           {artOpened === true && (
             <div>
               <div id="artTools">
                 <p id="artP">
-                  I use Adobe Photoshop, GIMP, and VSDC video editor.
+                <strong>software: </strong> Adobe Photoshop, GIMP, and VSDC video editor.
                   <p id="artSub" className="subText">
                   descriptors: collage art, sample culture, glitch art
                 </p>
                 <p id="artSub" className="subText">
-                  big fan of gradients, white space, iridescence
+                  big fan of gradients, negative space, iridescence
                 </p>
                 </p>
 
