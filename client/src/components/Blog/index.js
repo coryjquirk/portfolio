@@ -6,16 +6,9 @@ import Post1 from "./Posts/Post1";
 import Post2 from "./Posts/Post2";
 import Post3 from "./Posts/Post3";
 import Post4 from "./Posts/Post4";
+import Post5 from "./Posts/Post5";
 
 function Blog() {
-  const [opened, openApps] = useState(false);
-
-  function revealApps() {
-    openApps(true);
-  }
-  function hideApps() {
-    openApps(false);
-  }
   return (
     <Container fluid>
       <button
@@ -33,6 +26,7 @@ function Blog() {
       <div id="blog">
         <div>
           <div id="blogList">
+            <Post5></Post5>
             <Post4></Post4>
             <Post3></Post3>
             <Post2></Post2>
