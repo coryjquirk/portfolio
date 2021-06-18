@@ -6,16 +6,9 @@ import Post1 from "./Posts/Post1";
 import Post2 from "./Posts/Post2";
 import Post3 from "./Posts/Post3";
 import Post4 from "./Posts/Post4";
+import Post5 from "./Posts/Post5";
 
 function Blog() {
-  const [opened, openApps] = useState(false);
-
-  function revealApps() {
-    openApps(true);
-  }
-  function hideApps() {
-    openApps(false);
-  }
   return (
     <Container fluid>
       <button
@@ -33,6 +26,7 @@ function Blog() {
       <div id="blog">
         <div>
           <div id="blogList">
+            <Post5></Post5>
             <Post4></Post4>
             <Post3></Post3>
             <Post2></Post2>
@@ -76,7 +70,7 @@ function Blog() {
               &emsp;Right now I'm actively searching for a developer position
               and open to taking on new projects. Thank you for visiting!{" "}
             </p>
-            <p id="blogDate">-May 2021</p>
+            <p id="blogDate">-June 2021</p>
           </div>
           <div className="ghostDiv"></div>
         </div>

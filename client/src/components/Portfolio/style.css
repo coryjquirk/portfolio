@@ -204,8 +204,10 @@ svg {
   #appsList, #toolkitList, #artList
   #pf,
   #devToolKit,
-  #portfolioItem,
   #devToolkit {
+    width: 100%;
+  }
+  #portfolioItem{
     width: 95%;
   }
   #toolkit li {

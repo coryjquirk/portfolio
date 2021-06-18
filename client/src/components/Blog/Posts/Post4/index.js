@@ -7,7 +7,7 @@ import "./style.css";
 
 import ModalImage from "react-modal-image";
 
-function Post3() {
+function Post4() {
   const [opened, openArticle] = useState(false);
 
   function revealArticle() {
@@ -142,8 +142,8 @@ function Post3() {
             soldering as I build more complex circuits.
           </p>
           <p className="mutedBlog">
-            25 is my favorite number. Thank you for all the birthday wishes
-            yesterday. It's been a long winter — get out and enjoy the weather!
+            Thank you for all the birthday wishes
+            yesterday. 25 is my favorite number and my golden birthday. It's been a long winter — get out and enjoy the weather!
           </p>
         </div>
       )}
@@ -156,4 +156,4 @@ function Post3() {
   );
 }
 
-export default Post3;
+export default Post4;
