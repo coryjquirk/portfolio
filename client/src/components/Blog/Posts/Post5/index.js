@@ -37,6 +37,12 @@ function Post5() {
           <p>
             This post is web development focused and a bit meta, because today I
             want to share new ideas I have for rendering this page itself.
+          </p>
+          <p>
+            My hope is to show my ability for written communication of technical
+            concepts with the support of visuals and documentation.
+          </p>
+          <p>
             Although this blog project will seem elementary to the experienced
             full stack developer, I like to expose my thought process to other
             developers above and beyond my skill level to help me refine certain
@@ -48,18 +54,18 @@ function Post5() {
           </p>
           <p>
             A blog is one of the most common types of beginner web app projects,
-            so luckily there'll be no shortage of documentation. At the end of
+            so luckily there is no shortage of quality documentation out there. At the end of
             the day though, I find full stack web development so stimulating for
             the ability you have to get your hands in every aspect of a web app
             from its conception as an idea to its realization as a tangible,
             maintainable, and improvable final product.{" "}
           </p>
           <p>
-            For the sake of readability and brevity, I'll frequently opt to give
-            you hyperlinks instead of too many long winded explanations of
+            For the sake of readability and brevity, I'll frequently opt for hyperlinks instead of too many long winded explanations of
             technical terms. Maybe you can pretend you're reading Wikipedia and
             you can go down a couple of interesting rabbit holes.
           </p>
+          <p id="break">-. --- .--</p>
           <p>
             My portfolio website currently has a pretty simple backend based on{" "}
             <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank">
@@ -283,9 +289,8 @@ function Post5() {
             for the most efficient and constant production of blockchains. The
             idea of this decentralized method of securing data still excites me,
             aside from the craze and greed surrounding cryptocurrency right now.
-            </p><p>
-            I apologize for the tangent, back to projects!
           </p>
+          <p>I apologize for the tangent, back to projects!</p>
           <ModalImage
             small={nrf}
             large={nrf}
@@ -344,17 +349,17 @@ function Post5() {
           <p>
             Of course, a GPS tracker is not a novel device idea. Everyone's
             phone does it with Google or Apple Maps. However, completing this
-            would represent a lovely synthesis of many concepts from my
-            formal development training, as well as several skills I've
-            self-taught since my coursework's completion such as coding with
-            Python, circuit building, IoT development, cloud service usage, and
-            microcontroller programming.
+            would represent a lovely synthesis of many concepts from my formal
+            development training, as well as several skills I've self-taught
+            since my coursework's completion such as coding with Python, circuit
+            building, IoT development, cloud service usage, and microcontroller
+            programming.
           </p>
           <p className="mutedBlog">
-            I hope this post provides a review on old concepts or perhaps a greater depth
-            of understanding for those that are newer to you. I would love to
-            hear any thoughts or feedback, so feel free to get in touch with me
-            via LinkedIn or email.
+            I hope this post provides a review on old concepts or perhaps a
+            greater depth of understanding for those that are newer to you. I
+            would love to hear any thoughts or feedback, so feel free to get in
+            touch with me via LinkedIn or email.
           </p>
         </div>
       )}
