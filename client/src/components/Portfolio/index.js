@@ -20,12 +20,19 @@ import tape from "./Images/art/tape.jpeg";
 //this component is getting huge and I'd like to break it up
 function Portfolio() {
   const [appsOpened, openApps] = React.useState(false);
+  const [pfOpened, openPf] = React.useState(false);
   const [artOpened, openArt] = React.useState(false);
   function revealApps() {
     openApps(true);
   }
   function hideApps() {
     openApps(false);
+  }
+  function revealPf() {
+    openPf(true);
+  }
+  function hidePf() {
+    openPf(false);
   }
   function revealArt() {
     openArt(true);
@@ -41,31 +48,100 @@ function Portfolio() {
         data-toggle="collapse"
         data-target="#navbarNav"
       >
-        <h1>web development</h1>
+        <h1>developer portfolio</h1>
       </button>
-      <h1 className="desktopHeader">web development</h1>
+      <h1 className="desktopHeader">developer portfolio</h1>
       <hr className="headHr" />
       <div className="meat">
+        <div id="nuToolkit">
+          <h2>skills toolkit</h2>
+          <p><i className="fa fa-asterisk"></i>{" "}Sorted by <strong>familiar</strong>{" "}<i className="fa fa-arrow-right"></i>{" "}<strong>learning</strong></p>
+          <h3>Languages:</h3>
+          <button className="toolkitBtn">HTML</button>
+          <button className="toolkitBtn">JavaScript</button>
+          <button className="toolkitBtn">CSS</button>
+          <button className="toolkitBtn">Python</button>
+          <button className="toolkitBtn">Ruby</button>
+          <button className="toolkitBtn">Java</button>
+          <button className="toolkitBtn">C++</button>
+          <h3>Back end:</h3>
+          <button className="toolkitBtn">Node.js</button>
+          <button className="toolkitBtn">Heroku</button>
+          <button className="toolkitBtn">MongoDB</button>
+          <button className="toolkitBtn">Express.js</button>
+          <button className="toolkitBtn">SQL</button>
+          <button className="toolkitBtn">Microsoft Azure cloud</button>
+          <button className="toolkitBtn">AWS (Amazon Web Services)</button>
+          <h3>Front end:</h3>
+          <button className="toolkitBtn">jQuery</button>
+          <button className="toolkitBtn">Bootstrap</button>
+          <button className="toolkitBtn">Fontawesome</button>
+          <h3>Frameworks:</h3>
+          <button className="toolkitBtn">React.js</button>
+          <button className="toolkitBtn">Django.py</button>
+          <button className="toolkitBtn">Angular.js</button>
+          <button className="toolkitBtn">Vue.js</button>
+          <button className="toolkitBtn">React Native</button>
+          <button className="toolkitBtn">Ruby on Rails</button>
+          <h3>Methodologies:</h3>
+          <button className="toolkitBtn">Agile</button>
+          <button className="toolkitBtn">Scrum</button>
+          <button className="toolkitBtn">Mobile-first</button>
+          <button className="toolkitBtn">MVPs</button>
+          <button className="toolkitBtn">PWAs</button>
+          <button className="toolkitBtn">CI/CD</button>
+          <h3>Software:</h3>
+          <button className="toolkitBtn">Visual Studio Code</button>
+          <button className="toolkitBtn">BASH shell</button>
+          <button className="toolkitBtn">Google Suite</button>
+          <button className="toolkitBtn">Office 365</button>
+          <h3>Package managers:</h3>
+          <button className="toolkitBtn">npm</button>
+          <button className="toolkitBtn">apt</button>
+          <button className="toolkitBtn">pip</button>
+          <button className="toolkitBtn">yarn</button>
+          <h3>Operating systems:</h3>
+          <button className="toolkitBtn">Windows 10</button>
+          <button className="toolkitBtn">Mac OS X</button>
+          <button className="toolkitBtn">Linux</button>
+          <button className="toolkitBtn">Raspbian</button>
+          <button className="toolkitBtn">Ubuntu</button>
+          <h3>Hardware installation:</h3>
+          <button className="toolkitBtn">RAM</button>
+          <button className="toolkitBtn">SSD</button>
+          <button className="toolkitBtn">HDD</button>
+          <button className="toolkitBtn">CPU</button>
+          <button className="toolkitBtn">GPU</button>
+          <button className="toolkitBtn">motherboard</button>
+          <button className="toolkitBtn">heatsink</button>
+          <button className="toolkitBtn">case/fans</button>
+          <h3>Learning tools:</h3>
+          <button className="toolkitBtn">Raspberry Pi</button>
+          <button className="toolkitBtn">RP2040 Pico</button>
+          <button className="toolkitBtn">Arduino</button>
+          <button className="toolkitBtn">SparkFun</button>
+        </div>
+        <p id="break">-. --- .--</p>
         <p id="pf">
-          Visit me on{" "}
+          I'm currently looking for work (June 2021). Visit me on{" "}
           <a href="https://github.com/coryjquirk" target="_blank">
             GitHub
           </a>{" "}
-          to see sites I'm coding, both solo and collaboratively.
+          to see projects I'm coding, both solo and collaboratively.
         </p>
         <p id="pf">
-          I'm a full-stack web developer looking for full time remote work and
+          I'm a full-stack web developer looking for full time remote work or
           freelance work. I aim to make elegant and intuitive sites with
           JavaScript, CSS, and React.js, taking a user perspective in designing
           UI/UX.
         </p>
         <li className="t0c">
           <a href="#appsList" onClick={revealApps}>
-            #site projects
+            #app projects
           </a>
         </li>
         <li className="t0c">
-          <a href="#portfolioSite">#more about this site</a>
+          <a href="#portfolioSite" onClick={revealPf}>#more about this site</a>
         </li>
         <li className="t0c" onClick={revealArt}>
           <a href="#artList">#visual design</a>
@@ -77,162 +153,28 @@ function Portfolio() {
             </a>
           </button>
         </div>
-        <div id="toolkitList">
-          <div id="codeBtn">
-            <i className="fa fa-code"></i>
-          </div>{" "}
-          <h2>developer toolkit</h2>
-          <p id="toolkit" className="fa-ul">
-            <li>
-              <i className="fa fa-cog"></i>{" "}
-              <strong>Full stack engineering:</strong>
-              <span id="desktopToolbox"> MERN stack </span>
-              <li id="mobileToolbox">
-                <strong>MERN stack</strong>
-              </li>
-              <span id="desktopToolbox">
-                {" "}
-                (MongoDB, Express.js, React.js, Node.js)
-              </span>
-              <li id="mobileToolbox">
-                (MongoDB, Express.js, React.js, Node.js)
-              </li>
-            </li>
-            <li>
-              <i className="fa fa-cog"></i> <strong>Front end:</strong>{" "}
-              <li>
-                <span id="desktopToolbox">
-                  {" "}
-                  Design - HTML, CSS, Bootstrap, Fontawesome
-                </span>
-              </li>
-              <li id="mobileToolbox">
-                Design - HTML, CSS, Bootstrap, Fontawesome
-              </li>
-              <li id="desktopToolbox">
-                <span>Function - vanilla JavaScript, jQuery</span>
-              </li>
-              <li id="mobileToolbox">Function - vanilla JavaScript, jQuery</li>
-            </li>
-            <li>
-              <i className="fa fa-cog"></i> <strong>Back end:</strong>{" "}
-              <span id="desktopToolbox"> MySQL and no-SQL</span>
-              <li id="mobileToolbox">MySQL and no-SQL</li>
-            </li>
-
-            <li>
-              <i className="fa fa-cog"></i> <strong>Git BASH</strong> command
-              line tools for collaboration and version control
-            </li>
-            <li>
-              <i className="fa fa-cog"></i> <strong>Deployment:</strong> Heroku
-              cloud application platform
-            </li>
-            <li>
-              <i className="fa fa-cog"></i> <strong>npm</strong> (Node Package
-              Manager) to import JavaScript features
-            </li>
-            <li>
-              <i className="fa fa-cog"></i> <strong>Methodologies: </strong>
-              <li>
-                <span id="desktopToolbox">Agile</span>
-              </li>
-              <li id="mobileToolbox">Agile</li>
-              <li>
-                <span id="desktopToolbox">daily scrum ceremonies</span>
-              </li>
-              <li id="mobileToolbox">daily scrum ceremonies</li>
-              <li>
-                <span id="desktopToolbox">
-                  MVP (minimum viable product) production for CI/CD
-                </span>
-              </li>
-              <li id="mobileToolbox">
-                MVP (minimum viable product) production for CI/CD
-              </li>
-              <li>
-                <span id="desktopToolbox">
-                  kanban project management boards
-                </span>
-              </li>
-              <li id="mobileToolbox">kanban project management boards</li>
-            </li>
-            <li>
-              <i className="fa fa-cog"></i> <strong>Sites:</strong>
-              <span id="desktopToolbox"> Mobile-first</span>
-              <li id="mobileToolbox">Mobile-first</li>
-              <span id="desktopToolbox">
-                {" "}
-                Progressive web applications (PWAs)
-              </span>
-              <li id="mobileToolbox">Progressive web applications (PWAs</li>
-            </li>
-            <li>
-              <i className="fa fa-cog"></i> <strong>Visual tools:</strong>
-              <span id="desktopToolbox"> Mobile-first</span>
-              <li id="mobileToolbox">Mobile-first</li>
-              <span id="desktopToolbox">
-                {" "}
-                Progressive web applications (PWAs)
-              </span>
-              <li id="mobileToolbox">Progressive web applications (PWAs</li>
-            </li>
-
-            <li>
-              <i className="fa fa-cog"></i> <strong>Currently learning</strong>:{" "}
-              <span id="desktopToolbox">Angular.js, Vue.js, Django.py</span>
-              <li id="mobileToolbox">Angular.js, Vue.js, Django.py</li>
-            </li>
-            <li>
-              <i className="fa fa-cog"></i> <strong>Hardware experience</strong>
-              :{" "}
-              <li>
-                <span id="desktopToolbox">Assembled gaming PC with motherboard, CPU, GPU, heatsink, case, fans, and peripherals</span>
-              </li>
-              <li id="mobileToolbox">Assembled gaming PC with motherboard, CPU, GPU, heatsink, case, fans, and peripherals</li>
-              <li>
-                <span id="desktopToolbox">Raspberry Pi 4, RP2040 (Pico) microcontroller</span>
-              </li>
-              <li id="mobileToolbox">Raspberry Pi 4, RP2040 (Pico) microcontroller</li>
-              <li>
-                <span id="desktopToolbox">Arduino (Bluetooth, GPS)</span>
-              </li>
-              <li id="mobileToolbox">Arduino (Bluetooth, GPS)</li>
-            </li>
-            <li>
-              <i className="fa fa-cog"></i> <strong>Python, Java, C++</strong>
-              <li>
-                <span id="desktopToolbox">beginner exposure</span>
-              </li>
-              <li id="mobileToolbox">beginner exposure</li>
-            </li>
-            <p>
-              <a href="contact">I'm looking for work!</a> (June 2021)
-            </p>
-          </p>
-        </div>
         <div id="appsList">
           {appsOpened === false && (
             <button
-              className="appsListCtrl standardButton"
+              className="appsListReveal standardButton"
               onClick={revealApps}
             >
               <i className="fa fa-plus"></i>
             </button>
           )}
           {appsOpened === true && (
-            <button className="appsListCtrl standardButton" onClick={hideApps}>
+            <button className="appsListHide standardButton" onClick={hideApps}>
               <i className="fa fa-minus"></i>
             </button>
           )}
-          <h2>portfolio</h2>
+          <h2>app portfolio</h2>
           <p>A few completed projects so far.</p>
-            <p>Click right to expand or collapse.</p>
+          <p>Click right to expand or collapse.</p>
           {appsOpened === true && (
             <div>
               <p class="subText">
-                Deployed applications are
-                hosted on free servers so they may need a minute to start up.
+                Deployed applications are hosted on free servers so they may
+                need a minute to start up.
               </p>
               <p class="subText">
                 Please visit me on{" "}
@@ -538,104 +480,130 @@ function Portfolio() {
           )}
         </div>
         <div id="portfolioSite">
+          {pfOpened === false && (
+            <button
+              className="appsListReveal standardButton"
+              onClick={revealPf}
+            >
+              <i className="fa fa-plus"></i>
+            </button>
+          )}
+          {pfOpened === true && (
+            <button className="appsListHide standardButton" onClick={hidePf}>
+              <i className="fa fa-minus"></i>
+            </button>
+          )}
           <h2>personal website</h2>
           <p>
             I built this site with the idea that such a site could be adapted to
             a client's portfolio.
           </p>
           <p>
-            I'm actively imporoving this site in spring 2021 and if something
+            I'm actively improving this site in summer 2021 and if something
             isn't working right, please <a href="/contact">email me</a> with any
             revelant screenshots or error messages.
           </p>
+          {pfOpened === false && <p>Click right for more technical details.</p>}
+          {pfOpened === true && (
+            <div>
+              <hr></hr>
 
-          <hr></hr>
-          <h3>technical details</h3>
-          <p>
-            I enjoy coding custom <strong>CSS</strong> features supplemented
-            with tools like Bootstrap and Fontawesome that provide great
-            features ready to use right away. <strong>React.js</strong> allows
-            me to create custom UI/UX components like the portfolio's 'drawer'
-            button above. You can also easily bring code for third party React
-            components, such as the scroll-up arrow on the bottom right.
-          </p>
-          <p>
-            My process with this site is to host my code in a{" "}
-            <a
-              href="https://github.com/coryjquirk/portfolio"
-              target="_blank"
-            ></a>
-            GitHub repository, pull down the main branch to my secondary branch
-            with the <strong>command line</strong> to code new features. Then I
-            commit meaningful changes early and often but only upon completion
-            of features, never adding 'half-working' code (if there were such a
-            thing), since repositories of broken code only confuse other
-            developers. Hosting my code there also allows me to pull it down and
-            make changes anywhere from my laptop or another machine that I set
-            up my SSH keys on.
-          </p>
-          <p>
-            {" "}
-            I have a simple CI/CD pipeline setup with a secondary server from a
-            different <strong>Git</strong> branch{" "}
-            <a href="https://portfolio-tester.herokuapp.com/" target="_blank">
-              here
-            </a>{" "}
-            with Heroku so I can make sure my site won't break upon deployment.
-            My apps on <strong>Heroku</strong> are linked directly to the main
-            and secondary branches so the site is re-deployed each time new code
-            is pushed up to the repository.
-          </p>
-          <p>
-            I follow appropriate naming conventions like{" "}
-            <code className="pCode">#camelCase</code> for CSS in my code. I use
-            short and neat file names and I often spend time refactoring my code
-            to eliminate redundancies. In comments, I like to add links to
-            documentation and sources for open-source code that I'm utilizing if
-            it's not already immediately apparent in the code.
-          </p>
-          <p>
-            I run an <code className="pCode">npm start</code> localhost:3000
-            server for a JavaScript runtime environment that will compile
-            React.js code on my local machine. Developing for the front-end, I
-            can't imagine not have a browser window open alongside{" "}
-            <strong>Visual Studio Code</strong>. Additionally, it's much easier
-            to design sites first for mobile and then expand the CSS media
-            queries to adapt to larger screen sizes. To test screen width
-            responsiveness at every stage of designing an app, I utilize{" "}
-            <strong>Google Chrome developer tools</strong>. It's that side bar
-            that pops up when you hit F12, 'Inspect', or ctrl-shift-I on desktop
-            (if you've never tried it but you've read this far, I encourage you
-            to use it to see the code for this page!).
-          </p>
-          <p>
-            This site meets accessibility standards for screen readers, and is a{" "}
-            <strong>PWA</strong> (Progressive Web Application) that you can
-            install on your phone's home screen. It utilizes a service worker to
-            cache important files for fastest performance, and it uses a
-            webmanifest to carry important metadata that allows it to work on a
-            variety of browsers other than just Chrome.
-          </p>
-          <div className="portfBtnDiv">
-            <a
-              href="https://github.com/coryjquirk/portfolio"
-              target="_blank"
-              className="portfBtn"
-            >
-              <button className="standardButton">
-                GitHub repo <i className="fa fa-link"></i>
-              </button>
-            </a>
-          </div>
+              <h3>technical details</h3>
+              <p>
+                I enjoy coding custom <strong>CSS</strong> features supplemented
+                with tools like Bootstrap and Fontawesome that provide great
+                features ready to use right away. <strong>React.js</strong>{" "}
+                allows me to create custom UI/UX components like the portfolio's
+                'drawer' button above. You can also easily bring code for third
+                party React components, such as the scroll-up arrow on the
+                bottom right.
+              </p>
+              <p>
+                My process with this site is to host my code in a{" "}
+                <a
+                  href="https://github.com/coryjquirk/portfolio"
+                  target="_blank"
+                ></a>
+                GitHub repository, pull down the main branch to my secondary
+                branch with the <strong>command line</strong> to code new
+                features. Then I commit meaningful changes early and often but
+                only upon completion of features, never adding 'half-working'
+                code (if there were such a thing), since repositories of broken
+                code only confuse other developers. Hosting my code there also
+                allows me to pull it down and make changes anywhere from my
+                laptop or another machine that I set up my SSH keys on.
+              </p>
+              <p>
+                {" "}
+                I have a simple CI/CD pipeline setup with a secondary server
+                from a different <strong>Git</strong> branch{" "}
+                <a
+                  href="https://portfolio-tester.herokuapp.com/"
+                  target="_blank"
+                >
+                  here
+                </a>{" "}
+                with Heroku so I can make sure my site won't break upon
+                deployment. My apps on <strong>Heroku</strong> are linked
+                directly to the main and secondary branches so the site is
+                re-deployed each time new code is pushed up to the repository.
+              </p>
+              <p>
+                I follow appropriate naming conventions like{" "}
+                <code className="pCode">#camelCase</code> for CSS in my code. I
+                use short and neat file names and I often spend time refactoring
+                my code to eliminate redundancies. In comments, I like to add
+                links to documentation and sources for open-source code that I'm
+                utilizing if it's not already immediately apparent in the code.
+              </p>
+              <p>
+                I run an <code className="pCode">npm start</code> localhost:3000
+                server for a JavaScript runtime environment that will compile
+                React.js code on my local machine. Developing for the front-end,
+                I can't imagine not have a browser window open alongside{" "}
+                <strong>Visual Studio Code</strong>. Additionally, it's much
+                easier to design sites first for mobile and then expand the CSS
+                media queries to adapt to larger screen sizes. To test screen
+                width responsiveness at every stage of designing an app, I
+                utilize <strong>Google Chrome developer tools</strong>. It's
+                that side bar that pops up when you hit F12, 'Inspect', or
+                ctrl-shift-I on desktop (if you've never tried it but you've
+                read this far, I encourage you to use it to see the code for
+                this page!).
+              </p>
+              <p>
+                This site meets accessibility standards for screen readers, and
+                is a <strong>PWA</strong> (Progressive Web Application) that you
+                can install on your phone's home screen. It utilizes a service
+                worker to cache important files for fastest performance, and it
+                uses a webmanifest to carry important metadata that allows it to
+                work on a variety of browsers other than just Chrome.
+              </p>
+              <div className="portfBtnDiv">
+                <a
+                  href="https://github.com/coryjquirk/portfolio"
+                  target="_blank"
+                  className="portfBtn"
+                >
+                  <button className="standardButton">
+                    GitHub repo <i className="fa fa-link"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+          )}
         </div>
         <div id="artList">
           {artOpened === false && (
-            <button className="appsListCtrl standardButton" onClick={revealArt}>
+            <button
+              className="appsListReveal standardButton"
+              onClick={revealArt}
+            >
               <i className="fa fa-plus"></i>
             </button>
           )}
           {artOpened === true && (
-            <button className="appsListCtrl standardButton" onClick={hideArt}>
+            <button className="appsListHide standardButton" onClick={hideArt}>
               <i className="fa fa-minus"></i>
             </button>
           )}
@@ -645,28 +613,23 @@ function Portfolio() {
             <div>
               <div id="artTools">
                 <p id="artP">
-                <strong>software: </strong> Adobe Photoshop, GIMP, and VSDC video editor.
-                  <p id="artSub" className="subText">
-                  descriptors: collage art, sample culture, glitch art
+                  <strong>software: </strong> Adobe Photoshop, GIMP, and VSDC
+                  video editor.
                 </p>
-                <p id="artSub" className="subText">
-                  big fan of gradients, negative space, iridescence
+                <p id="artP">
+                  <strong>35mm cameras</strong>: Olympus OM-10 SLR, Kodak S500AF
+                  point and shoot
                 </p>
+                <p id="artP">
+                  <strong>35mm film</strong>: Kodak Portra 400, Fujifilm Superia Xtra
+                  400, Kodak Gold 200
                 </p>
 
                 <p id="artP">
-                  <strong>35mm cameras</strong>: Olympus OM-10 SLR, Kodak S500AF point and shoot
-                </p>
-                <p id="artP">
-                  <strong>film</strong>: Kodak Portra 400, Fujifilm Superia Xtra 400, Kodak Gold
-                  200
-                </p>
-               
-                <p id="artP">
-                  In sound design, I use Audacity, Reaper, and analog equipment.
+                <strong>sound design:</strong> Audacity, Reaper, analog equipment.
                   <p id="artSub" className="subText">
                     Roland SP-404SX, Elektron Oktratrack MKI. microphones: Zoom
-                    H4N field recorder, Shure SM57 cardioid
+                    H4N field recorder, Shure SM57 cardioid microphone
                   </p>
                 </p>
               </div>

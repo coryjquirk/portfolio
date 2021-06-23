@@ -6,10 +6,12 @@
   text-align: center;
   margin: 20px 0px 20px 0px;
 }
-#connectLink a{
+#connectLink a {
   color: black;
 }
-#appsList, #toolkitList, #artList {
+#appsList,
+#toolkitList,
+#artList {
   background-color: rgb(251, 251, 251);
   min-height: 50px;
   border-radius: 10px;
@@ -29,7 +31,7 @@
   border-style: solid dotted solid dotted;
   border-color: hsl(0, 0%, 53%);
 }
-.t0c{
+.t0c {
   margin-left: 30px;
   font-size: smaller;
   padding: 3px 0px 3px 0px;
@@ -61,10 +63,11 @@
   border: none;
   font-weight: bold;
 }
-.fa-code{
+.fa-code {
   font-weight: bold;
-padding: 0px 5px -5px 5px;}
-#codeBtn{
+  padding: 0px 5px -5px 5px;
+}
+#codeBtn {
   color: none;
   border: none;
   float: right;
@@ -73,7 +76,16 @@ padding: 0px 5px -5px 5px;}
   margin: 20px 10px 0px 0px;
   top: 80px;
 }
-.appsListCtrl {
+.appsListReveal {
+  color: none;
+  border: none;
+  float: right;
+  height: 30px;
+  width: 30px;
+  padding: 0px;
+  margin: 20px 10px 0px 0px;
+}
+.appsListHide {
   color: none;
   border: none;
   float: right;
@@ -91,6 +103,51 @@ padding: 0px 5px -5px 5px;}
   border-color: hsl(0, 0%, 53%);
   border-radius: 7px;
   margin: 10px;
+}
+#nuToolkit {
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #e9a5a5, #b8c1c0, #aea2db, #23d5ab, #aea2db);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 10s ease infinite;
+	        animation: gradient 10s ease infinite;
+}
+.toolkitBtn {
+  background-color: #ffffff; /* Used if the image is unavailable */
+  background-image: url(../../billie-holiday.png);
+  background-position: left;
+  background-repeat: repeat; /* Do not repeat the image */
+  border: solid black 2px;
+  font-weight: bold;
+  letter-spacing: 0.03rem;
+  padding: 7px 7px 7px 7px;
+  margin: 5px 5px 5px 5px;
+}
+.toolkitBtn:hover {
+  box-shadow: 0 5px 15px #3f3074;
+}
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 #devToolkit {
   background-color: rgb(251, 251, 251);
@@ -128,11 +185,11 @@ padding: 0px 5px -5px 5px;}
   display: inline-block;
   margin: 0px 15px 10px 10px;
 }
-.subText{
+.subText {
   font-style: italic;
   color: rgb(116, 116, 116);
   font-size: small;
-  margin: 0px 10px 0px 20px
+  margin: 0px 10px 0px 20px;
 }
 code {
   display: inline-block;
@@ -142,16 +199,17 @@ code {
   display: inline-flex;
   margin: 0px 0px 0px 0px;
 }
-.portfolioArt{
+.portfolioArt {
   width: 45%;
   margin: 10px 10px 5px 10px;
   padding: 15px 15px 15px 15px;
   border: solid 1px #e3e3e3;
-;}
-.pfVideo{
+}
+.pfVideo {
   width: 95%;
 }
-#artP, #artSub{
+#artP,
+#artSub {
   margin: 0px 0px 5px 15px;
 }
 @media screen and (max-width: 600px) {
@@ -201,32 +259,38 @@ svg {
   font-weight: 100;
 }
 @media screen and (max-width: 600px) {
-  #appsList, #toolkitList, #artList
-  #pf,
+  #appsList,
+  #toolkitList,
+  #artList #pf,
   #devToolKit,
   #devToolkit {
     width: 100%;
   }
-  #portfolioItem{
+  #portfolioItem {
     width: 95%;
   }
   #toolkit li {
     padding: 0px 0px 0px 5px;
   }
 
-  #portfolioItem p, .pfDescrip,
-  #devToolkit p, .portfolioArt, h3, p{
+  #portfolioItem p,
+  .pfDescrip,
+  #devToolkit p,
+  .portfolioArt,
+  h3,
+  p {
     margin: 0px 15px 5px 5px;
     padding: 5px 29px 5px 15px;
   }
   .headHr {
     margin-left: none;
     margin-right: none;
-    width: 100%  }
-  .portfolioArt{
+    width: 100%;
+  }
+  .portfolioArt {
     width: 95%;
     margin: 10px 10px 5px 10px;
     padding: 15px 15px 15px 15px;
     border: none;
-  ;}
+  }
 }
