@@ -19,9 +19,9 @@ function Post4() {
   return (
     <div id="blogPost">
       {opened === true && (
-        <div onClick={hideArticle} id="closePost">
-          <i id="closeSymbol" class="fa fa-window-close"></i>
-        </div>
+        <button onClick={hideArticle} className="closePost">
+        <i id="closeSymbol" class="fa fa-window-close"></i>
+      </button>
       )}
       <h3>Soldering with the Raspberry Pi Pico microcontroller</h3>
       <p id="previewText">Expecting, making, and fixing mistakes</p>
@@ -148,9 +148,9 @@ function Post4() {
         </div>
       )}
       {opened === false && (
-        <div id="openPost" onClick={revealArticle}>
-          <i id="arrowSymbol" className="fa fa-arrow-right"></i>
-        </div>
+        <button className="openPost" onClick={revealArticle}>
+        <i id="arrowSymbol" className="fa fa-arrow-right"></i>
+      </button>
       )}
     </div>
   );

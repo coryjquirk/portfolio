@@ -19,9 +19,9 @@ function Post3() {
   return (
     <div id="blogPost">
       {opened === true && (
-        <div onClick={hideArticle} id="closePost">
-          <i id="closeSymbol" class="fa fa-window-close"></i>
-        </div>
+        <button onClick={hideArticle} className="closePost">
+        <i id="closeSymbol" class="fa fa-window-close"></i>
+      </button>
       )}
       <h3>Adventures in hardware</h3>
       <p id="previewText">
@@ -245,9 +245,9 @@ function Post3() {
         </div>
       )}
       {opened === false && (
-        <div id="openPost" onClick={revealArticle}>
-          <i id="arrowSymbol" className="fa fa-arrow-right"></i>
-        </div>
+        <button className="openPost" onClick={revealArticle}>
+        <i id="arrowSymbol" className="fa fa-arrow-right"></i>
+      </button>
       )}
     </div>
   );

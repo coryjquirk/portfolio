@@ -21,9 +21,9 @@ function Post5() {
   return (
     <div id="blogPost">
       {opened === true && (
-        <div onClick={hideArticle} id="closePost">
+        <button onClick={hideArticle} className="closePost">
           <i id="closeSymbol" class="fa fa-window-close"></i>
-        </div>
+        </button>
       )}
       <h3>Scaling up my web app's back end</h3>
       <p id="previewText">
@@ -364,9 +364,9 @@ function Post5() {
         </div>
       )}
       {opened === false && (
-        <div id="openPost" onClick={revealArticle}>
+        <button className="openPost" onClick={revealArticle}>
           <i id="arrowSymbol" className="fa fa-arrow-right"></i>
-        </div>
+        </button>
       )}
     </div>
   );

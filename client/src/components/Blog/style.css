@@ -65,9 +65,29 @@ p {
 #blogDate {
   font-size: 12px;
 }
-#closePost {
-  top: 0px;
-  right: 0px;
+.closePost {
+  height: 32px;
+  width: 32px;
+  position: -webkit-sticky;
+  position: sticky;
+  float: right;
+  top: 80px;
+  padding: 6px 8px 6px 8px;
+}
+.openPost{
+  padding: 4px 8px 4px 8px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 8px;
+}
+.closePost, .openPost{
+  background: linear-gradient(45deg, #e9a5a5, #b8c1c0, #aea2db, #23d5ab, #aea2db);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 10s ease infinite;
+	        animation: gradient 10s ease infinite;
+  border: none;
+  font-weight: bold;
   border-radius: 5px;
 }
 #self {
@@ -92,27 +112,13 @@ p {
 }
 #openPost {
   border: 1px rgb(196, 196, 196) solid;
-  bottom: 15px;
-  right: 15px;
-  border-radius: 8px;
+  
 }
-#openPost,
-#closePost {
-  /* padding: 2px 2px 2px 2px; */
-  height: 33px;
-  width: 30px;
-  position: absolute;
-}
-#openPost:hover,
-#closePost:hover {
+.openPost:hover,
+.closePost:hover {
   background-color: rgb(233, 233, 233);
   opacity: 0.5;
   border: none;
-}
-#closeSymbol,
-#arrowSymbol {
-  padding-left: 7px;
-  padding: 7px 0px 0px 7px;
 }
 #about {
   background-color: rgb(251, 251, 251);

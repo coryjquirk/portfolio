@@ -7,20 +7,20 @@ import ModalImage from "react-modal-image";
 import "./style.css"
 
 function Post2() {
-  const [opened2, openArticle2] = useState(false);
+  const [opened, openArticle] = useState(false);
 
-  function revealArticle2() {
-    openArticle2(true);
+  function revealArticle() {
+    openArticle(true);
   }
-  function hideArticle2() {
-    openArticle2(false);
+  function hideArticle() {
+    openArticle(false);
   }
   return (
     <div id="blogPost">
-      {opened2 === true && (
-        <div onClick={hideArticle2} id="closePost">
-          <i id="closeSymbol" className="fa fa-window-close"></i>
-        </div>
+      {opened === true && (
+        <button onClick={hideArticle} className="closePost">
+        <i id="closeSymbol" class="fa fa-window-close"></i>
+      </button>
       )}
       <h3>Watering the seed</h3>
       <p id="previewText">
@@ -28,8 +28,8 @@ function Post2() {
         and my current challenges this week.
       </p>
       <p id="blogDate">12 March, 2021 </p>
-      {opened2 === false && ( <img class="blogPreviewImg" src={plants}></img>)}
-      {opened2 === true && (
+      {opened === false && ( <img class="blogPreviewImg" src={plants}></img>)}
+      {opened === true && (
         <div>
                     <img className="blogPreviewImg" src={plants} alt="spider plant"></img>
           <img className="blogHeadImg" src={seed} alt="spider plant"></img>
@@ -252,10 +252,10 @@ function Post2() {
           
         </div>
       )}
-      {opened2 === false && (
-        <div id="openPost" onClick={revealArticle2}>
+      {opened === false && (
+        <button className="openPost" onClick={revealArticle}>
           <i id="arrowSymbol" className="fa fa-arrow-right"></i>
-        </div>
+        </button>
       )}
     </div>
   );
