@@ -15,6 +15,7 @@ Personal website built entirely custom with React to share my contact info and w
 * React.js hooks (useState)
     * [react-modal-image](https://github.com/aautio/react-modal-image) component
     * [Custom scroll arrow](https://medium.com/better-programming/create-a-scroll-to-top-arrow-using-react-hooks-18586890fedc) component
+* Custom CSS design with Webkit visual effects
 * Bootstrap
 * Fontawesome icons
 * Web manifest and a service worker to cache important files for best performance.
@@ -23,8 +24,11 @@ Personal website built entirely custom with React to share my contact info and w
 * This website can be installed on a smartphone for best mobile performance.
 
 ### Future development
+* MongoDB no-SQL database for blog posts
 * Dark mode switch
 * Language selection
+   * Spanish / español
+   * Norwegian / norsk bokmål
 * Expanded photo sorting options
 
 ### License Information
