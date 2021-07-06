@@ -21,7 +21,10 @@ Personal website built entirely custom with React to share my contact info and w
 * Web manifest and a service worker to cache important files for best performance.
 
 ### Usage
-* This website can be installed on a smartphone for best mobile performance.
+* Development:
+   * `npm i`
+   * `npm start`
+* Installable as an app on mobile devices
 
 ### Future development
 * MongoDB no-SQL database for blog posts
@@ -31,7 +34,7 @@ Personal website built entirely custom with React to share my contact info and w
    * Norwegian / norsk bokmål
 * Expanded photo sorting options
 
-### License Information
+### License
 * The Unlicense
 
 
