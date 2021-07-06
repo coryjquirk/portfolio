@@ -450,7 +450,7 @@ function Portfolio() {
                 </p>
                 <p>
                   Custom React.js components for UI/UX features with the support
-                  of-party React.js open-source components.
+                  of third-party and open-source React.js components.
                 </p>
                 <p>
                   Developed on a four person team with an Agile methodology and
