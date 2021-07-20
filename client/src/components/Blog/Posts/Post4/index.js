@@ -17,11 +17,13 @@ function Post4() {
     openArticle(false);
   }
   return (
-    <div id="blogPost">
+    <div className="blogPost" id="post4">
       {opened === true && (
-        <button onClick={hideArticle} className="closePost">
-        <i id="closeSymbol" class="fa fa-window-close"></i>
-      </button>
+        <a href="#post4">
+          <button onClick={hideArticle} className="closePost">
+            <i id="closeSymbol" class="fa fa-window-close"></i>
+          </button>
+        </a>
       )}
       <h3>Soldering with the Raspberry Pi Pico microcontroller</h3>
       <p id="previewText">Expecting, making, and fixing mistakes</p>
@@ -29,8 +31,7 @@ function Post4() {
       {opened === false && <img id="chipsPreview" src={mainPico}></img>}
       {opened === true && (
         <div>
-            <img class="blogHeadImg" id="sedona" src={mainPico}></img>
-
+          <img class="blogHeadImg" id="sedona" src={mainPico}></img>
           <p>
             The{" "}
             <a
@@ -59,8 +60,8 @@ function Post4() {
             with a few burn marks to give it some character.
           </p>
           <p>
-            I live with a chronic autoimmune neuromuscular condition called
-            {" "}<a
+            I live with a chronic autoimmune neuromuscular condition called{" "}
+            <a
               href="https://www.mayoclinic.org/diseases-conditions/transverse-myelitis/symptoms-causes/syc-20354726#:~:text=Transverse%20myelitis%20is%20an%20inflammation,nerves%20send%20throughout%20the%20body."
               target="_blank"
             >
@@ -92,7 +93,8 @@ function Post4() {
           <p>
             Here's a demo of a simple "LED button press" circuit, with
             MicroPython code written with the Thonny Python IDE on Raspberry Pi.
-            You can choose to program the Pico with a low-level language like C, or else{" "}
+            You can choose to program the Pico with a low-level language like C,
+            or else{" "}
             <a href="https://micropython.org/" target="_blank">
               MicroPython
             </a>
@@ -109,9 +111,10 @@ function Post4() {
           <p>
             Part of me was expecting some kind of fiery explosion or lightning
             strike when I gave electricity to my first soldering job, but so far
-            so good. For $4 a board there's not a ton at risk. In an industrial context where a microcontroller is needed for each device in production, I'm
-            sure there are much cheaper boards than the Pico that have just the bare minimum amount
-            of features.
+            so good. For $4 a board there's not a ton at risk. In an industrial
+            context where a microcontroller is needed for each device in
+            production, I'm sure there are much cheaper boards than the Pico
+            that have just the bare minimum amount of features.
           </p>
           <p>
             The Pico seems like an ideal product for learners already familiar
@@ -142,15 +145,16 @@ function Post4() {
             soldering as I build more complex circuits.
           </p>
           <p className="mutedBlog">
-            Thank you for all the birthday wishes
-            yesterday. 25 is my favorite number and my golden birthday. It's been a long winter — get out and enjoy the weather!
+            Thank you for all the birthday wishes yesterday. 25 is my favorite
+            number and my golden birthday. It's been a long winter — get out and
+            enjoy the weather!
           </p>
         </div>
       )}
       {opened === false && (
         <button className="openPost" onClick={revealArticle}>
-        <i id="arrowSymbol" className="fa fa-arrow-right"></i>
-      </button>
+          <i id="arrowSymbol" className="fa fa-arrow-right"></i>
+        </button>
       )}
     </div>
   );

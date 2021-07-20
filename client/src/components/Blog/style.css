@@ -36,14 +36,14 @@ p {
   text-align: center;
   letter-spacing: 0.3rem;
 }
-#blogPost {
+.blogPost {
   border-bottom: black 1px solid;
   margin: 10px;
   background-color: none;
   padding: 10px 13px 10px 13px;
   position: relative;
 }
-#blogPost text {
+.blogPost text {
   color: rgb(116, 116, 116);
 }
 #previewText {
@@ -55,12 +55,16 @@ p {
   font-style: italic;
   color: rgb(116, 116, 116);
   font-size: small;
-  padding-right: 250px;
+  /* padding-right: 250px; */
+}
+#headContainer{
+  display: flex;
+  justify-content: space-between;
 }
 #bottomLink {
-  float: right;
   color: rgb(212, 238, 253);
-  margin: 5px 0px 5px 0px;
+  position: absolute;
+  right: 20px;
 }
 #blogDate {
   font-size: 12px;
@@ -91,8 +95,9 @@ p {
   border-radius: 5px;
 }
 #self {
-  width: 100%;
-  margin: 30px 0px 120px 0px;
+  width: 75%;
+  margin: 0px 0px 120px 30px;
+  max-width: 450px;
 }
 .blogPreviewImg {
   max-height: 450px;
@@ -131,13 +136,13 @@ p {
   font-size: smaller;
 }
 
-#blogPost:hover span:after {
+.blogPost:hover span:after {
   opacity: 1;
   right: 0;
 }
 @media screen and (max-width: 1400px) {
   #blog,
-  #blogPost {
+  .blogPost {
     width: 90%;
   }
   #about {
@@ -157,9 +162,9 @@ p {
 }
 @media screen and (max-width: 600px) {
   .mutedBlog {
-    padding-right: 70px;
+    /* padding-right: 70px; */
   }
-  #blogPost {
+  .blogPost {
     border: solid rgb(230, 230, 230) 1px;
     border-radius: 7px;
   }
@@ -183,7 +188,7 @@ p {
   p,
   #about,
   #blog,
-  #blogPost {
+  .blogPost {
     width: 100%;
     margin: 10px 0px 10px 0px;
   }

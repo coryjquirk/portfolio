@@ -11,11 +11,13 @@ function Post1() {
     openArticle(false);
   }
   return (
-    <div id="blogPost">
+    <div className="blogPost" id="post1">
       {opened === true && (
-        <button onClick={hideArticle} className="closePost">
-        <i id="closeSymbol" class="fa fa-window-close"></i>
-      </button>
+        <a href="#post1">
+          <button onClick={hideArticle} className="closePost">
+            <i id="closeSymbol" class="fa fa-window-close"></i>
+          </button>{" "}
+        </a>
       )}
       <h3>Entering web development during COVID</h3>
       <p id="previewText">
@@ -121,8 +123,8 @@ function Post1() {
       )}
       {opened === false && (
         <button className="openPost" onClick={revealArticle}>
-        <i id="arrowSymbol" className="fa fa-arrow-right"></i>
-      </button>
+          <i id="arrowSymbol" className="fa fa-arrow-right"></i>
+        </button>
       )}
     </div>
   );

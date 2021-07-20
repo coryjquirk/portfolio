@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container } from "../Grid";
 import "./style.css";
+import farm from "./Images/farm.gif"
 import READMEgen from "./Images/readme-generator.gif";
 import weatherdashboard from "./Images/weatherdashboard.gif";
 import creditcroc from "./Images/creditcroc.gif";
@@ -55,7 +56,11 @@ function Portfolio() {
       <div className="meat">
         <div id="nuToolkit">
           <h2>skills toolkit</h2>
-          <p><i className="fa fa-asterisk"></i>{" "}Sorted by <strong>familiar</strong>{" "}<i className="fa fa-arrow-right"></i>{" "}<strong>learning</strong></p>
+          <p>
+            <i className="fa fa-asterisk"></i> Sorted by{" "}
+            <strong>familiar</strong> <i className="fa fa-arrow-right"></i>{" "}
+            <strong>learning</strong>
+          </p>
           <h3>Languages:</h3>
           <button className="toolkitBtn">HTML</button>
           <button className="toolkitBtn">JavaScript</button>
@@ -69,13 +74,14 @@ function Portfolio() {
           <button className="toolkitBtn">Heroku</button>
           <button className="toolkitBtn">MongoDB</button>
           <button className="toolkitBtn">Express.js</button>
-          <button className="toolkitBtn">SQL</button>
-          <button className="toolkitBtn">Microsoft Azure cloud</button>
+          <button className="toolkitBtn">MySQL</button>
+          <button className="toolkitBtn">Microsoft Azure</button>
           <button className="toolkitBtn">AWS (Amazon Web Services)</button>
           <h3>Front end:</h3>
           <button className="toolkitBtn">jQuery</button>
           <button className="toolkitBtn">Bootstrap</button>
           <button className="toolkitBtn">Fontawesome</button>
+          <button className="toolkitBtn">CSS Flexbox + Grid</button>
           <h3>Frameworks:</h3>
           <button className="toolkitBtn">React.js</button>
           <button className="toolkitBtn">Django.py</button>
@@ -106,7 +112,7 @@ function Portfolio() {
           <button className="toolkitBtn">Linux</button>
           <button className="toolkitBtn">Raspbian</button>
           <button className="toolkitBtn">Ubuntu</button>
-          <h3>Hardware installation:</h3>
+          <h3>Hardware assembly &#x26; installation:</h3>
           <button className="toolkitBtn">RAM</button>
           <button className="toolkitBtn">SSD</button>
           <button className="toolkitBtn">HDD</button>
@@ -115,7 +121,7 @@ function Portfolio() {
           <button className="toolkitBtn">motherboard</button>
           <button className="toolkitBtn">heatsink</button>
           <button className="toolkitBtn">case/fans</button>
-          <h3>Learning tools:</h3>
+          <h3>Hardware learning tools:</h3>
           <button className="toolkitBtn">Raspberry Pi</button>
           <button className="toolkitBtn">RP2040 Pico</button>
           <button className="toolkitBtn">Arduino</button>
@@ -123,28 +129,30 @@ function Portfolio() {
         </div>
         <p id="break">-. --- .--</p>
         <p id="pf">
-          I'm currently looking for work (June 2021). Visit me on{" "}
+          I'm currently looking for work (July 2021). Visit me on{" "}
           <a href="https://github.com/coryjquirk" target="_blank">
             GitHub
           </a>{" "}
           to see projects I'm coding, both solo and collaboratively.
         </p>
         <p id="pf">
-          I'm a full-stack web developer looking for full time remote work or
-          freelance work. I aim to make elegant and intuitive sites with
-          JavaScript, CSS, and React.js, taking a user perspective in designing
-          UI/UX.
+          I'm a full-stack web developer looking for full time work. For the
+          right job, I'm open to remote work, relocation, or contract work. I
+          aim to make elegant and intuitive sites with JavaScript, CSS, and
+          React, taking a user perspective in designing my UI/UX.
         </p>
         <li className="t0c">
           <a href="#appsList" onClick={revealApps}>
-            #app projects
+            # app projects
           </a>
         </li>
         <li className="t0c">
-          <a href="#portfolioSite" onClick={revealPf}>#more about this site</a>
+          <a href="#portfolioSite" onClick={revealPf}>
+            # details about this site
+          </a>
         </li>
         <li className="t0c" onClick={revealArt}>
-          <a href="#artList">#visual design</a>
+          <a href="#artList"># visual design</a>
         </li>
         <div id="connectLink">
           <button className="standardButton">
@@ -183,6 +191,49 @@ function Portfolio() {
                 </a>{" "}
                 to view code repositories.
               </p>
+              <div id="portfolioItem">
+                <h2>Farm Companion</h2>
+                <p>
+                  Hosts useful information for the staff of a small farm project.
+                  <p>Features:</p>
+                  <ui>
+                  <li>Username/PW authentication</li>
+                  <li>Excel sheets from Mircosoft OneDrive Cloud</li>
+                  <li><a href="https://storymaps.arcgis.com/stories/52354515142b4631a1e09d402743d36e" target="_blank">Interactive ArcGIS StoryMap</a></li>
+                  <li>MERN stack (MongoDB, Express, React, Node)</li>
+                </ui>
+                </p>
+                <a
+                  href="https://github.com/coryjquirk/farm-companion/"
+                  target="_blank"
+                >
+                  <img
+                    className="scrnsht"
+                    src={farm}
+                    alt="farm companion"
+                  />
+                </a>
+                <div className="portfBtnDiv">
+                  <a
+                    href="https://farm-companion.herokuapp.com/"
+                    target="_blank"
+                    className="portfBtn"
+                  >
+                    <button className="standardButton">
+                      Deployed app <i className="fa fa-link"></i>
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/coryjquirk/farm-companion/"
+                    target="_blank"
+                    className="portfBtn"
+                  >
+                    <button className="standardButton">
+                      GitHub repo <i className="fa fa-link"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
               <div id="portfolioItem">
                 <h2>Weather Dashboard</h2>
                 <p>
@@ -487,6 +538,7 @@ function Portfolio() {
             >
               <i className="fa fa-plus"></i>
             </button>
+            
           )}
           {pfOpened === true && (
             <button className="appsListHide standardButton" onClick={hidePf}>
@@ -621,16 +673,20 @@ function Portfolio() {
                   point and shoot
                 </p>
                 <p id="artP">
-                  <strong>35mm film</strong>: Kodak Portra 400, Fujifilm Superia Xtra
-                  400, Kodak Gold 200
+                  <strong>35mm film</strong>: Kodak Portra 400, Fujifilm Superia
+                  Xtra 400, Kodak Gold 200
                 </p>
 
                 <p id="artP">
-                <strong>sound design:</strong> Audacity, Reaper, analog equipment.
-                  <p id="artSub" className="subText">
-                    Roland SP-404SX, Elektron Oktratrack MKI. microphones: Zoom
-                    H4N field recorder, Shure SM57 cardioid microphone
-                  </p>
+                  <strong>sound design:</strong> Audacity, Reaper, analog
+                  equipment (synthesizers, samplers, microphones, mixing boards, effects units).
+                </p>
+                <p>
+                  <button className="standardButton">
+                    <a href="/photography"  style={{color: "black"}}>
+                      photography gallery <i className="fa fa-arrow-right"></i>
+                    </a>
+                  </button>
                 </p>
               </div>
               <img

@@ -17,11 +17,13 @@ function Post3() {
     openArticle(false);
   }
   return (
-    <div id="blogPost">
+    <div className="blogPost" id="post3">
       {opened === true && (
-        <button onClick={hideArticle} className="closePost">
-        <i id="closeSymbol" class="fa fa-window-close"></i>
-      </button>
+        <a href="#post3">
+          <button onClick={hideArticle} className="closePost">
+            <i id="closeSymbol" class="fa fa-window-close"></i>
+          </button>{" "}
+        </a>
       )}
       <h3>Adventures in hardware</h3>
       <p id="previewText">
@@ -235,7 +237,7 @@ function Post3() {
           </p>
           <p className="mutedBlog">
             Thanks for reading. Please <a href="contact">contact me</a> with any
-            corrections or curiosities. have. I encourage you to channel the DIY
+            corrections or curiosities. I encourage you to channel the DIY
             spirit and think about uses these devices could serve in your home
             or daily life, and any project you dream of would be a great
             introduction to coding and building simple hardware. If you're a
@@ -246,8 +248,8 @@ function Post3() {
       )}
       {opened === false && (
         <button className="openPost" onClick={revealArticle}>
-        <i id="arrowSymbol" className="fa fa-arrow-right"></i>
-      </button>
+          <i id="arrowSymbol" className="fa fa-arrow-right"></i>
+        </button>
       )}
     </div>
   );

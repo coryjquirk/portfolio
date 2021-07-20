@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./style.css";
 
 function Nav() {
+  // svg spiral: https://stackoverflow.com/questions/49091970/how-to-make-a-spiral-in-svg
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="/home">
-        cory j. quirk <i className="fa fa-home" aria-hidden="true"></i>
+        cory j. quirk
       </a>
       <button
         className="navbar-toggler"
@@ -22,10 +23,10 @@ function Nav() {
         <ul className="navbar-nav">
           <li className="nav-item active">
             <a className="nav-link" href="portfolio">
-              web dev <span className="sr-only">(current)</span>
+              portfolio <span className="sr-only">(current)</span>
             </a>
           </li>
-          
+
           <li className="nav-item active">
             <a className="nav-link" href="blog">
               blog

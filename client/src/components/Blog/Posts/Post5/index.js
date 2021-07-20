@@ -19,11 +19,13 @@ function Post5() {
     openArticle(false);
   }
   return (
-    <div id="blogPost">
+    <div className="blogPost" id="post5">
       {opened === true && (
-        <button onClick={hideArticle} className="closePost">
-          <i id="closeSymbol" class="fa fa-window-close"></i>
-        </button>
+        <a href="#post5">
+          <button onClick={hideArticle} className="closePost">
+            <i id="closeSymbol" class="fa fa-window-close"></i>
+          </button>{" "}
+        </a>
       )}
       <h3>Scaling up my web app's back end</h3>
       <p id="previewText">
@@ -54,16 +56,18 @@ function Post5() {
           </p>
           <p>
             A blog is one of the most common types of beginner web app projects,
-            so luckily there is no shortage of quality documentation out there. At the end of
-            the day though, I find full stack web development so stimulating for
-            the ability you have to get your hands in every aspect of a web app
-            from its conception as an idea to its realization as a tangible,
-            maintainable, and improvable final product.{" "}
+            so luckily there is no shortage of quality documentation out there.
+            At the end of the day though, I find full stack web development so
+            stimulating for the ability you have to get your hands in every
+            aspect of a web app from its conception as an idea to its
+            realization as a tangible, maintainable, and improvable final
+            product.{" "}
           </p>
           <p>
-            For the sake of readability and brevity, I'll frequently opt for hyperlinks instead of too many long winded explanations of
-            technical terms. Maybe you can pretend you're reading Wikipedia and
-            you can go down a couple of interesting rabbit holes.
+            For the sake of readability and brevity, I'll frequently opt for
+            hyperlinks instead of too many long winded explanations of technical
+            terms. Maybe you can pretend you're reading Wikipedia and you can go
+            down a couple of interesting rabbit holes.
           </p>
           <p id="break">-. --- .--</p>
           <p>

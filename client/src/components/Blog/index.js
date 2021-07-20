@@ -7,6 +7,7 @@ import Post2 from "./Posts/Post2";
 import Post3 from "./Posts/Post3";
 import Post4 from "./Posts/Post4";
 import Post5 from "./Posts/Post5";
+import Post6 from "./Posts/Post6";
 
 function Blog() {
   return (
@@ -18,35 +19,36 @@ function Blog() {
       >
         <h1>blog</h1>
       </button>
-      <h1 className="desktopHeader">blog</h1>
-      <div id="bottomLink">
-        <a href="#about">about</a>
+      <div id="headContainer">
+        <h1 className="desktopHeader">blog </h1>
+        <div id="bottomLink">
+          <a href="#about">about</a>
+        </div>
       </div>
       <hr className="headHr" />
       <div id="blog">
         <div>
           <div id="blogList">
+            <Post6></Post6>
             <Post5></Post5>
             <Post4></Post4>
             <Post3></Post3>
             <Post2></Post2>
             <Post1></Post1>
           </div>
-
           <div id="about">
             <h3>about me</h3>
             <p>
-              I'm a full stack web developer looking for local or remote full time work,
-              or contract/project work. I built this site with React to share my
-              projects.{" "}
+              My name is Cory Quirk and I'm a full stack developer located in
+              Minneapolis, MN. I developed this site with React to share my{" "}
+              <a href="/portfolio">web development projects</a>.{" "}
             </p>
             <p>
               {" "}
-              If you're an employer, <a href="/contact">over here</a> you can
-              find my LinkedIn profile, resumé, and a catch-all cover letter. Visit my <a
-                href="https://www.github.com/coryjquirk"
-              >GitHub</a> to see what I'm
-              coding lately.
+              <a href="/contact">Here</a> you can find my LinkedIn profile,
+              resumé, and a catch-all cover letter. Visit my{" "}
+              <a href="https://www.github.com/coryjquirk">GitHub</a> profile to
+              see what I'm coding lately.
             </p>
             <div id="aboutmeIcons">
               <a
@@ -67,10 +69,11 @@ function Blog() {
               ></a>
             </div>
             <p>
-              &emsp;Right now I'm actively searching for a developer position
-              and open to taking on new projects. Thank you for visiting!{" "}
+              Right now I'm actively searching for a developer position and open
+              to taking on new projects. I'm open to remote work or relocation
+              for the right opportunity. Thank you for visiting!{" "}
             </p>
-            <p id="blogDate">-June 2021</p>
+            <p id="blogDate">-July 2021</p>
           </div>
           <div className="ghostDiv"></div>
         </div>

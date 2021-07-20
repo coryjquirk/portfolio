@@ -1,22 +1,21 @@
 import React from "react";
-import { Col, Row, Container } from "../components/Grid";
-import Jumbotron from "../components/Jumbotron";
+import { Container } from "../components/Grid";
 const NoMatch = () => {
   return (
     <Container fluid>
-      <Row>
-        <Col size="md-12">
-            <h1>404 page not found</h1>
-            <h1>
-              <span role="img" aria-label="Thinking Face Emoji">
-              🤔
-              </span>
-            </h1>
-            <a id="returnHome" style={{textAlign: "left"}} href="/home"><p>Return home</p></a>
-            <p>expecting something different on this page?</p>
-            <p>please <a href="/contact">email me</a> to report an issue</p>
-        </Col>
-      </Row>
+      <h1>404 page not found</h1>
+      <h1>
+        <span role="img" aria-label="Thinking Face Emoji">
+          🤔
+        </span>
+      </h1>
+      <p>
+        Expecting something different on this page? Please{" "}
+        <a href="/contact">email me</a> to report an issue
+      </p>
+      <a id="returnHome" style={{ textAlign: "left" }} href="/home">
+        <p>Return home</p>
+      </a>
     </Container>
   );
 };
