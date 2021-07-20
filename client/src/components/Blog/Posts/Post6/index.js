@@ -6,9 +6,7 @@ import ssd from "./ssd.jpg";
 import koans from "./koans.png";
 import malan from "./malan.jpg";
 import "./style.css";
-
 import ModalImage from "react-modal-image";
-import { far } from "react-code-blocks";
 
 function Post6() {
   const [opened, openArticle] = useState(false);

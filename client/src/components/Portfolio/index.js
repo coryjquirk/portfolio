@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container } from "../Grid";
 import "./style.css";
-import farm from "./Images/farm.gif"
+import farm from "./Images/farm.gif";
 import READMEgen from "./Images/readme-generator.gif";
 import weatherdashboard from "./Images/weatherdashboard.gif";
 import creditcroc from "./Images/creditcroc.gif";
@@ -68,7 +68,7 @@ function Portfolio() {
           <button className="toolkitBtn">Python</button>
           <button className="toolkitBtn">Ruby</button>
           <button className="toolkitBtn">Java</button>
-          <button className="toolkitBtn">C++</button>
+          <button className="toolkitBtn">C#/.NET</button>
           <h3>Back end:</h3>
           <button className="toolkitBtn">Node.js</button>
           <button className="toolkitBtn">Heroku</button>
@@ -109,9 +109,7 @@ function Portfolio() {
           <h3>Operating systems:</h3>
           <button className="toolkitBtn">Windows 10</button>
           <button className="toolkitBtn">Mac OS X</button>
-          <button className="toolkitBtn">Linux</button>
-          <button className="toolkitBtn">Raspbian</button>
-          <button className="toolkitBtn">Ubuntu</button>
+          <button className="toolkitBtn">Linux (Ubuntu)</button>
           <h3>Hardware assembly &#x26; installation:</h3>
           <button className="toolkitBtn">RAM</button>
           <button className="toolkitBtn">SSD</button>
@@ -121,7 +119,7 @@ function Portfolio() {
           <button className="toolkitBtn">motherboard</button>
           <button className="toolkitBtn">heatsink</button>
           <button className="toolkitBtn">case/fans</button>
-          <h3>Hardware learning tools:</h3>
+          <h3>Circuitry learning tools:</h3>
           <button className="toolkitBtn">Raspberry Pi</button>
           <button className="toolkitBtn">RP2040 Pico</button>
           <button className="toolkitBtn">Arduino</button>
@@ -194,24 +192,28 @@ function Portfolio() {
               <div id="portfolioItem">
                 <h2>Farm Companion</h2>
                 <p>
-                  Hosts useful information for the staff of a small farm project.
+                  Hosts useful information for the staff of a small farm
+                  project.
                   <p>Features:</p>
                   <ui>
-                  <li>Username/PW authentication</li>
-                  <li>Excel sheets from Mircosoft OneDrive Cloud</li>
-                  <li><a href="https://storymaps.arcgis.com/stories/52354515142b4631a1e09d402743d36e" target="_blank">Interactive ArcGIS StoryMap</a></li>
-                  <li>MERN stack (MongoDB, Express, React, Node)</li>
-                </ui>
+                    <li>Username/PW authentication</li>
+                    <li>Excel sheets from Mircosoft OneDrive Cloud</li>
+                    <li>
+                      <a
+                        href="https://storymaps.arcgis.com/stories/52354515142b4631a1e09d402743d36e"
+                        target="_blank"
+                      >
+                        Interactive ArcGIS StoryMap
+                      </a>
+                    </li>
+                    <li>MERN stack (MongoDB, Express, React, Node)</li>
+                  </ui>
                 </p>
                 <a
                   href="https://github.com/coryjquirk/farm-companion/"
                   target="_blank"
                 >
-                  <img
-                    className="scrnsht"
-                    src={farm}
-                    alt="farm companion"
-                  />
+                  <img className="scrnsht" src={farm} alt="farm companion" />
                 </a>
                 <div className="portfBtnDiv">
                   <a
@@ -538,7 +540,6 @@ function Portfolio() {
             >
               <i className="fa fa-plus"></i>
             </button>
-            
           )}
           {pfOpened === true && (
             <button className="appsListHide standardButton" onClick={hidePf}>
@@ -568,7 +569,14 @@ function Portfolio() {
                 allows me to create custom UI/UX components like the portfolio's
                 'drawer' button above. You can also easily bring code for third
                 party React components, such as the scroll-up arrow on the
-                bottom right.
+                bottom right of the page (
+                <a
+                  href="https://medium.com/better-programming/create-a-scroll-to-top-arrow-using-react-hooks-18586890fedc"
+                  target="_blank"
+                >
+                  source
+                </a>
+                ).
               </p>
               <p>
                 My process with this site is to host my code in a{" "}
@@ -581,9 +589,12 @@ function Portfolio() {
                 features. Then I commit meaningful changes early and often but
                 only upon completion of features, never adding 'half-working'
                 code (if there were such a thing), since repositories of broken
-                code only confuse other developers. Hosting my code there also
-                allows me to pull it down and make changes anywhere from my
-                laptop or another machine that I set up my SSH keys on.
+                code only confuse other developers.{" "}
+              </p>
+              <p>
+                Hosting my code there also allows me to pull it down and make
+                changes anywhere from my laptop or another machine that I use with
+                SSH keys.
               </p>
               <p>
                 {" "}
@@ -679,11 +690,12 @@ function Portfolio() {
 
                 <p id="artP">
                   <strong>sound design:</strong> Audacity, Reaper, analog
-                  equipment (synthesizers, samplers, microphones, mixing boards, effects units).
+                  equipment (synthesizers, samplers, microphones, mixing boards,
+                  effects units).
                 </p>
                 <p>
                   <button className="standardButton">
-                    <a href="/photography"  style={{color: "black"}}>
+                    <a href="/photography" style={{ color: "black" }}>
                       photography gallery <i className="fa fa-arrow-right"></i>
                     </a>
                   </button>
