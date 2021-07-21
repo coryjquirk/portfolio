@@ -26,18 +26,17 @@ function Home() {
                   </span>
                 </button>
               </a>
-              <a href="/photography">
-                <button className="homeBtns">
-                  <span>
-                    <p>photography</p>
-                  </span>
-                </button>
-              </a>
-
               <a href="/blog">
                 <button className="homeBtns">
                   <span>
                     <p className="muted">blog</p>
+                  </span>
+                </button>
+              </a>
+              <a href="/photography">
+                <button className="homeBtns">
+                  <span>
+                    <p>photography</p>
                   </span>
                 </button>
               </a>

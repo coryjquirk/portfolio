@@ -1,10 +1,27 @@
-.navbar li{
-    background-color: #f8f9fa;
+.navbar li {
+  background-color: #f8f9fa;
 }
-.navbar{
-    width: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 1;
+.navbar {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+#desktopLogo {
+  width: 45px;
+}
+#spiral {
+  stroke-width: 15;
+  stroke-dasharray: 6025;
+  stroke-dashoffset: 6025;
+  animation: dash 30s linear alternate infinite;
+}
+@keyframes dash {
+  from {
+    stroke-dashoffset: 6025;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }

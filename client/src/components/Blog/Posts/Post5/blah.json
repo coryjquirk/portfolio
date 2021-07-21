@@ -1,0 +1,23 @@
+{
+    "title:": "My super cool blog post",
+    "date": "2021-06-17",
+    "text": [
+        "Beggining of post", 
+        "Middle of post", 
+        "End of post"],
+    "images": [
+        {
+            "url": "https://some-image-link.com",
+            "alt": "Image 1 caption"
+        },
+        {
+            "model": "https://one-more-image",
+            "alt": "Image 2 caption"
+        }
+    ],
+    "tages": [
+        "Python",
+        "cloud computing",
+        "UI/UX"
+    ]
+}

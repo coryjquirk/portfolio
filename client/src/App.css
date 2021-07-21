@@ -2,29 +2,28 @@
   text-align: left;
 }
 .standardButton {
-  background-image: url("btnBkgd.png");
-  background-color: #cccccc; /* Used if the image is unavailable */
-  background-position: center;
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  border: none;
+  background-color: #cccccc;
   font-weight: bold;
   letter-spacing: 0.03rem;
   padding: 7px 7px 7px 7px;
+  background: linear-gradient(
+    45deg,
+    #e9a5a5,
+    #b8c1c0,
+    #aea2db,
+    #23d5ab,
+    #aea2db
+  );
+  background-size: 400% 400%;
+  -webkit-animation: gradient 10s ease infinite;
+  animation: gradient 10s ease infinite;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
 }
 .meat {
   width: 60%;
   margin: 0px 0px 0px 50px;
-}
-@media screen and (min-width: 1250px) {
-  .container-fluid {
-    margin-left: 100px;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .container-fluid {
-    margin-left: 50px;
-  }
 }
 #main {
   margin: 10px 0px 60px 0px;
@@ -37,6 +36,11 @@
 }
 p {
   font-size: 15px;
+}
+#code{
+  color: #129459;
+  font-weight: bold;
+  letter-spacing: 0.1em;
 }
 .ghostDiv {
   height: 50px;
@@ -90,10 +94,16 @@ p {
     font-size: x-small;
   }
   .container-fluid {
-    padding-left: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
-@media screen and (max-width: 600px) {
-  h1{
-  }
+#logo {
+  margin: none auto none auto;
+  height: 7%;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 100;
+
 }

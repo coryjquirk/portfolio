@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 //my components
+import Spiral from "./components/Spiral";
 import Home from "./components/Home";
-import SoundPage from "./pages/SoundPage";
 import PhotographyPage from "./pages/PhotographyPage";
 import Portfolio from "./components/Portfolio";
 import Blog from "./components/Blog";
@@ -17,13 +17,13 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <Spiral/>
         <Nav />
         <div id="main">
           <Switch>
             <Route exact path="/home" component={Home} />
             <Route exact path="/" component={Home} />
             <Route exact path="/portfolio" component={Portfolio} />
-            <Route exact path="/sound" component={SoundPage} />
             <Route exact path="/photography" component={PhotographyPage} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/blog" component={Blog} />

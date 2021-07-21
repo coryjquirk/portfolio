@@ -1,0 +1,30 @@
+@media screen and (min-width: 1000px) {
+  .blogImg {
+    width: 35%;
+    float: right;
+    margin: 0px 15px 10px 15px;
+  }
+}
+.wideHeader {
+  max-width: 450px;
+  width: 95%;
+  margin: 15px 15px 15px 15px;
+}
+#koansImg{
+  margin: 10px auto 10px auto;
+  width: 95%;
+}
+#spiral {
+  stroke-width:15;
+  stroke-dasharray: 6025;
+  stroke-dashoffset: 6025;
+  animation: dash 30s linear alternate infinite;
+}
+@keyframes dash {
+  from {
+    stroke-dashoffset: 6025;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
