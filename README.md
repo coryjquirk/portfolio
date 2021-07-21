@@ -4,7 +4,7 @@ Personal website built entirely custom with React to share my contact info and w
 [Deployed application](https://coryjquirk.herokuapp.com/home)
 
 <br>
-<a href="https://coryjquirk.herokuapp.com"><img src="https://raw.githubusercontent.com/coryjquirk/portfolio/master/client/public/assets/images/demo.gif" alt="portfolio screenshot"/></a>
+<a href="https://coryjquirk.herokuapp.com"><img src="https://raw.githubusercontent.com/coryjquirk/portfolio/master/client/public/assets/images/app-screenshot.PNG" alt="portfolio screenshot"/></a>
 
 ## Features
 * Mobile-first layout
