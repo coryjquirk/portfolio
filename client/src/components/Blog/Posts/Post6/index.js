@@ -53,7 +53,7 @@ function Post6() {
             src={currants}
             alt="orange currant berries"
           ></img>
-          <p className="mutedBlog">currant berries</p>
+          <p className="mutedBlog">Orange currant berries (St. Paul, MN)</p>
           <p>
             In this post, I'll cover some new computer science and software
             development topics I've been working through in the past month.
