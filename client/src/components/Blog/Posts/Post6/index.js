@@ -79,7 +79,7 @@ function Post6() {
             a job candidate, I make up for in a drive to learn.
           </p>
           <p>
-            All that being said, at the end of this post, in my next post, I'll
+            All that being said, in my next post, I'll 
             present a MERN stack app that I completed this spring to address a
             problem faced in real life by a friend and I.
           </p>
