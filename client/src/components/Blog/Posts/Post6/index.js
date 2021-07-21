@@ -38,7 +38,7 @@ function Post6() {
         "You have not yet reached enlightenment. I sense frustration. Do not be
         afraid to ask for help." -Ruby Koans
       </p>
-      <p id="blogDate">15 July, 2021 </p>
+      <p id="blogDate">20 July, 2021 </p>
       {opened === false && (
         <img
           className="blogPreviewImg"
@@ -202,7 +202,7 @@ function Post6() {
           <ModalImage
             small={koans}
             large={koans}
-            id="blogtags"
+            id="koansImg"
             alt="Ruby Koans"
             hideDownload={true}
           />

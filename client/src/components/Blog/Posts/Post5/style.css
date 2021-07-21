@@ -12,14 +12,12 @@
   max-width: 450px;
   margin: 15px 15px 60px 15px;
 }
-#picoBlink{
-  float: left;
-}
 #mongoexample, #blogtags, #dbAtlas{
   margin: 10px auto 10px auto;
   width: 95%;
 }
-/* for some reason, nrfConnect won't work if it's an id */
+
+/* ALERT: for some reason, nrfConnect won't work if it's an id */
 .nrfConnect{
   margin: 15px 18px 15px 18px;
   height: 300px;

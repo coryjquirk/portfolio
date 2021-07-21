@@ -5,30 +5,14 @@
     margin: 0px 15px 10px 15px;
   }
 }
-#chipsPreview {
-  width: 95%;
-  float: none;
-  max-height: 450px;
-  max-width: 450px;
-  margin: 15px 15px 60px 15px;
-}
 .wideHeader {
   max-width: 450px;
   width: 95%;
   margin: 15px 15px 15px 15px;
 }
-#picoBlink{
-  float: left;
-}
-#mongoexample, #blogtags, #dbAtlas{
+#koansImg{
   margin: 10px auto 10px auto;
   width: 95%;
-}
-#storyMap{
-  width: 100%;
-}
-#spiralBox{
-  border: solid 1px black;
 }
 #spiral {
   stroke-width:15;

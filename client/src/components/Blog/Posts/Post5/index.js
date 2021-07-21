@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import SyntaxHighlighter from "react-syntax-highlighter";
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import bwca from "./bwca.jpg";
 import mongoexample from "./mongoexample.png";
 import blogtags from "./blogtags.png";
@@ -18,6 +20,8 @@ function Post5() {
   function hideArticle() {
     openArticle(false);
   }
+  const codeString1 =
+    "{\n 'title:': 'My super cool blog post',\n 'date': '2021-06-17',\n 'text': [\n     'Beggining of post',\n     'Middle of post',\n     'End of post'\n    ],\n 'images':\n    [\n      {'url': 'https://some-image-link.com',\n       'alt': 'Image 1 caption'\n    },\n      {'url': 'https://one-more-image',\n       'alt': 'Image 2 caption'}\n    ],\n  'tags': \n      ['Python','cloud computing','UI/UX']\n}";
   return (
     <div className="blogPost" id="post5">
       {opened === true && (
@@ -133,7 +137,11 @@ function Post5() {
             blog post information. This No-SQL data format was developed in the
             2000s as a common alternative to SQL (structured query language),
             which itself first saw usage in the 1970s and to this day provides
-            strict and rigid schemas for strong database architecture. The{" "}
+            strict and rigid schemas for strong database architecture.
+          </p>
+          <p>
+            {" "}
+            The{" "}
             <a
               href="https://www.mongodb.com/nosql-explained/nosql-vs-sql"
               target="_blank"
@@ -143,79 +151,82 @@ function Post5() {
             is that it's considered more developer friendly, and in my limited
             experience it is indeed simpler to build code around No-SQL with
             which to manipulate data for the purposes of web applications.
-            However, SQL is still an incredibly important developer tool for
-            software of a wide range of scales for enterprise and digital
-            infrastructure.
+            No-SQL is also favored in many situations for its higher performance
+            and flexibility. However, SQL is still an incredibly important
+            developer tool for software of a wide range of scales for enterprise
+            and digital infrastructure.
           </p>
-          <ModalImage
-            small={mongoexample}
-            large={mongoexample}
-            id="mongoexample"
-            alt="MongoDB schema"
-            hideDownload={true}
-          />
-          <p className="mutedBlog">
-            Example MongoDB document scheme for a blog post. Note that this is
-            arranged in{" "}
+          <p>
+            A MongoDB schema design for a blog post could look something like
+            this. Note that it's arranged like a{" "}
             <a href="https://en.wikipedia.org/wiki/JSON" target="_blank">
               JSON
             </a>{" "}
-            format.{" "}
-            <a
-              href="https://docs.mongodb.com/manual/core/shell-types/#numberlong"
-              target="_blank"
-            >
-              $numberlong
-            </a>{" "}
-            encodes the date.
+            file:
           </p>
+          <SyntaxHighlighter
+            language="javascript"
+            style={docco}
+            showLineNumbers
+          >
+            {codeString1}
+          </SyntaxHighlighter>
           <p>
             Where things will get slightly more complex is when I want to weave
             hyperlinks into my posts' text or place images between paragraphs.
             This is where I foresee React's front end abilities coming into
             play.{" "}
-            <a
-              href="https://www.w3schools.com/react/react_jsx.asp"
-              target="_blank"
-            >
-              JSX
-            </a>{" "}
+              <strong>JSX</strong>{" "}
             allows developers to write HTML using JavaScript code, easing our
             task of programming interactions between the front end and back end.
-            In other words, the end-user for the interface of your site can
-            create/read/update/delete data without their experience being
-            interrupted.{" "}
+            The end-user of your site can use its interfact to
+            create, read, update, or delete data without their experience being
+            interrupted by a refresh.{" "}
             <a href="https://en.wikipedia.org/wiki/JQuery" target="_blank">
               jQuery
             </a>{" "}
-            is another common but older method of JavaScript usage and{" "}
+            is another common but older method of JavaScript{" "}
             <a
               href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents"
               target="_blank"
             >
               DOM manipulation
             </a>
-            . In the case of my site,{" "}
+            . On my site,{" "}
             <a href="https://reactjs.org/" target="_blank">
               React.js
             </a>{" "}
             handles all DOM manipulation.
           </p>
           <p>
-            Here is a quick JSX example from W3 schools, showing how JavaScript
-            can operate within HTML using curly braces.
+            Here is a quick {" "}
+            <a
+              href="https://www.w3schools.com/react/react_jsx.asp"
+              target="_blank"
+            >JSX</a> syntax example from W3 schools:
           </p>
           <p>
-            <code>
-              const myelement = React is &#123;5 + 5&#125; times better with
-              JSX;
-            </code>
+            <SyntaxHighlighter language="javascript" style={docco}>
+              {
+                "<p>React is {5 + 5}; times better with JSX</p>\n//resulting HTML: 'React is 10 times better with JSX!'"
+              }
+            </SyntaxHighlighter>
           </p>
           <p>
-            As you might've guessed, React will render the above code as "React
-            is 10 times better with JSX." Since the contents of the curly braces
-            can be JavaScript variables and functions, I could use this to
-            handle image and hyperlink information coming from a MongoDB object.
+            When it compiles and renders HTML to a browser window, React uses JSX to treat the code in between the
+            curly braces as JavaScript. This syntax is not possible with the old
+            school HTML and vanilla JavaScript combination.
+          </p>
+          <p>
+            <SyntaxHighlighter language="javascript" style={docco}>
+              {
+                "const name = 'Cory'\nconst helloUser = <p>Hello, {name}!</p>\n//resulting HTML: 'Hello, Cory!'"
+              }
+            </SyntaxHighlighter>
+          </p>
+          <p>
+            I could take advantage of this feature of React to handle image and
+            hyperlink information coming from a MongoDB object, rendering the blog contents as HTML.
           </p>
           <p id="break">-. --- .--</p>
           <p>
