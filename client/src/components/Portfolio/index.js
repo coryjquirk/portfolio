@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container } from "../Grid";
 import "./style.css";
-import farm from "./Images/farm.gif";
+import farm from "../Blog/Posts/Post7/farm.gif";
 import READMEgen from "./Images/readme-generator.gif";
 import weatherdashboard from "./Images/weatherdashboard.gif";
 import creditcroc from "./Images/creditcroc.gif";
@@ -126,8 +126,23 @@ function Portfolio() {
           <button className="toolkitBtn">SparkFun</button>
         </div>
         <p id="break">-. --- .--</p>
+        <ul>
+          <li className="t0c">
+            <a href="#appsList" onClick={revealApps}>
+              # app projects
+            </a>
+          </li>
+          <li className="t0c">
+            <a href="#portfolioSite" onClick={revealPf}>
+              # details about this site
+            </a>
+          </li>
+          <li className="t0c" onClick={revealArt}>
+            <a href="#artList"># visual design</a>
+          </li>
+        </ul>
         <p id="pf">
-          I'm currently looking for work (July 2021). Visit me on{" "}
+          I'm currently looking for work (August 2021). Visit me on{" "}
           <a href="https://github.com/coryjquirk" target="_blank">
             GitHub
           </a>{" "}
@@ -139,26 +154,6 @@ function Portfolio() {
           aim to make elegant and intuitive sites with JavaScript, CSS, and
           React, taking a user perspective in designing my UI/UX.
         </p>
-        <li className="t0c">
-          <a href="#appsList" onClick={revealApps}>
-            # app projects
-          </a>
-        </li>
-        <li className="t0c">
-          <a href="#portfolioSite" onClick={revealPf}>
-            # details about this site
-          </a>
-        </li>
-        <li className="t0c" onClick={revealArt}>
-          <a href="#artList"># visual design</a>
-        </li>
-        <div id="connectLink">
-          <button className="standardButton">
-            <a href="/contact">
-              connect <i className="fa fa-arrow-right"></i>
-            </a>
-          </button>
-        </div>
         <div id="appsList">
           {appsOpened === false && (
             <button
@@ -174,8 +169,9 @@ function Portfolio() {
             </button>
           )}
           <h2>app portfolio</h2>
-          <p>A few completed projects so far.</p>
-          <p>Click right to expand or collapse.</p>
+          <p>
+            A few completed projects so far. Click right to expand or collapse.
+          </p>
           {appsOpened === true && (
             <div>
               <p class="subText">
@@ -195,7 +191,7 @@ function Portfolio() {
                   Hosts useful information for the staff of a small farm
                   project.
                   <p>Features:</p>
-                  <ui>
+                  <ul>
                     <li>Username/PW authentication</li>
                     <li>Excel sheets from Mircosoft OneDrive Cloud</li>
                     <li>
@@ -207,7 +203,7 @@ function Portfolio() {
                       </a>
                     </li>
                     <li>MERN stack (MongoDB, Express, React, Node)</li>
-                  </ui>
+                  </ul>
                 </p>
                 <a
                   href="https://github.com/coryjquirk/farm-companion/"
@@ -593,8 +589,8 @@ function Portfolio() {
               </p>
               <p>
                 Hosting my code there also allows me to pull it down and make
-                changes anywhere from my laptop or another machine that I use with
-                SSH keys.
+                changes anywhere from my laptop or another machine that I use
+                with SSH keys.
               </p>
               <p>
                 {" "}
@@ -765,6 +761,24 @@ function Portfolio() {
               ></iframe>
             </div>
           )}
+        </div>
+
+        <div id="connectLink">
+          <a href="/contact">
+            <button className="standardButton">
+              connect <i class="fa fa-connectdevelop"></i>
+            </button>
+          </a>
+          <a href="/contact">
+            <button className="standardButton">
+              blog <i className="fa fa-pencil"></i>
+            </button>
+          </a>
+          <a href="/contact">
+            <button className="standardButton">
+              photos <i class="fa fa-camera-retro"></i>
+            </button>
+          </a>
         </div>
       </div>
       <div className="ghostDiv"></div>

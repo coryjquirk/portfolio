@@ -8,6 +8,7 @@ import Post3 from "./Posts/Post3";
 import Post4 from "./Posts/Post4";
 import Post5 from "./Posts/Post5";
 import Post6 from "./Posts/Post6";
+import Post7 from "./Posts/Post7";
 
 function Blog() {
   return (
@@ -20,7 +21,7 @@ function Blog() {
         <h1>blog</h1>
       </button>
       <div id="headContainer">
-        <h1 className="desktopHeader">blog </h1>
+        <h1 className="desktopHeader">blog <i className="fa fa-pencil"></i></h1>
         <div id="bottomLink">
           <a href="#about">about</a>
         </div>
@@ -29,6 +30,7 @@ function Blog() {
       <div id="blog">
         <div>
           <div id="blogList">
+            <Post7></Post7>
             <Post6></Post6>
             <Post5></Post5>
             <Post4></Post4>
@@ -46,7 +48,7 @@ function Blog() {
             <p>
               {" "}
               <a href="/contact">Here</a> you can find my LinkedIn profile,
-              resumé, and a catch-all cover letter. Visit my{" "}
+              resumé, and email. Visit my{" "}
               <a href="https://www.github.com/coryjquirk">GitHub</a> profile to
               see what I'm coding lately.
             </p>
@@ -73,7 +75,7 @@ function Blog() {
               to taking on new projects. I'm open to remote work or relocation
               for the right opportunity. Thank you for visiting!{" "}
             </p>
-            <p id="blogDate">-July 2021</p>
+            <p id="blogDate">-August 2021</p>
           </div>
           <div className="ghostDiv"></div>
         </div>

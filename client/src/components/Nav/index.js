@@ -37,14 +37,9 @@ function Nav() {
               photography <span className="sr-only">(current)</span>
             </a>
           </li>
-          {/* <li className="nav-item active">
-            <a className="nav-link" href="sound">
-              sound <span className="sr-only">(current)</span>
-            </a>
-          </li> */}
           <li className="nav-item">
             <a className="nav-link" href="contact">
-              contact
+              connect
             </a>
           </li>
         </ul>

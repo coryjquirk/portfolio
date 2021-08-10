@@ -175,13 +175,11 @@ function Post5() {
             Where things will get slightly more complex is when I want to weave
             hyperlinks into my posts' text or place images between paragraphs.
             This is where I foresee React's front end abilities coming into
-            play.{" "}
-              <strong>JSX</strong>{" "}
-            allows developers to write HTML using JavaScript code, easing our
-            task of programming interactions between the front end and back end.
-            The end-user of your site can use its interfact to
-            create, read, update, or delete data without their experience being
-            interrupted by a refresh.{" "}
+            play. <strong>JSX</strong> allows developers to write HTML using
+            JavaScript code, easing our task of programming interactions between
+            the front end and back end. The end-user of your site can use its
+            interfact to create, read, update, or delete data without their
+            experience being interrupted by a refresh.{" "}
             <a href="https://en.wikipedia.org/wiki/JQuery" target="_blank">
               jQuery
             </a>{" "}
@@ -199,11 +197,14 @@ function Post5() {
             handles all DOM manipulation.
           </p>
           <p>
-            Here is a quick {" "}
+            Here is a quick{" "}
             <a
               href="https://www.w3schools.com/react/react_jsx.asp"
               target="_blank"
-            >JSX</a> syntax example from W3 schools:
+            >
+              JSX
+            </a>{" "}
+            syntax example from W3 schools:
           </p>
           <p>
             <SyntaxHighlighter language="javascript" style={docco}>
@@ -213,9 +214,10 @@ function Post5() {
             </SyntaxHighlighter>
           </p>
           <p>
-            When it compiles and renders HTML to a browser window, React uses JSX to treat the code in between the
-            curly braces as JavaScript. This syntax is not possible with the old
-            school HTML and vanilla JavaScript combination.
+            When it compiles and renders HTML to a browser window, React uses
+            JSX to treat the code in between the curly braces as JavaScript.
+            This syntax is not possible with the old school HTML and vanilla
+            JavaScript combination.
           </p>
           <p>
             <SyntaxHighlighter language="javascript" style={docco}>
@@ -226,7 +228,8 @@ function Post5() {
           </p>
           <p>
             I could take advantage of this feature of React to handle image and
-            hyperlink information coming from a MongoDB object, rendering the blog contents as HTML.
+            hyperlink information coming from a MongoDB object, rendering the
+            blog contents as HTML.
           </p>
           <p id="break">-. --- .--</p>
           <p>

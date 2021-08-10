@@ -2,51 +2,146 @@ import React from "react";
 import ModalImage from "react-modal-image";
 import "./style.css";
 import phnomKulen from "./Images/kulen.jpg";
-import phnomKulenL from "./Images/large/kulenlarge.jpg";
 import dennPlants from "./Images/dennplants.png";
-import dennPlantsL from "./Images/large/dennplantslarge.jpg";
+let photos = [
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564534/portfolio-large/palisadelarge_ez67xu.jpg",
+    alt: "Palisade Head (Lake County, MN)",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564532/portfolio-large/lutstarslarge_dsugsh.png",
+    alt: "Lutsen, MN - long exposure facing north (January 2021)",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564536/portfolio-large/krouchlylarge_xdoqw3.png",
+    alt: "Krouch Ly (Prek Toal Bird Sanctuary, Cambodia)",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564531/portfolio-large/idaholarge_lmtfbc.png",
+    alt: "Idaho-Montana border",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564534/portfolio-large/sedonasammylarge_tajcct.png",
+    alt: "Keanu (Sedona, AZ)",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564528/portfolio-large/hoodpineslarge_t4ditc.png",
+    alt: "Northeast Minneapolis, MN",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564527/portfolio-large/kulenlarge_qz83w9.jpg",
+    alt: "Phnom Kulen, Cambodia",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564531/portfolio-large/mplslarge_zybvew.jpg",
+    alt: "Minneapolis, MN",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564525/portfolio-large/carkeeklarge_pcasnv.jpg",
+    alt: "Carkeek Park (Seattle, WA)",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564525/portfolio-large/dennplantslarge_txf4s9.jpg",
+    alt: "house plants",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564536/portfolio-large/snowfire-large_opzfck.png",
+    alt: "snow / fire",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564524/portfolio-large/charlielarge_lwid39.jpg",
+    alt: "Charlie and frog (BWCA)",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564537/portfolio-large/tortlarge_d5miol.png",
+    alt: "tortoises",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564528/portfolio-large/keanularge_jro7yl.png",
+    alt: "pit stop (Washington State)",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564535/portfolio-large/owenzekelarge_fcc6en.png",
+    alt: "Owen and Zeke (Cascade River, Cook County, MN)",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564532/portfolio-large/monasterylarge_talsy3.jpg",
+    alt: "monastery (Cambodia)",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564527/portfolio-large/fishermenlarge_ezamdn.png",
+    alt: "Cambodian fishermen",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564527/portfolio-large/black-birdslarge_bzsejz.png",
+    alt: "black birds",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564524/portfolio-large/charliebikelarge_z0widm.jpg",
+    alt: "Charlie's bike",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564523/portfolio-large/aidanlarge_cytwfr.jpg",
+    alt: "Aidan (St. Paul, MN)",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628566477/portfolio-large/seacaves.jpg",
+    alt: "Stockton Island (Apostle Islands, Bayfield, WI)",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628564536/portfolio-large/stoneshoplarge_umyqcy.jpg",
+    alt: "stone shop (Siem Reap, Cambodia)",
+  },
+  {
+    large:
+      "https://res.cloudinary.com/dgwzirogr/image/upload/v1628566493/portfolio-large/tuktuk.jpg",
+    alt: "tuk tuk (Siem Reap, Cambodia)",
+  },
+];
+//still working on moving the thumbnails to cloudinary.
 import tort from "./Images/tort.png";
-import tortL from "./Images/large/tortlarge.png";
 import blackbirds from "./Images/black-birds.png";
-import blackbirdsL from "./Images/large/black-birdslarge.png";
 import carkeek from "./Images/carkeek.png";
-import carkeekL from "./Images/large/carkeeklarge.jpg";
 import stoneshop from "./Images/stoneshop.jpg";
-import stoneshopL from "./Images/large/stoneshoplarge.jpg";
 import charliebike from "./Images/charliebike.jpg";
-import charliebikeL from "./Images/large/charliebikelarge.jpg";
 import owenzeke from "./Images/owenzeke.png";
-import owenzekeL from "./Images/large/owenzekelarge.png";
 import keanu from "./Images/keanu.png";
-import keanuL from "./Images/large/keanularge.png";
 import caves from "./Images/caves.jpg";
-import cavesL from "./Images/large/caveslarge.jpg";
 import tuktuk from "./Images/tuktuk.jpg";
-import tuktukL from "./Images/large/tuktuklarge.jpg";
 import charlie from "./Images/charlie.png";
-import charlieL from "./Images/large/charlielarge.jpg";
 import mpls from "./Images/mpls.jpg";
-import mplsL from "./Images/large/mplslarge.jpg";
 import monastery from "./Images/monastery.jpg";
-import monasteryL from "./Images/large/monasterylarge.jpg";
 import palisade from "./Images/palisade.png";
-import palisadeL from "./Images/large/palisadelarge.jpg";
 import fishermen from "./Images/fishermen.png";
-import fishermenL from "./Images/large/fishermenlarge.png";
 import aidan from "./Images/aidan.png";
-import aidanL from "./Images/large/aidanlarge.jpg";
 import snowfire from "./Images/snowfire.png";
-import snowfireL from "./Images/large/snowfire-large.png";
 import hoodPines from "./Images/hoodpines.png";
-import hoodPinesL from "./Images/large/hoodpineslarge.png";
 import idaho from "./Images/idaho.png";
-import idahoL from "./Images/large/idaholarge.png";
 import krouchLy from "./Images/krouchly.png";
-import krouchLyL from "./Images/large/krouchlylarge.png";
 import lutstars from "./Images/lutstars.png";
-import lutstarsL from "./Images/large/lutstarslarge.png";
 import sedonaSammy from "./Images/sedonasammy.png";
-import sedonaSammyL from "./Images/large/sedonasammylarge.png";
 
 //idea for later: "sort by place" checkbox
 //implement lazy loading so the page just loads as you scroll, and
@@ -65,14 +160,14 @@ function Photography() {
       >
         <h1>photography</h1>
       </button>
-      <h1 class="desktopHeader">photography</h1>
+      <h1 class="desktopHeader">photography <i class="fa fa-camera-retro"></i></h1>
       <hr class="headHr" />
       <p>Click an image to open a larger version.</p>
       <div class="thumbnail">
         <ModalImage
           id="thumbnail"
           small={`${palisade}`}
-          large={`${palisadeL}`}
+          large={photos[0].large}
           alt="Palisade Head (Lake County, MN)"
           hideDownload={true}
         />
@@ -80,7 +175,7 @@ function Photography() {
       <div class="thumbnail">
         <ModalImage
           small={`${lutstars}`}
-          large={`${lutstarsL}`}
+          large={photos[1].large}
           alt="Lutsen, MN - long exposure facing N"
           hideDownload={true}
         />
@@ -88,7 +183,7 @@ function Photography() {
       <div class="thumbnail">
         <ModalImage
           small={`${krouchLy}`}
-          large={`${krouchLyL}`}
+          large={photos[2].large}
           alt="Krouch Ly (Prek Toal Bird Sanctuary, Cambodia)"
           hideDownload={true}
         />
@@ -96,7 +191,7 @@ function Photography() {
       <div class="thumbnail">
         <ModalImage
           small={`${idaho}`}
-          large={`${idahoL}`}
+          large={photos[3].large}
           alt="Idaho-Montana border"
           hideDownload={true}
         />
@@ -104,7 +199,7 @@ function Photography() {
       <div class="thumbnail">
         <ModalImage
           small={`${sedonaSammy}`}
-          large={`${sedonaSammyL}`}
+          large={photos[4].large}
           alt="Keanu (Sedona, AZ)"
           hideDownload={true}
         />
@@ -112,7 +207,7 @@ function Photography() {
       <div class="thumbnail">
         <ModalImage
           small={`${hoodPines}`}
-          large={`${hoodPinesL}`}
+          large={photos[5].large}
           alt="Minneapolis, MN"
           hideDownload={true}
         />
@@ -120,17 +215,16 @@ function Photography() {
       <div class="thumbnail">
         <ModalImage
           small={`${phnomKulen}`}
-          large={`${phnomKulenL}`}
+          large={photos[6].large}
           alt="Phnom Kulen"
           hideDownload={true}
         />
       </div>
-
       <div class="thumbnail">
         <ModalImage
           id="thumbnail"
           small={`${mpls}`}
-          large={`${mplsL}`}
+          large={photos[7].large}
           alt="minneapolis"
           hideDownload={true}
         />
@@ -139,7 +233,7 @@ function Photography() {
         <ModalImage
           id="thumbnail"
           small={`${carkeek}`}
-          large={`${carkeekL}`}
+          large={photos[8].large}
           alt="carkeek park"
           hideDownload={true}
         />
@@ -148,7 +242,7 @@ function Photography() {
         <ModalImage
           id="thumbnail"
           small={`${dennPlants}`}
-          large={`${dennPlantsL}`}
+          large={photos[9].large}
           alt="plants"
           hideDownload={true}
         />
@@ -157,7 +251,7 @@ function Photography() {
         <ModalImage
           id="thumbnail"
           small={`${snowfire}`}
-          large={`${snowfireL}`}
+          large={photos[10].large}
           alt="snow / fire"
           hideDownload={true}
         />
@@ -166,7 +260,7 @@ function Photography() {
         <ModalImage
           id="thumbnail"
           small={`${charlie}`}
-          large={`${charlieL}`}
+          large={photos[11].large}
           alt="Charlie frog"
           hideDownload={true}
         />
@@ -175,7 +269,7 @@ function Photography() {
         <ModalImage
           id="thumbnail"
           small={`${tort}`}
-          large={`${tortL}`}
+          large={photos[12].large}
           alt="tortoises"
           hideDownload={true}
         />
@@ -184,17 +278,16 @@ function Photography() {
         <ModalImage
           id="thumbnail"
           small={`${keanu}`}
-          large={`${keanuL}`}
+          large={photos[13].large}
           alt="pit stop"
           hideDownload={true}
         />
       </div>
-
       <div class="thumbnail">
         <ModalImage
           id="thumbnail"
           small={`${owenzeke}`}
-          large={`${owenzekeL}`}
+          large={photos[14].large}
           alt="Owen and Zeke"
           hideDownload={true}
         />
@@ -203,7 +296,7 @@ function Photography() {
         <ModalImage
           id="thumbnail"
           small={`${monastery}`}
-          large={`${monasteryL}`}
+          large={photos[15].large}
           alt="monastery"
           hideDownload={true}
         />
@@ -212,7 +305,7 @@ function Photography() {
         <ModalImage
           id="thumbnail"
           small={`${fishermen}`}
-          large={`${fishermenL}`}
+          large={photos[16].large}
           alt="Cambodian fishermen"
           hideDownload={true}
         />
@@ -221,7 +314,7 @@ function Photography() {
         <ModalImage
           id="thumbnail"
           small={`${blackbirds}`}
-          large={`${blackbirdsL}`}
+          large={photos[17].large}
           alt="black birds"
           hideDownload={true}
         />
@@ -230,17 +323,16 @@ function Photography() {
         <ModalImage
           id="thumbnail"
           small={`${charliebike}`}
-          large={`${charliebikeL}`}
+          large={photos[18].large}
           alt="Charlie bike"
           hideDownload={true}
         />
       </div>
-
       <div class="thumbnail">
         <ModalImage
           id="thumbnail"
           small={`${aidan}`}
-          large={`${aidanL}`}
+          large={photos[19].large}
           alt="Aidan (St. Paul, MN)"
           hideDownload={true}
         />
@@ -249,7 +341,7 @@ function Photography() {
         <ModalImage
           id="thumbnail"
           small={`${caves}`}
-          large={`${cavesL}`}
+          large={photos[20].large}
           alt="Stockton Island (Apostle Islands National Lakeshore, Bayfield, WI)"
         />
       </div>
@@ -257,22 +349,20 @@ function Photography() {
         <ModalImage
           id="thumbnail"
           small={`${stoneshop}`}
-          large={`${stoneshopL}`}
+          large={photos[21].large}
           alt="stone shop (Siem Reap, Cambodia)"
           hideDownload={true}
         />
       </div>
-
       <div class="thumbnail">
         <ModalImage
           id="thumbnail"
           small={`${tuktuk}`}
-          large={`${tuktukL}`}
+          large={photos[22].large}
           alt="tuk tuk (Siem Reap, Cambodia)"
           hideDownload={true}
         />
       </div>
-
       <div id="photoSocials">
         <p>
           <a
