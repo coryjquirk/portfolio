@@ -5,13 +5,6 @@
     margin: 0px 15px 10px 15px;
   }
 }
-#chipsPreview {
-  width: 95%;
-  float: none;
-  max-height: 450px;
-  max-width: 450px;
-  margin: 15px 15px 60px 15px;
-}
 #picoBlink{
   float: left;
 }

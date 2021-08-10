@@ -1,5 +1,6 @@
-.navbar li {
-  background-color: #f8f9fa;
+#theNav {
+  background-color: rgb(61, 61, 61);
+  height: 70px;
 }
 .navbar {
   width: 100%;
@@ -7,6 +8,23 @@
   left: 0;
   top: 0;
   z-index: 1;
+}
+.navbar li {
+  background: rgb(61, 61, 61);
+}
+.navbar-light .navbar-brand {
+  color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(255, 255, 255, 0.9);
+  padding-left: 15px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(152, 152, 152);
+  padding-left: 15px;
 }
 #desktopLogo {
   width: 45px;

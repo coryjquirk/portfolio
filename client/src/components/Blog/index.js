@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./style.css";
-import { Container } from "../Grid";
 import self from "./self.jpg";
 import Post1 from "./Posts/Post1";
 import Post2 from "./Posts/Post2";
@@ -12,7 +11,8 @@ import Post7 from "./Posts/Post7";
 
 function Blog() {
   return (
-    <Container fluid>
+    <div>
+      {" "}
       <button
         className="headerNavCollapse"
         data-toggle="collapse"
@@ -21,7 +21,7 @@ function Blog() {
         <h1>blog</h1>
       </button>
       <div id="headContainer">
-        <h1 className="desktopHeader">blog <i className="fa fa-pencil"></i></h1>
+        <h1 className="desktopHeader">blog</h1>
         <div id="bottomLink">
           <a href="#about">about</a>
         </div>
@@ -29,7 +29,7 @@ function Blog() {
       <hr className="headHr" />
       <div id="blog">
         <div>
-          <div id="blogList">
+          <div>
             <Post7></Post7>
             <Post6></Post6>
             <Post5></Post5>
@@ -42,14 +42,18 @@ function Blog() {
             <h3>about me</h3>
             <p>
               My name is Cory Quirk and I'm a full stack developer located in
-              Minneapolis, MN. I developed this site with React to share my{" "}
-              <a href="/portfolio">web development projects</a>.{" "}
+              Minneapolis, MN. I built this site with React to share my web
+              development projects.
+            </p>
+            <p>
+              In my free time, I enjoy making music, gardening, taking photos,
+              and enjoying the outdoors. I can speak Spanish and Norwegian.
             </p>
             <p>
               {" "}
               <a href="/contact">Here</a> you can find my LinkedIn profile,
               resumé, and email. Visit my{" "}
-              <a href="https://www.github.com/coryjquirk">GitHub</a> profile to
+              <a href="https://www.github.com/coryjquirk">GitHub profile</a> to
               see what I'm coding lately.
             </p>
             <div id="aboutmeIcons">
@@ -77,14 +81,14 @@ function Blog() {
             </p>
             <p id="blogDate">-August 2021</p>
           </div>
-          <div className="ghostDiv"></div>
+          <img id="self" src={self}></img>
+          <p className="mutedBlog" id="theseMine">
+            all photos are mine unless otherwise stated or readily apparent.
+          </p>
         </div>
-        <img id="self" src={self}></img>
-        <p className="mutedBlog" id="theseMine">
-          all photos are mine unless otherwise stated or readily apparent.
-        </p>
       </div>
-    </Container>
+      <div className="ghostDiv"></div>
+    </div>
   );
 }
 

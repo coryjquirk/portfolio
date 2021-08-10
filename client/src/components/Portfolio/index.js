@@ -43,8 +43,7 @@ function Portfolio() {
   }
 
   return (
-    <Container fluid>
-      <button
+<div>      <button
         className="headerNavCollapse"
         data-toggle="collapse"
         data-target="#navbarNav"
@@ -54,7 +53,7 @@ function Portfolio() {
       <h1 className="desktopHeader">developer portfolio</h1>
       <hr className="headHr" />
       <div className="meat">
-        <div id="nuToolkit">
+        <div id="toolKit">
           <h2>skills toolkit</h2>
           <p>
             <i className="fa fa-asterisk"></i> Sorted by{" "}
@@ -782,8 +781,7 @@ function Portfolio() {
         </div>
       </div>
       <div className="ghostDiv"></div>
-    </Container>
-  );
+      </div>   );
 }
 
 export default Portfolio;

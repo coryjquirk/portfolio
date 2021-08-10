@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "../components/Grid";
 const NoMatch = () => {
   return (
-    <Container fluid>
+    <div className="meat">
       <h1>404 page not found</h1>
       <h1>
         <span role="img" aria-label="Thinking Face Emoji">
@@ -16,7 +16,7 @@ const NoMatch = () => {
       <a id="returnHome" style={{ textAlign: "left" }} href="/home">
         <p>Return home</p>
       </a>
-    </Container>
+    </div>
   );
 };
 

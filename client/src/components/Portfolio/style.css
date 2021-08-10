@@ -6,22 +6,23 @@
   text-align: center;
   margin: 20px 0px 20px 0px;
 }
-#connectLink a{
+#connectLink a {
   margin-right: 15px;
 }
 #appsList,
-#toolkitList,
 #artList {
-  background-color: rgb(251, 251, 251);
+  background-color: rgb(50, 50, 50);
+  color: rgb(255, 255, 255);
   min-height: 50px;
   padding: 10px 5px 10px 10px;
   margin-bottom: 15px;
 }
 #portfolioSite {
   width: 100%;
-  background-color: rgb(251, 251, 251);
-  margin: 0px 0px 15px 0px;
+  background-color: rgb(50, 50, 50);
+  color: rgb(255, 255, 255);
   padding: 10px 5px 10px 10px;
+  margin-bottom: 15px;
 }
 .t0c {
   margin-left: 30px;
@@ -93,13 +94,21 @@
   border-top: black 1px solid;
   margin: 10px;
 }
-#nuToolkit {
+#toolKit {
+  color: black;
   padding: 20px 20px 20px 20px;
   border-radius: 10px;
-  background: linear-gradient(45deg, #e9a5a5, #b8c1c0, #aea2db, #23d5ab, #aea2db);
-	background-size: 400% 400%;
-	-webkit-animation: gradient 10s ease infinite;
-	        animation: gradient 10s ease infinite;
+  background: linear-gradient(
+    45deg,
+    #e9a5a5,
+    #b8c1c0,
+    #aea2db,
+    #23d5ab,
+    #aea2db
+  );
+  background-size: 400% 400%;
+  -webkit-animation: gradient 10s ease infinite;
+  animation: gradient 10s ease infinite;
 }
 .toolkitBtn {
   background-color: #ffffff; /* Used if the image is unavailable */
@@ -116,33 +125,27 @@
   box-shadow: 0 5px 15px #3f3074;
 }
 @-webkit-keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-#devToolkit {
-  background-color: rgb(251, 251, 251);
-  border-radius: 10px;
-  margin: 10px;
-  padding: 3px;
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 #mobileToolbox {
   display: none;
@@ -150,8 +153,7 @@
 #desktopToolbox {
   display: inline;
 }
-#portfolioItem p,
-#devToolkit p {
+#portfolioItem p {
   margin: 0px 10px 5px 10px;
   padding: 5px 10px 5px 5px;
 }
@@ -239,10 +241,7 @@ code {
 }
 @media screen and (max-width: 600px) {
   #appsList,
-  #toolkitList,
-  #artList #pf,
-  #devToolKit,
-  #devToolkit {
+  #artList #pf {
     width: 100%;
   }
   #portfolioItem {
@@ -254,17 +253,11 @@ code {
 
   #portfolioItem p,
   .pfDescrip,
-  #devToolkit p,
   .portfolioArt,
   h3,
   p {
     margin: 0px 15px 5px 5px;
     padding: 5px 29px 5px 15px;
-  }
-  .headHr {
-    margin-left: none;
-    margin-right: none;
-    width: 100%;
   }
   .portfolioArt {
     width: 95%;

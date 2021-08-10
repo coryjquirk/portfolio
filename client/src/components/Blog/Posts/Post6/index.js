@@ -129,8 +129,8 @@ function Post6() {
           >
             <defs>
               <linearGradient id="linear" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="25%" stop-color="#23d5ab" stop-opacity="1.0" />
-                <stop offset="75%" stop-color="#aea2db" stop-opacity="1.0" />
+                <stop offset="25%" stopColor="#23d5ab" stopOpacity="1.0" />
+                <stop offset="75%" stopColor="#aea2db" stopOpacity="1.0" />
               </linearGradient>
             </defs>
             <path
