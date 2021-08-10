@@ -70,13 +70,13 @@ p {
   font-size: 12px;
 }
 .closePost {
-  height: 32px;
-  width: 32px;
+  height: 34px;
+  width: 34px;
   position: -webkit-sticky;
   position: sticky;
   float: right;
   top: 80px;
-  padding: 6px 8px 6px 8px;
+  padding: 6px 6px 6px 6px;
 }
 .openPost{
   padding: 4px 8px 4px 8px;
@@ -161,13 +161,6 @@ p {
   }
 }
 @media screen and (max-width: 600px) {
-  .mutedBlog {
-    /* padding-right: 70px; */
-  }
-  .blogPost {
-    border: solid rgb(230, 230, 230) 1px;
-    border-radius: 7px;
-  }
   .blogHeadImg{
     width: 35%;
   }

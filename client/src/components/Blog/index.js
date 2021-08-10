@@ -8,6 +8,7 @@ import Post3 from "./Posts/Post3";
 import Post4 from "./Posts/Post4";
 import Post5 from "./Posts/Post5";
 import Post6 from "./Posts/Post6";
+import Post7 from "./Posts/Post7";
 
 function Blog() {
   return (
@@ -29,6 +30,7 @@ function Blog() {
       <div id="blog">
         <div>
           <div id="blogList">
+            <Post7></Post7>
             <Post6></Post6>
             <Post5></Post5>
             <Post4></Post4>
@@ -73,7 +75,7 @@ function Blog() {
               to taking on new projects. I'm open to remote work or relocation
               for the right opportunity. Thank you for visiting!{" "}
             </p>
-            <p id="blogDate">-July 2021</p>
+            <p id="blogDate">-August 2021</p>
           </div>
           <div className="ghostDiv"></div>
         </div>

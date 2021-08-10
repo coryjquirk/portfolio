@@ -127,7 +127,7 @@ function Portfolio() {
         </div>
         <p id="break">-. --- .--</p>
         <p id="pf">
-          I'm currently looking for work (July 2021). Visit me on{" "}
+          I'm currently looking for work (August 2021). Visit me on{" "}
           <a href="https://github.com/coryjquirk" target="_blank">
             GitHub
           </a>{" "}
