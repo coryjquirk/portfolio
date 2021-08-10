@@ -139,9 +139,8 @@ export default function Post7() {
               log in with coryjquirk@gmail.com / password123
             </p>
           </p>
-
           <p>
-            <a style={{marginRight:"15px"}} href="https://farm-companion.herokuapp.com/" target="_blank">
+            <a style={{marginRight:"10px"}} href="https://farm-companion.herokuapp.com/" target="_blank">
               <button className="standardButton">
                 deployed app{" "}
                 <i class="fa fa-external-link" aria-hidden="true"></i>
@@ -149,7 +148,7 @@ export default function Post7() {
             </a>
             <a href="https://farm-companion.herokuapp.com/" target="_blank">
               <button className="standardButton">
-                GitHub repository{" "}
+                GitHub repo{" "}
                 <i class="fa fa-github" aria-hidden="true"></i>
               </button>{" "}
             </a>
@@ -236,7 +235,7 @@ export default function Post7() {
           </p>
           <p className="mutedBlog">
             <strong>below:</strong> Keanu's recently constructed and planted
-            herb spiral project (click to expand)
+            herb spiral project (click to expand images)
           </p>
           <p id="break">-. --- .--</p>
           <p>

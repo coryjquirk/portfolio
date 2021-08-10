@@ -51,10 +51,6 @@ button a {
   .homeBtns:hover span {
     border-radius: 5px;
     padding: 2px 25px 2px 2px;
-    /* box-shadow: inset -2px -2px 10px 0px #000000, 2px 2px 0px 0px #8cd1ff,
-      4px 4px 0px 0px #a1d8fd, 8px 8px 0px 0px rgb(212, 238, 253),
-      10px 10px 0px 0px #f5fff5, 12px 12px 0px 0px #b8eebc,
-      14px 14px 0px 0px #8adf91; */
   }
 }
 #mobileMorse {
@@ -90,11 +86,11 @@ button a {
   -ms-animation: fadeIn ease 0.5s;
 }
 
-.homeBtns{
+.homeBtns {
   background-color: rgb(240, 239, 239);
   box-shadow: inset -2px -2px 10px 0px #000000, 3px 3px 0px 0px #e4ddfa,
-    6px 6px 0px 0px #EA92A7, 9px 9px 0px 0px #aea2db,
-    12px 12px 0px 0px #D4FDEE, 15px 15px 0px 0px #a5e9e9;
+    6px 6px 0px 0px #ea92a7, 9px 9px 0px 0px #aea2db, 12px 12px 0px 0px #d4fdee,
+    15px 15px 0px 0px #a5e9e9;
   background: linear-gradient(
     45deg,
     #e9a5a5,
@@ -112,24 +108,25 @@ button a {
 @media screen and (max-width: 775px) {
   .homeBtns {
     margin-left: 20%;
+    margin-right: 20%;
+  }
+  #homeMain {
+    width: 0%;
+    margin: 0px 0px 0px 10px;
   }
 }
 @media screen and (max-width: 570px) {
   .homeBtns {
-    width: 95%;
     height: 75px;
-    border-radius: 5px;
+    width: 250px;
     margin: 10px 15px 15px 0px;
-  }
-  .homeBtns p {
-    font-size: 16px;
+    border-radius: 5px;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 300px) {
   .homeBtns {
-    margin-left: none;
+    width: 200px;
     height: 75px;
-    border-radius: 5px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px;
   }
 }

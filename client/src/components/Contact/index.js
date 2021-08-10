@@ -2,14 +2,12 @@ import React from "react";
 import "./style.css";
 import Resume from "./coryquirk-resume.pdf";
 import CoverLetter from "./coryquirk-coverletter-apr2021.docx";
-import Seagull from "./seagull.jpg"
+import Seagull from "./seagull.jpg";
 import { Container } from "../Grid";
 
 function Contact() {
   return (
     <div>
-    <Container fluid>
-    <div id="contact">
       <button
         className="headerNavCollapse"
         data-toggle="collapse"
@@ -17,7 +15,7 @@ function Contact() {
       >
         <h1>connect</h1>
       </button>
-      <h1 className="desktopHeader">connect <i class="fa fa-connectdevelop"></i></h1>
+      <h1 className="desktopHeader">connect</h1>
       <hr className="headHr" />
       <div className="meat">
         <a href="https://www.linkedin.com/in/cory-quirk/" target="_blank">
@@ -57,17 +55,13 @@ function Contact() {
             </span>
           </button>
         </a>
-      </div>
-      
-    </div>
-    </Container>
-    <img
-            src={Seagull}
-            className="footBanner"
-            alt="Seagull Lake BWCA"
-          ></img>
-                <p className="mutedBlog" id="theseMine">all photos are mine unless otherwise stated or readily apparent.</p>
 
+        <img src={Seagull} className="footBanner" alt="Seagull Lake BWCA"></img>
+        <p className="mutedBlog" id="theseMine">
+          all photos are mine unless otherwise stated or readily apparent.
+        </p>
+      </div>
+      <div className="ghostDiv"></div>
     </div>
   );
 }

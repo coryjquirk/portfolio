@@ -4,7 +4,7 @@ import "./style.css";
 function Nav() {
   // svg spiral: https://stackoverflow.com/questions/49091970/how-to-make-a-spiral-in-svg
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light" id="theNav">
       <a className="navbar-brand" href="/home">
         cory j. quirk
       </a>
