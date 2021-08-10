@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./style.css";
-import { Container } from "../Grid";
 import self from "./self.jpg";
 import Post1 from "./Posts/Post1";
 import Post2 from "./Posts/Post2";
@@ -82,13 +81,13 @@ function Blog() {
             </p>
             <p id="blogDate">-August 2021</p>
           </div>
-          <div className="ghostDiv"></div>
+          <img id="self" src={self}></img>
+          <p className="mutedBlog" id="theseMine">
+            all photos are mine unless otherwise stated or readily apparent.
+          </p>
         </div>
-        <img id="self" src={self}></img>
-        <p className="mutedBlog" id="theseMine">
-          all photos are mine unless otherwise stated or readily apparent.
-        </p>
       </div>
+      <div className="ghostDiv"></div>
     </div>
   );
 }

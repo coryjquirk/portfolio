@@ -47,7 +47,7 @@ p {
   letter-spacing: 0.1em;
 }
 .ghostDiv {
-  height: 80px;
+  height: 120px;
   width: 30px;
 }
 .headerNavCollapse {
@@ -61,7 +61,6 @@ p {
   box-shadow: 1 5px #666;
   transform: translateY(4px);
 }
-
 .desktopHeader,
 .headerNavCollapse {
   color: rgb(255, 255, 255);

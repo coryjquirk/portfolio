@@ -90,11 +90,6 @@ p {
   font-weight: bold;
   border-radius: 5px;
 }
-#self {
-  width: 75%;
-  margin: 0px 0px 120px 30px;
-  max-width: 450px;
-}
 .blogPreviewImg {
   max-height: 450px;
   max-width: 450px;
@@ -134,6 +129,11 @@ p {
   padding: 5px 5px 5px 5px;
   margin: 10px;
   width: 600px;
+}
+#self {
+  width: 75%;
+  margin: 0px 0px 120px 30px;
+  max-width: 450px;
 }
 #about p {
   font-size: smaller;
@@ -201,7 +201,7 @@ p {
 
     width: 100%;
   }
-  p,
+  #blog p,
   #about,
   .blogPost {
     width: 99%;

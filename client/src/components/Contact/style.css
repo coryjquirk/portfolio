@@ -100,8 +100,8 @@ button a {
   -o-animation: fadeIn ease 0.5s;
   -ms-animation: fadeIn ease 0.5s;
   box-shadow: inset -2px -2px 10px 0px #000000, 3px 3px 0px 0px #e4ddfa,
-    6px 6px 0px 0px #EA92A7, 9px 9px 0px 0px #aea2db,
-    12px 12px 0px 0px #D4FDEE, 15px 15px 0px 0px #a5e9e9;
+    6px 6px 0px 0px #ea92a7, 9px 9px 0px 0px #aea2db, 12px 12px 0px 0px #d4fdee,
+    15px 15px 0px 0px #a5e9e9;
   background: linear-gradient(
     45deg,
     #e9a5a5,
