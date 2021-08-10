@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container } from "../Grid";
 import "./style.css";
-import farm from "./Images/farm.gif";
+import farm from "../Blog/Posts/Post7/farm.gif";
 import READMEgen from "./Images/readme-generator.gif";
 import weatherdashboard from "./Images/weatherdashboard.gif";
 import creditcroc from "./Images/creditcroc.gif";
@@ -174,8 +174,7 @@ function Portfolio() {
             </button>
           )}
           <h2>app portfolio</h2>
-          <p>A few completed projects so far.</p>
-          <p>Click right to expand or collapse.</p>
+          <p>A few completed projects so far. Click right to expand or collapse.</p>
           {appsOpened === true && (
             <div>
               <p class="subText">
@@ -195,7 +194,7 @@ function Portfolio() {
                   Hosts useful information for the staff of a small farm
                   project.
                   <p>Features:</p>
-                  <ui>
+                  <ul>
                     <li>Username/PW authentication</li>
                     <li>Excel sheets from Mircosoft OneDrive Cloud</li>
                     <li>
@@ -207,7 +206,7 @@ function Portfolio() {
                       </a>
                     </li>
                     <li>MERN stack (MongoDB, Express, React, Node)</li>
-                  </ui>
+                  </ul>
                 </p>
                 <a
                   href="https://github.com/coryjquirk/farm-companion/"

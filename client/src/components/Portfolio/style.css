@@ -98,10 +98,7 @@
   top: 80px;
 }
 #portfolioItem {
-  border: 1px;
-  border-style: solid dotted solid dotted;
-  border-color: hsl(0, 0%, 53%);
-  border-radius: 7px;
+  border-top: black 1px solid;
   margin: 10px;
 }
 #nuToolkit {
@@ -207,6 +204,7 @@ code {
 }
 .pfVideo {
   width: 95%;
+  height: 350px;
 }
 #artP,
 #artSub {
