@@ -81,7 +81,7 @@ export default function Post7() {
             <a href="https://ses.district196.org/" blank="_blank">
               School of Environmental Studies
             </a>{" "}
-            alum) Keanue Driscoll-Cherland to develop a web app to hold info
+            alum) Keanu Driscoll-Cherland to develop a web app to hold info
             pertaining to:
           </p>
           <p>
@@ -141,10 +141,18 @@ export default function Post7() {
           </p>
 
           <p>
-            <button className="standardButton">
-              deployed app{" "}
-              <i class="fa fa-external-link" aria-hidden="true"></i>
-            </button>{" "}
+            <a style={{marginRight:"15px"}} href="https://farm-companion.herokuapp.com/" target="_blank">
+              <button className="standardButton">
+                deployed app{" "}
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+              </button>
+            </a>
+            <a href="https://farm-companion.herokuapp.com/" target="_blank">
+              <button className="standardButton">
+                GitHub repository{" "}
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </button>{" "}
+            </a>
           </p>
           <p>
             <u>Features</u>
@@ -191,28 +199,29 @@ export default function Post7() {
             hideDownload={true}
           />
           <p>
-            Keanue and I tried to mirror a DevOps process between the two of us,
+            Keanu and I tried to mirror a DevOps process between the two of us,
             with him directing the concept and myself developing the
             application. We brainstormed about the app during off-season
             administrative work this past winter. Then, I would go home, try to
-            implement our ideas with code, and send Keanue a live link so he
+            implement our ideas with code, and send Keanu a live link so he
             could try the app for himself and provide me feedback.
           </p>
 
           <p>
             I set up a CI/CD pipeline between two Heroku apps, the main one
             called "farm-companion" deployed from my main Git branch, and a
-            backup deployment called "farmdev" that deploys from a side branch I write my
-            code on first. Once I confirm the side branch "farmdev" deploys to
-            the Heroku cloud without my new changes causing unforeseen issues,
-            then I perform a Git merge to the main branch. I've implemented the
-            same kind of pipeline for this portfolio website, as it's been
-            critical to me during my job search to ensure my site always runs
-            properly at the link I've been sharing to employees and colleagues.
+            backup deployment called "farmdev" that deploys from a side branch I
+            write my code on first. Once I confirm the side branch "farmdev"
+            deploys to the Heroku cloud without my new changes causing
+            unforeseen issues, then I perform a Git merge to the main branch.
+            I've implemented the same kind of pipeline for this portfolio
+            website, as it's been critical to me during my job search to ensure
+            my site always runs properly at the link I've been sharing to
+            employees and colleagues.
           </p>
           <p>
             A mobile-friendly user interface is crucial so that any worker can
-            have access on their mobile device. Keanue is a multimedia artist
+            have access on their mobile device. Keanu is a multimedia artist
             himself so I enjoyed collaborating with him on the site's visual
             impression and layout.
           </p>
@@ -226,7 +235,7 @@ export default function Post7() {
             <strong>above:</strong> the "outdoor kitchen" garden.
           </p>
           <p className="mutedBlog">
-            <strong>below:</strong> Keanue's recently constructed and planted
+            <strong>below:</strong> Keanu's recently constructed and planted
             herb spiral project (click to expand)
           </p>
           <p id="break">-. --- .--</p>
@@ -353,9 +362,23 @@ export default function Post7() {
             article from Bits and Pieces. This functionality still has a ways to
             go in my app. Currently, the only way to reset a password is for me
             to manually delete the associated account from our database and
-            start over with a new user account, which will be unacceptable once users begin amassing data paired with their accounts.
+            start over with a new user account, which will be unacceptable once
+            users begin accumulating data paired with their accounts.
           </p>
-          <p><a href="https://www.okta.com/" target="_blank">Okta</a> is an alternative third-party authentication method I considered and wrote about down in my 12 March 2021 post. Another I toyed with was Google's <a href="https://firebase.google.com/" target="_blank">Firebase</a>, but I already had my application deployed on Heroku and would've been best off moving my deployment to Firebase if I were to implement this solution.</p>
+          <p>
+            <a href="https://www.okta.com/" target="_blank">
+              Okta
+            </a>{" "}
+            is an alternative third-party authentication method I considered and
+            wrote about down in my 12 March 2021 post. Another I toyed with was
+            Google's{" "}
+            <a href="https://firebase.google.com/" target="_blank">
+              Firebase
+            </a>
+            , but I already had my application deployed on Heroku and would've
+            been best off moving my deployment to Firebase if I were to
+            implement this solution.
+          </p>
           <ModalImage
             small={sky}
             large={sky}

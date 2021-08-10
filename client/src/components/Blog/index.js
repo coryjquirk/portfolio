@@ -21,7 +21,7 @@ function Blog() {
         <h1>blog</h1>
       </button>
       <div id="headContainer">
-        <h1 className="desktopHeader">blog </h1>
+        <h1 className="desktopHeader">blog <i className="fa fa-pencil"></i></h1>
         <div id="bottomLink">
           <a href="#about">about</a>
         </div>
@@ -48,7 +48,7 @@ function Blog() {
             <p>
               {" "}
               <a href="/contact">Here</a> you can find my LinkedIn profile,
-              resumé, and a catch-all cover letter. Visit my{" "}
+              resumé, and email. Visit my{" "}
               <a href="https://www.github.com/coryjquirk">GitHub</a> profile to
               see what I'm coding lately.
             </p>

@@ -160,7 +160,7 @@ function Photography() {
       >
         <h1>photography</h1>
       </button>
-      <h1 class="desktopHeader">photography</h1>
+      <h1 class="desktopHeader">photography <i class="fa fa-camera-retro"></i></h1>
       <hr class="headHr" />
       <p>Click an image to open a larger version.</p>
       <div class="thumbnail">

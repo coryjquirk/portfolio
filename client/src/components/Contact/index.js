@@ -17,7 +17,7 @@ function Contact() {
       >
         <h1>connect</h1>
       </button>
-      <h1 className="desktopHeader">connect</h1>
+      <h1 className="desktopHeader">connect <i class="fa fa-connectdevelop"></i></h1>
       <hr className="headHr" />
       <div className="meat">
         <a href="https://www.linkedin.com/in/cory-quirk/" target="_blank">
@@ -48,16 +48,6 @@ function Contact() {
             </span>
           </button>
         </a>
-        <a href={CoverLetter} target="_blank">
-          <button className="contactBtns">
-            <span>
-              <p id="resume">
-                Cover Letter <i className="fa fa-file"></i>
-              </p>
-              <p id="docx">(downloads docx)</p>
-            </span>
-          </button>
-        </a>
         <a href="mailto:coryjquirk@gmail.com" target="_blank">
           <button className="contactBtns">
             <span>
@@ -67,13 +57,6 @@ function Contact() {
             </span>
           </button>
         </a>
-          <button className="contactBtns">
-            <span>
-              <p id="phoneNum">six one two, 716,</p>
-              <p id="phoneNum"> twentyfour eighty five
-              </p>
-            </span>
-          </button>
       </div>
       
     </div>
