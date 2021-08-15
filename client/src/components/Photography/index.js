@@ -151,6 +151,23 @@ import sedonaSammy from "./Images/sedonasammy.png";
 //https://stackoverflow.com/questions/18483241/random-div-order-on-page-load
 
 function Photography() {
+
+
+  // for (let i = 0; i < photos.length; i++) {
+  //   <ModalImage
+  //   id="thumbnail"
+  //   small={photos[i].small}
+  //   large={photos[i].large}
+  //   alt={photos[i].alt}
+  //   hideDownload={true}
+  //   //add more attributes like
+  //   date={photos[i].date}
+  //   locationTaken={photos[i].location}
+  //   //could make filter controls on the photo gallery to sort by date, location, etc.!!
+  // />
+  // }
+
+
   return (
     <div id="gallery">
       <button
