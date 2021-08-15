@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { Container } from "../Grid";
+import React, { useState } from "react";
 import "./style.css";
 import farm from "../Blog/Posts/Post7/farm.gif";
 import READMEgen from "./Images/readme-generator.gif";
@@ -20,9 +19,9 @@ import siem from "./Images/art/siem.jpg";
 import tape from "./Images/art/tape.jpeg";
 //this component is getting huge and I'd like to break it up
 function Portfolio() {
-  const [appsOpened, openApps] = React.useState(false);
-  const [pfOpened, openPf] = React.useState(false);
-  const [artOpened, openArt] = React.useState(false);
+  const [appsOpened, openApps] = useState(false);
+  const [pfOpened, openPf] = useState(false);
+  const [artOpened, openArt] = useState(false);
   function revealApps() {
     openApps(true);
   }
