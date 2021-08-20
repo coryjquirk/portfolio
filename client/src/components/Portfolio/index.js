@@ -140,17 +140,15 @@ function Portfolio() {
           </li>
         </ul>
         <p id="pf">
-          I'm currently looking for work (August 2021). Visit me on{" "}
+          I'm open to taking on web development projects for Fall 2021 and Winter 2022. Visit me on{" "}
           <a href="https://github.com/coryjquirk" target="_blank">
             GitHub
           </a>{" "}
           to see projects I'm coding, both solo and collaboratively.
         </p>
         <p id="pf">
-          I'm a full-stack web developer looking for full time work. For the
-          right job, I'm open to remote work, relocation, or contract work. I
-          aim to make elegant and intuitive sites with JavaScript, CSS, and
-          React, taking a user perspective in designing my UI/UX.
+          I'm a full-stack web developer looking to take on projects to use technology to improve people's lives and build my new skills. I
+          aim to make elegant and intuitive custom coded websites, taking a human user perspective in designing UI/UX.
         </p>
         <div id="appsList">
           {appsOpened === false && (
