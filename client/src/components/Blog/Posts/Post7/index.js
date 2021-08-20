@@ -78,7 +78,7 @@ export default function Post7() {
           </p>
           <p>
             I partnered with the facilities and events manager (and fellow{" "}
-            <a href="https://ses.district196.org/" blank="_blank">
+            <a href="https://ses.district196.org/" target="_blank">
               School of Environmental Studies
             </a>{" "}
             alum) Keanu Driscoll-Cherland to develop a web app to hold info
