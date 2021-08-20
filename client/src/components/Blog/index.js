@@ -75,9 +75,8 @@ function Blog() {
               ></a>
             </div>
             <p>
-              Right now I'm actively searching for a developer position and open
-              to taking on new projects. I'm open to remote work or relocation
-              for the right opportunity. Thank you for visiting!{" "}
+              I'm open
+              to taking on new web development projects for Fall 2021 and Winter 2022. Thank you for visiting!{" "}
             </p>
             <p id="blogDate">-August 2021</p>
           </div>
