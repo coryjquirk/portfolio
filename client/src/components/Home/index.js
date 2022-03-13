@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import { Container } from "../Grid";
 import Orange from "./orange.jpg";
 
 function Home() {
@@ -48,9 +47,7 @@ function Home() {
         </div>
       </div>
       <img src={Orange} className="footBanner" alt="Montana"></img>
-      <p className="mutedBlog" id="theseMine">
-        all photos are mine unless otherwise stated or readily apparent.
-      </p>
+      <div id="garbageDiv"></div>
     </div>
   );
 }

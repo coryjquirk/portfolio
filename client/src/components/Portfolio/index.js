@@ -6,6 +6,7 @@ import weatherdashboard from "./Images/weatherdashboard.gif";
 import creditcroc from "./Images/creditcroc.gif";
 import cartcroc from "./Images/cartcroc.gif";
 import whatscooking from "./Images/whatscooking.gif";
+import passwordgen from "./Images/passwordgen.gif"
 //
 import dnd from "./Images/art/dnd.gif";
 import eug from "./Images/art/eug.gif";
@@ -63,9 +64,10 @@ function Portfolio() {
           <button className="toolkitBtn">HTML</button>
           <button className="toolkitBtn">JavaScript</button>
           <button className="toolkitBtn">CSS</button>
+          <button className="toolkitBtn">Java</button>
           <button className="toolkitBtn">Python</button>
           <button className="toolkitBtn">Ruby</button>
-          <button className="toolkitBtn">Java</button>
+          <button className="toolkitBtn">C/C++</button>
           <button className="toolkitBtn">C#/.NET</button>
           <h3>Back end:</h3>
           <button className="toolkitBtn">Node.js</button>
@@ -140,14 +142,14 @@ function Portfolio() {
           </li>
         </ul>
         <p id="pf">
-          I'm open to taking on web development projects for Fall 2021 and Winter 2022. Visit me on{" "}
+          Visit me on{" "}
           <a href="https://github.com/coryjquirk" target="_blank">
             GitHub
           </a>{" "}
           to see projects I'm coding, both solo and collaboratively.
         </p>
         <p id="pf">
-          I'm a full-stack web developer looking to take on projects to use technology to improve people's lives and build my new skills. I
+          I'm a full-stack developer continuing to build my new skills in the MERN stack as well as Java. In my web development projects I
           aim to make elegant and intuitive custom coded websites, taking a human user perspective in designing UI/UX.
         </p>
         <div id="appsList">
@@ -166,7 +168,7 @@ function Portfolio() {
           )}
           <h2>app portfolio</h2>
           <p>
-            A few completed projects so far. Click right to expand or collapse.
+            Here are a few projects I've completed so far. Click the + to the right to expand or collapse.
           </p>
           {appsOpened === true && (
             <div>
@@ -318,7 +320,7 @@ function Portfolio() {
                 >
                   <img
                     className="scrnsht"
-                    src="https://coryjquirk.github.io/password-generator/images/demo.gif"
+                    src={passwordgen}
                     alt="password generator"
                   />
                 </a>
@@ -351,7 +353,6 @@ function Portfolio() {
                 </p>
                 <a
                   href="https://calm-anchorage-17785.herokuapp.com/"
-                  target="_blank"
                   target="_blank"
                 >
                   <img
@@ -762,7 +763,7 @@ function Portfolio() {
         <div id="connectLink">
           <a href="/contact">
             <button className="standardButton">
-              connect <i class="fa fa-connectdevelop"></i>
+              connect <i className="fa fa-envelope"></i>
             </button>
           </a>
           <a href="/contact">

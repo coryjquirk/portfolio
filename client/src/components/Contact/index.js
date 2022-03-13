@@ -1,9 +1,7 @@
 import React from "react";
 import "./style.css";
 import Resume from "./coryquirk-resume.pdf";
-import CoverLetter from "./coryquirk-coverletter-apr2021.docx";
 import Seagull from "./seagull.jpg";
-import { Container } from "../Grid";
 
 function Contact() {
   return (

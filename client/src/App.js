@@ -12,6 +12,7 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import ScrollArrow from "./components/ScrollArrow";
 import Contact from "./components/Contact";
+import Spring2022banner from "./components/Spring2022banner";
 
 function App() {
   useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
         <Spiral />
         <Nav />
         <div id="container">
+          <Spring2022banner/>
           <Switch>
             <Route exact path="/home" component={Home} />
             <Route exact path="/" component={Home} />

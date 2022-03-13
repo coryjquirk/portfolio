@@ -10,11 +10,11 @@
 }
 #blog {
 }
-h1,
-p {
+#blog h1,
+#blog p {
   text-align: left;
 }
-p {
+#blog p {
   margin: 10px 0px 20px 20px;
   width: 95%;
 }

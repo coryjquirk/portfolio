@@ -37,6 +37,7 @@
 #theseMine {
   color: rgb(198, 198, 198);
   display: inline-flex;
+  /* float: left; */
 }
 p {
   font-size: 15px;

@@ -74,11 +74,8 @@ function Blog() {
                 className="fa fa-github"
               ></a>
             </div>
-            <p>
-              I'm open
-              to taking on new web development projects for Fall 2021 and Winter 2022. Thank you for visiting!{" "}
+            <p>Thank you for visiting!{" "}
             </p>
-            <p id="blogDate">-August 2021</p>
           </div>
           <img id="self" src={self}></img>
           <p className="mutedBlog" id="theseMine">
