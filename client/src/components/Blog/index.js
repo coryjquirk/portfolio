@@ -8,6 +8,7 @@ import Post4 from "./Posts/Post4";
 import Post5 from "./Posts/Post5";
 import Post6 from "./Posts/Post6";
 import Post7 from "./Posts/Post7";
+import Post8 from "./Posts/Post8"
 
 function Blog() {
   return (
@@ -30,6 +31,7 @@ function Blog() {
       <div id="blog">
         <div>
           <div>
+            <Post8></Post8>
             <Post7></Post7>
             <Post6></Post6>
             <Post5></Post5>

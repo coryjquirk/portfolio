@@ -57,6 +57,11 @@
 #blogDate {
   font-size: 12px;
 }
+.wideHeader {
+  max-width: 450px;
+  width: 95%;
+  margin: 15px 15px 15px 15px;
+}
 .closePost {
   height: 34px;
   width: 34px;

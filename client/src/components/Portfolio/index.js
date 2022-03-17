@@ -6,7 +6,7 @@ import weatherdashboard from "./Images/weatherdashboard.gif";
 import creditcroc from "./Images/creditcroc.gif";
 import cartcroc from "./Images/cartcroc.gif";
 import whatscooking from "./Images/whatscooking.gif";
-import passwordgen from "./Images/passwordgen.gif"
+import passwordgen from "./Images/passwordgen.gif";
 //
 import dnd from "./Images/art/dnd.gif";
 import eug from "./Images/art/eug.gif";
@@ -43,7 +43,9 @@ function Portfolio() {
   }
 
   return (
-<div>      <button
+    <div>
+      {" "}
+      <button
         className="headerNavCollapse"
         data-toggle="collapse"
         data-target="#navbarNav"
@@ -53,6 +55,35 @@ function Portfolio() {
       <h1 className="desktopHeader">developer portfolio</h1>
       <hr className="headHr" />
       <div className="meat">
+        <ul>
+          <li className="t0c">
+            <a href="#appsList" onClick={revealApps}>
+              # app projects
+            </a>
+          </li>
+          <li className="t0c">
+            <a href="#portfolioSite" onClick={revealPf}>
+              # details about this site
+            </a>
+          </li>
+          <li className="t0c" onClick={revealArt}>
+            <a href="#artList"># visual design</a>
+          </li>
+        </ul>
+        <p id="pf">
+          Visit me on{" "}
+          <a href="https://github.com/coryjquirk" target="_blank">
+            GitHub
+          </a>{" "}
+          to see projects I'm coding, both solo and collaboratively.
+        </p>
+        <p id="pf">
+          I'm a full-stack developer continuing to build my new skills in the
+          MERN stack as well as Java. In my web development projects I aim to
+          make elegant and intuitive custom coded websites, taking a human user
+          perspective in designing UI/UX.
+        </p>
+        <p id="break">-. --- .--</p>
         <div id="toolKit">
           <h2>skills toolkit</h2>
           <p>
@@ -126,32 +157,6 @@ function Portfolio() {
           <button className="toolkitBtn">SparkFun</button>
         </div>
         <p id="break">-. --- .--</p>
-        <ul>
-          <li className="t0c">
-            <a href="#appsList" onClick={revealApps}>
-              # app projects
-            </a>
-          </li>
-          <li className="t0c">
-            <a href="#portfolioSite" onClick={revealPf}>
-              # details about this site
-            </a>
-          </li>
-          <li className="t0c" onClick={revealArt}>
-            <a href="#artList"># visual design</a>
-          </li>
-        </ul>
-        <p id="pf">
-          Visit me on{" "}
-          <a href="https://github.com/coryjquirk" target="_blank">
-            GitHub
-          </a>{" "}
-          to see projects I'm coding, both solo and collaboratively.
-        </p>
-        <p id="pf">
-          I'm a full-stack developer continuing to build my new skills in the MERN stack as well as Java. In my web development projects I
-          aim to make elegant and intuitive custom coded websites, taking a human user perspective in designing UI/UX.
-        </p>
         <div id="appsList">
           {appsOpened === false && (
             <button
@@ -168,7 +173,8 @@ function Portfolio() {
           )}
           <h2>app portfolio</h2>
           <p>
-            Here are a few projects I've completed so far. Click the + to the right to expand or collapse.
+            Here are a few projects I've completed so far. Click the + to the
+            right to expand or collapse.
           </p>
           {appsOpened === true && (
             <div>
@@ -779,7 +785,8 @@ function Portfolio() {
         </div>
       </div>
       <div className="ghostDiv"></div>
-      </div>   );
+    </div>
+  );
 }
 
 export default Portfolio;
