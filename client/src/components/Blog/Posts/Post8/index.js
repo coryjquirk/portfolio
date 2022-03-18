@@ -174,7 +174,7 @@ export default function Post8() {
             With cross-country versus downhill (or "alpine"), I just had to
             worry about purchasing skis, boots, bindings, and poles (plus the
             necessary clothing). Buying passes to access state- or
-            country-maintained cross-country trails is much cheaper than buying
+            county-maintained cross-country trails is much cheaper than buying
             season passes or daily lift tickets for local ski hills (and we
             don't have that much available in Minnesota anyways compared to the
             western states).{" "}
