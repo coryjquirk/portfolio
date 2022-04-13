@@ -10,7 +10,6 @@
   transition-duration: 0.4s;
   text-decoration: none;
   overflow: hidden;
-  cursor: pointer;
   background-color: rgb(240, 239, 239);
   animation: fadeIn ease 0.5s;
   -webkit-animation: fadeIn ease 0.5s;

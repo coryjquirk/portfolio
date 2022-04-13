@@ -1,6 +1,7 @@
 const express = require("express");
 const path = require("path");
-const PORT = process.env.PORT || 3001;
+// process.env.PORT is showing undefined for some reason, fix later for good logging.
+// const PORT = process.env.PORT;
 const app = express();
 
 // Serve up static assets (usually on heroku)
@@ -14,6 +15,6 @@ app.get("*", function(req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
-app.listen(PORT, function() {
-  console.log(`API server now on port ${PORT}!`);
-});
+// app.listen(PORT, function() {
+//   console.log(`API server now on port ${PORT}!`);
+// });

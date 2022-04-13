@@ -8,7 +8,7 @@ function Footer() {
       <a href="https://coryjquirk.herokuapp.com/">
         <img id="footerFavicon" src={Favicon} alt="favicon" />
       </a>
-      <span id="publishDate">2021</span>
+      <span id="publishDate">2022</span>
       <span id="mobileMorse">-... .-.. --</span>
       <span id="cuteMorse">.- .-.. -- --- ... - - .... . .-. . </span>
       <a

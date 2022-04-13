@@ -73,7 +73,7 @@ function Post5() {
             terms. Maybe you can pretend you're reading Wikipedia and you can go
             down a couple of interesting rabbit holes.
           </p>
-          <p id="break">-. --- .--</p>
+          <div id="break">-. --- .--</div>
           <p>
             My portfolio website currently has a pretty simple backend based on{" "}
             <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank">
@@ -231,7 +231,7 @@ function Post5() {
             hyperlink information coming from a MongoDB object, rendering the
             blog contents as HTML.
           </p>
-          <p id="break">-. --- .--</p>
+          <div id="break">-. --- .--</div>
           <p>
             To bring things full circle and back to the front end, here is a
             wireframe of a new front end feature to complement this back end
@@ -316,7 +316,7 @@ function Post5() {
             alt="Packets of Bluetooth data being sent to my phone at millisecond intervals"
             hideDownload={true}
           />
-          <p id="break">-. --- .--</p>
+          <div id="break">-. --- .--</div>
           <p>
             Aside from AWS and Google Cloud, Microsoft Azure is another
             prominent cloud computing service provider. I'm recently learning

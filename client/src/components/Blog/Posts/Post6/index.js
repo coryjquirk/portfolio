@@ -311,7 +311,7 @@ function Post6() {
               allowfullscreen
             ></iframe>
           </p>
-          <p id="break">-. --- .--</p>
+          <div id="break">-. --- .--</div>
           <p>
             Last month, I took a 1-day course that introduced me to core data
             concepts in <strong>Azure</strong> and gave me experience creating

@@ -1,9 +1,15 @@
 import React, { useState } from "react";
-import pincushion from "./pincushion.jpg";
-import charlieoberg from "./charlieoberg.jpg";
-import theo from "./theo.jpg";
 import ModalImage from "react-modal-image";
 import "./style.css";
+
+import ballyGif from "./bally.gif";
+
+const pincushion =
+  "https://res.cloudinary.com/dgwzirogr/image/upload/v1649882428/portfolio-blog/22-03-17/pincushion_cigic0.jpg";
+const charlieoberg =
+  "https://res.cloudinary.com/dgwzirogr/image/upload/v1649882428/portfolio-blog/22-03-17/charlieoberg_eltofq.jpg";
+const theo =
+  "https://res.cloudinary.com/dgwzirogr/image/upload/v1649882427/portfolio-blog/22-03-17/theo_io2xab.jpg";
 
 export default function Post8() {
   const [opened, openArticle] = useState(false);
@@ -24,7 +30,7 @@ export default function Post8() {
         </a>
       )}
       <h3>Spring 2022 update</h3>
-      <p id="previewText">Java bootcamp, work, and skiing.</p>
+      <p id="previewText">Java bootcamp, work, and nordic skiing.</p>
       <p id="blogDate">17 March, 2022 </p>
       {opened === false && (
         <img
@@ -44,6 +50,7 @@ export default function Post8() {
             Groomed cross-country ski trails at Pincushion Mountain (Grand
             Marais, MN).
           </p>
+          <h2>Spring '22 Full Stack Java Bootcamp</h2>
           <p>
             I have been immersing myself in a full stack Java developer bootcamp
             for the last six weeks. The course started with software development
@@ -83,13 +90,6 @@ export default function Post8() {
             </a>{" "}
             as a guide and demonstration for my classmates, since we weren't
             able to spend too much time learning it in class.
-          </p>
-          <p>
-            I was working a tech support help desk intake job during the fall
-            and winter, but this spring I'm taking full time to pursue Java
-            development in preparation for placement with Optum. I love that I'm
-            getting a chance to learn alongside a whole group of other students
-            rather than just alone, tackling the same problems at the same time.
           </p>
           <p>
             Being that JavaScript is the language I had the most experience with
@@ -132,7 +132,38 @@ export default function Post8() {
             </a>{" "}
             to host some of my photos and reduce the overall size of my app.
           </p>
-          <p id="break">-. --- .--</p>
+          <img
+            src={ballyGif}
+            id="ballyGif"
+            class="blogImg"
+            alt="Bally Creek ski trails"
+          />
+          <p className="mutedBlog">
+            Gif: Bally Creek ski trails after a fresh snowfall (Superior National Forest, Cook County, MN)
+          </p>
+          <h2>Work Update</h2>
+          <p>
+            I was working a tech support help desk intake job during the fall
+            and winter, but this spring I'm taking full time to pursue Java
+            development in preparation for placement with Optum. After a period
+            of self-study while I was working in tech support, I love that I'm
+            getting a chance to learn alongside a whole group of other students
+            rather than just alone, tackling the same problems at the same time.
+          </p>
+          <p>
+            As my first official job experience in the software industry, I
+            learned a lot in my customer support role with Calabrio and had a
+            very positive experience. We mainly used Salesforce to track
+            customer support tickets and it was used as a knowledge base for
+            tech support engineers to solve issues.
+          </p>
+          <p>
+            It was cool to see interactions between internal departments like
+            support services, project services, development, and sales. It's
+            impressive how quickly a company can maneuver to respond to external
+            events (e.g. security vulnerabilities, AWS/Google cloud outages) to
+            continue delivering software to their customer base.
+          </p>
           <h2>Cross-country skiing</h2>
           <p>
             Just a warning, I'm going to talk about skiing for the remainder of
@@ -310,11 +341,12 @@ export default function Post8() {
             >
               user-generated ski trail reports
             </a>{" "}
-            accompanied by photos, which is very helpful for planning trips, especially as a beginner
-            since I can arrive at a trail and know what conditions to expect
-            ahead of time. Many folks use this as a tool to choose the correct
-            ski wax based on temperature and snow type. Maybe I'll go deeper
-            into the topic of waxing in another post as I learn more.
+            accompanied by photos, which is very helpful for planning trips,
+            especially as a beginner since I can arrive at a trail and know what
+            conditions to expect ahead of time. Many folks use this as a tool to
+            choose the correct ski wax based on temperature and snow type. Maybe
+            I'll go deeper into the topic of waxing in another post as I learn
+            more.
           </p>
           <p className="mutedBlog">
             Thanks for reading! The ski season has just about come to a close in
