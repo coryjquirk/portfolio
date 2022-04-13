@@ -83,29 +83,29 @@ function Portfolio() {
           make elegant and intuitive custom coded websites, taking a human user
           perspective in designing UI/UX.
         </p>
-        <p id="break">-. --- .--</p>
+        <div id="break">-. --- .--</div>
         <div id="toolKit">
           <h2>skills toolkit</h2>
           <p>
-            <i className="fa fa-asterisk"></i> Sorted by{" "}
+            <i className="fa fa-asterisk"></i> Ordered by{" "}
             <strong>familiar</strong> <i className="fa fa-arrow-right"></i>{" "}
             <strong>learning</strong>
           </p>
           <h3>Languages:</h3>
+          <button className="toolkitBtn">Java</button>
           <button className="toolkitBtn">HTML</button>
           <button className="toolkitBtn">JavaScript</button>
           <button className="toolkitBtn">CSS</button>
-          <button className="toolkitBtn">Java</button>
           <button className="toolkitBtn">Python</button>
           <button className="toolkitBtn">Ruby</button>
           <button className="toolkitBtn">C/C++</button>
           <button className="toolkitBtn">C#/.NET</button>
           <h3>Back end:</h3>
+          <button className="toolkitBtn">SQL</button>
           <button className="toolkitBtn">Node.js</button>
           <button className="toolkitBtn">Heroku</button>
           <button className="toolkitBtn">MongoDB</button>
           <button className="toolkitBtn">Express.js</button>
-          <button className="toolkitBtn">MySQL</button>
           <button className="toolkitBtn">Microsoft Azure</button>
           <button className="toolkitBtn">AWS (Amazon Web Services)</button>
           <h3>Front end:</h3>
@@ -114,6 +114,7 @@ function Portfolio() {
           <button className="toolkitBtn">Fontawesome</button>
           <button className="toolkitBtn">CSS Flexbox + Grid</button>
           <h3>Frameworks:</h3>
+          <button className="toolkitBtn">Spring</button>
           <button className="toolkitBtn">React.js</button>
           <button className="toolkitBtn">Django.py</button>
           <button className="toolkitBtn">Angular.js</button>
@@ -128,17 +129,19 @@ function Portfolio() {
           <button className="toolkitBtn">PWAs</button>
           <button className="toolkitBtn">CI/CD</button>
           <h3>Software:</h3>
+          <button className="toolkitBtn">IntelliJ</button>
           <button className="toolkitBtn">Visual Studio Code</button>
           <button className="toolkitBtn">BASH shell</button>
           <button className="toolkitBtn">Google Suite</button>
           <button className="toolkitBtn">Office 365</button>
-          <h3>Package managers:</h3>
+          <h3>Dependency management:</h3>
+          <button className="toolkitBtn">Maven</button>
           <button className="toolkitBtn">npm</button>
           <button className="toolkitBtn">apt</button>
           <button className="toolkitBtn">pip</button>
           <button className="toolkitBtn">yarn</button>
           <h3>Operating systems:</h3>
-          <button className="toolkitBtn">Windows 10</button>
+          <button className="toolkitBtn">Windows 10/11</button>
           <button className="toolkitBtn">Mac OS X</button>
           <button className="toolkitBtn">Linux (Ubuntu)</button>
           <h3>Hardware assembly &#x26; installation:</h3>
@@ -156,7 +159,7 @@ function Portfolio() {
           <button className="toolkitBtn">Arduino</button>
           <button className="toolkitBtn">SparkFun</button>
         </div>
-        <p id="break">-. --- .--</p>
+        <div id="break">-. --- .--</div>
         <div id="appsList">
           {appsOpened === false && (
             <button

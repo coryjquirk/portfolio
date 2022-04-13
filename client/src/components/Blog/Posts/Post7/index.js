@@ -124,7 +124,7 @@ export default function Post7() {
             implement our app, I would love to work with leadership to help
             maintain it for ongoing use.
           </p>
-          <p id="break">-. --- .--</p>
+          <div id="break">-. --- .--</div>
           <h3 id="appDemo">App demo</h3>
           <ModalImage
             small={farm}
@@ -237,7 +237,7 @@ export default function Post7() {
             <strong>below:</strong> Keanu's recently constructed and planted
             herb spiral project (click to expand images)
           </p>
-          <p id="break">-. --- .--</p>
+          <div id="break">-. --- .--</div>
           <p>
             <u>Technical details</u>
             <ul>

@@ -57,7 +57,7 @@ function Post2() {
             of success and difficulty with the last week's material. Remember
             Express and Node from last week? You need those in there too.
           </p>
-          <p id="break">-. --- .--</p>
+          <div id="break">-. --- .--</div>
           <p>
             The speed and intensity of my fall 2020 coding bootcamp put my
             classmates and I through weeks that looked something like this. The
@@ -175,7 +175,7 @@ function Post2() {
             turning this subject over in my mind as I move forward in this
             field.
           </p>
-          <p id="break">-. --- .--</p>
+          <div id="break">-. --- .--</div>
           <p>
             In the time between my certification and my first developer
             position, I'm thankful for the chance to deepen my understanding of
@@ -245,7 +245,7 @@ function Post2() {
             bootcamp, but it’s one I absolutely must master to make quality full
             stack web applications.
           </p>
-          <p id="break">-. --- .--</p>
+          <div id="break">-. --- .--</div>
           <p>
             This Saturday 13 March, I'm mentoring at CoderDojo Twin Cities'
             virtual event this Saturday. CoderDojo is a chapter-based

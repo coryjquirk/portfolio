@@ -129,7 +129,7 @@ function Post3() {
             alt="ODAS"
             hideDownload={true}
           />
-          <p id="break">-. --- .--</p>
+          <div id="break">-. --- .--</div>
           <p>
             I am totally new to the Arduino platform and would love project
             suggestions. I got a kick out of this{" "}
@@ -169,7 +169,7 @@ function Post3() {
             alt="Arduino IDE"
             hideDownload={true}
           />
-          <p id="break">-. --- .--</p>
+          <div id="break">-. --- .--</div>
           <p className="mutedBlog">click images to expand</p>
           <ModalImage
             small={fade}

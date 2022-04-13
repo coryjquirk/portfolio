@@ -123,6 +123,7 @@
 }
 .toolkitBtn:hover {
   box-shadow: 0 5px 15px #3f3074;
+  cursor: default;
 }
 @-webkit-keyframes gradient {
   0% {
