@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import ModalImage from "react-modal-image";
 import "./style.css";
 
-import ballyGif from "./bally.gif";
-
 const pincushion =
   "https://res.cloudinary.com/dgwzirogr/image/upload/v1649882428/portfolio-blog/22-03-17/pincushion_cigic0.jpg";
 const charlieoberg =
   "https://res.cloudinary.com/dgwzirogr/image/upload/v1649882428/portfolio-blog/22-03-17/charlieoberg_eltofq.jpg";
 const theo =
   "https://res.cloudinary.com/dgwzirogr/image/upload/v1649882427/portfolio-blog/22-03-17/theo_io2xab.jpg";
+const headlamp = 
+  "https://res.cloudinary.com/dgwzirogr/image/upload/v1649890831/portfolio-blog/22-03-17/headlamp_xc63oz.jpg";
 
 export default function Post8() {
   const [opened, openArticle] = useState(false);
@@ -133,13 +133,12 @@ export default function Post8() {
             to host some of my photos and reduce the overall size of my app.
           </p>
           <img
-            src={ballyGif}
-            id="ballyGif"
+            src={headlamp}
             class="blogImg"
-            alt="Bally Creek ski trails"
+            alt="headlamp skiing at Theodore Wirth"
           />
           <p className="mutedBlog">
-            Gif: Bally Creek ski trails after a fresh snowfall (Superior National Forest, Cook County, MN)
+            photo: Headlamp skiing at Theodore Wirth Regional Park
           </p>
           <h2>Work Update</h2>
           <p>
