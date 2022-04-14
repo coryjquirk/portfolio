@@ -1,0 +1,106 @@
+coryq@coryquirkspc MINGW64 /f/Users/coryq/Documents/GitHub/portfolio (react)
+$ heroku logs --tail --app coryjquirk
+ »   Warning: heroku update available from 7.46.1 to 7.60.1.
+heroku: Press any key to open up the browser to login or q to exit: 
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/2ea99165-e68d-4499-b307-009165097679?requestor=SFMyNTY.g2gDbQAAAAs3NS43Mi4xNjMuMm4GAKgGYSiAAWIAAVGA.-oJ77POSnRA3eHZ9KFNBgVLVM_3joaLmqROUGXuLghA
+Logging in... done
+2022-04-13T23:11:32.156843+00:00 heroku[web.1]: State changed from up to starting
+2022-04-13T23:11:32.797648+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2022-04-13T23:11:33.045909+00:00 heroku[web.1]: Process exited with status 143
+2022-04-13T23:11:46.000000+00:00 app[api]: Build succeeded
+2022-04-13T23:11:48.559857+00:00 heroku[web.1]: Starting process with command `npm start`
+2022-04-13T23:11:49.600434+00:00 app[web.1]:
+2022-04-13T23:11:49.600450+00:00 app[web.1]: > portfolio@1.0.0 start /app
+2022-04-13T23:11:49.600451+00:00 app[web.1]: > if-env NODE_ENV=production && npm run start:prod || npm run start:dev
+2022-04-13T23:11:49.600451+00:00 app[web.1]:
+2022-04-13T23:11:49.875616+00:00 app[web.1]:
+2022-04-13T23:11:49.875640+00:00 app[web.1]: > portfolio@1.0.0 start:prod /app
+2022-04-13T23:11:49.875640+00:00 app[web.1]: > node server.js
+2022-04-13T23:11:49.875641+00:00 app[web.1]:
+2022-04-13T23:11:50.125695+00:00 heroku[web.1]: Process exited with status 0
+2022-04-13T23:11:50.194863+00:00 heroku[web.1]: State changed from starting to crashed
+2022-04-13T23:11:50.271555+00:00 heroku[web.1]: State changed from crashed to starting
+2022-04-13T23:12:07.154931+00:00 heroku[web.1]: Starting process with command `npm start`
+2022-04-13T23:12:08.479066+00:00 app[web.1]:
+2022-04-13T23:12:08.479086+00:00 app[web.1]: > portfolio@1.0.0 start /app
+2022-04-13T23:12:08.479087+00:00 app[web.1]: > if-env NODE_ENV=production && npm run start:prod || npm run start:dev
+2022-04-13T23:12:08.479087+00:00 app[web.1]:
+2022-04-13T23:12:08.842057+00:00 app[web.1]:
+2022-04-13T23:12:08.847972+00:00 app[web.1]: > portfolio@1.0.0 start:prod /app
+2022-04-13T23:12:08.847974+00:00 app[web.1]: > node server.js
+2022-04-13T23:12:08.847974+00:00 app[web.1]:
+2022-04-13T23:12:09.122448+00:00 heroku[web.1]: Process exited with status 0
+2022-04-13T23:12:09.193750+00:00 heroku[web.1]: State changed from starting to crashed
+2022-04-14T01:15:49.833565+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/robots.txt" host=coryjquirk.herokuapp.com request_id=7b02e1e2-edf7-493e-9ae6-37a1ae8e1dc1 fwd="66.249.66.68" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T04:18:37.667047+00:00 heroku[web.1]: State changed from crashed to starting
+2022-04-14T04:18:55.116046+00:00 heroku[web.1]: Starting process with command `npm start`
+2022-04-14T04:18:56.132409+00:00 app[web.1]:
+2022-04-14T04:18:56.132432+00:00 app[web.1]: > portfolio@1.0.0 start /app
+2022-04-14T04:18:56.132442+00:00 app[web.1]: > if-env NODE_ENV=production && npm run start:prod || npm run start:dev
+2022-04-14T04:18:56.132442+00:00 app[web.1]:
+2022-04-14T04:18:56.408948+00:00 app[web.1]:
+2022-04-14T04:18:56.408964+00:00 app[web.1]: > portfolio@1.0.0 start:prod /app
+2022-04-14T04:18:56.408971+00:00 app[web.1]: > node server.js
+2022-04-14T04:18:56.408971+00:00 app[web.1]:
+2022-04-14T04:18:56.659164+00:00 heroku[web.1]: Process exited with status 0
+2022-04-14T04:18:56.718414+00:00 heroku[web.1]: State changed from starting to crashed
+2022-04-14T06:49:28.923669+00:00 heroku[web.1]: State changed from crashed to starting
+2022-04-14T06:49:45.194362+00:00 heroku[web.1]: Starting process with command `npm start`
+2022-04-14T06:49:46.362217+00:00 app[web.1]:
+2022-04-14T06:49:46.362230+00:00 app[web.1]: > portfolio@1.0.0 start /app
+2022-04-14T06:49:46.362230+00:00 app[web.1]: > if-env NODE_ENV=production && npm run start:prod || npm run start:dev
+2022-04-14T06:49:46.362231+00:00 app[web.1]:
+2022-04-14T06:49:46.617048+00:00 app[web.1]:
+2022-04-14T06:49:46.617061+00:00 app[web.1]: > portfolio@1.0.0 start:prod /app
+2022-04-14T06:49:46.617062+00:00 app[web.1]: > node server.js
+2022-04-14T06:49:46.617062+00:00 app[web.1]:
+2022-04-14T06:49:46.862129+00:00 heroku[web.1]: Process exited with status 0
+2022-04-14T06:49:47.120005+00:00 heroku[web.1]: State changed from starting to crashed
+2022-04-14T09:39:38.262995+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=coryjquirk.herokuapp.com request_id=fe4ea8e3-eebc-491b-b56e-fe0f3863e47d fwd="34.210.69.235" dyno= connect= service= status=503 bytes= protocol=http
+2022-04-14T09:39:40.575175+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=coryjquirk.herokuapp.com request_id=56f0be40-d1ae-4487-b82a-d7a42da64de6 fwd="35.88.177.81" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T10:00:15.355884+00:00 heroku[web.1]: State changed from crashed to starting
+2022-04-14T10:00:31.829850+00:00 heroku[web.1]: Starting process with command `npm start`
+2022-04-14T10:00:32.827132+00:00 app[web.1]:
+2022-04-14T10:00:32.827144+00:00 app[web.1]: > portfolio@1.0.0 start /app
+2022-04-14T10:00:32.827145+00:00 app[web.1]: > if-env NODE_ENV=production && npm run start:prod || npm run start:dev
+2022-04-14T10:00:32.827145+00:00 app[web.1]:
+2022-04-14T10:00:33.105918+00:00 app[web.1]:
+2022-04-14T10:00:33.105925+00:00 app[web.1]: > portfolio@1.0.0 start:prod /app
+2022-04-14T10:00:33.105925+00:00 app[web.1]: > node server.js
+2022-04-14T10:00:33.105926+00:00 app[web.1]:
+2022-04-14T10:00:33.418981+00:00 heroku[web.1]: Process exited with status 0
+2022-04-14T10:00:33.502115+00:00 heroku[web.1]: State changed from starting to crashed
+2022-04-14T13:39:59.488609+00:00 heroku[web.1]: State changed from crashed to starting
+2022-04-14T13:40:19.088778+00:00 heroku[web.1]: Starting process with command `npm start`
+2022-04-14T13:40:20.310219+00:00 app[web.1]:
+2022-04-14T13:40:20.310236+00:00 app[web.1]: > portfolio@1.0.0 start /app
+2022-04-14T13:40:20.310236+00:00 app[web.1]: > if-env NODE_ENV=production && npm run start:prod || npm run start:dev
+2022-04-14T13:40:20.310237+00:00 app[web.1]:
+2022-04-14T13:40:20.617654+00:00 app[web.1]:
+2022-04-14T13:40:20.617674+00:00 app[web.1]: > portfolio@1.0.0 start:prod /app
+2022-04-14T13:40:20.617679+00:00 app[web.1]: > node server.js
+2022-04-14T13:40:20.617679+00:00 app[web.1]:
+2022-04-14T13:40:20.844500+00:00 heroku[web.1]: Process exited with status 0
+2022-04-14T13:40:20.905643+00:00 heroku[web.1]: State changed from starting to crashed
+2022-04-14T13:58:35.764579+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/static/css/main.a92ef2cb.chunk.css" host=coryjquirk.herokuapp.com request_id=1f8ea6e4-042c-47e9-87db-3f6b3d4c0bf8 fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:58:35.773995+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/static/js/2.3ab852fd.chunk.js" host=coryjquirk.herokuapp.com request_id=953ba113-3a54-4703-abfd-ae651978e1e1 fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:58:35.795496+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/static/js/main.aa922ca6.chunk.js" host=coryjquirk.herokuapp.com request_id=d594c170-f913-4747-8cc2-24f39636f60f fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:58:36.927464+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/blg" host=coryjquirk.herokuapp.com request_id=f3270f92-2547-47b1-9733-e5cee6e35675 fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:58:36.969800+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/service-worker.js" host=coryjquirk.herokuapp.com request_id=7eedefb6-b008-4747-bd96-be2d9e8e621a fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:58:39.097706+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/service-worker.js" host=coryjquirk.herokuapp.com request_id=3eda0c16-64e4-45ce-bab3-d0b779e2ab43 fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:58:41.035010+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/blog" host=coryjquirk.herokuapp.com request_id=c66b7387-62ba-49b0-8583-eb4a31a37cce fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:58:42.765578+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/service-worker.js" host=coryjquirk.herokuapp.com request_id=2346a553-9cd3-418d-98b0-18cee229a8c4 fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:58:45.417602+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/blog" host=coryjquirk.herokuapp.com request_id=b929c6ef-a4b4-428d-a718-7ac63f578b7d fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:58:47.052356+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/service-worker.js" host=coryjquirk.herokuapp.com request_id=b51a1900-65fe-4b04-8499-ce01f2282251 fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:58:48.105299+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/static/css/main.a92ef2cb.chunk.css" host=coryjquirk.herokuapp.com request_id=8139e949-4641-4cfa-b22b-22a1935ae745 fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:58:48.215940+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/static/js/main.aa922ca6.chunk.js" host=coryjquirk.herokuapp.com request_id=1fc5d752-3865-42c9-a14d-73e044805056 fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:58:48.222404+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/static/js/2.3ab852fd.chunk.js" host=coryjquirk.herokuapp.com request_id=87900c29-f1b1-4f51-8bdc-ef6689f95f42 fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:58:49.983590+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/service-worker.js" host=coryjquirk.herokuapp.com request_id=848bd8a4-9522-459b-abd9-0b15eccb1686 fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:58:53.729592+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/home" host=coryjquirk.herokuapp.com request_id=a05311cf-c91e-4194-a39e-2cc9dbd211f8 fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:58:55.387111+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/service-worker.js" host=coryjquirk.herokuapp.com request_id=3fd60ead-59ef-4389-b052-3f2fee685127 fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:59:09.419058+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/home" host=coryjquirk.herokuapp.com request_id=af22d26f-f476-48e1-bcc6-98ab167463d1 fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:59:11.388418+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/service-worker.js" host=coryjquirk.herokuapp.com request_id=7541323d-84fd-422d-a267-014e76da45b7 fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:59:25.451316+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/static/css/main.a92ef2cb.chunk.css" host=coryjquirk.herokuapp.com request_id=b9811098-f70b-40c2-86d3-f28be8a38985 fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:59:25.460642+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/static/js/2.3ab852fd.chunk.js" host=coryjquirk.herokuapp.com request_id=5b6650da-b9fb-46d5-a194-55665d2dc2ab fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:59:25.569731+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/static/js/main.aa922ca6.chunk.js" host=coryjquirk.herokuapp.com request_id=83069516-1629-47d6-be26-0f5b733ffd52 fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
+2022-04-14T13:59:27.265815+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/service-worker.js" host=coryjquirk.herokuapp.com request_id=7c2688d8-3a44-494d-8177-a64e4771112a fwd="75.72.163.2" dyno= connect= service= status=503 bytes= protocol=https
