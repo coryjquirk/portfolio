@@ -1,7 +1,8 @@
 const express = require("express");
 const path = require("path");
 // process.env.PORT is showing undefined for some reason, fix later for good logging.
-// const PORT = process.env.PORT;
+//commented out the below line on 4/13 and I think it may have caused my app to crash on Heroku. reinstating line to try again
+const PORT = process.env.PORT;
 const app = express();
 
 // Serve up static assets (usually on heroku)
