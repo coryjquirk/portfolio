@@ -152,7 +152,7 @@ import sedonaSammy from "./Images/sedonasammy.png";
 
 function Photography() {
 
-
+  //pseudocode:
   // for (let i = 0; i < photos.length; i++) {
   //   <ModalImage
   //   id="thumbnail"
@@ -180,6 +180,7 @@ function Photography() {
       <h1 class="desktopHeader">photography</h1>
       <hr class="headHr" />
       <p>Click an image to open a larger version.</p>
+      <p>Planning to improve UI features for this page in the future.</p>
       <div class="thumbnail">
         <ModalImage
           id="thumbnail"

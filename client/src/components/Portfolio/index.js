@@ -3,21 +3,11 @@ import "./style.css";
 import farm from "../Blog/Posts/Post7/farm.gif";
 import READMEgen from "./Images/readme-generator.gif";
 import weatherdashboard from "./Images/weatherdashboard.gif";
-import creditcroc from "./Images/creditcroc.gif";
 import cartcroc from "./Images/cartcroc.gif";
-import whatscooking from "./Images/whatscooking.gif";
 import passwordgen from "./Images/passwordgen.gif";
 //
 import dnd from "./Images/art/dnd.gif";
 import eug from "./Images/art/eug.gif";
-import fab from "./Images/art/fab.png";
-import ham from "./Images/art/ham.png";
-import kL from "./Images/art/kl.png";
-import lfskp from "./Images/art/lfskp.png";
-import lint from "./Images/art/lint.png";
-import mac from "./Images/art/mac.png";
-import siem from "./Images/art/siem.jpg";
-import tape from "./Images/art/tape.jpeg";
 //this component is getting huge and I'd like to break it up
 function Portfolio() {
   const [appsOpened, openApps] = useState(false);
@@ -55,21 +45,27 @@ function Portfolio() {
       <h1 className="desktopHeader">developer portfolio</h1>
       <hr className="headHr" />
       <div className="meat">
-        <ul>
-          <li className="t0c">
-            <a href="#appsList" onClick={revealApps}>
-              # app projects
-            </a>
-          </li>
-          <li className="t0c">
-            <a href="#portfolioSite" onClick={revealPf}>
-              # details about this site
-            </a>
-          </li>
-          <li className="t0c" onClick={revealArt}>
-            <a href="#artList"># visual design</a>
-          </li>
-        </ul>
+        <p>
+          <a href="#appsList" onClick={revealApps}>
+            <button className="standardButton">
+              app projects <i className="fa fa-arrow-down"></i>
+            </button>
+          </a>
+        </p>
+        <p>
+          <a href="#portfolioSite" onClick={revealPf}>
+            <button className="standardButton">
+              portfolio site details <i className="fa fa-arrow-down"></i>
+            </button>
+          </a>
+        </p>
+        <p>
+          <a href="#artList" onClick={revealArt}>
+            <button className="standardButton">
+              visual work <i className="fa fa-arrow-down"></i>
+            </button>
+          </a>
+        </p>
         <p id="pf">
           Visit me on{" "}
           <a href="https://github.com/coryjquirk" target="_blank">
@@ -85,7 +81,7 @@ function Portfolio() {
         </p>
         <div id="break">-. --- .--</div>
         <div id="toolKit">
-          <h2>skills toolkit</h2>
+          <h2>skills</h2>
           <p>
             <i className="fa fa-asterisk"></i> Ordered by{" "}
             <strong>familiar</strong> <i className="fa fa-arrow-right"></i>{" "}
@@ -193,11 +189,49 @@ function Portfolio() {
                 to view code repositories.
               </p>
               <div id="portfolioItem">
+                <h2>Tomato Farm</h2>
+                <p>
+                  Managing farm plots of varying cultivation styles and their
+                  tomato plants of various varieties (heirloom, cherry, slicer,
+                  etc).
+                  <ul>
+                    <li>Full stack Spring Boot application</li>
+                    <li>
+                      Spring Security authentication, bcrypt password hashing
+                    </li>
+                    <li>SQL database</li>
+                    <li>JUnit testing</li>
+                  </ul>
+                </p>
+                <a
+                  href="https://github.com/coryjquirk/farm-companion/"
+                  target="_blank"
+                >
+                  <img
+                    className="scrnsht"
+                    src={
+                      "https://res.cloudinary.com/dgwzirogr/image/upload/v1650613475/frontendSBA/appscreenshot_kotu04.png"
+                    }
+                    alt="farm companion"
+                  />
+                </a>
+                <div className="portfBtnDiv">
+                  <a
+                    href="https://github.com/coryjquirk/Quirk_Cory_TomatoFarm_CaseStudy/"
+                    target="_blank"
+                    className="portfBtn"
+                  >
+                    <button className="standardButton">
+                      GitHub repo <i className="fa fa-link"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div id="portfolioItem">
                 <h2>Farm Companion</h2>
                 <p>
                   Hosts useful information for the staff of a small farm
                   project.
-                  <p>Features:</p>
                   <ul>
                     <li>Username/PW authentication</li>
                     <li>Excel sheets from Mircosoft OneDrive Cloud</li>
@@ -278,45 +312,6 @@ function Portfolio() {
                 </div>
               </div>
               <div id="portfolioItem">
-                <h2>What's Cooking?</h2>
-                <p>
-                  Helps you find recipes based on the ingredients you have at
-                  home. Searches a recipe database with a third-party API, and
-                  shows nearby grocery stores with Google Maps.
-                </p>
-                <a
-                  href="https://coryjquirk.github.io/whats-cookin/"
-                  target="_blank"
-                >
-                  <img
-                    className="scrnsht"
-                    src={whatscooking}
-                    alt="whats cookin"
-                  />
-                </a>
-
-                <div className="portfBtnDiv">
-                  <a
-                    href="https://coryjquirk.github.io/whats-cookin/"
-                    target="_blank"
-                    className="portfBtn"
-                  >
-                    <button className="standardButton">
-                      Deployed app <i className="fa fa-link"></i>
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/coryjquirk/whats-cookin"
-                    target="_blank"
-                    className="portfBtn"
-                  >
-                    <button className="standardButton">
-                      GitHub repo <i className="fa fa-link"></i>
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <div id="portfolioItem">
                 <h2>Password Generator</h2>
                 <p>
                   Generates a secure/unique password consisting of symbols,
@@ -382,43 +377,6 @@ function Portfolio() {
                   </a>
                   <a
                     href="https://github.com/coryjquirk/bud-get"
-                    target="_blank"
-                    className="portfBtn"
-                  >
-                    <button className="standardButton">
-                      GitHub repo <i className="fa fa-link"></i>
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <div id="portfolioItem">
-                <h2>Credit Croc</h2>
-                <p>
-                  Create a visual overview of your credit cards, loans, bills,
-                  or repayments. Data dynamically visiualized with Highcharts
-                  interactive JavaScript charts.
-                </p>
-                <a
-                  href="https://hungry-croconaw.herokuapp.com/"
-                  target="_blank"
-                >
-                  <img
-                    className="scrnsht"
-                    src={creditcroc}
-                    alt="credit croc demo"
-                  />
-                </a>
-                <div className="portfBtnDiv">
-                  <a
-                    href="https://hungry-croconaw.herokuapp.com/"
-                    className="portfBtn"
-                  >
-                    <button className="standardButton">
-                      Deployed app <i className="fa fa-link"></i>
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/coryjquirk/credit-croc"
                     target="_blank"
                     className="portfBtn"
                   >
@@ -554,11 +512,11 @@ function Portfolio() {
             a client's portfolio.
           </p>
           <p>
-            I'm actively improving this site in summer 2021 and if something
+            I'm actively improving this site and if something
             isn't working right, please <a href="/contact">email me</a> with any
             revelant screenshots or error messages.
           </p>
-          {pfOpened === false && <p>Click right for more technical details.</p>}
+          {pfOpened === false && <p>Click the + for more technical details.</p>}
           {pfOpened === true && (
             <div>
               <hr></hr>
@@ -710,38 +668,65 @@ function Portfolio() {
               ></img>
               <img
                 className="portfolioArt"
-                src={fab}
+                src={
+                  "https://res.cloudinary.com/dgwzirogr/image/upload/v1651938005/portfolio-visualwork/fab_egjqmq.png"
+                }
                 alt="phone wallpaper gradient from Cambodian tablecloth photo"
               ></img>
               <img
                 className="portfolioArt"
-                src={ham}
+                src={
+                  "https://res.cloudinary.com/dgwzirogr/image/upload/v1651938006/portfolio-visualwork/ham_hnyaax.png"
+                }
                 alt="hamm's brewery"
               ></img>
               <img
                 className="portfolioArt"
-                src={lfskp}
+                src={
+                  "https://res.cloudinary.com/dgwzirogr/image/upload/v1651938007/portfolio-visualwork/lfskp_ajxfyc.png"
+                }
                 alt="leaf under a microscope"
               ></img>
               <img
                 className="portfolioArt"
-                src={lint}
+                src={
+                  "https://res.cloudinary.com/dgwzirogr/image/upload/v1651938005/portfolio-visualwork/lint_cff26w.png"
+                }
                 alt="35mm film plus eslint collage"
               ></img>
               <img
                 className="portfolioArt"
-                src={mac}
+                src={
+                  "https://res.cloudinary.com/dgwzirogr/image/upload/v1651938006/portfolio-visualwork/mac_irocuj.png"
+                }
                 alt="macbook pro glitch"
               ></img>
-              <img className="portfolioArt" src={kL} alt="glitch art"></img>
               <img
                 className="portfolioArt"
-                src={siem}
+                src={
+                  "https://res.cloudinary.com/dgwzirogr/image/upload/v1651938748/portfolio-visualwork/flyer_vdmzay.png"
+                }
+                alt="show flyer"
+              ></img>
+              <img
+                className="portfolioArt"
+                src={
+                  "https://res.cloudinary.com/dgwzirogr/image/upload/v1651938006/portfolio-visualwork/kl_d3fckb.jpg"
+                }
+                alt="glitch art"
+              ></img>
+              <img
+                className="portfolioArt"
+                src={
+                  "https://res.cloudinary.com/dgwzirogr/image/upload/v1651938006/portfolio-visualwork/siem_dyei0w.jpg"
+                }
                 alt="temple, Siem Reap Cambodia"
               ></img>
               <img
                 className="portfolioArt"
-                src={tape}
+                src={
+                  "https://res.cloudinary.com/dgwzirogr/image/upload/v1651938005/portfolio-visualwork/tape_uwoure.jpg"
+                }
                 alt="cassette artwork"
               ></img>
               <img
