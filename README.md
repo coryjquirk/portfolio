@@ -1,10 +1,10 @@
 # developer portfolio, blog, photo gallery
 Personal website built entirely custom with React to share my contact info and work. It also hosts a blog and a photography page.
 
-[Deployed application](https://coryjquirk.herokuapp.com/home)
+[Deployed application](https://coryjquirk.netlify.app/home)
 
 <br>
-<a href="https://coryjquirk.herokuapp.com"><img src="https://raw.githubusercontent.com/coryjquirk/portfolio/master/client/public/assets/images/app-screenshot.PNG" alt="portfolio screenshot"/></a>
+<a href="https://coryjquirk.netlify.app/home"><img src="https://raw.githubusercontent.com/coryjquirk/portfolio/master/client/public/assets/images/app-screenshot.PNG" alt="portfolio screenshot"/></a>
 
 ## Features
 * Mobile-first layout
