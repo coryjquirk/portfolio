@@ -31,7 +31,7 @@ export default function Post8() {
       )}
       <h3>Spring 2022 update</h3>
       <p id="previewText">Java bootcamp, work, and nordic skiing.</p>
-      <p id="blogDate">17 March, 2022 </p>
+      <p id="blogDate">17 March, 2022</p>
       {opened === false && (
         <img
           className="blogPreviewImg"
