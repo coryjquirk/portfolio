@@ -200,7 +200,7 @@ export default function Post9() {
           </p>
           <p>
             Lastly in this post, I'll note that I moved the deployment of this
-            application from Heroku to{" "}
+            portfolio site from Heroku to{" "}
             <a href="https://www.netlify.com" target="_blank">
               Netlify
             </a>{" "}
