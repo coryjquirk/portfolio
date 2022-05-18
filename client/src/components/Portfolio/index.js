@@ -204,7 +204,7 @@ function Portfolio() {
                   </ul>
                 </p>
                 <a
-                  href="https://github.com/coryjquirk/farm-companion/"
+                  href="https://github.com/coryjquirk/Quirk_Cory_TomatoFarm_CaseStudy/"
                   target="_blank"
                 >
                   <img
@@ -212,7 +212,7 @@ function Portfolio() {
                     src={
                       "https://res.cloudinary.com/dgwzirogr/image/upload/v1650613475/frontendSBA/appscreenshot_kotu04.png"
                     }
-                    alt="farm companion"
+                    alt="Tomato Farm app screenshot"
                   />
                 </a>
                 <div className="portfBtnDiv">
