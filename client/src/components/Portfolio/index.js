@@ -760,12 +760,12 @@ function Portfolio() {
               connect <i className="fa fa-envelope"></i>
             </button>
           </a>
-          <a href="/contact">
+          <a href="/blog">
             <button className="standardButton">
               blog <i className="fa fa-pencil"></i>
             </button>
           </a>
-          <a href="/contact">
+          <a href="/photography">
             <button className="standardButton">
               photos <i class="fa fa-camera-retro"></i>
             </button>
