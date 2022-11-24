@@ -1,9 +1,9 @@
-#spring2022banner {
+#seasonBanner {
   margin: 5px 0px 0px 5px;
   color: black;
   padding: 3px 5px 3px 5px;
   font-weight: bold;
-  width: 305px;
+  width: 145px;
   border: 3px solid #ffffff;
   border-radius: 5px;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -19,21 +19,21 @@
   /* box-shadow: inset -2px -2px 10px 0px #000000, 3px 3px 0px 0px #e4ddfa,
       6px 6px 0px 0px #ea92a7, 9px 9px 0px 0px #aea2db, 12px 12px 0px 0px #d4fdee,
       15px 15px 0px 0px #a5e9e9; */
-  background: linear-gradient(225deg, #f89820, #63bffc, #faba6a, #6aaafa);
+  background: linear-gradient(225deg, #ffffff, #63bffc, #ffffff, #6aaafa);
   background-size: 400% 400%;
   -webkit-animation: gradient 10s ease infinite;
   animation: gradient 10s ease infinite;
   border: none;
 }
-#spring2022banner a {
+#seasonBanner a {
   color: rgb(6, 85, 138);
 }
-#spring2022banner small {
+#seasonBanner small {
   font-size: smaller;
   float: right;
 }
 @media screen and (max-width: 310px) {
-  #spring2022banner {
+  #seasonBanner {
     width: 95%;
   }
 }

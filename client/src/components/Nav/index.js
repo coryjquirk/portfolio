@@ -32,7 +32,7 @@ function Nav() {
               blog
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item active">
             <a className="nav-link" href="photography">
               photography <span className="sr-only">(current)</span>
             </a>
