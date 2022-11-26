@@ -45,6 +45,7 @@ function Portfolio() {
       <h1 className="desktopHeader">developer portfolio</h1>
       <hr className="headHr" />
       <div className="meat">
+        <p>skip to:</p>
         <p>
           <a href="#appsList" onClick={revealApps}>
             <button className="standardButton">
@@ -74,9 +75,10 @@ function Portfolio() {
           to see projects I'm coding, both solo and collaboratively.
         </p>
         <p id="pf">
-          I'm a full-stack developer continuing to build my new skills in the
-          MERN stack as well as Java. In my web development projects I aim to
-          make elegant and intuitive custom coded websites, taking a human user
+          I'm a full-stack developer continuing to build my new skills. I have professional experience working with Docker, Kubernetes, and Jenkins CI/CD pipelines with Maven/Spring Boot and TypeScript/Angular/NodeJS microservices. 
+          My favorite language to use is Python.
+          In my web development projects I have most experience with the MERN stack. I aim to
+          make elegant and intuitive web pages, taking a human user
           perspective in designing UI/UX.
         </p>
         <div id="break">-. --- .--</div>
@@ -89,13 +91,18 @@ function Portfolio() {
           </p>
           <h3>Languages:</h3>
           <button className="toolkitBtn">Java</button>
-          <button className="toolkitBtn">HTML</button>
-          <button className="toolkitBtn">JavaScript</button>
-          <button className="toolkitBtn">CSS</button>
           <button className="toolkitBtn">Python</button>
+          <button className="toolkitBtn">Go</button>
+          <button className="toolkitBtn">TypeScript</button>
           <button className="toolkitBtn">Ruby</button>
           <button className="toolkitBtn">C/C++</button>
           <button className="toolkitBtn">C#/.NET</button>
+          <h3>CI/CD:</h3>
+          <button className="toolkitBtn">Jenkins</button>
+          <button className="toolkitBtn">Docker</button>
+          <button className="toolkitBtn">Kubernetes</button>
+          <button className="toolkitBtn">Helm</button>
+          <button className="toolkitBtn">ArgoCD</button>
           <h3>Back end:</h3>
           <button className="toolkitBtn">SQL</button>
           <button className="toolkitBtn">Node.js</button>
@@ -105,12 +112,15 @@ function Portfolio() {
           <button className="toolkitBtn">Microsoft Azure</button>
           <button className="toolkitBtn">AWS (Amazon Web Services)</button>
           <h3>Front end:</h3>
+          <button className="toolkitBtn">HTML</button>
+          <button className="toolkitBtn">JavaScript</button>
+          <button className="toolkitBtn">CSS</button>
           <button className="toolkitBtn">jQuery</button>
           <button className="toolkitBtn">Bootstrap</button>
           <button className="toolkitBtn">Fontawesome</button>
           <button className="toolkitBtn">CSS Flexbox + Grid</button>
           <h3>Frameworks:</h3>
-          <button className="toolkitBtn">Spring</button>
+          <button className="toolkitBtn">Spring Boot</button>
           <button className="toolkitBtn">React.js</button>
           <button className="toolkitBtn">Django.py</button>
           <button className="toolkitBtn">Angular.js</button>
@@ -123,7 +133,6 @@ function Portfolio() {
           <button className="toolkitBtn">Mobile-first</button>
           <button className="toolkitBtn">MVPs</button>
           <button className="toolkitBtn">PWAs</button>
-          <button className="toolkitBtn">CI/CD</button>
           <h3>Software:</h3>
           <button className="toolkitBtn">IntelliJ</button>
           <button className="toolkitBtn">Visual Studio Code</button>
@@ -217,7 +226,7 @@ function Portfolio() {
                 </a>
                 <div className="portfBtnDiv">
                   <a
-                    href="https://github.com/coryjquirk/Quirk_Cory_TomatoFarm_CaseStudy/"
+                    href="https://github.com/coryjquirk/TomatoFarm/"
                     target="_blank"
                     className="portfBtn"
                   >
