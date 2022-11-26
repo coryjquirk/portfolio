@@ -226,7 +226,7 @@ function Portfolio() {
                 </a>
                 <div className="portfBtnDiv">
                   <a
-                    href="https://github.com/coryjquirk/Quirk_Cory_TomatoFarm_CaseStudy/"
+                    href="https://github.com/coryjquirk/TomatoFarm/"
                     target="_blank"
                     className="portfBtn"
                   >

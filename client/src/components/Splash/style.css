@@ -17,7 +17,8 @@
     position: fixed;
     top: 35%;
     left: 38%;
-    color: rgba(255, 235, 235, 0.75);
+    color: rgba(160, 230, 255, 0.75);
+    text-shadow: 2px 2px rgb(73, 73, 73);
     transition: .2s ease-in-out;
 }
 
