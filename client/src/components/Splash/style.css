@@ -1,62 +1,29 @@
-#splashHero{
-    position: absolute;
-    left: 0;
-    right: 0;
-    /* TODO: add moving grey/coudy effect over image */
-    /* background: url('https://res.cloudinary.com/dgwzirogr/image/upload/v1628564534/portfolio-large/palisadelarge_ez67xu.jpg'); */
-    background-image: url('https://res.cloudinary.com/dgwzirogr/image/upload/v1628564534/portfolio-large/palisadelarge_ez67xu.jpg'), linear-gradient(45deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#about {
+  max-width: 525px;
 }
-
-#splashName {
-    font-size: 40px;
-    position: fixed;
-    top: 35%;
-    left: 38%;
-    color: rgba(160, 230, 255, 0.75);
-    text-shadow: 2px 2px rgb(73, 73, 73);
-    transition: .2s ease-in-out;
+#self {
+  width: 75%;
+  max-width: 450px;
 }
-
-#splashHeading{
-    font-size: 60px;
-    position: fixed;
-    top: 48%;
-    left: 43%;
+#about p {
+  font-size: smaller;
 }
-#homeLink{
-    color: rgb(255, 235, 235);
-    transition: .2s ease-in-out;
+#aboutmeIcons .fa-linkedin,
+#aboutmeIcons .fa-flickr,
+#aboutmeIcons .fa-instagram,
+#aboutmeIcons .fa-github {
+  color: rgb(255, 255, 255);
+  width: 30px;
 }
-#homeLink:hover{
-    color: rgba(255, 235, 235, 0.75);
-    transition: .2s ease-in-out;
-}
-
-@media screen and (min-width: 900px) {
-    #splashName{
-        left: 41%;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    #splashName {
-        font-size: 30px;
-        left: 28%;
-    }
-    #splashHeading{
-        font-size: 50px;
-        left: 37%;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    /* #splashHeading{
-        font-size: 50px;
-        left: 37%;
-    } */
+@media screen and (max-width: 600px) {
+  #about{
+    width: 99%;
+    margin: 45px 0px 45px 0px;
+  }
+  #about p {
+    margin: 10px 0px 10px 10px;
+  }
+  #self {
+    margin: 10px 0px 10px 10px;
+  }
 }

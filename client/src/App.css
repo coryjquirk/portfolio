@@ -1,8 +1,9 @@
 .App {
   text-align: left;
   background-color: rgb(45, 45, 45);
-  color: rgb(208, 208, 208);
+  color: rgb(255, 255, 255);
   width: 100%;
+  height: 100%;
 }
 .standardButton {
   background-color: #cccccc;
@@ -24,47 +25,54 @@
   font-weight: bold;
   border-radius: 5px;
 }
-.meat {
-  background-color: rgb(45, 45, 45);
-  width: 60%;
-  margin: 0px 0px 0px 50px;
+.mainBody, #blog {
+  background-color: rgb(45, 45, 45, .85);
+  border-radius: 10px;
+  padding: 25px 25px 25px 25px;
+}
+.mainBody::after, #blog::after{
+  content: 'photos: all taken by me unless otherwise stated or readily apparent.';
+  color: rgb(198, 198, 198);
+  display: inline-flex;
+  margin-left: none;
+  font-size: x-small;
+  font-style: italic;
 }
 #container {
-  padding: 15px 5px 5px 15px;
+  padding: 15px 15px 15px 15px;
   margin: 0px 0px 60px 0px;
-  max-width: 1150px;
+  position: absolute;
+  left: 0;
+  right: 0; 
+  background-image: url("https://res.cloudinary.com/dgwzirogr/image/upload/v1628564534/portfolio-large/palisadelarge_ez67xu.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 #theseMine {
   color: rgb(198, 198, 198);
   display: inline-flex;
-  /* float: left; */
+  margin-left: none;
 }
 p {
   font-size: 15px;
+}
+a{
+  color: #8dccff;
 }
 #code {
   color: #129459;
   font-weight: bold;
   letter-spacing: 0.1em;
 }
+/* basically duct tape */
 .ghostDiv {
-  height: 120px;
+  height: 300px;
   width: 30px;
 }
-.headerNavCollapse {
-  background: none;
-  border: none;
-  float: left;
-  display: none;
-}
-.headerNavCollapse:active {
-  background-color: rgb(49, 49, 49);
-  box-shadow: 1 5px #666;
-  transform: translateY(4px);
-}
-.desktopHeader,
-.headerNavCollapse {
-  color: rgb(255, 255, 255);
+.header{
+  color: rgb(0, 0, 0);
 }
 .headHr {
   clear: both;
@@ -83,29 +91,17 @@ p {
     margin: 0px 0px 0px 0px;
   }
 }
-@media screen and (max-width: 992px) {
-  .desktopHeader {
-    display: none;
-  }
-  .headerNavCollapse {
-    display: inline-block;
-  }
-  .meat {
-    width: 80%;
-  }
-}
 @media screen and (max-width: 600px) {
-  #container {
+  /* #container {
     padding: 5px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
-  }
-  .meat {
+  } */
+  .mainBody {
     width: 98%;
     margin: 0px 0px 0px 0px;
-    padding: 0px 5px 0px 5px;
+    padding: 10px;
   }
   #theseMine {
-    margin-left: none;
     font-size: x-small;
   }
 }

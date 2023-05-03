@@ -236,7 +236,7 @@ function Post3() {
             approaching technology.
           </p>
           <p className="mutedBlog">
-            Thanks for reading. Please <a href="contact">contact me</a> with any
+            Thanks for reading. Please contact me with any
             corrections or curiosities. I encourage you to channel the DIY
             spirit and think about uses these devices could serve in your home
             or daily life, and any project you dream of would be a great

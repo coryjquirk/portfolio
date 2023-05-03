@@ -105,8 +105,7 @@ function Post2() {
             alt="the zone of proximal development"
           />
           <p>
-            Part of my motivation for beginning to code my own{" "}
-            <a href="/photography">photo gallery</a> interface is so my work has
+            Part of my motivation for beginning to code my own photo gallery interface (under construction) so my work has
             a place to live after I abandon nauseatingly commercialized sites
             like Instagram, which I would argue are just temporary repositories
             for artwork that will not outlast the work itself. In the future,
@@ -261,13 +260,7 @@ function Post2() {
             <a href="https://www.raspberrypi.org/" target="_blank">
               Raspberry Pi
             </a>{" "}
-            boards in the mail and I'm excited to learn with them. If you're
-            interested in joining me as a volunteer this weekend or at a future
-            event and want to know more, please get in touch with me or simply
-            visit their{" "}
-            <a href="https://www.coderdojotc.org/about/" target="_blank">
-              website
-            </a>
+            boards in the mail and I'm excited to learn with them.
           </p>
           <p>
             Thank you for reading, and I hope you're inspired today to take

@@ -50,7 +50,7 @@ export default function Post9() {
             Dester heirloom tomatoes at Frogtown Farm
           </p>
           <p>
-            Hi all, I just wanted to post a brief update upon finishing my full
+            Hi all@ I wanted to post an update upon finishing my full
             stack Java development bootcamp last week.
           </p>
           <p>

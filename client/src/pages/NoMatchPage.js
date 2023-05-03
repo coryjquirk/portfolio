@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "../components/Grid";
 const NoMatch = () => {
   return (
-    <div className="meat">
+    <div className="mainBody">
       <h1>404 page not found</h1>
       <h1>
         <span role="img" aria-label="Thinking Face Emoji">

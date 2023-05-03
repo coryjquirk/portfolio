@@ -2,93 +2,20 @@
   margin: 0px 10px 15px 10px;
   width: 95%;
 }
-#connectLink {
-  text-align: center;
-  margin: 20px 0px 20px 0px;
-}
 #connectLink a {
   margin-right: 15px;
 }
-#appsList,
-#artList {
-  background-color: rgb(50, 50, 50);
+#portfolioBody{
+  max-width: 800px
+}
+#appsList {
   color: rgb(255, 255, 255);
   min-height: 50px;
   padding: 10px 5px 10px 10px;
   margin-bottom: 15px;
 }
-#portfolioSite {
-  width: 100%;
-  background-color: rgb(50, 50, 50);
-  color: rgb(255, 255, 255);
-  padding: 10px 5px 10px 10px;
-  margin-bottom: 15px;
-}
-.t0c {
-  margin-left: 30px;
-  font-size: medium;
-  padding: 3px 0px 3px 0px;
-}
 #portfolioSite p {
   margin: 15px 15px 15px 15px;
-}
-#appsHeader {
-  background-color: none;
-  font-weight: 500;
-  text-align: center;
-  font-size: 34px;
-  width: 100px;
-  border-radius: 8px;
-  padding: 3px 5px 3px 5px;
-  margin: 0px 10px 10px 10px;
-}
-#codeBtn {
-  float: right;
-  height: 30px;
-  width: 30px;
-  padding: 3px 0px 0px 7px;
-  margin: 0px 10px 0px 0px;
-  background-image: url("../../btnBkgd.png");
-  background-color: #cccccc; /* Used if the image is unavailable */
-  background-position: center;
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  border: none;
-  font-weight: bold;
-}
-.fa-code {
-  font-weight: bold;
-  padding: 0px 5px -5px 5px;
-}
-#codeBtn {
-  color: none;
-  border: none;
-  float: right;
-  height: 30px;
-  width: 30px;
-  margin: 20px 10px 0px 0px;
-  top: 80px;
-}
-.appsListReveal {
-  color: none;
-  border: none;
-  float: right;
-  height: 30px;
-  width: 30px;
-  padding: 0px;
-  margin: 20px 10px 0px 0px;
-}
-.appsListHide {
-  color: none;
-  border: none;
-  float: right;
-  height: 30px;
-  width: 30px;
-  padding: 0px;
-  margin: 20px 10px 0px 0px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 80px;
 }
 #portfolioItem {
   border-top: black 1px solid;

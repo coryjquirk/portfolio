@@ -140,12 +140,6 @@ export default function Post7() {
             </p>
           </p>
           <p>
-            <a style={{marginRight:"10px"}} href="https://farm-companion.herokuapp.com/" target="_blank">
-              <button className="standardButton">
-                deployed app{" "}
-                <i class="fa fa-external-link" aria-hidden="true"></i>
-              </button>
-            </a>
             <a href="https://farm-companion.herokuapp.com/" target="_blank">
               <button className="standardButton">
                 GitHub repo{" "}

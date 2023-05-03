@@ -3,42 +3,20 @@
   color: black;
   padding: 3px 5px 3px 5px;
   font-weight: bold;
-  width: 145px;
-  border: 3px solid #ffffff;
+  opacity: .8;
+  position: fixed;
+  z-index: 1;
+  top: 13%;
+  right: 5%;
+  width: 200px;
   border-radius: 5px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  border: none;
   text-decoration: none;
   overflow: hidden;
+  transition-duration: 0.4s;
   background-color: rgb(240, 239, 239);
-  animation: fadeIn ease 0.5s;
-  -webkit-animation: fadeIn ease 0.5s;
-  -moz-animation: fadeIn ease 0.5s;
-  -o-animation: fadeIn ease 0.5s;
-  -ms-animation: fadeIn ease 0.5s;
-  /* box-shadow: inset -2px -2px 10px 0px #000000, 3px 3px 0px 0px #e4ddfa,
-      6px 6px 0px 0px #ea92a7, 9px 9px 0px 0px #aea2db, 12px 12px 0px 0px #d4fdee,
-      15px 15px 0px 0px #a5e9e9; */
-  background: linear-gradient(225deg, #ffffff, #63bffc, #ffffff, #6aaafa);
+  background: linear-gradient(225deg, #ffffff, #fca063, #ffffff, #faba6a);
   background-size: 400% 400%;
   -webkit-animation: gradient 10s ease infinite;
   animation: gradient 10s ease infinite;
-  border: none;
-}
-#seasonBanner a {
-  color: rgb(6, 85, 138);
-}
-#seasonBanner small {
-  font-size: smaller;
-  float: right;
-}
-@media screen and (max-width: 310px) {
-  #seasonBanner {
-    width: 95%;
-  }
-}
-#garbageDiv {
-  width: 1px;
-  height: 1300px;
-  display: block;
 }

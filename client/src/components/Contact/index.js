@@ -15,7 +15,7 @@ function Contact() {
       </button>
       <h1 className="desktopHeader">connect</h1>
       <hr className="headHr" />
-      <div className="meat">
+      <div className="mainBody">
         <a href="https://www.linkedin.com/in/cory-quirk/" target="_blank">
           <button className="contactBtns">
             <span>

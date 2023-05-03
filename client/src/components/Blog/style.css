@@ -8,8 +8,6 @@
     margin: 0px 15px 10px 15px;
   }
 }
-#blog {
-}
 #blog h1,
 #blog p {
   text-align: left;
@@ -17,9 +15,6 @@
 #blog p {
   margin: 10px 0px 20px 20px;
   width: 95%;
-}
-#aboutmeIcons {
-  text-align: center;
 }
 #break {
   text-align: center;
@@ -48,11 +43,6 @@
 #headContainer {
   display: flex;
   justify-content: space-between;
-}
-#bottomLink {
-  color: rgb(212, 238, 253);
-  position: absolute;
-  right: 20px;
 }
 #blogDate {
   font-size: 12px;
@@ -127,29 +117,6 @@
   opacity: 0.5;
   border: none;
 }
-#about {
-  background-color: rgb(50, 50, 50);
-  color: rgb(255, 255, 255);
-  border-radius: 10px;
-  padding: 5px 5px 5px 5px;
-  margin: 10px;
-  width: 600px;
-}
-#self {
-  width: 75%;
-  margin: 0px 0px 120px 30px;
-  max-width: 450px;
-}
-#about p {
-  font-size: smaller;
-}
-#aboutmeIcons .fa-linkedin,
-#aboutmeIcons .fa-flickr,
-#aboutmeIcons .fa-instagram,
-#aboutmeIcons .fa-github {
-  color: rgb(255, 255, 255);
-  width: 30px;
-}
 .blogPost:hover span:after {
   opacity: 1;
   right: 0;
@@ -158,9 +125,6 @@
   #blog,
   .blogPost {
     width: 90%;
-  }
-  #about {
-    width: 75%;
   }
 }
 @media screen and (max-width: 950px) {
@@ -192,8 +156,7 @@
     float: none;
     margin: 5px 0px 60px 0px;
   }
-  #sedona,
-  #chips {
+  #sedona{
     max-height: none;
     max-width: none;
     width: 100%;
@@ -203,16 +166,11 @@
   }
   #blog {
     margin: 0px 0px 0px 0px;
-
     width: 100%;
   }
   #blog p,
-  #about,
   .blogPost {
     width: 99%;
     margin: 10px 0px 10px 0px;
-  }
-  #about p {
-    margin: 10px 0px 10px 10px;
   }
 }
